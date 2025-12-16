@@ -1,0 +1,110 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the sectional sofa in the Entrance and living room to the area near the sink in the Kitchen?",
+        "reason": "The video at 00:03 shows the sectional sofa in the Entrance and living room, and a clear walkable path is visible leading to the kitchen sink area at 00:05. Both locations are on the same floor.",
+        "nodes_involved": {
+            "start": "Entrance and living room",
+            "start_detail": "area by the sectional sofa",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "area near the sink"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the bar stools in the Kitchen to the dining table area in the Dining room?",
+        "reason": "At 00:17, the bar stools in the Kitchen are visible, and a direct, unobstructed path to the dining table in the Dining room is shown at 00:19.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "area by the bar stools",
+            "intermediate": [],
+            "end": "Dining room",
+            "end_detail": "dining table area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dining table area in the Dining room to the patio table area in the Yard?",
+        "reason": "From 00:22 to 00:24, the video shows the dining table in the Dining room and a clear doorway leading directly outside to the patio table in the Yard, indicating a navigable path.",
+        "nodes_involved": {
+            "start": "Dining room",
+            "start_detail": "dining table area",
+            "intermediate": [],
+            "end": "Yard",
+            "end_detail": "patio table area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the main entrance door in the Entrance and living room to the area at the elliptical machine in the Home office and gym?",
+        "reason": "The main entrance is visible at 00:00. The staircase, starting at 00:28, leads to the second-floor landing (00:34), from which the elliptical machine in the Home office and gym is visible at 00:36, indicating a multi-floor navigable route.",
+        "nodes_involved": {
+            "start": "Entrance and living room",
+            "start_detail": "area near the main entrance door",
+            "intermediate": [],
+            "end": "Home office and gym",
+            "end_detail": "area at the elliptical machine"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the white bed in the Master bedroom to the toilet area in the Bathroom with mat?",
+        "reason": "The white bed in the Master bedroom is shown at 01:15. A path from this room leads down the stairs (01:19) to the second floor, where the Bathroom with mat (00:43) with the toilet area is accessible from the hallway (01:33).",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "area by the white bed",
+            "intermediate": [],
+            "end": "Bathroom with mat",
+            "end_detail": "toilet area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the floral bed in the Bedroom with floral sheets to the double vanity area in the Master bedroom bathroom?",
+        "reason": "The floral bed is seen at 00:50. A path from this room leads to the second-floor hallway (00:53) and up the stairs (00:57) to the top floor landing. The Master bedroom bathroom with the double vanity is visible at 01:03, accessible from this top floor hallway (01:18).",
+        "nodes_involved": {
+            "start": "Bedroom with floral sheets",
+            "start_detail": "area by the floral bed",
+            "intermediate": [],
+            "end": "Master bedroom bathroom",
+            "end_detail": "double vanity area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the chairs in the Master bedroom to the area by the stove in the Kitchen?",
+        "reason": "The chairs in the Master bedroom are visible at 01:14. The path from the top floor leads down two flights of stairs (01:19, 01:36) to the first floor, where the Kitchen with the stove is clearly visible at 01:42.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "area near the chairs",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "area by the stove"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the computer desk area in the Home office and gym to the patio table area in the Yard?",
+        "reason": "The computer desk in the Home office and gym is visible at 00:39. The path leads out of the office, down the staircase (01:36) to the first floor, through the Dining room (01:44), and out the door to the patio table in the Yard (00:24).",
+        "nodes_involved": {
+            "start": "Home office and gym",
+            "start_detail": "computer desk area",
+            "intermediate": [],
+            "end": "Yard",
+            "end_detail": "patio table area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sink area in the Bathroom with mat to the area by the white bed in the Master bedroom?",
+        "reason": "The sink in the Bathroom with mat is shown at 00:46. A path from this second-floor bathroom leads to the hallway (00:48), up the staircase (00:57) to the top floor landing (01:11), and into the Master bedroom where the white bed is visible at 01:15.",
+        "nodes_involved": {
+            "start": "Bathroom with mat",
+            "start_detail": "sink area",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "area by the white bed"
+        }
+    }
+]

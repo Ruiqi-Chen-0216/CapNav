@@ -1,0 +1,146 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main double entrance door with stained glass panels in the Entrance foyer and hallway to the dark wooden desk with a chair in the Home office?",
+        "reason": "From 00:00-00:05, the video shows a clear path from the main entrance door to the home office entrance on the left, leading directly to the desk.",
+        "nodes_involved": {
+            "start": "node_20",
+            "start_detail": "at the main double entrance door with stained glass panels",
+            "intermediate": [],
+            "end": "node_18",
+            "end_detail": "at the dark wooden desk with a chair"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main double entrance door in the Entrance foyer and hallway to the round wooden dining table in the Formal dining space?",
+        "reason": "The formal dining space is directly visible to the right of the main entrance from 00:02-00:03, showing a clear path to the round dining table.",
+        "nodes_involved": {
+            "start": "node_20",
+            "start_detail": "at the main double entrance door",
+            "intermediate": [],
+            "end": "node_24",
+            "end_detail": "at the round wooden dining table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?",
+        "reason": "From 00:19-00:24, the video shows a continuous path from the formal dining space, past the stairs and living room, into the kitchen and dining area with the island.",
+        "nodes_involved": {
+            "start": "node_24",
+            "start_detail": "by the large window overlooking the backyard",
+            "intermediate": [],
+            "end": "node_23",
+            "end_detail": "at the kitchen island with a dark countertop"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?",
+        "reason": "The carpeted stairs are visible in the living room from 00:32-00:35, leading directly to the second floor hallway and stair landing.",
+        "nodes_involved": {
+            "start": "node_21",
+            "start_detail": "in the seating area near the fireplace",
+            "intermediate": [],
+            "end": "node_17",
+            "end_detail": "at the top of the carpeted stairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the carpeted hallway near the entrance to the master bedroom in the Second floor hallway and stair landing to the large bed with the upholstered headboard in the Master bedroom?",
+        "reason": "At 01:14-01:15 and 01:19-01:20, the video shows the doorway from the second floor hallway opening directly into the master bedroom where the bed is located.",
+        "nodes_involved": {
+            "start": "node_17",
+            "start_detail": "in the carpeted hallway near the entrance to the master bedroom",
+            "intermediate": [],
+            "end": "node_13",
+            "end_detail": "by the large bed with the upholstered headboard"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the large bed in the Master bedroom to the double vanity with two sinks in the Master bedroom bathroom?",
+        "reason": "At 01:23-01:25, the video shows a doorway leading directly from the master bedroom to the master bedroom bathroom, where the double vanity is visible.",
+        "nodes_involved": {
+            "start": "node_13",
+            "start_detail": "by the large bed",
+            "intermediate": [],
+            "end": "node_14",
+            "end_detail": "at the double vanity with two sinks"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the carpeted hallway looking towards the room entrance in the Second floor hallway and stair landing to next to the red and white tent in the Kid room with a tent?",
+        "reason": "From 00:58-01:01, a doorway from the second floor hallway leads into the kid room, where the red and white tent is clearly visible.",
+        "nodes_involved": {
+            "start": "node_17",
+            "start_detail": "in the carpeted hallway looking towards the room entrance",
+            "intermediate": [],
+            "end": "node_11",
+            "end_detail": "next to the red and white tent"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the carpeted hallway near the entrance to the bedroom with blue walls in the Second floor hallway and stair landing to near the large stuffed giraffe in the Second floor smaller bedroom?",
+        "reason": "At 00:44-00:46, a doorway from the second floor hallway leads into the smaller bedroom, where the stuffed giraffe is a prominent feature.",
+        "nodes_involved": {
+            "start": "node_17",
+            "start_detail": "in the carpeted hallway near the entrance to the bedroom with blue walls",
+            "intermediate": [],
+            "end": "node_16",
+            "end_detail": "near the large stuffed giraffe"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?",
+        "reason": "A route exists from the media room (01:07) into the second-floor hallway (01:10), and then to the shared bathroom (00:39), which features a double vanity.",
+        "nodes_involved": {
+            "start": "node_10",
+            "start_detail": "near the light-colored sofa in the media room",
+            "intermediate": [],
+            "end": "node_12",
+            "end_detail": "at the double vanity with the large mirror"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the stainless steel refrigerator in the Kitchen and dining area to the dark wooden desk with a chair in the Home office?",
+        "reason": "From 01:51-01:53, the video shows the kitchen and then the path through the entrance foyer and hallway (00:04-00:05) leading to the home office entrance on the left, where the desk is located.",
+        "nodes_involved": {
+            "start": "node_23",
+            "start_detail": "by the stainless steel refrigerator",
+            "intermediate": [],
+            "end": "node_18",
+            "end_detail": "at the dark wooden desk with a chair"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the white sofa facing the fireplace in the Living room to next to the red and white tent in the Kid room with a tent?",
+        "reason": "A walkable path leads from the living room (00:30-00:33) to the stairs, up to the second-floor hallway (01:10-01:12), and then to the kid room (00:58-01:01) where the tent is.",
+        "nodes_involved": {
+            "start": "node_21",
+            "start_detail": "by the white sofa facing the fireplace",
+            "intermediate": [],
+            "end": "node_11",
+            "end_detail": "next to the red and white tent"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the window in the blue-walled bedroom in the Second floor smaller bedroom to by the large bed with the upholstered headboard in the Master bedroom?",
+        "reason": "From 00:48-00:52, the video shows a path from the smaller bedroom into the second-floor hallway, which then leads to the master bedroom (01:14-01:15) where the bed is.",
+        "nodes_involved": {
+            "start": "node_16",
+            "start_detail": "by the window in the blue-walled bedroom",
+            "intermediate": [],
+            "end": "node_13",
+            "end_detail": "by the large bed with the upholstered headboard"
+        }
+    }
+]

@@ -1,0 +1,251 @@
+{
+  "nodes": [
+    {
+      "id": "node_51",
+      "name": "Top floor master bedroom",
+      "description": "",
+      "position": {
+        "x": -7.770050871491998,
+        "y": 5.098146003305913,
+        "z": 2.8139038906107388
+      }
+    },
+    {
+      "id": "node_52",
+      "name": "Master bedroom bathroom",
+      "description": "",
+      "position": {
+        "x": -2.297045681582798,
+        "y": 5.098146003305911,
+        "z": 7.901938678975583
+      }
+    },
+    {
+      "id": "node_53",
+      "name": "Second floor stair landing and hallway",
+      "description": "",
+      "position": {
+        "x": -16.234601883035012,
+        "y": 5.098146003305913,
+        "z": 2.6768401129040535
+      }
+    },
+    {
+      "id": "node_54",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": -5.667710378737708,
+        "y": 1.216313162088395,
+        "z": 4.260952083495283
+      }
+    },
+    {
+      "id": "node_55",
+      "name": "Pool room",
+      "description": "",
+      "position": {
+        "x": -17.02460363058173,
+        "y": 1.2163131620883931,
+        "z": 10.078510861273013
+      }
+    },
+    {
+      "id": "node_56",
+      "name": "Main living room with formal dining table",
+      "description": "",
+      "position": {
+        "x": -16.42133816363037,
+        "y": 1.2163131620883967,
+        "z": 4.4928216598825
+      }
+    },
+    {
+      "id": "node_57",
+      "name": "Small chat room with round table of 4",
+      "description": "",
+      "position": {
+        "x": -2.6417916263123415,
+        "y": 1.2163131620883931,
+        "z": 6.866660561557965
+      }
+    },
+    {
+      "id": "node_58",
+      "name": "Small sofa space with red rug",
+      "description": "",
+      "position": {
+        "x": 1.3103470574915363,
+        "y": 1.2163131620883931,
+        "z": 2.877165405874237
+      }
+    },
+    {
+      "id": "node_59",
+      "name": "Small social space with sofa and table and animal rug",
+      "description": "",
+      "position": {
+        "x": 7.798134498322643,
+        "y": 1.2163131620883931,
+        "z": 3.003520084260444
+      }
+    },
+    {
+      "id": "node_60",
+      "name": "First floor main hallway",
+      "description": "",
+      "position": {
+        "x": -6.2530923650681896,
+        "y": 1.2163131620883931,
+        "z": 1.3804134787855764
+      }
+    },
+    {
+      "id": "node_61",
+      "name": "Entrance foyer",
+      "description": "",
+      "position": {
+        "x": -16.437907753966872,
+        "y": 1.2163131620883931,
+        "z": -0.6742128882560223
+      }
+    },
+    {
+      "id": "node_62",
+      "name": "Home office next to entrance",
+      "description": "",
+      "position": {
+        "x": -19.486008693821223,
+        "y": 1.216313162088395,
+        "z": -3.4300145951625343
+      }
+    },
+    {
+      "id": "node_63",
+      "name": "Connecting space next to entrance foyer leading to two bedrooms",
+      "description": "",
+      "position": {
+        "x": -21.130407078053402,
+        "y": 1.216313162088395,
+        "z": -1.093042612966966
+      }
+    },
+    {
+      "id": "node_64",
+      "name": "Bedroom suite with red and dark rug",
+      "description": "",
+      "position": {
+        "x": -21.876520862559502,
+        "y": 1.216313162088395,
+        "z": -8.606465894676623
+      }
+    },
+    {
+      "id": "node_65",
+      "name": "Bedroom suite with pink sheets",
+      "description": "",
+      "position": {
+        "x": -25.972048340463395,
+        "y": 1.216313162088395,
+        "z": -0.15229758273158733
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_43",
+      "from": "node_53",
+      "to": "node_51"
+    },
+    {
+      "id": "edge_44",
+      "from": "node_51",
+      "to": "node_52"
+    },
+    {
+      "id": "edge_45",
+      "from": "node_65",
+      "to": "node_63"
+    },
+    {
+      "id": "edge_46",
+      "from": "node_64",
+      "to": "node_63"
+    },
+    {
+      "id": "edge_47",
+      "from": "node_63",
+      "to": "node_61"
+    },
+    {
+      "id": "edge_48",
+      "from": "node_61",
+      "to": "node_62"
+    },
+    {
+      "id": "edge_49",
+      "from": "node_61",
+      "to": "node_56"
+    },
+    {
+      "id": "edge_50",
+      "from": "node_60",
+      "to": "node_61"
+    },
+    {
+      "id": "edge_51",
+      "from": "node_56",
+      "to": "node_60"
+    },
+    {
+      "id": "edge_52",
+      "from": "node_56",
+      "to": "node_55"
+    },
+    {
+      "id": "edge_53",
+      "from": "node_60",
+      "to": "node_54"
+    },
+    {
+      "id": "edge_54",
+      "from": "node_56",
+      "to": "node_57"
+    },
+    {
+      "id": "edge_55",
+      "from": "node_57",
+      "to": "node_54"
+    },
+    {
+      "id": "edge_56",
+      "from": "node_57",
+      "to": "node_58"
+    },
+    {
+      "id": "edge_57",
+      "from": "node_58",
+      "to": "node_60"
+    },
+    {
+      "id": "edge_58",
+      "from": "node_54",
+      "to": "node_58"
+    },
+    {
+      "id": "edge_59",
+      "from": "node_60",
+      "to": "node_59"
+    },
+    {
+      "id": "edge_60",
+      "from": "node_59",
+      "to": "node_58"
+    },
+    {
+      "id": "edge_61",
+      "from": "node_53",
+      "to": "node_61"
+    }
+  ]
+}

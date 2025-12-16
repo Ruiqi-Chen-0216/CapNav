@@ -1,0 +1,158 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?",
+        "reason": "At 0:03-0:05, an archway is visible from the living space leading directly into the home gym. The treadmill is prominent in the gym at 0:15.",
+        "nodes_involved": {
+            "start": "Living space",
+            "start_detail": "by the fireplace with a painting above it",
+            "intermediate": [],
+            "end": "Home gym",
+            "end_detail": "near the treadmill"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?",
+        "reason": "From 0:05-0:06, the path from the living space to the dining area is visible through an archway. The large dining table and chairs in the formal dining space are seen at 0:29.",
+        "nodes_involved": {
+            "start": "Living space",
+            "start_detail": "on the large L-shaped sofa with pink pillows",
+            "intermediate": [],
+            "end": "Formal dining space",
+            "end_detail": "at the long wooden dining table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?",
+        "reason": "At 0:38, the kitchen island is clear. The main hallway leads to the home office (1:36-1:46), where the desk is visible at 1:49. This is a non-adjacent, cross-functional route.",
+        "nodes_involved": {
+            "start": "Kitchen and casual dining space",
+            "start_detail": "at the kitchen island with bar stools",
+            "intermediate": [],
+            "end": "Home office",
+            "end_detail": "at the large ornate wooden desk"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?",
+        "reason": "At 1:12-1:14, the master bed is visible. The route involves traversing the master suite foyer (1:05) and main hallway to the living space, from where the home gym is accessible (0:04-0:05), showing the exercise machines at 0:15. This is a distant, cross-functional route.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "by the bed with white and light blue bedding",
+            "intermediate": [],
+            "end": "Home gym",
+            "end_detail": "near the large grey exercise machine in the center"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?",
+        "reason": "The freestanding tub is visible at 3:21. The kitchen with the refrigerator is shown at 0:45. The route goes through the master suite foyer and the main hallway, making it a distant, cross-functional route.",
+        "nodes_involved": {
+            "start": "Master bathroom",
+            "start_detail": "near the freestanding white tub",
+            "intermediate": [],
+            "end": "Kitchen and casual dining space",
+            "end_detail": "next to the stainless steel refrigerator"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?",
+        "reason": "From 0:30, the mirror in the formal dining space is clear. The route passes through the main hallway (0:36), then the hallway to two smaller bedroom suites (2:14-2:15) leading to the bedroom with the striped bed (2:36). This is a distant, cross-functional route.",
+        "nodes_involved": {
+            "start": "Formal dining space",
+            "start_detail": "in front of the large mirror above the console table",
+            "intermediate": [],
+            "end": "Smaller bedroom suite with striped sheets",
+            "end_detail": "at the bed with brown striped sheets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?",
+        "reason": "The bookshelf in the home office is seen at 1:49. The master dressing room with clothes racks is visible at 3:12-3:13. The route involves the main hallway and master suite foyer, making it a distant, cross-functional route.",
+        "nodes_involved": {
+            "start": "Home office",
+            "start_detail": "by the tall wooden bookshelf filled with books",
+            "intermediate": [],
+            "end": "Master dressing room",
+            "end_detail": "near the hanging clothes on the racks"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?",
+        "reason": "The dark red bed is visible at 2:31. The giraffe statues are in the living space at 0:03. The route involves a secondary hallway, the main hallway, and into the living space, making it a distant, cross-functional route.",
+        "nodes_involved": {
+            "start": "Smaller bedroom suite with grid dark red sheets",
+            "start_detail": "next to the bed with dark red sheets",
+            "intermediate": [],
+            "end": "Living space",
+            "end_detail": "near the two wooden giraffe statues"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen and casual dining space, near the large double sink on the island, to the master bedroom, near the distressed wooden armoire next to the window?",
+        "reason": "The kitchen sink is visible at 0:38. The armoire in the master bedroom is shown at 1:10. This is a long, cross-functional route through several rooms.",
+        "nodes_involved": {
+            "start": "Kitchen and casual dining space",
+            "start_detail": "near the large double sink on the island",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "near the distressed wooden armoire next to the window"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the basement stair landing, at the start of the stairs going down, to the home office, near the two brown leather reclining chairs?",
+        "reason": "The top of the basement stairs is visible at 1:04. The leather chairs in the home office are seen at 1:47. This route involves the main hallway, making it a non-adjacent, cross-functional route.",
+        "nodes_involved": {
+            "start": "Basement stair landing",
+            "start_detail": "at the start of the stairs going down",
+            "intermediate": [],
+            "end": "Home office",
+            "end_detail": "near the two brown leather reclining chairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main hallway, by the large light-colored decorative vase on a stand, to the smaller bedroom suite with grid dark red sheets, at the single vanity sink in its private bathroom?",
+        "reason": "The decorative vase is visible in the main hallway at 1:02. The bathroom for node_57 with a single sink is visible at 2:20. This is a non-adjacent, cross-functional route.",
+        "nodes_involved": {
+            "start": "Main hallway",
+            "start_detail": "by the large light-colored decorative vase on a stand",
+            "intermediate": [],
+            "end": "Smaller bedroom suite with grid dark red sheets",
+            "end_detail": "at the single vanity sink in its private bathroom"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the master dressing room, at the central wooden island, to the formal dining space, near the large chandelier hanging above the table?",
+        "reason": "The central island in the dressing room is shown at 3:12. The chandelier in the formal dining room is visible at 0:30. This is a distant, cross-functional route involving multiple rooms and hallways.",
+        "nodes_involved": {
+            "start": "Master dressing room",
+            "start_detail": "at the central wooden island",
+            "intermediate": [],
+            "end": "Formal dining space",
+            "end_detail": "near the large chandelier hanging above the table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the living space, near the fireplace with the painting above it, to the basement stair landing, at the top of the stairs going down?",
+        "reason": "The fireplace in the living space is prominent at 0:01. The basement stairs are visible in the main hallway at 1:04, accessible from the living space (0:06). This is a non-adjacent, cross-functional route.",
+        "nodes_involved": {
+            "start": "Living space",
+            "start_detail": "near the fireplace with the painting above it",
+            "intermediate": [],
+            "end": "Basement stair landing",
+            "end_detail": "at the top of the stairs going down"
+        }
+    }
+]

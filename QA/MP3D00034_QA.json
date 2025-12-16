@@ -1,0 +1,194 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main entrance doors in the Entrance foyer to the kitchen island in the Kitchen and casual dining?",
+        "reason": "The video shows a clear walking path from the main entrance doors at 00:00, past the formal dining space, and into the kitchen where the island is visible at 00:21.",
+        "nodes_involved": {
+            "start": "node_75",
+            "start_detail": "near the white entrance doors",
+            "intermediate": [],
+            "end": "node_78",
+            "end_detail": "at the kitchen island"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the cream-colored sofa in the Small social space next to entrance to the large dining table in the Formal dining space?",
+        "reason": "The video shows a direct, open transition between the small social space (soda visible at 00:08) and the formal dining space (table visible at 00:13) from 00:08 to 00:13.",
+        "nodes_involved": {
+            "start": "node_76",
+            "start_detail": "by the cream-colored sofa",
+            "intermediate": [],
+            "end": "node_77",
+            "end_detail": "at the large dining table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the round casual dining table in the Kitchen and casual dining to the large L-shaped sofa in the Family living room?",
+        "reason": "The video shows an open-plan layout connecting the kitchen's casual dining area (table visible at 00:26) to the family living room (sofa visible at 00:27-00:28), indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_78",
+            "start_detail": "at the round casual dining table",
+            "intermediate": [],
+            "end": "node_91",
+            "end_detail": "at the large L-shaped sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the three large wicker vases in the Entrance floor hallway and stair landing to basement to the wooden desk with chairs in the Home office?",
+        "reason": "The video shows the entrance floor hallway with wicker vases from 00:03, and a clear path into the home office through open French doors, with the wooden desk clearly visible at 00:48, from 00:03 to 00:51.",
+        "nodes_involved": {
+            "start": "node_88",
+            "start_detail": "near the three large wicker vases",
+            "intermediate": [],
+            "end": "node_87",
+            "end_detail": "at the wooden desk with chairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the stair landing in the Entrance floor hallway and stair landing to basement to the large chalkboard in the Home classroom?",
+        "reason": "The video shows the hallway leading to the home classroom entrance at 00:58 from the stair landing at 00:43, and then shows the chalkboard inside at 01:03, indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_88",
+            "start_detail": "by the stairs going down",
+            "intermediate": [],
+            "end": "node_89",
+            "end_detail": "at the large chalkboard"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the bathroom door in the Entrance floor hallway and stair landing to basement to the vanity sink in the First floor bathroom?",
+        "reason": "The video shows the hallway entrance to the first floor bathroom at 00:57 and the vanity sink inside at 01:10, confirming a direct path.",
+        "nodes_involved": {
+            "start": "node_88",
+            "start_detail": "near the bathroom door",
+            "intermediate": [],
+            "end": "node_90",
+            "end_detail": "at the vanity sink"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the entrance rug in the Entrance foyer to the bed in the Master bedroom?",
+        "reason": "The video shows the entrance foyer at 00:00, then the path to the main stairs (00:03-00:04) leading to the upper floor, and finally into the master bedroom at 01:37-01:40 where the bed is visible.",
+        "nodes_involved": {
+            "start": "node_75",
+            "start_detail": "from the entrance rug",
+            "intermediate": [],
+            "end": "node_82",
+            "end_detail": "to the bed"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the foot of the bed in the Master bedroom to the white freestanding bathtub in the Bath of master bedroom?",
+        "reason": "The video shows a direct path from the master bedroom (foot of the bed visible at 01:38), through the dressing space (01:50-01:54), into the master bathroom, with the bathtub clearly visible at 01:57, from 01:38 to 01:57.",
+        "nodes_involved": {
+            "start": "node_82",
+            "start_detail": "at the foot of the bed",
+            "intermediate": [],
+            "end": "node_86",
+            "end_detail": "next to the white freestanding bathtub"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the top of the main stairs in the Top floor stair landing to the bed with blue sheets in the Bedroom with blue sheets?",
+        "reason": "The video shows the top floor stair landing at 01:33, and a door leading to the bedroom with blue sheets at 02:22, where the bed is visible at 02:23, indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_79",
+            "start_detail": "near the top of the main stairs",
+            "intermediate": [],
+            "end": "node_80",
+            "end_detail": "at the bed with blue sheets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the decorative leaves on the wall in the Top floor stair landing to the bed with a white headboard in the Bedroom with pink bed skirt?",
+        "reason": "The video shows the top floor stair landing at 02:19, and a door leading to the bedroom with a pink bed skirt at 02:38, where the bed with the white headboard is visible at 02:46, indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_79",
+            "start_detail": "near the decorative leaves on the wall",
+            "intermediate": [],
+            "end": "node_81",
+            "end_detail": "to the bed with the white headboard"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the top of the basement stairs in the Entrance floor hallway and stair landing to basement to the two patterned chairs in the Basement living space?",
+        "reason": "The video clearly shows the stairs leading down to the basement at 03:14 and the basement living space with the patterned chairs at 04:04, indicating a clear path.",
+        "nodes_involved": {
+            "start": "node_88",
+            "start_detail": "at the top of the basement stairs",
+            "intermediate": [],
+            "end": "node_92",
+            "end_detail": "to the two patterned chairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the two decorative vases on the floor in the Basement stair landing and hallway to the bed with a dark metal frame in the Basement bedroom?",
+        "reason": "The video shows the basement hallway at 03:24, and a door leading to the basement bedroom at 03:49, where the bed with a dark metal frame is visible at 03:51, indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_95",
+            "start_detail": "near the two decorative vases on the floor",
+            "intermediate": [],
+            "end": "node_93",
+            "end_detail": "to the bed with a dark metal frame"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the wine rack in the Basement stair landing and hallway to the treadmill in the Home gym?",
+        "reason": "The video shows the basement hallway with the wine rack at 03:31 and a door leading to the home gym at 03:35, where the treadmill is visible at 03:37, indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_95",
+            "start_detail": "near the wine rack",
+            "intermediate": [],
+            "end": "node_94",
+            "end_detail": "to the treadmill"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the 'tree' artwork on the wall in the Basement stair landing and hallway to the toilet in the Basement bathroom?",
+        "reason": "The video shows the basement hallway at 03:34, and a door leading to the basement bathroom at 03:43, where the toilet is visible at 03:45, indicating a direct path.",
+        "nodes_involved": {
+            "start": "node_95",
+            "start_detail": "near the 'tree' artwork on the wall",
+            "intermediate": [],
+            "end": "node_96",
+            "end_detail": "at the toilet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the fireplace area in the Small social space next to entrance to the desk near the window in the Home classroom?",
+        "reason": "The video shows the small social space with the fireplace at 00:09, then a path through the main hallway (00:53-00:58) to the home classroom at 00:59-01:01, where the desk near the window is visible.",
+        "nodes_involved": {
+            "start": "node_76",
+            "start_detail": "by the fireplace",
+            "intermediate": [],
+            "end": "node_89",
+            "end_detail": "at the desk near the window"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the chairs next to the fireplace in the Family living room to the shoe racks in the Dressing space of master bedroom?",
+        "reason": "The video shows the family living room with chairs at 00:32, the continuous path through the kitchen (00:36-00:40) and main hallway (00:41-00:42), up the stairs to the top floor (01:29-01:33), through the master bedroom (01:44-01:45), and finally into the dressing space at 01:51-01:53, where the shoe racks are visible.",
+        "nodes_involved": {
+            "start": "node_91",
+            "start_detail": "from the chairs next to the fireplace",
+            "intermediate": [],
+            "end": "node_83",
+            "end_detail": "to the shoe racks"
+        }
+    }
+]

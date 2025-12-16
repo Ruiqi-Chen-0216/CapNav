@@ -1,0 +1,86 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the entrance area with the dark main door in the Entrance room to the living space with the gray sofa in the Kitchen and living space?",
+        "reason": "At 0:00-0:06, the entrance room with the dark main door is visible. At 0:12-0:14, the living space with the gray sofa is visible, connected by a wide opening from the hallway near the entrance.",
+        "nodes_involved": {
+            "start": "node_39",
+            "start_detail": "area with the dark main door",
+            "intermediate": [],
+            "end": "node_40",
+            "end_detail": "living space with the gray sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen countertop with the sink in the Kitchen and living space to the area near the washing machine in the Laundry room?",
+        "reason": "At 0:41-0:44, the kitchen area with the sink is visible. At 0:50-0:53, the laundry room with the washing machine is shown, directly accessible through a doorway from the kitchen and living space.",
+        "nodes_involved": {
+            "start": "node_40",
+            "start_detail": "kitchen countertop with the sink",
+            "intermediate": [],
+            "end": "node_42",
+            "end_detail": "area near the washing machine"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the seating area with the log table in the Bedroom with big bed and white sheets to the area by the white bathtub in the Bathroom with tub?",
+        "reason": "At 0:36-0:38, the log table in the bedroom is visible. At 0:29-0:31, the white bathtub is clearly seen. The rooms are connected via the central Kitchen and living space (visible at 0:13, 0:34, 0:46), making this a non-adjacent route.",
+        "nodes_involved": {
+            "start": "node_45",
+            "start_detail": "seating area with the log table",
+            "intermediate": [],
+            "end": "node_44",
+            "end_detail": "area by the white bathtub"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the bed with light gray sheets in the Bedroom with light gray sheets to the living space with the gray sofa in the Kitchen and living space?",
+        "reason": "At 2:10-2:12, the bed with light gray sheets is visible in the bedroom. At 1:02-1:03, the gray sofa is seen in the living space. The route involves descending the wooden staircase (visible at 1:30-1:31) from the second-floor landing (node_46) to the first floor.",
+        "nodes_involved": {
+            "start": "node_43",
+            "start_detail": "area by the bed with light gray sheets",
+            "intermediate": [],
+            "end": "node_40",
+            "end_detail": "living space with the gray sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the top of the wooden stairs on the Second floor stair landing to the area near the drum set in the Drum room?",
+        "reason": "At 1:41-1:43, the top of the stairs and the landing are visible. At 1:44-1:46, the drum set in the drum room is clearly seen, directly adjacent and accessible from the landing.",
+        "nodes_involved": {
+            "start": "node_46",
+            "start_detail": "top of the wooden stairs",
+            "intermediate": [],
+            "end": "node_49",
+            "end_detail": "area near the drum set"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the easel in the painting room to the toilet in the Bathroom with only a toilet?",
+        "reason": "At 2:02-2:04, the easel is visible in the painting room. At 1:50-1:52, the toilet in the bathroom is seen. Both rooms are on the second floor and are accessible from the Second floor stair landing (visible at 1:56-1:59), making this a non-adjacent route.",
+        "nodes_involved": {
+            "start": "node_47",
+            "start_detail": "area by the easel",
+            "intermediate": [],
+            "end": "node_48",
+            "end_detail": "area by the toilet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the entrance area with the tiled floor in the Entrance room to the area near the two armchairs in the Bedroom with big bed and white sheets?",
+        "reason": "At 0:00-0:03, the tiled floor of the entrance room is visible. At 0:36-0:37, the two armchairs in the bedroom are seen. The route involves moving through the hallway from the entrance to the central Kitchen and living space area, then into the bedroom, making it a non-adjacent route.",
+        "nodes_involved": {
+            "start": "node_39",
+            "start_detail": "tiled floor near the main door",
+            "intermediate": [],
+            "end": "node_45",
+            "end_detail": "area near the two armchairs"
+        }
+    }
+]

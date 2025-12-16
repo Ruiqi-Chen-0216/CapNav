@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "id": "node_119",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": -4.48733978046697,
+        "y": 1.2943358772136808,
+        "z": -2.149041934417334
+      }
+    },
+    {
+      "id": "node_120",
+      "name": "Master bedroom bathroom",
+      "description": "",
+      "position": {
+        "x": -4.265763282115206,
+        "y": 1.325876914826462,
+        "z": -3.4819495913572576
+      }
+    },
+    {
+      "id": "node_121",
+      "name": "Second floor stair landing and hallway",
+      "description": "",
+      "position": {
+        "x": -7.532562995268197,
+        "y": 1.2801623536404503,
+        "z": -1.8983589789284947
+      }
+    },
+    {
+      "id": "node_122",
+      "name": "Second floor shared bathroom",
+      "description": "",
+      "position": {
+        "x": -8.453819958670291,
+        "y": 1.286671007208651,
+        "z": -3.595328949498633
+      }
+    },
+    {
+      "id": "node_123",
+      "name": "Bedroom with gray sheets and rug",
+      "description": "",
+      "position": {
+        "x": -10.60104491092208,
+        "y": 1.331243237182494,
+        "z": -2.4544713988577085
+      }
+    },
+    {
+      "id": "node_124",
+      "name": "Bedroom with colorful sheets",
+      "description": "",
+      "position": {
+        "x": -10.489857857986319,
+        "y": 0.9253607731999438,
+        "z": 0.003843666602291851
+      }
+    },
+    {
+      "id": "node_125",
+      "name": "Foyer",
+      "description": "",
+      "position": {
+        "x": -1.8777152335931024,
+        "y": -1.4918712143453259,
+        "z": 0.03293850640949891
+      }
+    },
+    {
+      "id": "node_126",
+      "name": "Kitchen and dining space",
+      "description": "",
+      "position": {
+        "x": -4.785230284580239,
+        "y": -1.496500597960188,
+        "z": -1.0419843467729213
+      }
+    },
+    {
+      "id": "node_127",
+      "name": "Laundry room",
+      "description": "",
+      "position": {
+        "x": -2.469102513007909,
+        "y": -1.4961242978127556,
+        "z": -2.04188842571317
+      }
+    },
+    {
+      "id": "node_128",
+      "name": "Living room",
+      "description": "",
+      "position": {
+        "x": -8.953302146693071,
+        "y": -1.0418039098337928,
+        "z": -3.601265941960637
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_124",
+      "from": "node_124",
+      "to": "node_121"
+    },
+    {
+      "id": "edge_125",
+      "from": "node_121",
+      "to": "node_123"
+    },
+    {
+      "id": "edge_126",
+      "from": "node_122",
+      "to": "node_121"
+    },
+    {
+      "id": "edge_127",
+      "from": "node_121",
+      "to": "node_119"
+    },
+    {
+      "id": "edge_128",
+      "from": "node_119",
+      "to": "node_120"
+    },
+    {
+      "id": "edge_129",
+      "from": "node_128",
+      "to": "node_126"
+    },
+    {
+      "id": "edge_130",
+      "from": "node_126",
+      "to": "node_125"
+    },
+    {
+      "id": "edge_131",
+      "from": "node_126",
+      "to": "node_127"
+    },
+    {
+      "id": "edge_132",
+      "from": "node_128",
+      "to": "node_121"
+    }
+  ]
+}

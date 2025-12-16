@@ -1,0 +1,98 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the kitchen island bar stools in the main living room and dining space to the area around the grey sectional sofa in the first floor rest area?",
+        "reason": "At 00:00-00:10, the video shows the kitchen island. At 00:13-00:14, a hallway connecting to another room is visible, and then at 00:39-00:40 the grey sectional sofa is shown in the first floor rest area, indicating a navigable path.",
+        "nodes_involved": {
+            "start": "node_90",
+            "start_detail": "area near the kitchen island bar stools",
+            "intermediate": [],
+            "end": "node_98",
+            "end_detail": "area around the grey sectional sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area at the bottom of the stairs in the entrance foyer to the area around the bed with blue patterned duvet in the master bedroom?",
+        "reason": "At 00:35-00:36, the bottom of the stairs is visible in the entrance foyer. From 01:32-01:36, the camera ascends the stairs and enters the master bedroom, showing the bed with blue patterned duvet.",
+        "nodes_involved": {
+            "start": "node_97",
+            "start_detail": "area at the bottom of the stairs",
+            "intermediate": [],
+            "end": "node_87",
+            "end_detail": "area around the bed with blue patterned duvet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the white armchair by the window in the master bedroom to the area by the vanity with the single sink in the second floor bathroom?",
+        "reason": "At 01:37-01:38, the white armchair in the master bedroom is visible. At 02:01-02:04, the camera moves towards and enters the second floor bathroom, showing the vanity with a single sink.",
+        "nodes_involved": {
+            "start": "node_87",
+            "start_detail": "area near the white armchair by the window",
+            "intermediate": [],
+            "end": "node_92",
+            "end_detail": "area by the vanity with the single sink"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the brown sectional sofa in the main living room and dining space to the patio area with the outdoor grill in the yard?",
+        "reason": "At 00:02, the brown sectional sofa is shown. From 00:46-00:50, the video pans from the living room area to show sliding doors opening to the outdoor patio with a grill, indicating a path to the yard.",
+        "nodes_involved": {
+            "start": "node_90",
+            "start_detail": "area near the brown sectional sofa",
+            "intermediate": [],
+            "end": "node_94",
+            "end_detail": "patio area with the outdoor grill"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the bed with colorful quilt in the bedroom with bed on the room corner to the area at the top of the carpeted stairs in the top floor stair landing?",
+        "reason": "At 01:59-02:00, the bed with colorful quilt is visible in the bedroom. From 02:09-02:13, the camera exits the bedroom and moves to the top of the stairs, showing the carpeted landing.",
+        "nodes_involved": {
+            "start": "node_86",
+            "start_detail": "area near the bed with colorful quilt",
+            "intermediate": [],
+            "end": "node_88",
+            "end_detail": "area at the top of the carpeted stairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the door leading to the hallway in the garage to the area by the main entrance door to the outside in the entrance foyer?",
+        "reason": "At 01:11-01:13, the door from the garage to the hallway is visible. From 01:14-01:16, the camera moves through the hallway towards the entrance foyer, showing the main entrance door.",
+        "nodes_involved": {
+            "start": "node_95",
+            "start_detail": "area near the door leading to the hallway",
+            "intermediate": [],
+            "end": "node_97",
+            "end_detail": "area by the main entrance door to the outside"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the gray sofa and white bookshelf in the second floor rest space with gray sofa and white book shelf to the area near the large stainless steel refrigerator in the main living room and dining space?",
+        "reason": "At 00:17-00:18, the gray sofa and bookshelf are visible in the second floor rest space. From 00:29-00:32, the camera exits this room, descends the stairs (00:33-00:35), and then at 01:23-01:24, the large stainless steel refrigerator in the main living room and dining space is shown.",
+        "nodes_involved": {
+            "start": "node_93",
+            "start_detail": "area near the gray sofa and white bookshelf",
+            "intermediate": [],
+            "end": "node_90",
+            "end_detail": "area near the large stainless steel refrigerator"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the bar sink and counter in the first floor rest area to the area near the work bench and storage cabinets in the garage?",
+        "reason": "At 00:43-00:44, the bar sink area in the first floor rest area is shown. From 00:52-00:59, the camera moves through the hallway to the garage, showing the work bench and storage cabinets.",
+        "nodes_involved": {
+            "start": "node_98",
+            "start_detail": "area near the bar sink and counter",
+            "intermediate": [],
+            "end": "node_95",
+            "end_detail": "area near the work bench and storage cabinets"
+        }
+    }
+]

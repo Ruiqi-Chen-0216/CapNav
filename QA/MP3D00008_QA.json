@@ -1,0 +1,158 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the entrance area of the Entrance foyer and hallway to the Garage near the black car?",
+        "reason": "The video shows a direct path from the front door area, through a hallway and the laundry room, into the garage, visible from 0:00 to 0:15.",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "near the front door",
+            "intermediate": [],
+            "end": "Garage",
+            "end_detail": "by the black car"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the First floor bedroom near the bed with the patterned duvet to the Kitchen near the center island with the stovetop?",
+        "reason": "From 0:26-0:30, the bedroom is shown. The path then leads back to the first floor hallway (0:38-0:40), through the social and formal dining rooms (0:42-0:55), and into the kitchen (0:56-0:59), demonstrating a navigable route.",
+        "nodes_involved": {
+            "start": "First floor bedroom",
+            "start_detail": "near the bed with the patterned duvet",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "near the center island with the stovetop"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Kitchen near the double ovens to the Pool room next to the purple-felt pool table?",
+        "reason": "The video shows a continuous, open path from the kitchen area, past the bar seating, and into the pool room where the pool table is prominent, visible from 1:00 to 1:19.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "near the double ovens",
+            "intermediate": [],
+            "end": "Pool room",
+            "end_detail": "next to the purple-felt pool table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Pool room near the wet bar counter to the Guest bathroom on first floor by the black pedestal sink?",
+        "reason": "From the wet bar in the pool room (1:14-1:17), the path proceeds through an open archway and a hallway (1:41-1:45) to the guest bathroom, featuring a black sink and toilet (1:07-1:09).",
+        "nodes_involved": {
+            "start": "Pool room",
+            "start_detail": "near the wet bar counter",
+            "intermediate": [],
+            "end": "Guest bathroom on first floor",
+            "end_detail": "by the black pedestal sink"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Entrance foyer and hallway at the base of the main staircase to the Master suite in the main sitting area near the curved sofa?",
+        "reason": "The camera clearly ascends the large carpeted staircase from the entrance foyer (1:49-1:57) to the Second floor stair landing and hallway (1:58-2:00), and then proceeds into the master suite's sitting area (3:09-3:11).",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "at the base of the main staircase",
+            "intermediate": [],
+            "end": "Master suite",
+            "end_detail": "in the main sitting area near the curved sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Master suite dressing room amidst the clothes racks to the Master suite bathroom near the large soaking tub?",
+        "reason": "The video shows exiting the dressing room into the master suite (3:17-3:22), and then entering the Master suite bathroom, which features a prominent soaking tub (3:44-3:47).",
+        "nodes_involved": {
+            "start": "Master suite dressing room",
+            "start_detail": "amidst the clothes racks",
+            "intermediate": [],
+            "end": "Master suite bathroom",
+            "end_detail": "near the large soaking tub"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Guest bedroom with round night stand near the bed with the white headboard to the Master suite balcony at the outdoor patio table?",
+        "reason": "From the guest bedroom (2:36-2:40), the path leads to the second-floor hallway (2:59-3:04), through the master suite (3:10-3:14), then the Master suite home office (3:25-3:28), and finally out to the Master suite balcony with the patio table (3:28-3:30).",
+        "nodes_involved": {
+            "start": "Guest bedroom with round night stand",
+            "start_detail": "near the bed with the white headboard",
+            "intermediate": [],
+            "end": "Master suite balcony",
+            "end_detail": "at the outdoor patio table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Bigger Home office with chat space by the large wooden desk to the Laundry room next to the washing machine?",
+        "reason": "Starting from the home office desk (2:55-2:57), the agent would exit to the Second floor stair landing and hallway (2:59-3:01), descend the main staircase (4:03-4:07), navigate the first-floor hallway, and enter the Laundry room where a washing machine is visible (0:09-0:13).",
+        "nodes_involved": {
+            "start": "Bigger Home office with chat space",
+            "start_detail": "by the large wooden desk",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "next to the washing machine"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the First floor bedroom by the upholstered armchair to the Formal dining space at the long dining table with high-backed chairs?",
+        "reason": "From the armchair in the first floor bedroom (0:30-0:31), the route involves exiting to the hallway (0:38-0:40) and then entering the Formal dining space, which features a large dining table (0:06-0:07).",
+        "nodes_involved": {
+            "start": "First floor bedroom",
+            "start_detail": "by the upholstered armchair",
+            "intermediate": [],
+            "end": "Formal dining space",
+            "end_detail": "at the long dining table with high-backed chairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Casual dining space near the bar seating to the Garage near the tall white storage cabinets?",
+        "reason": "The path from the casual dining area (1:40-1:43) passes through the Kitchen (0:56-0:59), the Formal dining space (0:52-0:55), the Main social room next to formal dining space (0:41-0:44), the Entrance foyer and hallway (0:09-0:12), into the Laundry room, and finally to the Garage where storage cabinets line the wall (0:12-0:16).",
+        "nodes_involved": {
+            "start": "Casual dining space",
+            "start_detail": "near the bar seating",
+            "intermediate": [],
+            "end": "Garage",
+            "end_detail": "near the tall white storage cabinets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Guest bedroom with square night stand by the window with the wooden blinds to the Bigger Home office with chat space next to the small fireplace?",
+        "reason": "The camera moves from the guest bedroom (2:09-2:11) to the Second floor stair landing and hallway (2:24-2:29) and then into the home office, showing the fireplace and seating area (3:08-3:10).",
+        "nodes_involved": {
+            "start": "Guest bedroom with square night stand",
+            "start_detail": "by the window with the wooden blinds",
+            "intermediate": [],
+            "end": "Bigger Home office with chat space",
+            "end_detail": "next to the small fireplace"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Master suite home office near the smaller fireplace to the Kitchen by the stainless steel refrigerator?",
+        "reason": "From the home office (3:26-3:28), the agent proceeds through the Master suite (3:40-3:44), enters the Second floor stair landing and hallway (4:03-4:05), descends the main staircase (4:06-4:09), traverses the first-floor main social room and formal dining space (4:10-4:13), and reaches the Kitchen where a large refrigerator is visible (0:58-1:01).",
+        "nodes_involved": {
+            "start": "Master suite home office",
+            "start_detail": "near the smaller fireplace",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "by the stainless steel refrigerator"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Master suite at the foot of the bed to the Pool room near the armchair seating by the large screen?",
+        "reason": "From the master bedroom area (3:14-3:16), the route involves exiting to the Second floor stair landing and hallway (4:03-4:05), descending the main staircase to the first floor (4:06-4:09), passing through the Entrance foyer and hallway and Main social room next to formal dining space (4:10-4:13), and arriving in the Pool room, which features a large screen and armchairs (1:11-1:23).",
+        "nodes_involved": {
+            "start": "Master suite",
+            "start_detail": "at the foot of the bed",
+            "intermediate": [],
+            "end": "Pool room",
+            "end_detail": "near the armchair seating by the large screen"
+        }
+    }
+]

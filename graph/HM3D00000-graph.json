@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "node_4",
+      "name": "Master bedroom",
+      "description": "With brown carpet and brown night stands",
+      "position": {
+        "x": -2.460773837896031,
+        "y": 0.31514917285477323,
+        "z": -2.526385871189146
+      }
+    },
+    {
+      "id": "node_5",
+      "name": "Master Bedroom Bathroom",
+      "description": "",
+      "position": {
+        "x": -0.8454362127230981,
+        "y": 0.3102310500674534,
+        "z": -0.38619756231093083
+      }
+    },
+    {
+      "id": "node_6",
+      "name": "Guest Bedroom 1",
+      "description": "With white sheets and gray rug",
+      "position": {
+        "x": -6.147596275755243,
+        "y": 0.33720201262493815,
+        "z": -2.053510141818547
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Guest Bedroom 2",
+      "description": "With cyan sheets and rug",
+      "position": {
+        "x": -2.757315703976402,
+        "y": 0.3299357682006853,
+        "z": 1.7901802942007765
+      }
+    },
+    {
+      "id": "node_8",
+      "name": "Crib room",
+      "description": "",
+      "position": {
+        "x": -5.796653713690998,
+        "y": 0.3525351308213455,
+        "z": 2.411972876783482
+      }
+    },
+    {
+      "id": "node_9",
+      "name": "Second floor shared bathroom",
+      "description": "",
+      "position": {
+        "x": -6.441438670093388,
+        "y": 0.2985954957723617,
+        "z": 0.3063795880397546
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "Second floor hallway",
+      "description": "",
+      "position": {
+        "x": -5.030158654732304,
+        "y": 0.3005578295841211,
+        "z": 0.20696911907756946
+      }
+    },
+    {
+      "id": "node_12",
+      "name": "Lobby",
+      "description": "",
+      "position": {
+        "x": -1.2124439248912928,
+        "y": -2.3205543262520534,
+        "z": -0.1881248715964162
+      }
+    },
+    {
+      "id": "node_13",
+      "name": "Dining room",
+      "description": "",
+      "position": {
+        "x": -5.179716640749111,
+        "y": -2.31859175143464,
+        "z": -2.7122993255401324
+      }
+    },
+    {
+      "id": "node_14",
+      "name": "Living room",
+      "description": "",
+      "position": {
+        "x": -1.9597123328409851,
+        "y": -2.290285197564757,
+        "z": -3.008046549916683
+      }
+    },
+    {
+      "id": "node_15",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": -6.210781424520287,
+        "y": -2.317028250459237,
+        "z": 0.27830243105409136
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_1",
+      "from": "node_10",
+      "to": "node_9"
+    },
+    {
+      "id": "edge_2",
+      "from": "node_10",
+      "to": "node_8"
+    },
+    {
+      "id": "edge_3",
+      "from": "node_10",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_4",
+      "from": "node_10",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_5",
+      "from": "node_10",
+      "to": "node_4"
+    },
+    {
+      "id": "edge_6",
+      "from": "node_4",
+      "to": "node_5"
+    },
+    {
+      "id": "edge_7",
+      "from": "node_15",
+      "to": "node_12"
+    },
+    {
+      "id": "edge_8",
+      "from": "node_15",
+      "to": "node_13"
+    },
+    {
+      "id": "edge_9",
+      "from": "node_14",
+      "to": "node_13"
+    },
+    {
+      "id": "edge_10",
+      "from": "node_14",
+      "to": "node_12"
+    },
+    {
+      "id": "edge_11",
+      "from": "node_12",
+      "to": "node_10"
+    }
+  ]
+}

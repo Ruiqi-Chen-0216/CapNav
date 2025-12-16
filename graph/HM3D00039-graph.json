@@ -1,0 +1,241 @@
+{
+  "nodes": [
+    {
+      "id": "node_74",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": -1.983867605459432,
+        "y": 2.8624042578293336,
+        "z": -0.916303461612161
+      }
+    },
+    {
+      "id": "node_75",
+      "name": "Master bedroom bathroom",
+      "description": "",
+      "position": {
+        "x": -2.043675750309959,
+        "y": 2.5898004743359477,
+        "z": -4.227425386872364
+      }
+    },
+    {
+      "id": "node_76",
+      "name": "Print room",
+      "description": "",
+      "position": {
+        "x": -6.996990328368116,
+        "y": 2.8623123887129003,
+        "z": 0.8563939889681178
+      }
+    },
+    {
+      "id": "node_77",
+      "name": "Top floor shared bathroom",
+      "description": "",
+      "position": {
+        "x": -7.046356666849276,
+        "y": 2.864722275436404,
+        "z": -1.1641851572276312
+      }
+    },
+    {
+      "id": "node_78",
+      "name": "Top floor sofa room",
+      "description": "",
+      "position": {
+        "x": -6.126237090248255,
+        "y": 2.8615437359439833,
+        "z": -3.7858205154152405
+      }
+    },
+    {
+      "id": "node_79",
+      "name": "Top floor stair landing",
+      "description": "",
+      "position": {
+        "x": -4.626087956569792,
+        "y": 2.876297409305141,
+        "z": -1.7359223070420637
+      }
+    },
+    {
+      "id": "node_80",
+      "name": "Foyer and hallway",
+      "description": "",
+      "position": {
+        "x": -5.980679716197984,
+        "y": 0.29802722192180225,
+        "z": 1.5214862758068586
+      }
+    },
+    {
+      "id": "node_81",
+      "name": "Dining room",
+      "description": "",
+      "position": {
+        "x": -0.5576124841283701,
+        "y": 0.3224898535815061,
+        "z": -0.36763831872534203
+      }
+    },
+    {
+      "id": "node_82",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": -4.678213948274504,
+        "y": -0.20800149496813952,
+        "z": -2.8975996507721797
+      }
+    },
+    {
+      "id": "node_83",
+      "name": "Sun room",
+      "description": "",
+      "position": {
+        "x": -12.22252300323492,
+        "y": 0.10568812264350419,
+        "z": -7.357243543999733
+      }
+    },
+    {
+      "id": "node_84",
+      "name": "Media room",
+      "description": "",
+      "position": {
+        "x": -11.24726826080693,
+        "y": 0.15678758108403396,
+        "z": -4.049754832260899
+      }
+    },
+    {
+      "id": "node_85",
+      "name": "Laundry room",
+      "description": "",
+      "position": {
+        "x": -7.05130989122702,
+        "y": -0.1587093888180487,
+        "z": 0.08209792484777678
+      }
+    },
+    {
+      "id": "node_86",
+      "name": "Sauna room",
+      "description": "",
+      "position": {
+        "x": -1.0048084891019808,
+        "y": -2.334393806647392,
+        "z": -1.7978770110679025
+      }
+    },
+    {
+      "id": "node_88",
+      "name": "Basement storage space",
+      "description": "",
+      "position": {
+        "x": -6.046430640818578,
+        "y": -2.3527110802626607,
+        "z": -2.401335145845425
+      }
+    },
+    {
+      "id": "node_89",
+      "name": "Basement stair landing",
+      "description": "",
+      "position": {
+        "x": -3.974220922741244,
+        "y": -2.333193790864116,
+        "z": 1.9864394978654807
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_70",
+      "from": "node_79",
+      "to": "node_74"
+    },
+    {
+      "id": "edge_71",
+      "from": "node_79",
+      "to": "node_77"
+    },
+    {
+      "id": "edge_72",
+      "from": "node_79",
+      "to": "node_76"
+    },
+    {
+      "id": "edge_73",
+      "from": "node_79",
+      "to": "node_78"
+    },
+    {
+      "id": "edge_74",
+      "from": "node_79",
+      "to": "node_75"
+    },
+    {
+      "id": "edge_75",
+      "from": "node_80",
+      "to": "node_82"
+    },
+    {
+      "id": "edge_76",
+      "from": "node_80",
+      "to": "node_85"
+    },
+    {
+      "id": "edge_77",
+      "from": "node_80",
+      "to": "node_81"
+    },
+    {
+      "id": "edge_78",
+      "from": "node_80",
+      "to": "node_84"
+    },
+    {
+      "id": "edge_79",
+      "from": "node_84",
+      "to": "node_83"
+    },
+    {
+      "id": "edge_80",
+      "from": "node_80",
+      "to": "node_79"
+    },
+    {
+      "id": "edge_81",
+      "from": "node_86",
+      "to": "node_89"
+    },
+    {
+      "id": "edge_82",
+      "from": "node_88",
+      "to": "node_89"
+    },
+    {
+      "id": "edge_83",
+      "from": "node_89",
+      "to": "node_82"
+    },
+    {
+      "id": "edge_84",
+      "from": "node_89",
+      "to": "node_80"
+    },
+    {
+      "id": "edge_85",
+      "from": "node_82",
+      "to": "node_81"
+    },
+    {
+      "id": "edge_86",
+      "from": "node_84",
+      "to": "node_82"
+    }
+  ]
+}

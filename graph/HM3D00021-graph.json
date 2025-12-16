@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "node_86",
+      "name": "Bedroom with bed on the room corner",
+      "description": "",
+      "position": {
+        "x": -0.1420825719371719,
+        "y": 6.312048715120098,
+        "z": 1.7533022208276376
+      }
+    },
+    {
+      "id": "node_87",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": -5.7515310373664805,
+        "y": 6.294643757804724,
+        "z": 0.3039873454671609
+      }
+    },
+    {
+      "id": "node_88",
+      "name": "Top floor stair landing",
+      "description": "",
+      "position": {
+        "x": -4.834864953838785,
+        "y": 6.30615986492798,
+        "z": 3.0913026292922794
+      }
+    },
+    {
+      "id": "node_90",
+      "name": "Main living room and dining space",
+      "description": "",
+      "position": {
+        "x": -5.859950233174287,
+        "y": -0.4542827795695146,
+        "z": 1.1665254103962026
+      }
+    },
+    {
+      "id": "node_92",
+      "name": "Second floor bathroom",
+      "description": "",
+      "position": {
+        "x": 0.9643519406985934,
+        "y": 0.3166319172247853,
+        "z": 2.0608616359599
+      }
+    },
+    {
+      "id": "node_93",
+      "name": "Second floor rest space with gray sofa and white book shelf",
+      "description": "",
+      "position": {
+        "x": 0.3346020466412827,
+        "y": 0.3138894756053567,
+        "z": -0.8186502599334184
+      }
+    },
+    {
+      "id": "node_94",
+      "name": "Yard",
+      "description": "",
+      "position": {
+        "x": -7.4630751981194665,
+        "y": -3.0304335997734375,
+        "z": -3.604298928162264
+      }
+    },
+    {
+      "id": "node_95",
+      "name": "Garage",
+      "description": "",
+      "position": {
+        "x": -2.601921371150735,
+        "y": -3.0977505698540737,
+        "z": -0.09777356271583315
+      }
+    },
+    {
+      "id": "node_96",
+      "name": "First floor hallway",
+      "description": "",
+      "position": {
+        "x": -7.427743259088986,
+        "y": -2.8958360948714246,
+        "z": 3.017305348354472
+      }
+    },
+    {
+      "id": "node_97",
+      "name": "Entrance foyer",
+      "description": "",
+      "position": {
+        "x": -9.251938393125691,
+        "y": -2.5268213992838477,
+        "z": 4.066033087118636
+      }
+    },
+    {
+      "id": "node_98",
+      "name": "First floor rest area",
+      "description": "",
+      "position": {
+        "x": -7.33841542152362,
+        "y": -2.8914714117638676,
+        "z": -0.3267848497048277
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_85",
+      "from": "node_88",
+      "to": "node_87"
+    },
+    {
+      "id": "edge_86",
+      "from": "node_88",
+      "to": "node_86"
+    },
+    {
+      "id": "edge_87",
+      "from": "node_97",
+      "to": "node_96"
+    },
+    {
+      "id": "edge_88",
+      "from": "node_96",
+      "to": "node_98"
+    },
+    {
+      "id": "edge_89",
+      "from": "node_96",
+      "to": "node_95"
+    },
+    {
+      "id": "edge_90",
+      "from": "node_95",
+      "to": "node_94"
+    },
+    {
+      "id": "edge_91",
+      "from": "node_98",
+      "to": "node_94"
+    },
+    {
+      "id": "edge_92",
+      "from": "node_97",
+      "to": "node_90"
+    },
+    {
+      "id": "edge_94",
+      "from": "node_90",
+      "to": "node_92"
+    },
+    {
+      "id": "edge_95",
+      "from": "node_90",
+      "to": "node_93"
+    },
+    {
+      "id": "edge_96",
+      "from": "node_90",
+      "to": "node_88"
+    }
+  ]
+}

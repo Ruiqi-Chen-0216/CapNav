@@ -1,0 +1,74 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the coat rack and front door in the Entrance foyer and hallway to the area with the washing machines in the Laundry room?",
+        "reason": "The video shows a clear path from the entrance foyer (00:03-00:04), through the hallway visible from 00:05-00:06 and 00:40-00:41, leading to the laundry room with washing machines (00:42-00:43).",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "area near the coat rack and front door",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "area with the washing machines"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sofa area near the television in the Living room and dining room to the area with the large bed and wooden headboard in the Master bedroom?",
+        "reason": "The video illustrates a route from the living room sofa area (00:21-00:22), passing through a doorway into the hallway (00:29-00:31), and continuing to the master bedroom visible from 00:59-01:03.",
+        "nodes_involved": {
+            "start": "Living room and dining room",
+            "start_detail": "sofa area near the television",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "area with the large bed and wooden headboard"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dressing table area within the Master bedroom to the sink vanity area with stacked towels in the Bathroom?",
+        "reason": "The video shows the dressing area inside the master bedroom from 01:05-01:06 and the path from the master bedroom entrance to the bathroom entrance at 01:14-01:15, leading to the sink area visible at 00:38-00:39.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "dressing table area within the master bedroom",
+            "intermediate": [],
+            "end": "Bathroom",
+            "end_detail": "sink vanity area with stacked towels"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the twin bed in the Bedroom with twin bed to the kitchen island area with bar stools in the Living room and dining room?",
+        "reason": "The video shows the twin bed at 00:52-00:53. A route through the hallway, visible from 00:55-00:57, leads to the main living/dining room area, including the kitchen island at 00:11-00:12.",
+        "nodes_involved": {
+            "start": "Bedroom with twin bed",
+            "start_detail": "area near the twin bed",
+            "intermediate": [],
+            "end": "Living room and dining room",
+            "end_detail": "kitchen island area with bar stools"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the toilet area in the Bathroom to the area with the large water heater and pipes in the Laundry room?",
+        "reason": "The video shows the toilet area in the bathroom from 00:33-00:34. A navigable path is visible from the bathroom entrance to the laundry room entrance, seen at 00:39-00:42, leading to the water heater area.",
+        "nodes_involved": {
+            "start": "Bathroom",
+            "start_detail": "toilet area",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "area with the large water heater and pipes"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the tall white refrigerator in the Laundry room to the area with the large bed in the Master bedroom?",
+        "reason": "The video shows the refrigerator in the laundry room from 00:41-00:42. A path through the hallway from the laundry room door (00:46-00:47) leads to the master bedroom visible from 00:58-01:03.",
+        "nodes_involved": {
+            "start": "Laundry room",
+            "start_detail": "area near the tall white refrigerator",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "area with the large bed"
+        }
+    }
+]

@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "Entry landing",
+      "description": "Of the main entrance to the living room",
+      "position": {
+        "x": 11.384816039705443,
+        "y": 0.2799011349109996,
+        "z": -6.998482693554778
+      }
+    },
+    {
+      "id": "node_2",
+      "name": "Poolside patio",
+      "description": "with loungers",
+      "position": {
+        "x": -0.5662712043036331,
+        "y": 0.296062988700519,
+        "z": 3.498295217211769
+      }
+    },
+    {
+      "id": "node_3",
+      "name": "Guest Bathroom",
+      "description": "With redwood floor",
+      "position": {
+        "x": 5.738654643572007,
+        "y": 0.7403269721125707,
+        "z": -7.489293258494399
+      }
+    },
+    {
+      "id": "node_4",
+      "name": "Dining space",
+      "description": "",
+      "position": {
+        "x": 2.0258455922108376,
+        "y": 0.31448988761028146,
+        "z": -4.715061846154395
+      }
+    },
+    {
+      "id": "node_5",
+      "name": "Covered Patio",
+      "description": "",
+      "position": {
+        "x": 2.565336940397445,
+        "y": 0.28974855655044357,
+        "z": 0.19910951070533045
+      }
+    },
+    {
+      "id": "node_6",
+      "name": "Main Livingroom",
+      "description": "With redwood floor",
+      "position": {
+        "x": 8.29637913154888,
+        "y": 0.31953126060896614,
+        "z": -2.1732727183972536
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Twin bedroom",
+      "description": "With redwood floor and two twin-sized beds",
+      "position": {
+        "x": 8.769640929000673,
+        "y": -2.7612714647502923,
+        "z": 2.6570660395857395
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "Laundry room",
+      "description": "",
+      "position": {
+        "x": 9.971526340314975,
+        "y": -2.7555980972821814,
+        "z": -4.155872030144397
+      }
+    },
+    {
+      "id": "node_11",
+      "name": "Backyard",
+      "description": "",
+      "position": {
+        "x": 11.565515234087222,
+        "y": -2.788158340636568,
+        "z": -2.302727889750982
+      }
+    },
+    {
+      "id": "node_12",
+      "name": "Twin bedroom bathroom",
+      "description": "",
+      "position": {
+        "x": 8.282746058900914,
+        "y": -2.754798637546057,
+        "z": 0.29003336501182564
+      }
+    },
+    {
+      "id": "node_13",
+      "name": "Basement public rest area",
+      "description": "",
+      "position": {
+        "x": 6.679744212121827,
+        "y": -2.756063507765538,
+        "z": -2.5029089976175882
+      }
+    },
+    {
+      "id": "node_14",
+      "name": "Basement collection rooom",
+      "description": "",
+      "position": {
+        "x": 2.222335936954286,
+        "y": -2.7446085740069552,
+        "z": -3.6819266479364012
+      }
+    },
+    {
+      "id": "node_15",
+      "name": "Basement big bed bedroom",
+      "description": "",
+      "position": {
+        "x": 4.69082302884982,
+        "y": -2.753572306881245,
+        "z": 3.8637386461381404
+      }
+    },
+    {
+      "id": "node_16",
+      "name": "Master bedroom on the top floor",
+      "description": "",
+      "position": {
+        "x": 0.33042908494748535,
+        "y": 3.431049794430426,
+        "z": -4.011621685195183
+      }
+    },
+    {
+      "id": "node_17",
+      "name": "Bathroom of the big bed bedroom downstairs",
+      "description": "",
+      "position": {
+        "x": 3.393034034308196,
+        "y": -0.5312060811816763,
+        "z": 5.515466316326425
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "from": "node_16",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_1",
+      "from": "node_6",
+      "to": "node_0"
+    },
+    {
+      "id": "edge_2",
+      "from": "node_6",
+      "to": "node_4"
+    },
+    {
+      "id": "edge_3",
+      "from": "node_6",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_4",
+      "from": "node_6",
+      "to": "node_5"
+    },
+    {
+      "id": "edge_5",
+      "from": "node_5",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_6",
+      "from": "node_6",
+      "to": "node_13"
+    },
+    {
+      "id": "edge_7",
+      "from": "node_13",
+      "to": "node_14"
+    },
+    {
+      "id": "edge_8",
+      "from": "node_13",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_9",
+      "from": "node_13",
+      "to": "node_10"
+    },
+    {
+      "id": "edge_10",
+      "from": "node_10",
+      "to": "node_11"
+    },
+    {
+      "id": "edge_11",
+      "from": "node_13",
+      "to": "node_15"
+    },
+    {
+      "id": "edge_12",
+      "from": "node_7",
+      "to": "node_12"
+    },
+    {
+      "id": "edge_13",
+      "from": "node_15",
+      "to": "node_17"
+    },
+    {
+      "id": "edge_14",
+      "from": "node_11",
+      "to": "node_12"
+    }
+  ]
+}

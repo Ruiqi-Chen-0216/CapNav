@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "node_78",
+      "name": "Bedroom with white sheets",
+      "description": "",
+      "position": {
+        "x": 2.535982307649583,
+        "y": 3.131278814242946,
+        "z": -0.18308638362512575
+      }
+    },
+    {
+      "id": "node_79",
+      "name": "Bedroom with white and blue sheets",
+      "description": "",
+      "position": {
+        "x": 3.1690415278903616,
+        "y": 3.11756332889519,
+        "z": -4.06260074382357
+      }
+    },
+    {
+      "id": "node_80",
+      "name": "Top floor bathroom",
+      "description": "",
+      "position": {
+        "x": -0.4460191521859916,
+        "y": 2.7547959507896147,
+        "z": -4.0626917349200165
+      }
+    },
+    {
+      "id": "node_81",
+      "name": "Top floor stair landing",
+      "description": "",
+      "position": {
+        "x": -0.2529872049427091,
+        "y": 3.137022496786998,
+        "z": -2.3863363438355436
+      }
+    },
+    {
+      "id": "node_82",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": -0.2674306610301347,
+        "y": 0.2801546829535752,
+        "z": -4.8189281471794825
+      }
+    },
+    {
+      "id": "node_83",
+      "name": "Dining room",
+      "description": "",
+      "position": {
+        "x": 2.994787709038169,
+        "y": 0.31749807431231075,
+        "z": -4.2097155981831875
+      }
+    },
+    {
+      "id": "node_84",
+      "name": "Living room",
+      "description": "",
+      "position": {
+        "x": 3.572672430929674,
+        "y": 0.2983931915531645,
+        "z": 0.08519048985716982
+      }
+    },
+    {
+      "id": "node_85",
+      "name": "Entrance foyer and hallway",
+      "description": "",
+      "position": {
+        "x": 0.05210133846514997,
+        "y": 0.2911805411378207,
+        "z": -0.8180828120850796
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_77",
+      "from": "node_81",
+      "to": "node_78"
+    },
+    {
+      "id": "edge_78",
+      "from": "node_79",
+      "to": "node_81"
+    },
+    {
+      "id": "edge_79",
+      "from": "node_80",
+      "to": "node_81"
+    },
+    {
+      "id": "edge_80",
+      "from": "node_85",
+      "to": "node_80"
+    },
+    {
+      "id": "edge_81",
+      "from": "node_85",
+      "to": "node_83"
+    },
+    {
+      "id": "edge_82",
+      "from": "node_85",
+      "to": "node_84"
+    },
+    {
+      "id": "edge_83",
+      "from": "node_85",
+      "to": "node_81"
+    },
+    {
+      "id": "edge_84",
+      "from": "node_82",
+      "to": "node_85"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "nodes": [
+    {
+      "id": "node_13",
+      "name": "Yard",
+      "description": "",
+      "position": {
+        "x": 0.40461046740055373,
+        "y": -1.2610417604057786,
+        "z": 2.0442154260281207
+      }
+    },
+    {
+      "id": "node_14",
+      "name": "Long wooden porch",
+      "description": "L shaped",
+      "position": {
+        "x": 1.0080836982613697,
+        "y": 0.3005731335779231,
+        "z": -3.6522950064330226
+      }
+    },
+    {
+      "id": "node_15",
+      "name": "Smaller concrete porch",
+      "description": "Square shaped",
+      "position": {
+        "x": -15.483762788548121,
+        "y": 0.23111257879640518,
+        "z": -3.220528833175223
+      }
+    },
+    {
+      "id": "node_16",
+      "name": "Basement foyer",
+      "description": "",
+      "position": {
+        "x": -12.2642956424274,
+        "y": -2.151306506609572,
+        "z": 1.830153757057624
+      }
+    },
+    {
+      "id": "node_17",
+      "name": "Basement bathroom",
+      "description": "",
+      "position": {
+        "x": -10.561460056574775,
+        "y": -2.1546283298987907,
+        "z": 0.10292470655912767
+      }
+    },
+    {
+      "id": "node_18",
+      "name": "Basement empty room",
+      "description": "",
+      "position": {
+        "x": -12.969204905503142,
+        "y": -2.1607833690629477,
+        "z": -1.4296843472194114
+      }
+    },
+    {
+      "id": "node_19",
+      "name": "Basement bedroom empty",
+      "description": "",
+      "position": {
+        "x": -11.83787388463232,
+        "y": -2.16379458539933,
+        "z": -3.9461928385420992
+      }
+    },
+    {
+      "id": "node_20",
+      "name": "Laundry room",
+      "description": "",
+      "position": {
+        "x": -1.6562917738828844,
+        "y": 0.2850499689905092,
+        "z": -2.417550814039708
+      }
+    },
+    {
+      "id": "node_21",
+      "name": "Bedroom with bigger dark blue checkerboard pattern",
+      "description": "",
+      "position": {
+        "x": -2.7813086252315324,
+        "y": 0.2939757503853421,
+        "z": -5.739787463309776
+      }
+    },
+    {
+      "id": "node_22",
+      "name": "First floor living room empty",
+      "description": "",
+      "position": {
+        "x": -11.83931622331896,
+        "y": 0.06613738613541215,
+        "z": -1.752938861606673
+      }
+    },
+    {
+      "id": "node_23",
+      "name": "Kitchen with cyan floor",
+      "description": "",
+      "position": {
+        "x": -12.916993166970313,
+        "y": 0.3406088478735116,
+        "z": -5.31038872234362
+      }
+    },
+    {
+      "id": "node_24",
+      "name": "Bathroom with light blue floor",
+      "description": "",
+      "position": {
+        "x": -10.636756454780082,
+        "y": 0.34497545713819927,
+        "z": -6.155026734339456
+      }
+    },
+    {
+      "id": "node_25",
+      "name": "Bedroom with smaller checkboard sheet",
+      "description": "",
+      "position": {
+        "x": -7.8629587124546125,
+        "y": 0.3047302057260232,
+        "z": -5.050136415365873
+      }
+    },
+    {
+      "id": "node_26",
+      "name": "Bedroom with plant pattern sheets",
+      "description": "",
+      "position": {
+        "x": -8.696343221334438,
+        "y": 0.26464068664282897,
+        "z": -1.726982937869607
+      }
+    },
+    {
+      "id": "node_27",
+      "name": "Shared bathroom",
+      "description": "On the first floor with gray floor",
+      "position": {
+        "x": -6.001903959805378,
+        "y": 0.2718367806951704,
+        "z": -1.6263053580667148
+      }
+    },
+    {
+      "id": "node_28",
+      "name": "First floor foyer",
+      "description": "with golf stuff",
+      "position": {
+        "x": -3.355901860651979,
+        "y": 0.28829896592428844,
+        "z": -0.5492055496767363
+      }
+    },
+    {
+      "id": "node_29",
+      "name": "Second floor living room",
+      "description": "Including hallway and dining space",
+      "position": {
+        "x": -8.706646460240936,
+        "y": 3.008649122288591,
+        "z": -4.427761513253511
+      }
+    },
+    {
+      "id": "node_30",
+      "name": "Home office",
+      "description": "",
+      "position": {
+        "x": -1.3696311481542565,
+        "y": 3.024628691087684,
+        "z": -5.947224254312664
+      }
+    },
+    {
+      "id": "node_31",
+      "name": "Second floor bathroom",
+      "description": "",
+      "position": {
+        "x": -3.7981304267944043,
+        "y": 3.0180341888225497,
+        "z": -5.901972945659829
+      }
+    },
+    {
+      "id": "node_33",
+      "name": "Rooftop terrace",
+      "description": "",
+      "position": {
+        "x": -14.322434426337605,
+        "y": 3.0341928469495594,
+        "z": 0.9567071360981254
+      }
+    },
+    {
+      "id": "node_35",
+      "name": "Secondd floor bedroom",
+      "description": "",
+      "position": {
+        "x": -2.3582452296606986,
+        "y": 3.5998970011283946,
+        "z": -1.0296376958719975
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_11",
+      "from": "node_13",
+      "to": "node_16"
+    },
+    {
+      "id": "edge_12",
+      "from": "node_13",
+      "to": "node_14"
+    },
+    {
+      "id": "edge_13",
+      "from": "node_13",
+      "to": "node_15"
+    },
+    {
+      "id": "edge_14",
+      "from": "node_16",
+      "to": "node_17"
+    },
+    {
+      "id": "edge_15",
+      "from": "node_16",
+      "to": "node_18"
+    },
+    {
+      "id": "edge_16",
+      "from": "node_16",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_17",
+      "from": "node_22",
+      "to": "node_16"
+    },
+    {
+      "id": "edge_18",
+      "from": "node_22",
+      "to": "node_15"
+    },
+    {
+      "id": "edge_19",
+      "from": "node_15",
+      "to": "node_23"
+    },
+    {
+      "id": "edge_20",
+      "from": "node_23",
+      "to": "node_22"
+    },
+    {
+      "id": "edge_21",
+      "from": "node_22",
+      "to": "node_24"
+    },
+    {
+      "id": "edge_22",
+      "from": "node_29",
+      "to": "node_33"
+    },
+    {
+      "id": "edge_23",
+      "from": "node_14",
+      "to": "node_33"
+    },
+    {
+      "id": "edge_24",
+      "from": "node_29",
+      "to": "node_35"
+    },
+    {
+      "id": "edge_25",
+      "from": "node_29",
+      "to": "node_30"
+    },
+    {
+      "id": "edge_26",
+      "from": "node_28",
+      "to": "node_29"
+    },
+    {
+      "id": "edge_27",
+      "from": "node_29",
+      "to": "node_31"
+    },
+    {
+      "id": "edge_28",
+      "from": "node_28",
+      "to": "node_20"
+    },
+    {
+      "id": "edge_29",
+      "from": "node_28",
+      "to": "node_21"
+    },
+    {
+      "id": "edge_30",
+      "from": "node_28",
+      "to": "node_25"
+    },
+    {
+      "id": "edge_31",
+      "from": "node_28",
+      "to": "node_27"
+    },
+    {
+      "id": "edge_32",
+      "from": "node_28",
+      "to": "node_26"
+    }
+  ]
+}

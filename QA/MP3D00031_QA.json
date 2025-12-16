@@ -1,0 +1,62 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?",
+        "reason": "The video shows a clear navigable path from the entrance area at 00:00, through the living space (00:04), into the hallway (00:08), and finally into the bedroom with the bed and computer desk at 00:44.",
+        "nodes_involved": {
+            "start": "node_50",
+            "start_detail": "the white main entrance door, to the left of the 'DRIVE SLOW children PLAY near here' sign",
+            "intermediate": [],
+            "end": "node_57",
+            "end_detail": "the bed with the blue and white star-patterned quilt"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?",
+        "reason": "The video demonstrates a continuous, walkable route from the kitchen sink area at 00:24, through the main living/dining space (00:30), down the hallway (00:39), and into the bathroom at 00:58.",
+        "nodes_involved": {
+            "start": "node_51",
+            "start_detail": "the kitchen sink with a metal drying rack",
+            "intermediate": [],
+            "end": "node_58",
+            "end_detail": "the toilet with the snowman-patterned shower curtain visible behind it"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?",
+        "reason": "The video shows a clear pathway from the bedroom with pink sheets at 01:29, exiting into the hallway (01:21), and then entering the home office with the main computer desk at 01:08.",
+        "nodes_involved": {
+            "start": "node_56",
+            "start_detail": "the bed with the pink and white bicycle-patterned sheets",
+            "intermediate": [],
+            "end": "node_54",
+            "end_detail": "the large desk with a computer and papers"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?",
+        "reason": "The video illustrates a navigable route from the bedroom's computer desk area at 00:51, through the hallway (00:40), then passing the living area (00:35) and entering the kitchen to the refrigerator at 00:31.",
+        "nodes_involved": {
+            "start": "node_57",
+            "start_detail": "the computer desk with multiple monitors, by the window",
+            "intermediate": [],
+            "end": "node_51",
+            "end_detail": "the white refrigerator with snowman and shamrock magnets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?",
+        "reason": "The video demonstrates a continuous route from the office area near the copier at 01:15, through the hallway (01:21), and into the bedroom with the Christmas tree at 01:26.",
+        "nodes_involved": {
+            "start": "node_54",
+            "start_detail": "the large white copier machine",
+            "intermediate": [],
+            "end": "node_56",
+            "end_detail": "the base of the lighted Christmas tree"
+        }
+    }
+]

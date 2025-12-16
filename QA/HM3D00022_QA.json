@@ -1,0 +1,146 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the BBQ grill area on the Patio and yard to the kitchen island with a sink in the Main living room and kitchen?",
+        "reason": "The video shows a clear path from the BBQ grill area on the patio to a doorway leading into the main living room and kitchen area at 0:03 and 0:13, where the kitchen island is visible.",
+        "nodes_involved": {
+            "start": "Patio and yard",
+            "start_detail": "the BBQ grill area",
+            "intermediate": [],
+            "end": "Main living room and kitchen",
+            "end_detail": "the kitchen island with a sink"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the gray sectional sofa in the Main living room and kitchen to the large bed in the Master bedroom?",
+        "reason": "From the gray sectional sofa in the main living room (0:14), a visible path leads past the kitchen and dining area, through a hallway (0:49), and into the master bedroom, where the large bed is located (1:03).",
+        "nodes_involved": {
+            "start": "Main living room and kitchen",
+            "start_detail": "the gray sectional sofa",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "the large bed"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main double doors in the Entrance foyer and hallway to the computer desk in the Home office next to entrance?",
+        "reason": "The home office is directly accessible from the entrance foyer through double glass doors, leading to the computer desk, visible from 0:51 to 0:56.",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "the main double doors",
+            "intermediate": [],
+            "end": "Home office next to entrance",
+            "end_detail": "the computer desk"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dresser with a mirror in the Master bedroom to the large corner tub in the Master bedroom bathroom?",
+        "reason": "An archway directly connects the master bedroom, where the dresser is located (1:07), to the master bedroom bathroom, where the large corner tub is prominently displayed (1:22).",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "the dresser with a mirror",
+            "intermediate": [],
+            "end": "Master bedroom bathroom",
+            "end_detail": "the large corner tub"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the refrigerator in the Main living room and kitchen to the sofa in the Smaller living room with sofa?",
+        "reason": "From the kitchen, near the refrigerator (0:20), [Agent] can navigate through the dining space and entrance hallway (0:47) to reach the smaller living room and its sofa (1:34).",
+        "nodes_involved": {
+            "start": "Main living room and kitchen",
+            "start_detail": "the refrigerator",
+            "intermediate": [],
+            "end": "Smaller living room with sofa",
+            "end_detail": "the sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bottom of the stairs in the Entrance foyer and hallway to the top of the stairs at the Second floor stair landing and hallway?",
+        "reason": "A clear staircase directly connects the entrance foyer and hallway to the second floor stair landing and hallway, as shown from 1:53 to 2:01.",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "the bottom of the stairs",
+            "intermediate": [],
+            "end": "Second floor stair landing and hallway",
+            "end_detail": "the top of the stairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the central railing on the landing in the Second floor stair landing and hallway to the bed with pink sheets in the Bedroom with pink sheets?",
+        "reason": "From the second-floor stair landing, a hallway leads directly to the bedroom with pink sheets, where the bed is visible, demonstrated by the camera's movement from 2:02 to 2:54.",
+        "nodes_involved": {
+            "start": "Second floor stair landing and hallway",
+            "start_detail": "the central railing on the landing",
+            "intermediate": [],
+            "end": "Bedroom with pink sheets",
+            "end_detail": "the bed with pink sheets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the office chair in the Second floor home office to the bed with stripe sheets in the Bedroom with stripe sheets?",
+        "reason": "Exiting the second-floor home office (2:59), [Agent] can proceed along the hallway (3:05) to the bedroom with stripe sheets (2:18), which has a visible bed.",
+        "nodes_involved": {
+            "start": "Second floor home office",
+            "start_detail": "the office chair",
+            "intermediate": [],
+            "end": "Bedroom with stripe sheets",
+            "end_detail": "the bed with stripe sheets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with the gray headboard in the Bedroom with gray wall to the vanity in the Bathroom between two bedrooms?",
+        "reason": "The bathroom between two bedrooms is directly accessible from the bedroom with the gray wall (2:10), with the vanity visible upon entering (2:12).",
+        "nodes_involved": {
+            "start": "Bedroom with gray wall",
+            "start_detail": "the bed with the gray headboard",
+            "intermediate": [],
+            "end": "Bathroom between two bedrooms",
+            "end_detail": "the vanity"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dresser with a mirror in the Bedroom with stripe sheets to the toilet in the Second floor shared bathroom with red rug?",
+        "reason": "From the dresser in the bedroom with stripe sheets (2:20), one can turn and walk through the adjacent doorway to reach the second-floor shared bathroom with a red rug, where the toilet is visible behind the shower curtain (2:45).",
+        "nodes_involved": {
+            "start": "Bedroom with stripe sheets",
+            "start_detail": "the dresser with a mirror",
+            "intermediate": [],
+            "end": "Second floor shared bathroom with red rug",
+            "end_detail": "the toilet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the outdoor sofa and chairs in the Patio and yard to the door leading outside to the patio in the Master bedroom?",
+        "reason": "The master bedroom has a direct door to the patio, which is near the outdoor seating area, as seen at 0:07 (patio seating) and 1:06 (master bedroom door to patio).",
+        "nodes_involved": {
+            "start": "Patio and yard",
+            "start_detail": "the outdoor sofa and chairs",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "the door leading outside to the patio"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the wall-mounted TV in the Bedroom with pink sheets to the main stairwell opening in the Second floor stair landing and hallway?",
+        "reason": "From the bedroom with pink sheets, near the wall-mounted TV (2:52), [Agent] can exit and walk down the hallway (2:56-3:04) to the central stairwell opening (3:07), a path visible in the video.",
+        "nodes_involved": {
+            "start": "Bedroom with pink sheets",
+            "start_detail": "the wall-mounted TV",
+            "intermediate": [],
+            "end": "Second floor stair landing and hallway",
+            "end_detail": "the main stairwell opening"
+        }
+    }
+]

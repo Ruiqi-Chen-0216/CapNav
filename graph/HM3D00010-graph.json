@@ -1,0 +1,181 @@
+{
+  "nodes": [
+    {
+      "id": "node_16",
+      "name": "Entrance hallway with no clutter",
+      "description": "",
+      "position": {
+        "x": 0.0970712409745561,
+        "y": 0.28407971899216483,
+        "z": 4.003318224600566
+      }
+    },
+    {
+      "id": "node_17",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": 2.275632970577399,
+        "y": 0.28927325206934745,
+        "z": 5.453251761227873
+      }
+    },
+    {
+      "id": "node_18",
+      "name": "Entrance hallway with clutter",
+      "description": "",
+      "position": {
+        "x": 12.527489513848863,
+        "y": 0.31433164835283306,
+        "z": 4.511810856242391
+      }
+    },
+    {
+      "id": "node_19",
+      "name": "Laundry room",
+      "description": "",
+      "position": {
+        "x": 10.58207911644759,
+        "y": 0.3094963238753749,
+        "z": 6.30823718886396
+      }
+    },
+    {
+      "id": "node_21",
+      "name": "Home office",
+      "description": "",
+      "position": {
+        "x": 10.820813224046915,
+        "y": 0.3049052448213196,
+        "z": 8.955374365088659
+      }
+    },
+    {
+      "id": "node_22",
+      "name": "Living room with patterned rug",
+      "description": "",
+      "position": {
+        "x": 4.6333150001451155,
+        "y": 0.3039366510285035,
+        "z": 9.11036215905234
+      }
+    },
+    {
+      "id": "node_23",
+      "name": "Living room with woven rug",
+      "description": "",
+      "position": {
+        "x": 6.04098838068891,
+        "y": 0.12540688705553044,
+        "z": 1.1832906293641798
+      }
+    },
+    {
+      "id": "node_24",
+      "name": "Master bedroom",
+      "description": "with its own bathroom",
+      "position": {
+        "x": -3.8475350393578918,
+        "y": 0.30519822018646464,
+        "z": 9.285616192191451
+      }
+    },
+    {
+      "id": "node_25",
+      "name": "Bedroom with beige sheets",
+      "description": "",
+      "position": {
+        "x": -4.682879652070438,
+        "y": 0.31115173960313064,
+        "z": 5.735066695957487
+      }
+    },
+    {
+      "id": "node_26",
+      "name": "Bedroom with patterned sheets",
+      "description": "",
+      "position": {
+        "x": -3.8113898538194766,
+        "y": 0.30693927607853516,
+        "z": 0.8662990166769244
+      }
+    },
+    {
+      "id": "node_27",
+      "name": "Guest bathroom next to bedrooms",
+      "description": "",
+      "position": {
+        "x": -1.6376198013141454,
+        "y": 0.294576671531755,
+        "z": 3.089352898254881
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_14",
+      "from": "node_16",
+      "to": "node_27"
+    },
+    {
+      "id": "edge_15",
+      "from": "node_16",
+      "to": "node_26"
+    },
+    {
+      "id": "edge_16",
+      "from": "node_16",
+      "to": "node_25"
+    },
+    {
+      "id": "edge_17",
+      "from": "node_16",
+      "to": "node_24"
+    },
+    {
+      "id": "edge_18",
+      "from": "node_16",
+      "to": "node_17"
+    },
+    {
+      "id": "edge_19",
+      "from": "node_17",
+      "to": "node_22"
+    },
+    {
+      "id": "edge_20",
+      "from": "node_16",
+      "to": "node_23"
+    },
+    {
+      "id": "edge_21",
+      "from": "node_23",
+      "to": "node_17"
+    },
+    {
+      "id": "edge_22",
+      "from": "node_23",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_23",
+      "from": "node_18",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_24",
+      "from": "node_22",
+      "to": "node_21"
+    },
+    {
+      "id": "edge_25",
+      "from": "node_18",
+      "to": "node_17"
+    },
+    {
+      "id": "edge_26",
+      "from": "node_21",
+      "to": "node_18"
+    }
+  ]
+}

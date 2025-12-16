@@ -1,0 +1,376 @@
+{
+  "nodes": [
+    {
+      "id": "node_18",
+      "name": "Top floor stair landing and rest place",
+      "description": "",
+      "position": {
+        "x": 11.654803941892144,
+        "y": 4.58583288192749,
+        "z": -3.9306381773592376
+      }
+    },
+    {
+      "id": "node_19",
+      "name": "Master suite foyer",
+      "description": "",
+      "position": {
+        "x": 12.860849035725309,
+        "y": 4.58583288192749,
+        "z": -7.081565094706589
+      }
+    },
+    {
+      "id": "node_20",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": 10.591263638513581,
+        "y": 4.58583288192749,
+        "z": -12.532134259573617
+      }
+    },
+    {
+      "id": "node_21",
+      "name": "Master bedroom terrace",
+      "description": "",
+      "position": {
+        "x": 10.023804861797148,
+        "y": 4.58583288192749,
+        "z": -17.543101830261328
+      }
+    },
+    {
+      "id": "node_22",
+      "name": "Master bedroom dressing room",
+      "description": "",
+      "position": {
+        "x": 10.261122194284889,
+        "y": 4.58583288192749,
+        "z": -6.856386007680624
+      }
+    },
+    {
+      "id": "node_23",
+      "name": "Master bedroom bathroom",
+      "description": "",
+      "position": {
+        "x": 16.304875678897652,
+        "y": 4.58583288192749,
+        "z": -7.397993514727859
+      }
+    },
+    {
+      "id": "node_24",
+      "name": "Top floor bedroom with black sheets",
+      "description": "",
+      "position": {
+        "x": 16.43405567967722,
+        "y": 4.58583288192749,
+        "z": -0.9941175010774723
+      }
+    },
+    {
+      "id": "node_25",
+      "name": "Top floor bedroom with gray sheets",
+      "description": "",
+      "position": {
+        "x": 2.7606708767737036,
+        "y": 4.58583288192749,
+        "z": -1.5529414723796786
+      }
+    },
+    {
+      "id": "node_26",
+      "name": "Way to the entrance",
+      "description": "",
+      "position": {
+        "x": 10.600561703902748,
+        "y": 1.1973560333251954,
+        "z": 13.65690187701844
+      }
+    },
+    {
+      "id": "node_27",
+      "name": "Entrance porch",
+      "description": "",
+      "position": {
+        "x": 11.493230686141171,
+        "y": 1.1973560333251954,
+        "z": 6.644274372010582
+      }
+    },
+    {
+      "id": "node_28",
+      "name": "Entrance foyer and hallway",
+      "description": "",
+      "position": {
+        "x": 10.606473605378568,
+        "y": 1.1973560333251954,
+        "z": -0.6786618895266843
+      }
+    },
+    {
+      "id": "node_29",
+      "name": "Home office next to entrance",
+      "description": "",
+      "position": {
+        "x": 7.94889431495643,
+        "y": 1.1973560333251954,
+        "z": 5.456591606185096
+      }
+    },
+    {
+      "id": "node_30",
+      "name": "Entrance floor terrace",
+      "description": "",
+      "position": {
+        "x": 13.307090390079907,
+        "y": 1.1973560333251954,
+        "z": -19.115546166714406
+      }
+    },
+    {
+      "id": "node_31",
+      "name": "Sun room next to first floor terrace",
+      "description": "",
+      "position": {
+        "x": 10.236743048039493,
+        "y": 1.1973560333251954,
+        "z": -12.401385853650009
+      }
+    },
+    {
+      "id": "node_32",
+      "name": "Main Kitchen and dining space",
+      "description": "",
+      "position": {
+        "x": 11.33039479445109,
+        "y": 1.1973560333251954,
+        "z": -7.024780556842217
+      }
+    },
+    {
+      "id": "node_33",
+      "name": "Smaller kitchen",
+      "description": "",
+      "position": {
+        "x": 15.364717720337481,
+        "y": 1.1973560333251954,
+        "z": -3.790465702403628
+      }
+    },
+    {
+      "id": "node_34",
+      "name": "Entrance floor bedroom with big bed and light gray rug",
+      "description": "",
+      "position": {
+        "x": 3.141774929128185,
+        "y": 1.1973560333251954,
+        "z": -2.5920536461052643
+      }
+    },
+    {
+      "id": "node_35",
+      "name": "Living space next to entrance",
+      "description": "",
+      "position": {
+        "x": 15.809975419021411,
+        "y": 1.1973560333251954,
+        "z": 3.771142218313325
+      }
+    },
+    {
+      "id": "node_36",
+      "name": "Entrance floor bedroom with small bed and dark rug",
+      "description": "",
+      "position": {
+        "x": 19.951074312739898,
+        "y": 1.1973560333251954,
+        "z": -2.7584619397854855
+      }
+    },
+    {
+      "id": "node_37",
+      "name": "Basement porch space",
+      "description": "",
+      "position": {
+        "x": 11.811468993416888,
+        "y": -2.1368183016777023,
+        "z": -19.476230223814703
+      }
+    },
+    {
+      "id": "node_38",
+      "name": "Basement storage space with clutter",
+      "description": "",
+      "position": {
+        "x": 10.052974840380227,
+        "y": -2.136818301677704,
+        "z": -12.441367652015241
+      }
+    },
+    {
+      "id": "node_39",
+      "name": "Garage",
+      "description": "",
+      "position": {
+        "x": 12.590335025867834,
+        "y": -2.1042367935180666,
+        "z": -7.408729307868346
+      }
+    },
+    {
+      "id": "node_40",
+      "name": "Basement home gym",
+      "description": "",
+      "position": {
+        "x": 6.013883422858192,
+        "y": -2.1042367935180684,
+        "z": -7.349902256936563
+      }
+    },
+    {
+      "id": "node_41",
+      "name": "Basement chat room",
+      "description": "",
+      "position": {
+        "x": 16.611334823478074,
+        "y": -2.1042367935180666,
+        "z": -2.8504278321380654
+      }
+    },
+    {
+      "id": "node_42",
+      "name": "Basement stair landing",
+      "description": "",
+      "position": {
+        "x": 13.253889310086489,
+        "y": -2.1042367935180666,
+        "z": -3.305498470751034
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_45",
+      "from": "node_20",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_46",
+      "from": "node_23",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_47",
+      "from": "node_22",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_48",
+      "from": "node_21",
+      "to": "node_20"
+    },
+    {
+      "id": "edge_49",
+      "from": "node_19",
+      "to": "node_18"
+    },
+    {
+      "id": "edge_50",
+      "from": "node_18",
+      "to": "node_24"
+    },
+    {
+      "id": "edge_51",
+      "from": "node_18",
+      "to": "node_25"
+    },
+    {
+      "id": "edge_52",
+      "from": "node_26",
+      "to": "node_27"
+    },
+    {
+      "id": "edge_53",
+      "from": "node_33",
+      "to": "node_28"
+    },
+    {
+      "id": "edge_54",
+      "from": "node_28",
+      "to": "node_32"
+    },
+    {
+      "id": "edge_55",
+      "from": "node_32",
+      "to": "node_31"
+    },
+    {
+      "id": "edge_56",
+      "from": "node_36",
+      "to": "node_35"
+    },
+    {
+      "id": "edge_57",
+      "from": "node_35",
+      "to": "node_28"
+    },
+    {
+      "id": "edge_58",
+      "from": "node_28",
+      "to": "node_27"
+    },
+    {
+      "id": "edge_59",
+      "from": "node_28",
+      "to": "node_29"
+    },
+    {
+      "id": "edge_60",
+      "from": "node_28",
+      "to": "node_34"
+    },
+    {
+      "id": "edge_61",
+      "from": "node_31",
+      "to": "node_30"
+    },
+    {
+      "id": "edge_62",
+      "from": "node_41",
+      "to": "node_42"
+    },
+    {
+      "id": "edge_63",
+      "from": "node_42",
+      "to": "node_39"
+    },
+    {
+      "id": "edge_64",
+      "from": "node_39",
+      "to": "node_38"
+    },
+    {
+      "id": "edge_65",
+      "from": "node_39",
+      "to": "node_40"
+    },
+    {
+      "id": "edge_66",
+      "from": "node_38",
+      "to": "node_37"
+    },
+    {
+      "id": "edge_67",
+      "from": "node_42",
+      "to": "node_28"
+    },
+    {
+      "id": "edge_68",
+      "from": "node_28",
+      "to": "node_18"
+    }
+  ]
+}

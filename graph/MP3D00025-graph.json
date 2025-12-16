@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "Living space of the master suite",
+      "description": "With magenta rug",
+      "position": {
+        "x": 0.3504667000265136,
+        "y": 1.0861464953422542,
+        "z": 3.8329317657535142
+      }
+    },
+    {
+      "id": "node_1",
+      "name": "Entrance foyer",
+      "description": "",
+      "position": {
+        "x": -1.658782388551753,
+        "y": 0.9423645122051255,
+        "z": 0.3812625074557243
+      }
+    },
+    {
+      "id": "node_2",
+      "name": "Hallway to the bedroom with brown bed skirt",
+      "description": "",
+      "position": {
+        "x": -3.241800576468207,
+        "y": 1.3956681518554703,
+        "z": 4.547789848558573
+      }
+    },
+    {
+      "id": "node_3",
+      "name": "Kitchen and dining space",
+      "description": "",
+      "position": {
+        "x": -5.720171741273177,
+        "y": 1.3956681518554703,
+        "z": -3.3895875050424484
+      }
+    },
+    {
+      "id": "node_5",
+      "name": "Bedroom with brown bed skirt",
+      "description": "",
+      "position": {
+        "x": -4.927927758471209,
+        "y": 1.3956681518554703,
+        "z": 8.69549980036085
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Master bedroom with magenta bed skirt",
+      "description": "",
+      "position": {
+        "x": 7.55376067059547,
+        "y": 1.3956681518554686,
+        "z": 7.695322765275856
+      }
+    },
+    {
+      "id": "node_8",
+      "name": "Master bedroom office space",
+      "description": "",
+      "position": {
+        "x": 4.771109866450315,
+        "y": 1.3956681518554686,
+        "z": 8.4961848052361
+      }
+    },
+    {
+      "id": "node_9",
+      "name": "Master bedroom dressing room",
+      "description": "",
+      "position": {
+        "x": 8.6188013505286,
+        "y": 1.3956681518554677,
+        "z": 5.214796381689087
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "Master bedroom bathroom",
+      "description": "",
+      "position": {
+        "x": 7.912510294261351,
+        "y": 1.3956681518554686,
+        "z": 2.980904388393556
+      }
+    },
+    {
+      "id": "node_11",
+      "name": "Family living room with red sofa and dark red rug",
+      "description": "",
+      "position": {
+        "x": -9.14797983210739,
+        "y": 1.3956681518554686,
+        "z": 4.661145923786421
+      }
+    },
+    {
+      "id": "node_12",
+      "name": "Kid bedrooms",
+      "description": "",
+      "position": {
+        "x": -0.9758120983639029,
+        "y": 1.3956681518554686,
+        "z": -4.555009424905197
+      }
+    },
+    {
+      "id": "node_13",
+      "name": "hallway outside the kids bedrooms",
+      "description": "",
+      "position": {
+        "x": -1.5211178358951774,
+        "y": 1.3956681518554686,
+        "z": -2.3591462087271804
+      }
+    },
+    {
+      "id": "node_14",
+      "name": "Kid bathroom",
+      "description": "",
+      "position": {
+        "x": 0.61623344853141,
+        "y": 1.3956681518554686,
+        "z": -2.0021959238923075
+      }
+    },
+    {
+      "id": "node_15",
+      "name": "Kid laundry room",
+      "description": "",
+      "position": {
+        "x": -2.713508532089028,
+        "y": 1.3956681518554686,
+        "z": -2.495038382671755
+      }
+    },
+    {
+      "id": "node_17",
+      "name": "Washitu",
+      "description": "",
+      "position": {
+        "x": 4.039666161689011,
+        "y": 1.3956681518554703,
+        "z": 2.090465285500101
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_30",
+      "from": "node_5",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_31",
+      "from": "node_2",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_32",
+      "from": "node_7",
+      "to": "node_8"
+    },
+    {
+      "id": "edge_33",
+      "from": "node_9",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_34",
+      "from": "node_10",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_35",
+      "from": "node_7",
+      "to": "node_0"
+    },
+    {
+      "id": "edge_36",
+      "from": "node_0",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_37",
+      "from": "node_11",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_38",
+      "from": "node_3",
+      "to": "node_11"
+    },
+    {
+      "id": "edge_39",
+      "from": "node_12",
+      "to": "node_13"
+    },
+    {
+      "id": "edge_40",
+      "from": "node_13",
+      "to": "node_14"
+    },
+    {
+      "id": "edge_41",
+      "from": "node_13",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_42",
+      "from": "node_13",
+      "to": "node_15"
+    },
+    {
+      "id": "edge_43",
+      "from": "node_17",
+      "to": "node_0"
+    },
+    {
+      "id": "edge_44",
+      "from": "node_17",
+      "to": "node_7"
+    }
+  ]
+}

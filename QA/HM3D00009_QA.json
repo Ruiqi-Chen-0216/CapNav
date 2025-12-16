@@ -1,0 +1,146 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the wooden cabinet by the entrance door in the Foyer next to the black leather sofa living room to the area by the white vanity desk with a mirror in the Bedroom with pink style?",
+        "reason": "A clear path is visible from the foyer entrance to the bedroom door, then into the bedroom to the vanity desk, as depicted around 0:08-0:12.",
+        "nodes_involved": {
+            "start": "Foyer next to the black leather sofa living room",
+            "start_detail": "area near the wooden cabinet by the entrance door",
+            "intermediate": [],
+            "end": "Bedroom with pink style",
+            "end_detail": "area by the white vanity desk with a mirror"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the coat rack near the entrance in the Foyer next to the black leather sofa living room to the area in front of the black leather sofa in the Living room with black leather sofa?",
+        "reason": "An open archway directly connects the foyer to the living room with the black leather sofa, visible from 0:02-0:03 and 1:07-1:08.",
+        "nodes_involved": {
+            "start": "Foyer next to the black leather sofa living room",
+            "start_detail": "area by the coat rack near the entrance",
+            "intermediate": [],
+            "end": "Living room with black leather sofa",
+            "end_detail": "area in front of the black leather sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?",
+        "reason": "The agent can navigate out of the bedroom, through the visible hallway (0:19-0:22), and then enter the shower room to the sink area (0:28-0:31).",
+        "nodes_involved": {
+            "start": "Bedroom with pink style",
+            "start_detail": "area near the bed with colorful sheets",
+            "intermediate": [],
+            "end": "Shower room with blue mosaic floor",
+            "end_detail": "area near the white sink vanity"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?",
+        "reason": "The route involves moving from the living room, through the foyer area and a hallway, to the door of the bedroom, as seen from 1:08-1:30.",
+        "nodes_involved": {
+            "start": "Living room with black leather sofa",
+            "start_detail": "area next to the white coffee table",
+            "intermediate": [],
+            "end": "Bedroom with big round patterned sheets",
+            "end_detail": "area near the bed with the large round patterned sheets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the television set in the Living room with black leather sofa to the area by the wall-mounted bookshelves in the Dressing room?",
+        "reason": "A clear path leads from the living room into the hallway and directly to the dressing room entrance, visible at 1:23-1:26 and then into the dressing room at 0:05-0:06.",
+        "nodes_involved": {
+            "start": "Living room with black leather sofa",
+            "start_detail": "area near the television set",
+            "intermediate": [],
+            "end": "Dressing room",
+            "end_detail": "area by the wall-mounted bookshelves"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?",
+        "reason": "These two rooms are directly accessible from the same hallway, as seen from 0:23-0:28. The shower room is seen at 0:29-0:32 and the toilet at 0:25-0:26.",
+        "nodes_involved": {
+            "start": "Shower room with blue mosaic floor",
+            "start_detail": "inside the shower stall",
+            "intermediate": [],
+            "end": "Toilet",
+            "end_detail": "area next to the toilet paper dispenser"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?",
+        "reason": "A path is shown from the living room, through the dining room (2:10-2:15), into the kitchen with the checkered floor (2:25-2:27).",
+        "nodes_involved": {
+            "start": "Living room with white sofa",
+            "start_detail": "light wood floor in front of the white sofa",
+            "intermediate": [],
+            "end": "Kitchen with checkered floor",
+            "end_detail": "area near the black sink on the counter"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the built-in oven in the Kitchen with checkered floor to the area by the small white refrigerator in the Storege room?",
+        "reason": "A direct doorway connects the kitchen area (2:25-2:26) to the storage room (2:32-2:33), providing a clear passage.",
+        "nodes_involved": {
+            "start": "Kitchen with checkered floor",
+            "start_detail": "area near the built-in oven",
+            "intermediate": [],
+            "end": "Storege room",
+            "end_detail": "area by the small white refrigerator"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the brooms and cleaning supplies in the Storege room to the area by the bed with the black dress pattern in the Second floor bedroom with black and white sheets?",
+        "reason": "A doorway connects the storage room (2:36-2:37) directly to this bedroom (2:38-2:39), indicating a traversable path.",
+        "nodes_involved": {
+            "start": "Storege room",
+            "start_detail": "area near the brooms and cleaning supplies",
+            "intermediate": [],
+            "end": "Second floor bedroom with black and white sheets",
+            "end_detail": "area by the bed with the black dress pattern"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the base of the white staircase in the Living room with white sofa to the area at the top of the stairs, next to the window, in the Second floor stair landing space?",
+        "reason": "The white staircase in the living room (1:46-1:47) leads directly to the second-floor landing with a window (1:50-1:51), showing a clear route.",
+        "nodes_involved": {
+            "start": "Living room with white sofa",
+            "start_detail": "base of the white staircase",
+            "intermediate": [],
+            "end": "Second floor stair landing space",
+            "end_detail": "area at the top of the stairs, next to the window"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the black leather couch with striped cushions in the Living room with black leather sofa to the area near the large white sectional sofa in the Living room with white sofa?",
+        "reason": "A route can be inferred by moving from node_8 (1:11-1:12), through the foyer (node_11, 1:04-1:07), past the dressing room (node_4) hallway (1:24-1:27), then continuing towards the main living area (node_9, 1:38-1:41), connecting two distinct living spaces.",
+        "nodes_involved": {
+            "start": "Living room with black leather sofa",
+            "start_detail": "area near the black leather couch with striped cushions",
+            "intermediate": [],
+            "end": "Living room with white sofa",
+            "end_detail": "area near the large white sectional sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area on the patterned bedspread in the Bedroom with big round patterned sheets to the area by the decorative armchair with leaf patterns in the Living room with white sofa?",
+        "reason": "The path from the bedroom (1:30-1:31) involves exiting into the hallway (1:34-1:35), passing the dressing room (node_4) doorway, then entering the living room with the white sofa (node_9, 1:38-1:43) to the armchair.",
+        "nodes_involved": {
+            "start": "Bedroom with big round patterned sheets",
+            "start_detail": "area on the patterned bedspread",
+            "intermediate": [],
+            "end": "Living room with white sofa",
+            "end_detail": "area by the decorative armchair with leaf patterns"
+        }
+    }
+]

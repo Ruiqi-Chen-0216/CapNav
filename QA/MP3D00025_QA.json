@@ -1,0 +1,146 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the console table near the entrance door in the Entrance foyer to the zebra painting on the wall in the main hallway?",
+        "reason": "The video shows a clear walking path from the entrance area, past the console table at 02:11, into the main marble-tiled hallway where the zebra painting is visible at 01:27.",
+        "nodes_involved": {
+            "start": "Entrance foyer",
+            "start_detail": "console table near the entrance door",
+            "intermediate": [],
+            "end": "Hallway to the bedroom with brown bed skirt",
+            "end_detail": "zebra painting on the wall"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?",
+        "reason": "The video shows a continuous walkable path from the family living room's red sofa area (01:58) through open living and dining spaces, past the decorative double doors (00:40) into the master suite living space, and then into the master bedroom (00:50).",
+        "nodes_involved": {
+            "start": "Family living room with red sofa and dark red rug",
+            "start_detail": "red sofa",
+            "intermediate": [],
+            "end": "Master bedroom with magenta bed skirt",
+            "end_detail": "bed with the white and red throw"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the chair in the Hallway to the bedroom with brown bed skirt to the bed with the colorful quilt in the Bedroom with brown bed skirt?",
+        "reason": "At 00:09, a chair is visible in the lighter-floored hallway. This hallway leads directly to the doorway of the bedroom, where the bed with the colorful quilt is seen at 00:17.",
+        "nodes_involved": {
+            "start": "Hallway to the bedroom with brown bed skirt",
+            "start_detail": "chair in the lighter-floored hallway",
+            "intermediate": [],
+            "end": "Bedroom with brown bed skirt",
+            "end_detail": "bed with the colorful quilt"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?",
+        "reason": "The video demonstrates a path from the kitchen sink area at 01:47, through the dining and family living rooms (around 01:50-01:53), past the entrance foyer, through the master suite living area (00:40) and then into the master bedroom's adjacent office space (00:53).",
+        "nodes_involved": {
+            "start": "Kitchen and dining space",
+            "start_detail": "kitchen counter with the sink",
+            "intermediate": [],
+            "end": "Master bedroom office space",
+            "end_detail": "desk area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with the white and red throw in the Master bedroom with magenta bed skirt to the walk-in closet in the Master bedroom dressing room?",
+        "reason": "At 00:58, the bed in the master bedroom is visible, and a clear doorway to the dressing room, which has clothes racks and shelves, is shown at 01:03.",
+        "nodes_involved": {
+            "start": "Master bedroom with magenta bed skirt",
+            "start_detail": "bed with the white and red throw",
+            "intermediate": [],
+            "end": "Master bedroom dressing room",
+            "end_detail": "walk-in closet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?",
+        "reason": "The video shows the bathtub in the master bathroom at 01:06. A continuous path exists from there, through the dressing room, master bedroom, master suite living space, main hallway, and then into the kid laundry room where the washing machine is visible at 00:12.",
+        "nodes_involved": {
+            "start": "Master bedroom bathroom",
+            "start_detail": "bathtub",
+            "intermediate": [],
+            "end": "Kid laundry room",
+            "end_detail": "washing machine"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the red rug in the Living space of the master suite to the large bookshelf wall in the Family living room with red sofa and dark red rug?",
+        "reason": "A path is clearly visible from the red rug area in the master suite living space (00:40), through the decorative double doors, across the main hallway, and into the family living room where the bookshelf wall is prominent at 02:01.",
+        "nodes_involved": {
+            "start": "Living space of the master suite",
+            "start_detail": "red rug in the sofa area",
+            "intermediate": [],
+            "end": "Family living room with red sofa and dark red rug",
+            "end_detail": "large bookshelf wall"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?",
+        "reason": "The video shows a path from the bedroom (00:27), through its adjacent hallway (00:33), into the main tiled hallway, and then into the open Kitchen and dining space where the dining table is seen at 01:35.",
+        "nodes_involved": {
+            "start": "Bedroom with brown bed skirt",
+            "start_detail": "bed with the colorful quilt",
+            "intermediate": [],
+            "end": "Kitchen and dining space",
+            "end_detail": "dining table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the console table in the Hallway to the bedroom with brown bed skirt to the toilet in the Kid bathroom?",
+        "reason": "From the console table visible in the hallway at 00:09, a doorway leads directly into the Kid bathroom where the toilet is seen at 00:19.",
+        "nodes_involved": {
+            "start": "Hallway to the bedroom with brown bed skirt",
+            "start_detail": "console table",
+            "intermediate": [],
+            "end": "Kid bathroom",
+            "end_detail": "toilet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the master suite living room, near the meditation area with floor cushions, to the master bathroom's sink area?",
+        "reason": "The meditation area with floor cushions is visible in the master suite living space at 00:45. From there, a path leads to the master bedroom (00:50) and then to the master bathroom sink area (01:06).",
+        "nodes_involved": {
+            "start": "Living space of the master suite",
+            "start_detail": "meditation area with floor cushions",
+            "intermediate": [],
+            "end": "Master bedroom bathroom",
+            "end_detail": "sink area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the refrigerator in the Kitchen and dining space to the entrance door in the Entrance foyer?",
+        "reason": "The video shows the refrigerator at 01:52. From there, a clear path leads through the open living spaces, past the bookshelves (02:02), into the main marble hallway, and directly to the entrance door at 02:09.",
+        "nodes_involved": {
+            "start": "Kitchen and dining space",
+            "start_detail": "refrigerator",
+            "intermediate": [],
+            "end": "Entrance foyer",
+            "end_detail": "entrance door"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?",
+        "reason": "The washing machine in the Kid laundry room is visible at 00:12. From there, a path leads out into the hallway (00:14) where the zebra painting is visible on the wall at 01:27, at the intersection with the main marble-tiled hallway.",
+        "nodes_involved": {
+            "start": "Kid laundry room",
+            "start_detail": "area next to the washing machine",
+            "intermediate": [],
+            "end": "Hallway to the bedroom with brown bed skirt",
+            "end_detail": "zebra painting on the wall"
+        }
+    }
+]

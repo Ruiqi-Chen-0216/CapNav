@@ -1,0 +1,218 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main entrance door area in the Foyer to the patterned sofa area in the Living room?",
+        "reason": "At 00:00, the video shows the main entrance door in the Foyer. At 00:29, the patterned sofa is visible in the Living room, and a clear path connects these two first-floor areas.",
+        "nodes_involved": {
+            "start": "Foyer",
+            "start_detail": "main entrance door area",
+            "intermediate": [],
+            "end": "Living room",
+            "end_detail": "patterned sofa area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen island with bar stools area in the Kitchen to the white bed area in the Master bedroom?",
+        "reason": "At 00:34, the kitchen island with bar stools is shown. At 01:45, the white bed in the Master bedroom is visible. A clear route involves moving through the first floor, up the main stairs, and along the upstairs hallway.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "kitchen island with bar stools area",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "white bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bar counter with stools area in the Basement bar space to the washing machine area in the Laundry room?",
+        "reason": "At 03:15, the bar counter with stools is visible in the Basement bar space. At 01:34, the washing machine is seen in the Laundry room. This route requires moving from the basement, up two flights of stairs, and through the upstairs hallway.",
+        "nodes_involved": {
+            "start": "Basement bar space",
+            "start_detail": "bar counter with stools area",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "washing machine area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the piano area in the Piano room to the drum set area in the Drum room?",
+        "reason": "At 00:07, the piano is visible in the Piano room. At 03:03, the drum set is shown in the Drum room. The route involves traversing the first floor, descending to the basement, and entering the room.",
+        "nodes_involved": {
+            "start": "Piano room",
+            "start_detail": "piano area",
+            "intermediate": [],
+            "end": "Drum room",
+            "end_detail": "drum set area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from inside the Master bedroom dressing room to the toilet area in the First floor bathroom next to kitchen?",
+        "reason": "At 01:51, the inside of the Master bedroom dressing room is visible. At 00:55, the toilet in the First floor bathroom next to kitchen is shown. The route requires moving from the top floor, down to the first floor, and into the bathroom off the hallway.",
+        "nodes_involved": {
+            "start": "Master bedroom dressing room",
+            "start_detail": "inside the dressing room",
+            "intermediate": [],
+            "end": "First floor bathroom next to kitchen",
+            "end_detail": "toilet area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the computer desk area in the Bedroom with desk and chair to the bed with checkered sheets area in the Bedroom with checkered sheets?",
+        "reason": "At 00:20, the computer desk is seen in the Bedroom with desk and chair. At 02:11, the bed with checkered sheets is shown in the Bedroom with checkered sheets. Both are on the top floor and connected by a hallway.",
+        "nodes_involved": {
+            "start": "Bedroom with desk and chair",
+            "start_detail": "computer desk area",
+            "intermediate": [],
+            "end": "Bedroom with checkered sheets",
+            "end_detail": "bed with checkered sheets area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dining table area in the Formal dining space to a yoga mat area in the Yoga room?",
+        "reason": "At 00:59, the dining table is visible in the Formal dining space. At 03:20, yoga mats are shown in the Yoga room. The route requires moving from the first floor dining area down to the basement exercise room.",
+        "nodes_involved": {
+            "start": "Formal dining space",
+            "start_detail": "dining table area",
+            "intermediate": [],
+            "end": "Yoga room",
+            "end_detail": "yoga mat area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the fireplace area in the Living room to the sink vanity area in the Shared bathroom between bedrooms?",
+        "reason": "At 00:29, the fireplace is visible in the Living room. At 02:06, the sink vanity with blue walls is shown in the Shared bathroom between bedrooms. This route involves moving from the first floor, up the main stairs, and through the upstairs hallway.",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "fireplace area",
+            "intermediate": [],
+            "end": "Shared bathroom between bedrooms",
+            "end_detail": "sink vanity area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from inside the pantry near the lowest shelf in the Kitchen storage room to the bed with gray sheets area in the Bedroom with gray sheets?",
+        "reason": "At 00:39, the lowest shelf inside the pantry is visible. At 01:25, the bed with gray sheets is seen in the Bedroom with gray sheets. This is a long route from a first-floor storage area to a top-floor bedroom.",
+        "nodes_involved": {
+            "start": "Kitchen storage room",
+            "start_detail": "inside the pantry near the lowest shelf",
+            "intermediate": [],
+            "end": "Bedroom with gray sheets",
+            "end_detail": "bed with gray sheets area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from next to the sink vanity in the Basement bathroom to the corner bathtub area in the Master bedroom bathroom?",
+        "reason": "At 03:10, the sink vanity is visible in the Basement bathroom. At 01:55, the corner bathtub is shown in the Master bedroom bathroom. This route requires moving from the basement, up two flights of stairs, and through the upstairs hallway.",
+        "nodes_involved": {
+            "start": "Basement bathroom",
+            "start_detail": "next to the sink vanity",
+            "intermediate": [],
+            "end": "Master bedroom bathroom",
+            "end_detail": "corner bathtub area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the pool table in the Pool and media room to the window area in the Piano room?",
+        "reason": "At 03:30, the pool table is visible in the Pool and media room. At 00:07, the window is shown in the Piano room. This route involves moving from the basement entertainment area up to the first floor piano room.",
+        "nodes_involved": {
+            "start": "Pool and media room",
+            "start_detail": "near the pool table",
+            "intermediate": [],
+            "end": "Piano room",
+            "end_detail": "window area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the base of the main staircase in the Foyer to the window overlooking the backyard area in the Laundry room?",
+        "reason": "At 00:05, the base of the main staircase is visible in the Foyer. At 01:36, the window overlooking the backyard is shown in the Laundry room. This route requires moving from the first floor entry, up the main stairs, and into the laundry room on the top floor.",
+        "nodes_involved": {
+            "start": "Foyer",
+            "start_detail": "base of the main staircase",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "window overlooking the backyard area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the window with patterned curtains in the Bedroom with checkered sheets to the main sink area in the Kitchen?",
+        "reason": "At 02:11, the window with patterned curtains is visible in the Bedroom with checkered sheets. At 00:43, the main sink is shown in the Kitchen. This route requires moving from the top floor bedroom down to the first floor kitchen.",
+        "nodes_involved": {
+            "start": "Bedroom with checkered sheets",
+            "start_detail": "by the window with patterned curtains",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "main sink area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the hutch displaying dishes in the Formal dining space to next to the blue gaming chair in the Drum room?",
+        "reason": "At 01:03, the hutch is visible in the Formal dining space. At 03:05, the blue gaming chair is shown in the Drum room. This route requires moving from the first floor dining area down to the basement and into the drum room.",
+        "nodes_involved": {
+            "start": "Formal dining space",
+            "start_detail": "near the hutch displaying dishes",
+            "intermediate": [],
+            "end": "Drum room",
+            "end_detail": "next to the blue gaming chair"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the television console in the Living room to by the bar countertop in the Basement bar space?",
+        "reason": "At 02:48, the television console is visible in the Living room. At 03:16, the bar countertop is shown in the Basement bar space. This route involves moving from the first floor living room down to the basement bar area.",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "near the television console",
+            "intermediate": [],
+            "end": "Basement bar space",
+            "end_detail": "by the bar countertop"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the fireplace in the Master bedroom to by the red chair in the Bedroom with desk and chair?",
+        "reason": "At 01:42, the fireplace is visible in the Master bedroom. At 00:20, the red chair is shown in the Bedroom with desk and chair. This route involves moving from the top floor master bedroom to a first-floor bedroom.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "by the fireplace",
+            "intermediate": [],
+            "end": "Bedroom with desk and chair",
+            "end_detail": "by the red chair"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sink area in the First floor bathroom next to kitchen to the toilet area in the Basement bathroom?",
+        "reason": "At 00:16, the sink is visible in the First floor bathroom next to kitchen. At 03:11, the toilet is shown in the Basement bathroom. This route requires moving between two bathrooms on different floors.",
+        "nodes_involved": {
+            "start": "First floor bathroom next to kitchen",
+            "start_detail": "sink area",
+            "intermediate": [],
+            "end": "Basement bathroom",
+            "end_detail": "toilet area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the refrigerator in the Kitchen to the patterned armchair area in the Piano room?",
+        "reason": "At 00:36, the refrigerator is visible in the Kitchen. At 00:06, the patterned armchair is shown in the Piano room. A clear path connects these two first-floor rooms.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "by the refrigerator",
+            "intermediate": [],
+            "end": "Piano room",
+            "end_detail": "patterned armchair area"
+        }
+    }
+]

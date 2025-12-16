@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "id": "node_20",
+      "name": "Rooftop terrace",
+      "description": "",
+      "position": {
+        "x": 6.130713069242711,
+        "y": 4.164693719863894,
+        "z": 2.4494470235298156
+      }
+    },
+    {
+      "id": "node_21",
+      "name": "Office space",
+      "description": "",
+      "position": {
+        "x": 7.269109005811928,
+        "y": 4.164693719863892,
+        "z": 6.960175682055094
+      }
+    },
+    {
+      "id": "node_22",
+      "name": "First floor stair landing and hallway",
+      "description": "",
+      "position": {
+        "x": 2.2887122935217823,
+        "y": 1.5931241917610166,
+        "z": 4.207493804762618
+      }
+    },
+    {
+      "id": "node_23",
+      "name": "Kitchen and dining space",
+      "description": "",
+      "position": {
+        "x": 4.839415973824959,
+        "y": 1.5931241917610148,
+        "z": 2.949084550450044
+      }
+    },
+    {
+      "id": "node_24",
+      "name": "Bedroom with dark bed skirt",
+      "description": "",
+      "position": {
+        "x": 1.6963207986412887,
+        "y": 1.5931241917610166,
+        "z": 0.44281946118024484
+      }
+    },
+    {
+      "id": "node_25",
+      "name": "Bedroom with pink bed skirt",
+      "description": "",
+      "position": {
+        "x": -7.656483663772786,
+        "y": 1.5931241917610166,
+        "z": 2.227952900649353
+      }
+    },
+    {
+      "id": "node_26",
+      "name": "Shared bathroom",
+      "description": "",
+      "position": {
+        "x": -4.5596532017114395,
+        "y": 1.5931241917610166,
+        "z": 4.2617511714360425
+      }
+    },
+    {
+      "id": "node_27",
+      "name": "Bathroom of bedroom with pink bed skirt",
+      "description": "",
+      "position": {
+        "x": -7.260926086635074,
+        "y": 1.5931241917610166,
+        "z": 6.13384498441861
+      }
+    },
+    {
+      "id": "node_28",
+      "name": "Bathroom of bedroom with dark bed skirt",
+      "description": "",
+      "position": {
+        "x": -4.460141969226876,
+        "y": 1.5931241917610166,
+        "z": -0.2553860633482601
+      }
+    },
+    {
+      "id": "node_29",
+      "name": "Living space",
+      "description": "",
+      "position": {
+        "x": 8.832988042913875,
+        "y": 1.5931241917610184,
+        "z": 4.432285644060244
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_20",
+      "from": "node_27",
+      "to": "node_25"
+    },
+    {
+      "id": "edge_21",
+      "from": "node_25",
+      "to": "node_22"
+    },
+    {
+      "id": "edge_22",
+      "from": "node_22",
+      "to": "node_24"
+    },
+    {
+      "id": "edge_23",
+      "from": "node_28",
+      "to": "node_24"
+    },
+    {
+      "id": "edge_24",
+      "from": "node_26",
+      "to": "node_22"
+    },
+    {
+      "id": "edge_25",
+      "from": "node_22",
+      "to": "node_23"
+    },
+    {
+      "id": "edge_26",
+      "from": "node_29",
+      "to": "node_23"
+    },
+    {
+      "id": "edge_27",
+      "from": "node_22",
+      "to": "node_29"
+    },
+    {
+      "id": "edge_28",
+      "from": "node_22",
+      "to": "node_21"
+    },
+    {
+      "id": "edge_29",
+      "from": "node_21",
+      "to": "node_20"
+    }
+  ]
+}

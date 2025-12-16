@@ -1,0 +1,63 @@
+[
+  {
+    "agent_name": "HUMAN",
+    "body_shape": "cylinder",
+    "body_height_m": 1.7,
+    "body_width_m": 0.6,
+    "body_depth_m": null,
+    "max_vertical_cross_height_m": 0.3,
+    "can_go_up_or_down_stairs":true,
+    "can_operate_elevator": true,
+    "can_open_the_door": true,
+    "description": "An able-bodied young adult capable of walking, crouching, and stepping over small obstacles up to 0.3 m high."
+  },
+  {
+    "agent_name": "WHEELCHAIR",
+    "body_shape": "box",
+    "body_height_m": 1.2,
+    "body_width_m": 0.7,
+    "body_depth_m": 1.0,
+    "max_vertical_cross_height_m": 0.013,
+    "can_go_up_or_down_stairs":false,
+    "can_operate_elevator": true,
+    "can_open_the_door": true,
+    "description": "A manual wheelchair user with limited vertical climbing ability"
+  },
+  {
+    "agent_name": "HUMANOID",
+    "body_shape": "box",
+    "body_height_m": 1.5,
+    "body_width_m": 0.9,
+    "body_depth_m": 0.9,
+    "max_vertical_cross_height_m": 0.4, 
+    "can_go_up_or_down_stairs":false,
+    "can_operate_elevator": true,
+    "can_open_the_door": true,
+    "description": "Boston Dynamics Atlas humanoid robot approximately the size of a human, capable of obstacle crossing up to 0.4 m, for a single obstacle. However, it cannot go up stairs. "
+  },
+{
+    "agent_name": "QUADRUPEDAL",
+    "body_shape": "box",
+    "body_height_m": 0.7,
+    "body_width_m": 0.5,
+    "body_depth_m": 1.1,
+    "max_vertical_cross_height_m":0.3,
+    "can_go_up_or_down_stairs":true,
+    "can_operate_elevator": false,
+    "can_open_the_door": false,
+    "description": "Boston Dynamics Atlas quadrupedal robot approximately the size of a dog, capable of moderate obstacle crossing up to 0.3 m."
+  },
+  {
+    "agent_name": "SWEEPER",
+    "body_shape": "cylinder",
+    "body_height_m": 0.15,
+    "body_width_m": 0.4,
+    "body_depth_m": null,
+    "max_vertical_cross_height_m": 0.02,
+    "can_go_up_or_down_stairs":false,
+    "can_operate_elevator": false,
+    "can_open_the_door": false,
+    "description": "An autonomous floor sweeping robot with a low cylindrical body and limited ability to cross thresholds up to 0.02 m."
+  }
+
+]

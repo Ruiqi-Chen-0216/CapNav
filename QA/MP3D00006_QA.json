@@ -1,0 +1,50 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the fire extinguisher in the Foyer to the bed with the patterned quilt in the Bedroom next to foyer?",
+        "reason": "The video shows a direct, walkable path from the Foyer entrance (00:00-00:01), past the display cabinet, to the open doorway leading into the Bedroom next to foyer, where the bed with the patterned quilt is clearly visible (00:10-00:16).",
+        "nodes_involved": {
+            "start": "Foyer",
+            "start_detail": "area near the fire extinguisher",
+            "intermediate": [],
+            "end": "Bedroom next to foyer",
+            "end_detail": "bed with the patterned quilt"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?",
+        "reason": "The video demonstrates a continuous, unobstructed path from the Foyer (00:10-00:11), through the Living room (00:37-00:38), and into the Kitchen (01:03-01:05), where the vintage stove is clearly shown (01:14-01:15).",
+        "nodes_involved": {
+            "start": "Foyer",
+            "start_detail": "area near the display cabinet",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "vintage stove"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?",
+        "reason": "The video shows a walkable route exiting the Bedroom next to foyer from the dresser area (00:15-00:17, 00:21-00:25) into the Foyer, and then entering the Bathroom where the bathtub is visible (00:28-00:31).",
+        "nodes_involved": {
+            "start": "Bedroom next to foyer",
+            "start_detail": "dresser area",
+            "intermediate": [],
+            "end": "Bathroom",
+            "end_detail": "bathtub"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dining table in the Living room to the small crib in the Kid bedroom?",
+        "reason": "The video shows a clear doorway connecting the Living room, where the dining table is located (00:50-00:52), directly to the Kid bedroom, where the small crib is visible near the bed (00:55-00:56).",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "dining table",
+            "intermediate": [],
+            "end": "Kid bedroom",
+            "end_detail": "small crib"
+        }
+    }
+]
