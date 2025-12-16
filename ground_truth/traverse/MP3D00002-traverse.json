@@ -1,0 +1,671 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_28|node_29": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T00:50:26.343Z"
+    },
+    "node_29|node_37": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T00:50:26.343Z"
+    },
+    "node_29|node_30": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:21.144Z",
+      "question": "Can [Agent] move from the area at the base of the staircase in the Main entrance foyer and hallway to the large wooden desk near the windows in the Home office next to main entrance?"
+    },
+    "node_30|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:29.726Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_29|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:37.137Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_34|node_36": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:40.990Z",
+      "question": "Can [Agent] move from the dining table on the blue rug in the Kitchen to the sectional sofa facing the fireplace in the Living room next to outdoor porch?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:55:00.903Z",
+      "question": "Can [Agent] move from the area in front of the sliding glass doors in the Living room next to outdoor porch to the outdoor seating area in the Porch with outdoor furniture?"
+    },
+    "node_29|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:55:52.483Z",
+      "question": "Can [Agent] move from the bottom of the carpeted stairs in the Main entrance foyer and hallway to the top of the carpeted stairs in the Top floor stair landing and hallway?"
+    },
+    "node_23|node_27": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:15.539Z",
+      "question": "Can [Agent] move from the hallway wall with the two tall framed artworks in the Top floor stair landing and hallway to the area between the two dark desks in the Top floor learning space with two desks?"
+    },
+    "node_27|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:22.700Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_23|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:24.970Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_19|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:49.035Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:52.165Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:33.465Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_21": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:38.856Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:03:46.959Z",
+      "question": "Can [Agent] move from the end of the hallway near the horse painting in the Top floor stair landing and hallway to the bed with white quilted cover in the Master bedroom?"
+    },
+    "node_25|node_26": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:04:44.570Z",
+      "question": "Can [Agent] move from the side of the bed closest to the bathroom entrance in the Master bedroom to the double vanity with two sinks in the Master suite bathroom?"
+    },
+    "node_26|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:05:29.038Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_25|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:06:01.423Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_23|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:06:04.334Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_31|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:08:03.597Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:08:28.680Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_28|node_29": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T00:51:39.867Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:51:56.869Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_30": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:23.305Z",
+      "question": "Can [Agent] move from the area at the base of the staircase in the Main entrance foyer and hallway to the large wooden desk near the windows in the Home office next to main entrance?"
+    },
+    "node_30|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:43.188Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_29|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:44.488Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_34|node_36": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:43.920Z",
+      "question": "Can [Agent] move from the dining table on the blue rug in the Kitchen to the sectional sofa facing the fireplace in the Living room next to outdoor porch?"
+    },
+    "node_36|node_35": {
+      "traversable": false,
+      "note": "stairs",
+      "timestamp": "2025-11-05T00:55:07.115Z",
+      "question": "Can [Agent] move from the area in front of the sliding glass doors in the Living room next to outdoor porch to the outdoor seating area in the Porch with outdoor furniture?"
+    },
+    "node_29|node_23": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T00:57:45.694Z",
+      "question": "Can [Agent] move from the bottom of the carpeted stairs in the Main entrance foyer and hallway to the top of the carpeted stairs in the Top floor stair landing and hallway?"
+    },
+    "node_23|node_27": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:16.670Z",
+      "question": "Can [Agent] move from the hallway wall with the two tall framed artworks in the Top floor stair landing and hallway to the area between the two dark desks in the Top floor learning space with two desks?"
+    },
+    "node_27|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:29.741Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_23|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:30.721Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_19|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:55.656Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:00:59.979Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "no space to turn",
+      "timestamp": "2025-11-05T01:02:07.001Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_21": {
+      "traversable": false,
+      "note": "no space to turn",
+      "timestamp": "2025-11-05T01:02:12.462Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:03:50.440Z",
+      "question": "Can [Agent] move from the end of the hallway near the horse painting in the Top floor stair landing and hallway to the bed with white quilted cover in the Master bedroom?"
+    },
+    "node_25|node_26": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:04:49.180Z",
+      "question": "Can [Agent] move from the side of the bed closest to the bathroom entrance in the Master bedroom to the double vanity with two sinks in the Master suite bathroom?"
+    },
+    "node_26|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:06:06.414Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_25|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:06:08.225Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_23|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:07:34.590Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_31|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:08:41.723Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:10:25.592Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    }
+  },
+  "ROBOT": {
+    "node_28|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:03.711Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:05.261Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_30": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:24.815Z",
+      "question": "Can [Agent] move from the area at the base of the staircase in the Main entrance foyer and hallway to the large wooden desk near the windows in the Home office next to main entrance?"
+    },
+    "node_30|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:07.113Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_29|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:29.697Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_34|node_36": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:45.140Z",
+      "question": "Can [Agent] move from the dining table on the blue rug in the Kitchen to the sectional sofa facing the fireplace in the Living room next to outdoor porch?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:55:32.959Z",
+      "question": "Can [Agent] move from the area in front of the sliding glass doors in the Living room next to outdoor porch to the outdoor seating area in the Porch with outdoor furniture?"
+    },
+    "node_29|node_23": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T00:57:47.814Z",
+      "question": "Can [Agent] move from the bottom of the carpeted stairs in the Main entrance foyer and hallway to the top of the carpeted stairs in the Top floor stair landing and hallway?"
+    },
+    "node_23|node_27": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:17.369Z",
+      "question": "Can [Agent] move from the hallway wall with the two tall framed artworks in the Top floor stair landing and hallway to the area between the two dark desks in the Top floor learning space with two desks?"
+    },
+    "node_27|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:31.742Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_23|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:35.662Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_19|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:05.320Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_23|node_20": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T01:01:16.332Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_20|node_23": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T01:02:16.433Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_21": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:02:23.524Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_25": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:04:33.949Z",
+      "question": "Can [Agent] move from the end of the hallway near the horse painting in the Top floor stair landing and hallway to the bed with white quilted cover in the Master bedroom?"
+    },
+    "node_25|node_26": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:04:58.443Z",
+      "question": "Can [Agent] move from the side of the bed closest to the bathroom entrance in the Master bedroom to the double vanity with two sinks in the Master suite bathroom?"
+    },
+    "node_26|node_25": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:07:38.831Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_25|node_23": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:07:40.672Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_23|node_24": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:07:47.933Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_31|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:10:29.072Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    },
+    "node_34|node_33": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T01:11:53.528Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    }
+  },
+  "SWEEPER": {
+    "node_28|node_29": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T00:52:10.293Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:12.182Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_30": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:26.255Z",
+      "question": "Can [Agent] move from the area at the base of the staircase in the Main entrance foyer and hallway to the large wooden desk near the windows in the Home office next to main entrance?"
+    },
+    "node_30|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:31.458Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_29|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:32.708Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_34|node_36": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:45.950Z",
+      "question": "Can [Agent] move from the dining table on the blue rug in the Kitchen to the sectional sofa facing the fireplace in the Living room next to outdoor porch?"
+    },
+    "node_36|node_35": {
+      "traversable": false,
+      "note": "door sill and stair",
+      "timestamp": "2025-11-05T00:55:38.911Z",
+      "question": "Can [Agent] move from the area in front of the sliding glass doors in the Living room next to outdoor porch to the outdoor seating area in the Porch with outdoor furniture?"
+    },
+    "node_29|node_23": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T00:57:50.164Z",
+      "question": "Can [Agent] move from the bottom of the carpeted stairs in the Main entrance foyer and hallway to the top of the carpeted stairs in the Top floor stair landing and hallway?"
+    },
+    "node_23|node_27": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:17.939Z",
+      "question": "Can [Agent] move from the hallway wall with the two tall framed artworks in the Top floor stair landing and hallway to the area between the two dark desks in the Top floor learning space with two desks?"
+    },
+    "node_27|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:40.563Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_23|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:41.863Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_19|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:19.302Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:20.622Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:03:36.948Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_21": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:03:38.238Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:04:40.089Z",
+      "question": "Can [Agent] move from the end of the hallway near the horse painting in the Top floor stair landing and hallway to the bed with white quilted cover in the Master bedroom?"
+    },
+    "node_25|node_26": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:05:04.133Z",
+      "question": "Can [Agent] move from the side of the bed closest to the bathroom entrance in the Master bedroom to the double vanity with two sinks in the Master suite bathroom?"
+    },
+    "node_26|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:07:53.544Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_25|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:07:54.874Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_23|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:07:55.894Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_31|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:11:55.778Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:11:59.479Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_28|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:14.513Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:16.155Z",
+      "question": "Can [Agent] move from the welcome mat in front of the main door in the Main entrance porch to the area near the grand piano in the Living room with plants?"
+    },
+    "node_29|node_30": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:52:27.655Z",
+      "question": "Can [Agent] move from the area at the base of the staircase in the Main entrance foyer and hallway to the large wooden desk near the windows in the Home office next to main entrance?"
+    },
+    "node_30|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:35.399Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_29|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:36.869Z",
+      "question": "Can [Agent] move from the armchair near the entrance in the Home office next to main entrance to the kitchen island with sink in the Kitchen?"
+    },
+    "node_34|node_36": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:54:47.102Z",
+      "question": "Can [Agent] move from the dining table on the blue rug in the Kitchen to the sectional sofa facing the fireplace in the Living room next to outdoor porch?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:55:40.841Z",
+      "question": "Can [Agent] move from the area in front of the sliding glass doors in the Living room next to outdoor porch to the outdoor seating area in the Porch with outdoor furniture?"
+    },
+    "node_29|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:57:51.734Z",
+      "question": "Can [Agent] move from the bottom of the carpeted stairs in the Main entrance foyer and hallway to the top of the carpeted stairs in the Top floor stair landing and hallway?"
+    },
+    "node_23|node_27": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:18.279Z",
+      "question": "Can [Agent] move from the hallway wall with the two tall framed artworks in the Top floor stair landing and hallway to the area between the two dark desks in the Top floor learning space with two desks?"
+    },
+    "node_27|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:43.234Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_23|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T00:58:43.984Z",
+      "question": "Can [Agent] move from the blue armchair near the windows in the Top floor learning space with two desks to the pool table area in the Family play room?"
+    },
+    "node_19|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:26.444Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:01:27.694Z",
+      "question": "Can [Agent] move from the area near the dartboard on the wooden wall in the Family play room to the bed with striped sheets and climbing wall headboard in the Bedroom with line pattern sheets?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:03:39.418Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_21": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:03:39.868Z",
+      "question": "Can [Agent] move from the dresser next to the window in the Bedroom with line pattern sheets to the bed with diamond grid sheets in the Bedroom with diamond grid sheets?"
+    },
+    "node_23|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:04:41.450Z",
+      "question": "Can [Agent] move from the end of the hallway near the horse painting in the Top floor stair landing and hallway to the bed with white quilted cover in the Master bedroom?"
+    },
+    "node_25|node_26": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:05:05.113Z",
+      "question": "Can [Agent] move from the side of the bed closest to the bathroom entrance in the Master bedroom to the double vanity with two sinks in the Master suite bathroom?"
+    },
+    "node_26|node_25": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:07:58.655Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_25|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:07:59.495Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_23|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:08:00.655Z",
+      "question": "Can [Agent] move from the walk-in shower area in the Master suite bathroom to the washer and dryer units in the Laundry room?"
+    },
+    "node_31|node_29": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:12:01.839Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:12:04.481Z",
+      "question": "Can [Agent] move from the armchair near the window in the First floor bedroom to the shelves with white bowls in the Walk in storage next to kitchen?"
+    }
+  }
+}

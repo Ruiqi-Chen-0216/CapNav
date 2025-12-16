@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "node_111",
+      "name": "Entrance porch",
+      "description": "",
+      "position": {
+        "x": 21.030144872867755,
+        "y": 1.373559324741364,
+        "z": -12.002037134320647
+      }
+    },
+    {
+      "id": "node_112",
+      "name": "Foyer",
+      "description": "",
+      "position": {
+        "x": 15.798690475090128,
+        "y": 1.3735593247413658,
+        "z": -11.588223843180803
+      }
+    },
+    {
+      "id": "node_113",
+      "name": "Hallway",
+      "description": "",
+      "position": {
+        "x": 10.386893170630255,
+        "y": 1.373559324741364,
+        "z": -6.746557786718631
+      }
+    },
+    {
+      "id": "node_114",
+      "name": "Master bedroom suite",
+      "description": "",
+      "position": {
+        "x": -0.8616880578776533,
+        "y": 1.373559324741364,
+        "z": -2.4199796064814096
+      }
+    },
+    {
+      "id": "node_115",
+      "name": "Smaller bedroom suite",
+      "description": "",
+      "position": {
+        "x": 5.594233612003271,
+        "y": 1.373559324741364,
+        "z": -4.919190776922404
+      }
+    },
+    {
+      "id": "node_116",
+      "name": "Yard",
+      "description": "",
+      "position": {
+        "x": 22.450838122542365,
+        "y": 1.3735593247413622,
+        "z": -18.830590790273543
+      }
+    },
+    {
+      "id": "node_117",
+      "name": "Main social space",
+      "description": "",
+      "position": {
+        "x": 13.058462564418788,
+        "y": 1.373559324741364,
+        "z": -17.911381027317063
+      }
+    },
+    {
+      "id": "node_118",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": 17.884284979220247,
+        "y": 1.373559324741364,
+        "z": -17.610794843186557
+      }
+    },
+    {
+      "id": "node_119",
+      "name": "Storage room next to social space",
+      "description": "",
+      "position": {
+        "x": 11.309564999521758,
+        "y": 1.373559324741364,
+        "z": -13.390712667169613
+      }
+    },
+    {
+      "id": "node_120",
+      "name": "Private social space",
+      "description": "",
+      "position": {
+        "x": 17.533042890033975,
+        "y": 1.373559324741364,
+        "z": -9.428986369207433
+      }
+    },
+    {
+      "id": "node_121",
+      "name": "First floor stair landing",
+      "description": "",
+      "position": {
+        "x": 17.340498334042483,
+        "y": 1.373559324741364,
+        "z": -14.440423049520648
+      }
+    },
+    {
+      "id": "node_122",
+      "name": "Office",
+      "description": "",
+      "position": {
+        "x": 18.030525906469112,
+        "y": 4.32315731883049,
+        "z": -15.863747080772082
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_107",
+      "from": "node_111",
+      "to": "node_112"
+    },
+    {
+      "id": "edge_108",
+      "from": "node_112",
+      "to": "node_120"
+    },
+    {
+      "id": "edge_109",
+      "from": "node_112",
+      "to": "node_113"
+    },
+    {
+      "id": "edge_110",
+      "from": "node_113",
+      "to": "node_120"
+    },
+    {
+      "id": "edge_111",
+      "from": "node_112",
+      "to": "node_117"
+    },
+    {
+      "id": "edge_112",
+      "from": "node_117",
+      "to": "node_119"
+    },
+    {
+      "id": "edge_113",
+      "from": "node_118",
+      "to": "node_117"
+    },
+    {
+      "id": "edge_114",
+      "from": "node_117",
+      "to": "node_116"
+    },
+    {
+      "id": "edge_115",
+      "from": "node_114",
+      "to": "node_113"
+    },
+    {
+      "id": "edge_116",
+      "from": "node_113",
+      "to": "node_115"
+    },
+    {
+      "id": "edge_117",
+      "from": "node_118",
+      "to": "node_121"
+    },
+    {
+      "id": "edge_118",
+      "from": "node_121",
+      "to": "node_117"
+    },
+    {
+      "id": "edge_119",
+      "from": "node_122",
+      "to": "node_121"
+    }
+  ]
+}

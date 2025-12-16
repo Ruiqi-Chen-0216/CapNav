@@ -1,0 +1,86 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the fountain on the rooftop terrace to the large wooden desk in the office space?",
+        "reason": "At 00:00-00:18, the video shows a clear path from the fountain on the rooftop terrace, through the glass door, and directly into the office space with the desk and bookshelves.",
+        "nodes_involved": {
+            "start": "Rooftop terrace",
+            "start_detail": "area near the fountain",
+            "intermediate": [],
+            "end": "Office space",
+            "end_detail": "large wooden desk"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the large sofa facing the windows in the living space to the outdoor seating area on the rooftop terrace?",
+        "reason": "The video shows a path from the living room (00:49-00:51), up the main staircase (00:37-00:32), through the first floor landing and office space, and then out to the rooftop terrace with seating (00:19-00:16).",
+        "nodes_involved": {
+            "start": "Living space",
+            "start_detail": "large sofa facing the windows",
+            "intermediate": [],
+            "end": "Rooftop terrace",
+            "end_detail": "outdoor seating area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen counter with bar stools in the kitchen and dining space to the area next to the dark bed with the fur blanket in the bedroom with dark bed skirt?",
+        "reason": "A walkable route is visible from the kitchen counter (00:53-00:58), past the stairs (00:58-01:00), up to the first floor hallway (01:03-01:06), and then into the bedroom with the dark bed skirt (01:06-01:10).",
+        "nodes_involved": {
+            "start": "Kitchen and dining space",
+            "start_detail": "kitchen counter with bar stools",
+            "intermediate": [],
+            "end": "Bedroom with dark bed skirt",
+            "end_detail": "area next to the dark bed with the fur blanket"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the large bookshelf in the office space to the area next to the bed with the pink bed skirt in the bedroom with pink bed skirt?",
+        "reason": "The video shows the office space (00:23-00:25) is connected to the first floor stair landing and hallway. From this hallway, a clear path (01:23-01:44) leads to the bedroom with the pink bed skirt.",
+        "nodes_involved": {
+            "start": "Office space",
+            "start_detail": "area near the large bookshelf",
+            "intermediate": [],
+            "end": "Bedroom with pink bed skirt",
+            "end_detail": "area next to the bed with the pink bed skirt"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from in front of the white wardrobe in the bedroom with dark bed skirt to the area near the toilet in the shared bathroom?",
+        "reason": "From the white wardrobe in the bedroom (01:18-01:20), a path leads out into the first floor hallway (01:20-01:21) and then further along the hallway (01:29-01:31) to the shared bathroom with the toilet.",
+        "nodes_involved": {
+            "start": "Bedroom with dark bed skirt",
+            "start_detail": "in front of the white wardrobe",
+            "intermediate": [],
+            "end": "Shared bathroom",
+            "end_detail": "area near the toilet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the double sink vanity in the bathroom of bedroom with pink bed skirt to the top of the main staircase landing in the first floor stair landing and hallway?",
+        "reason": "The video demonstrates a path from the double sink vanity (01:55-01:56) through the bedroom with the pink bed skirt, along the first floor hallway (02:00-02:06), directly to the top of the main staircase landing.",
+        "nodes_involved": {
+            "start": "Bathroom of bedroom with pink bed skirt",
+            "start_detail": "double sink vanity",
+            "intermediate": [],
+            "end": "First floor stair landing and hallway",
+            "end_detail": "top of the main staircase landing"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the fireplace in the living space to the area near the window with patterned curtains in the bedroom with pink bed skirt?",
+        "reason": "A continuous path connects the living space fireplace (00:46-00:48) to the main staircase (00:37-00:32), which leads up to the first floor hallway. From there, the hallway (01:23-01:44) provides access to the bedroom with the pink bed and window.",
+        "nodes_involved": {
+            "start": "Living space",
+            "start_detail": "area near the fireplace",
+            "intermediate": [],
+            "end": "Bedroom with pink bed skirt",
+            "end_detail": "area near the window with patterned curtains"
+        }
+    }
+]

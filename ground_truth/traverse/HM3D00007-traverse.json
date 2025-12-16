@@ -1,0 +1,490 @@
+{
+  "HUMAN": {
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-10-29T20:44:42.346Z"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-10-29T20:44:42.346Z"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:25:28.020Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_3|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:25:29.513Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_5|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:27:54.480Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_3|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:27:56.707Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:32:35.818Z",
+      "question": "Can [Agent] move from the main living room at the white sofa to the kitchen near the sink?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:10.908Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:20.213Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:23.372Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:24.026Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:40:02.828Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:40:04.161Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:42:28.388Z",
+      "question": "Can [Agent] move from the parking space near house number 6731 to the master bedroom near the wooden chair with a blue pillow?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:44:05.435Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_7|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:44:07.997Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:16:46.796Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_3|node_4": {
+      "traversable": false,
+      "note": "no enough turning space at the bedroom entrance",
+      "timestamp": "2025-11-03T06:17:53.275Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_4|node_3": {
+      "traversable": false,
+      "note": "no enough turning space at the bedroom entrance",
+      "timestamp": "2025-11-03T06:25:45.844Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_3|node_5": {
+      "traversable": false,
+      "note": "foyer hallway is too narrow for wheelchair to turn",
+      "timestamp": "2025-11-03T06:26:32.389Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_5|node_3": {
+      "traversable": false,
+      "note": "foyer hallway is too narrow for wheelchair to turn",
+      "timestamp": "2025-11-03T06:31:53.245Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_3|node_7": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T06:32:06.098Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:32:49.055Z",
+      "question": "Can [Agent] move from the main living room at the white sofa to the kitchen near the sink?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:26.732Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_11": {
+      "traversable": false,
+      "note": "hallway too narrow to turn wheelchair",
+      "timestamp": "2025-11-03T06:37:08.485Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_11|node_10": {
+      "traversable": false,
+      "note": "door too narrow; no space to turn in the bathroom",
+      "timestamp": "2025-11-03T06:38:09.154Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_10": {
+      "traversable": false,
+      "note": "hallway too narrow for wheelchair to turn",
+      "timestamp": "2025-11-03T06:39:03.033Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_10|node_11": {
+      "traversable": false,
+      "note": "door too narrow; no space to turn in the bathroom",
+      "timestamp": "2025-11-03T06:40:09.282Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_10|node_7": {
+      "traversable": false,
+      "note": "hallway too narrow for wheelchair to turn",
+      "timestamp": "2025-11-03T06:40:12.802Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:43:02.103Z",
+      "question": "Can [Agent] move from the parking space near house number 6731 to the master bedroom near the wooden chair with a blue pillow?"
+    },
+    "node_11|node_7": {
+      "traversable": false,
+      "note": "hallway too narrow to turn wheelchair; bathroom also too small for wheelchair to turn",
+      "timestamp": "2025-11-03T06:44:41.752Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_7|node_3": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T06:44:46.194Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    }
+  },
+  "ROBOT": {
+    "node_1|node_3": {
+      "traversable": false,
+      "note": "Main door too narrow",
+      "timestamp": "2025-11-03T06:18:37.207Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_3|node_4": {
+      "traversable": false,
+      "note": "Bedroom door too narrow; the desk is too deep in the corner and the space between bed and wall is not enough for the robot to pass",
+      "timestamp": "2025-11-03T06:23:56.288Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_4|node_3": {
+      "traversable": false,
+      "note": "Bedroom door too narrow",
+      "timestamp": "2025-11-03T06:26:48.537Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_3|node_5": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-03T06:27:38.922Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_5|node_3": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-03T06:32:12.631Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_3|node_7": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T06:32:17.817Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_7|node_8": {
+      "traversable": false,
+      "note": "no enough space for robot to go pass the fridge and dining table",
+      "timestamp": "2025-11-03T06:34:04.215Z",
+      "question": "Can [Agent] move from the main living room at the white sofa to the kitchen near the sink?"
+    },
+    "node_8|node_7": {
+      "traversable": false,
+      "note": "no enough space for robot to go pass the fridge and dining table",
+      "timestamp": "2025-11-03T06:39:08.870Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_11": {
+      "traversable": false,
+      "note": "bathroom foor too narrow",
+      "timestamp": "2025-11-03T06:39:16.284Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_11|node_10": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T06:39:22.951Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_10": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T06:39:29.390Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_10|node_11": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T06:40:15.973Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_10|node_7": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T06:40:23.093Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:43:44.876Z",
+      "question": "Can [Agent] move from the parking space near house number 6731 to the master bedroom near the wooden chair with a blue pillow?"
+    },
+    "node_11|node_7": {
+      "traversable": false,
+      "note": "bathroom foor too narrow",
+      "timestamp": "2025-11-03T06:44:54.220Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_7|node_3": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T06:44:55.886Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    }
+  },
+  "SWEEPER": {
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:24:12.382Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:24:18.048Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:27:41.441Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_3|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:27:46.094Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_5|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:32:20.765Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_3|node_7": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T06:32:23.178Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:06.347Z",
+      "question": "Can [Agent] move from the main living room at the white sofa to the kitchen near the sink?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:39:32.203Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:39:37.988Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:39:40.402Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:39:42.215Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:40:27.441Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:40:31.226Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:43:50.034Z",
+      "question": "Can [Agent] move from the parking space near house number 6731 to the master bedroom near the wooden chair with a blue pillow?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:45:02.392Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_7|node_3": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T06:45:05.138Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:24:25.193Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:25:24.045Z",
+      "question": "Can [Agent] move from the porch area near the front door to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:27:50.974Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_3|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:27:52.679Z",
+      "question": "Can [Agent] move from the first floor bedroom near the bed with the pink comforter to the first floor bathroom at the sink area?"
+    },
+    "node_5|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:32:27.698Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_3|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:32:32.924Z",
+      "question": "Can [Agent] move from the first floor bathroom at the tub area to the main living room near the fireplace?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:34:07.774Z",
+      "question": "Can [Agent] move from the main living room at the white sofa to the kitchen near the sink?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:39:44.923Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:42:24.412Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:39:53.229Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:40:01.041Z",
+      "question": "Can [Agent] move from the kitchen near the white refrigerator to the master bedroom near the bed with blue and white bedding?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:42:04.210Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:42:07.491Z",
+      "question": "Can [Agent] move from the master bedroom near the wooden closets to the master bathroom near the toilet?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:43:58.953Z",
+      "question": "Can [Agent] move from the parking space near house number 6731 to the master bedroom near the wooden chair with a blue pillow?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:45:12.298Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    },
+    "node_7|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T06:45:16.752Z",
+      "question": "Can [Agent] move from the master bathroom at the vanity to the first floor bedroom near the desk with the lamp?"
+    }
+  }
+}

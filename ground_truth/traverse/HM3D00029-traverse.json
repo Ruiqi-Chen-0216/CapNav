@@ -1,0 +1,251 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_128|node_121": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T06:56:21.851Z"
+    },
+    "node_121|node_122": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T06:56:21.851Z"
+    },
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:59:42.311Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_121|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:59:45.442Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:57.370Z",
+      "question": "Can [Agent] move from the dining table area in the Kitchen and dining space to the stacked washer and dryer in the Laundry room?"
+    },
+    "node_123|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:19.519Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:20.705Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:57.237Z",
+      "question": "Can [Agent] move from the TV stand area in the Living room to the small gray rug in Bedroom with gray sheets and rug?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_128|node_121": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:58:13.207Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_121|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:58:16.247Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:59:53.724Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_121|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:01.764Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:01:42.214Z",
+      "question": "Can [Agent] move from the dining table area in the Kitchen and dining space to the stacked washer and dryer in the Laundry room?"
+    },
+    "node_123|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:29.078Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:31.011Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:03:02.849Z",
+      "question": "Can [Agent] move from the TV stand area in the Living room to the small gray rug in Bedroom with gray sheets and rug?"
+    }
+  },
+  "ROBOT": {
+    "node_128|node_121": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:58:18.672Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_121|node_122": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T06:58:47.806Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:06.296Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_121|node_124": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T07:00:30.911Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_126|node_127": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T07:02:14.731Z",
+      "question": "Can [Agent] move from the dining table area in the Kitchen and dining space to the stacked washer and dryer in the Laundry room?"
+    },
+    "node_123|node_121": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T07:02:40.345Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_119": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T07:02:42.611Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_123": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T07:03:10.956Z",
+      "question": "Can [Agent] move from the TV stand area in the Living room to the small gray rug in Bedroom with gray sheets and rug?"
+    }
+  },
+  "SWEEPER": {
+    "node_128|node_121": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:58:52.032Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_121|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:58:53.352Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:42.201Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_121|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:44.976Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:16.477Z",
+      "question": "Can [Agent] move from the dining table area in the Kitchen and dining space to the stacked washer and dryer in the Laundry room?"
+    },
+    "node_123|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:45.063Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:51.011Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:03:14.690Z",
+      "question": "Can [Agent] move from the TV stand area in the Living room to the small gray rug in Bedroom with gray sheets and rug?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_128|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:58:54.950Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_121|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:58:55.765Z",
+      "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?"
+    },
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:46.856Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_121|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:00:48.455Z",
+      "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:17.852Z",
+      "question": "Can [Agent] move from the dining table area in the Kitchen and dining space to the stacked washer and dryer in the Laundry room?"
+    },
+    "node_123|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:52.049Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:02:53.051Z",
+      "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?"
+    },
+    "node_121|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T07:03:16.047Z",
+      "question": "Can [Agent] move from the TV stand area in the Living room to the small gray rug in Bedroom with gray sheets and rug?"
+    }
+  }
+}

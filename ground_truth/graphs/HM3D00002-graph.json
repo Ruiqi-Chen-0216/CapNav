@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "Porch",
+      "description": "",
+      "position": {
+        "x": -6.871059301176581,
+        "y": 0.2336659552976414,
+        "z": 5.999062377687219
+      }
+    },
+    {
+      "id": "node_1",
+      "name": "Yard",
+      "description": "",
+      "position": {
+        "x": -6.98989464065397,
+        "y": 0.20803158019167894,
+        "z": 8.429650599882558
+      }
+    },
+    {
+      "id": "node_2",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": -6.008800638742956,
+        "y": 0.30617948808429957,
+        "z": 3.446894508603113
+      }
+    },
+    {
+      "id": "node_3",
+      "name": "Living Room",
+      "description": "",
+      "position": {
+        "x": -10.83409592587898,
+        "y": 0.3035206934686158,
+        "z": 1.8880671994911218
+      }
+    },
+    {
+      "id": "node_4",
+      "name": "Guest Bathroom",
+      "description": "",
+      "position": {
+        "x": -5.699436796506102,
+        "y": 0.3079823457040806,
+        "z": -0.0673273840844435
+      }
+    },
+    {
+      "id": "node_5",
+      "name": "Master Bathroom",
+      "description": "with a tub",
+      "position": {
+        "x": -5.853741343165359,
+        "y": 3.4228233213907844,
+        "z": 0.012639398056827567
+      }
+    },
+    {
+      "id": "node_6",
+      "name": "Second floor hallway",
+      "description": "",
+      "position": {
+        "x": -8.632041179677422,
+        "y": 3.4314817414597156,
+        "z": 0.6990399550489901
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Study room",
+      "description": "",
+      "position": {
+        "x": -11.319617517435427,
+        "y": 3.4226995296490133,
+        "z": 5.040156037063769
+      }
+    },
+    {
+      "id": "node_8",
+      "name": "Master bedroom",
+      "description": "With a big bed and a crib",
+      "position": {
+        "x": -11.340632026630885,
+        "y": 3.4248156873107893,
+        "z": 1.3427872490689925
+      }
+    },
+    {
+      "id": "node_9",
+      "name": "Children Bedroom",
+      "description": "With a small bed",
+      "position": {
+        "x": -6.531685998040672,
+        "y": 3.431771019561702,
+        "z": 3.0440537645517174
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "Balcony",
+      "description": "",
+      "position": {
+        "x": -5.581429834486578,
+        "y": 3.3558623855383347,
+        "z": 5.627524345401151
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "from": "node_10",
+      "to": "node_9"
+    },
+    {
+      "id": "edge_1",
+      "from": "node_9",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_2",
+      "from": "node_6",
+      "to": "node_5"
+    },
+    {
+      "id": "edge_3",
+      "from": "node_6",
+      "to": "node_8"
+    },
+    {
+      "id": "edge_4",
+      "from": "node_8",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_5",
+      "from": "node_6",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_6",
+      "from": "node_3",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_7",
+      "from": "node_3",
+      "to": "node_0"
+    },
+    {
+      "id": "edge_8",
+      "from": "node_0",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_9",
+      "from": "node_3",
+      "to": "node_4"
+    }
+  ]
+}

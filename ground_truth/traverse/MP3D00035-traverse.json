@@ -1,0 +1,582 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_97|node_98": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T07:24:47.279Z"
+    },
+    "node_98|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:46.910Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_97|node_99": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:48.280Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_99|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:59.852Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_97|node_100": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:01.953Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_100|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:34.709Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_97|node_101": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:41.160Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_101|node_105": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:26.509Z",
+      "question": "Can [Agent] move from next to the built-in cabinet shelves in the First floor master bedroom to the large mirror at the end of the Dressing room of first floor master bedroom?"
+    },
+    "node_105|node_104": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:01.296Z",
+      "question": "Can [Agent] move from the desk by the window in the Dressing room of first floor master bedroom to the double vanity sinks in the Bathroom of first floor master bedroom?"
+    },
+    "node_101|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:39.663Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_97|node_107": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:43.714Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_107|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:30:58.397Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_97|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:31:03.738Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_111|node_108": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:31:05.319Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_108|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:32:44.957Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_111|node_110": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:32:46.677Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_109|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:33:43.348Z",
+      "question": "Can [Agent] move from the bed with the yellow bench in the Second floor bedroom to near the large wall clock in the Second floor home office?"
+    },
+    "node_110|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:27.666Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    },
+    "node_111|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:31.197Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_97|node_98": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:37.238Z",
+      "question": "Can [Agent] move from the area near the console table with the mirror in the Entrance foyer and hallway to the white sofa facing the window in the Social space next to entrance?"
+    },
+    "node_98|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:49.370Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_97|node_99": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:51.911Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_99|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:03.483Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_97|node_100": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:03.943Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_100|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:27:17.487Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_97|node_101": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:27:20.267Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_101|node_105": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:28.420Z",
+      "question": "Can [Agent] move from next to the built-in cabinet shelves in the First floor master bedroom to the large mirror at the end of the Dressing room of first floor master bedroom?"
+    },
+    "node_105|node_104": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:04.496Z",
+      "question": "Can [Agent] move from the desk by the window in the Dressing room of first floor master bedroom to the double vanity sinks in the Bathroom of first floor master bedroom?"
+    },
+    "node_101|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:45.314Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_97|node_107": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:55.036Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_107|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:31:07.269Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_97|node_111": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:31:12.911Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_111|node_108": {
+      "traversable": false,
+      "note": "cannot go up the stairs",
+      "timestamp": "2025-11-05T07:31:40.676Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_108|node_111": {
+      "traversable": true,
+      "note": "cannot go up the stairs",
+      "timestamp": "2025-11-05T07:32:59.090Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_111|node_110": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:33:19.684Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_109|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:00.361Z",
+      "question": "Can [Agent] move from the bed with the yellow bench in the Second floor bedroom to near the large wall clock in the Second floor home office?"
+    },
+    "node_110|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:34.167Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    },
+    "node_111|node_97": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:34:35.708Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    }
+  },
+  "ROBOT": {
+    "node_97|node_98": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:41.609Z",
+      "question": "Can [Agent] move from the area near the console table with the mirror in the Entrance foyer and hallway to the white sofa facing the window in the Social space next to entrance?"
+    },
+    "node_98|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:53.501Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_97|node_99": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:54.471Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_99|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:04.383Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_97|node_100": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:04.853Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_100|node_97": {
+      "traversable": false,
+      "note": "furniture clutter the way",
+      "timestamp": "2025-11-05T07:27:34.140Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_97|node_101": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T07:27:57.985Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_101|node_105": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:53.594Z",
+      "question": "Can [Agent] move from next to the built-in cabinet shelves in the First floor master bedroom to the large mirror at the end of the Dressing room of first floor master bedroom?"
+    },
+    "node_105|node_104": {
+      "traversable": false,
+      "note": "door to the bathroom too narow",
+      "timestamp": "2025-11-05T07:29:31.382Z",
+      "question": "Can [Agent] move from the desk by the window in the Dressing room of first floor master bedroom to the double vanity sinks in the Bathroom of first floor master bedroom?"
+    },
+    "node_101|node_97": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T07:29:57.676Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_97|node_107": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T07:30:36.344Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_107|node_97": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T07:31:50.897Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_97|node_111": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:31:55.198Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_111|node_108": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:32:00.720Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_108|node_111": {
+      "traversable": true,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:33:24.544Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_111|node_110": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-05T07:33:30.786Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_109|node_111": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-05T07:34:16.304Z",
+      "question": "Can [Agent] move from the bed with the yellow bench in the Second floor bedroom to near the large wall clock in the Second floor home office?"
+    },
+    "node_110|node_111": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-05T07:34:37.428Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    },
+    "node_111|node_97": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:34:38.388Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    }
+  },
+  "SWEEPER": {
+    "node_97|node_98": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:42.639Z",
+      "question": "Can [Agent] move from the area near the console table with the mirror in the Entrance foyer and hallway to the white sofa facing the window in the Social space next to entrance?"
+    },
+    "node_98|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:55.501Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_97|node_99": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:56.062Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_99|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:05.633Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_97|node_100": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:06.154Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_100|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:01.605Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_97|node_101": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:02.865Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_101|node_105": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:55.335Z",
+      "question": "Can [Agent] move from next to the built-in cabinet shelves in the First floor master bedroom to the large mirror at the end of the Dressing room of first floor master bedroom?"
+    },
+    "node_105|node_104": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:32.972Z",
+      "question": "Can [Agent] move from the desk by the window in the Dressing room of first floor master bedroom to the double vanity sinks in the Bathroom of first floor master bedroom?"
+    },
+    "node_101|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:30:39.484Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_97|node_107": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:30:40.894Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_107|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:32:08.190Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_97|node_111": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:32:11.051Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_111|node_108": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:32:13.783Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_108|node_111": {
+      "traversable": true,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:33:32.856Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_111|node_110": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:33:34.856Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_109|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:20.965Z",
+      "question": "Can [Agent] move from the bed with the yellow bench in the Second floor bedroom to near the large wall clock in the Second floor home office?"
+    },
+    "node_110|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:39.808Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    },
+    "node_111|node_97": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:34:40.848Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_97|node_98": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:44.639Z",
+      "question": "Can [Agent] move from the area near the console table with the mirror in the Entrance foyer and hallway to the white sofa facing the window in the Social space next to entrance?"
+    },
+    "node_98|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:56.842Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_97|node_99": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:25:57.632Z",
+      "question": "Can [Agent] move from the white armchairs near the fireplace in the Social space next to entrance to the stove area in the Kitchen?"
+    },
+    "node_99|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:17.946Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_97|node_100": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:26:20.026Z",
+      "question": "Can [Agent] move from the breakfast bar with the stool in the Kitchen to the wooden dining table in the Dining space?"
+    },
+    "node_100|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:07.746Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_97|node_101": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:08.896Z",
+      "question": "Can [Agent] move from the fireplace area in the Dining space to the large bed with blue pillows in the First floor master bedroom?"
+    },
+    "node_101|node_105": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:28:56.895Z",
+      "question": "Can [Agent] move from next to the built-in cabinet shelves in the First floor master bedroom to the large mirror at the end of the Dressing room of first floor master bedroom?"
+    },
+    "node_105|node_104": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:29:33.982Z",
+      "question": "Can [Agent] move from the desk by the window in the Dressing room of first floor master bedroom to the double vanity sinks in the Bathroom of first floor master bedroom?"
+    },
+    "node_101|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:30:43.945Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_97|node_107": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:30:44.875Z",
+      "question": "Can [Agent] move from the French doors leading outside in the First floor master bedroom to the small console table near the bed in the First floor bedroom with cyan bed skirt?"
+    },
+    "node_107|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:32:15.652Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_97|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:32:16.752Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_111|node_108": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:32:18.212Z",
+      "question": "Can [Agent] move from by the bed with the cyan bed skirt in the First floor bedroom with cyan bed skirt to the upper sofa seating in the Media room?"
+    },
+    "node_108|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:33:36.847Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_111|node_110": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:33:38.637Z",
+      "question": "Can [Agent] move from near the wooden cabinet with artwork above it in the Media room to the long desk with windows in the Second floor home office?"
+    },
+    "node_109|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:23.785Z",
+      "question": "Can [Agent] move from the bed with the yellow bench in the Second floor bedroom to near the large wall clock in the Second floor home office?"
+    },
+    "node_110|node_111": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:42.199Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    },
+    "node_111|node_97": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:34:43.169Z",
+      "question": "Can [Agent] move from the wooden desk with the globe in the Second floor home office to near the dark decorative door in the Entrance foyer and hallway?"
+    }
+  }
+}

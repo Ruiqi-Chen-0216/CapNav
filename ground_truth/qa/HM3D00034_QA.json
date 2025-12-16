@@ -1,0 +1,98 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the large wooden bed in the Master bedroom?",
+        "reason": "The video shows a clear pathway from the main entrance area of the foyer (00:00-00:02), through the hallway (00:07-00:13), to the Master bedroom (00:31-00:33) which contains a large wooden bed.",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "near the front door",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "by the large wooden bed"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the wooden dresser with the TV in the Master bedroom to the crib/bed with car bedding in the Kid bedroom?",
+        "reason": "The video shows an open doorway (00:45-00:48) directly connecting the Master bedroom, specifically near the dresser with the TV (00:38), to the Kid bedroom (00:49), which has a bed with car-themed bedding.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "by the wooden dresser with the TV",
+            "intermediate": [],
+            "end": "Kid bedroom",
+            "end_detail": "by the crib/bed with car bedding"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the children's easel in the Kid bedroom to the white sink in the Shared bathroom?",
+        "reason": "A walkable path is shown from the Kid bedroom (00:29) into the adjacent hallway (00:30-00:31), which leads directly to the Shared bathroom (00:15-00:17) with a visible white sink.",
+        "nodes_involved": {
+            "start": "Kid bedroom",
+            "start_detail": "near the children's easel",
+            "intermediate": [],
+            "end": "Shared bathroom",
+            "end_detail": "by the white sink"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area in front of the fireplace in the Living room to the area near the white garage doors in the Garage?",
+        "reason": "The route is visible from the Living room (00:58-01:00) in front of the fireplace, through the dining area and Kitchen (01:04-01:07), to the stairs (01:08-01:10) leading down to the Garage (01:13) which has visible white garage doors.",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "in front of the fireplace",
+            "intermediate": [],
+            "end": "Garage",
+            "end_detail": "near the two white garage doors"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the wooden dining table in the Kitchen and dining room to the washing machine in the Laundry room?",
+        "reason": "A path is shown from the wooden dining table in the Kitchen and dining room (01:04) to the Entrance foyer (01:27), where stairs lead down to the Laundry room (01:29-01:33), and a washing machine is present.",
+        "nodes_involved": {
+            "start": "Kitchen and dining room",
+            "start_detail": "by the wooden dining table",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "next to the washing machine"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the toilet in the Shared bathroom to the large grey sofa in the Basement apartment?",
+        "reason": "The video shows a path from the Shared bathroom (00:16) through the hallway and foyer (00:07-00:12), down the basement stairs (01:29-01:32), through the Laundry room (01:36), into the Basement apartment (01:38-01:40) which contains a large grey sofa.",
+        "nodes_involved": {
+            "start": "Shared bathroom",
+            "start_detail": "by the toilet",
+            "intermediate": [],
+            "end": "Basement apartment",
+            "end_detail": "near the large grey sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the red toolbox in the Garage to the large sofa in the Living room?",
+        "reason": "The video shows a path from the Garage near the red toolbox (01:15) up the stairs (01:09-01:11), through the Kitchen and dining room area (01:04-01:06), to the Living room (00:58-00:59) where a large sofa is located.",
+        "nodes_involved": {
+            "start": "Garage",
+            "start_detail": "near the red toolbox",
+            "intermediate": [],
+            "end": "Living room",
+            "end_detail": "by the large sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the blue water tanks in the Laundry room to the TV stand in the Living room?",
+        "reason": "The video shows a path from the Laundry room near the blue water tanks (01:33) up the stairs (02:05-02:08) to the Entrance foyer, and then to the Living room (02:09-02:10) where a TV stand is visible.",
+        "nodes_involved": {
+            "start": "Laundry room",
+            "start_detail": "near the blue water tanks",
+            "intermediate": [],
+            "end": "Living room",
+            "end_detail": "near the TV stand"
+        }
+    }
+]

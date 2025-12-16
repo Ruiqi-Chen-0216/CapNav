@@ -1,0 +1,98 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the decorative wooden chest in the Entrance hallway with clutter to the kitchen sink area in the Kitchen?",
+        "reason": "At 0:23-0:24, the decorative wooden chest is visible in the hallway. From 0:15-0:17, the kitchen sink area is shown, and there's a clear path between these areas through the tiled hallway.",
+        "nodes_involved": {
+            "start": "node_18",
+            "start_detail": "area near the decorative wooden chest",
+            "intermediate": [],
+            "end": "node_17",
+            "end_detail": "kitchen sink area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the refrigerator area in the Kitchen to the bed with grey sheets area in the Master bedroom?",
+        "reason": "The video shows a continuous pathway from the kitchen (0:18-0:19 showing the refrigerator) through the hallway (0:20-0:22) leading past other rooms and eventually to the master bedroom (0:56-0:58 showing the bed with grey sheets).",
+        "nodes_involved": {
+            "start": "node_17",
+            "start_detail": "refrigerator area",
+            "intermediate": [],
+            "end": "node_24",
+            "end_detail": "bed with grey sheets area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the closet door area in the Master bedroom to the computer desk area in the Home office?",
+        "reason": "From 1:02-1:03, the master bedroom closet door is visible. The camera then shows a path through the hallway (1:09-1:12) to the living room (1:21-1:24) and into the home office (1:25-1:27) where the computer desk is located.",
+        "nodes_involved": {
+            "start": "node_24",
+            "start_detail": "closet door area",
+            "intermediate": [],
+            "end": "node_21",
+            "end_detail": "computer desk area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bookshelves area in the Home office to the washing machine area in the Laundry room?",
+        "reason": "At 1:27-1:29, the bookshelves in the home office are visible. A clear path is shown leading from the office through the living area and hallway (1:31-1:33) to the laundry room, where the washing machine is seen from 1:34-1:35.",
+        "nodes_involved": {
+            "start": "node_21",
+            "start_detail": "bookshelves area",
+            "intermediate": [],
+            "end": "node_19",
+            "end_detail": "washing machine area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the water heater area in the Laundry room to the large brown sectional sofa area in the Living room with woven rug?",
+        "reason": "From 1:36-1:38, the water heater in the laundry room is shown. The video shows a continuous route through the hallway (1:40-1:43), past the kitchen (1:53-1:55), and into the living room with the large brown sectional sofa (0:07-0:08, 2:01-2:03).",
+        "nodes_involved": {
+            "start": "node_19",
+            "start_detail": "water heater area",
+            "intermediate": [],
+            "end": "node_23",
+            "end_detail": "large brown sectional sofa area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the fireplace area in the Living room with woven rug to the bed with geometric patterned sheets area in the Bedroom with patterned sheets?",
+        "reason": "At 0:06-0:07, the fireplace in the living room is seen. A path is available from the living room (0:10-0:12) through the adjacent hallway (0:21-0:25) to the bedroom with the bed featuring geometric patterned sheets (0:29-0:30).",
+        "nodes_involved": {
+            "start": "node_23",
+            "start_detail": "fireplace area",
+            "intermediate": [],
+            "end": "node_26",
+            "end_detail": "bed with geometric patterned sheets area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dark wooden dresser area in the Bedroom with patterned sheets to the vanity sink area in the Guest bathroom next to bedrooms?",
+        "reason": "The dark wooden dresser in the bedroom is visible from 0:29-0:31. The video then shows a direct path from this bedroom's doorway (0:34) to the guest bathroom, where the vanity sink is seen from 0:35-0:37.",
+        "nodes_involved": {
+            "start": "node_26",
+            "start_detail": "dark wooden dresser area",
+            "intermediate": [],
+            "end": "node_27",
+            "end_detail": "vanity sink area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the toilet in the small bathroom near the entrance to the dining table area in the Living room with patterned rug?",
+        "reason": "At 1:46-1:48, the toilet is visible in the small bathroom off the entrance hallway. The video shows a route through the hallway (1:51-1:53), past the kitchen (1:54-1:55), and into the living room area with the dining table (1:19-1:20).",
+        "nodes_involved": {
+            "start": "node_27",
+            "start_detail": "toilet in the small bathroom near the entrance",
+            "intermediate": [],
+            "end": "node_22",
+            "end_detail": "dining table area"
+        }
+    }
+]

@@ -1,0 +1,728 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_74|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T07:51:35.293Z"
+    },
+    "node_74|node_72": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T07:51:35.293Z"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T07:51:35.293Z"
+    },
+    "node_71|node_70": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T07:51:35.293Z"
+    },
+    "node_70|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T07:51:35.293Z"
+    },
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T08:10:40.647Z",
+      "question": "Can [Agent] move from the bay window seat in the Living room next to entrance to the kitchen island area in the Kitchen and casual dining space?"
+    },
+    "node_73|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:53.182Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_67|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:57:01.174Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_70|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:57:04.014Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_72|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:57:06.145Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_62|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:01:19.812Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_59|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:01:31.984Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_74|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:30.026Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:31.617Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_72|node_73": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:20.526Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the dresser with mirror area in the First floor Bedroom with cyan sheets?"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:39.029Z",
+      "question": "Can [Agent] move from the kitchen counter area near the sink in the Kitchen and casual dining space to the laundry sink area in the Laundry room and bathroom?"
+    },
+    "node_66|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:18.477Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:20.817Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:03.195Z",
+      "question": "Can [Agent] move from the top of the stairs landing in the Second floor stair landing and hallway to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:40.752Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:51.354Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:57.505Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_61|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:09:17.321Z",
+      "question": "Can [Agent] move from the patterned bed area in the Bedroom with bright patterned sheets and cyan rug to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:10:40.447Z",
+      "question": "Can [Agent] move from the bay window seat in the Living room next to entrance to the kitchen island area in the Kitchen and casual dining space?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_74|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:51:59.198Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_74|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:52:17.921Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:52:21.932Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_71|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:54:46.909Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_70|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:54:53.090Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:54:58.251Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_73|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:58:05.016Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_67|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:58:14.698Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_70|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:58:49.824Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_72|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:58:54.745Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_62|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:01:34.575Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_59|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:01:58.679Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_74|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T08:03:42.949Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:46.440Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_72|node_73": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:27.467Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the dresser with mirror area in the First floor Bedroom with cyan sheets?"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:42.760Z",
+      "question": "Can [Agent] move from the kitchen counter area near the sink in the Kitchen and casual dining space to the laundry sink area in the Laundry room and bathroom?"
+    },
+    "node_66|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:31.439Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:33.370Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:18.438Z",
+      "question": "Can [Agent] move from the top of the stairs landing in the Second floor stair landing and hallway to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:07:36.883Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:07:51.445Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:08:00.607Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_61|node_59": {
+      "traversable": false,
+      "note": "floor height diff",
+      "timestamp": "2025-11-05T08:10:04.290Z",
+      "question": "Can [Agent] move from the patterned bed area in the Bedroom with bright patterned sheets and cyan rug to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:10:49.418Z",
+      "question": "Can [Agent] move from the bay window seat in the Living room next to entrance to the kitchen island area in the Kitchen and casual dining space?"
+    }
+  },
+  "ROBOT": {
+    "node_74|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:55:04.162Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_74|node_72": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:55:12.384Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:55:15.274Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_71|node_70": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:55:24.086Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_70|node_67": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:55:29.877Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:56:07.374Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_73|node_72": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:59:10.859Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_67|node_70": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:59:26.471Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_70|node_71": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:59:29.762Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_72|node_74": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T07:59:33.532Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_62|node_59": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:02:42.188Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_59|node_64": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:02:44.119Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_74|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T08:03:50.891Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_59|node_62": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:03:53.791Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_72|node_73": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:04:29.418Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the dresser with mirror area in the First floor Bedroom with cyan sheets?"
+    },
+    "node_67|node_68": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:04:48.182Z",
+      "question": "Can [Agent] move from the kitchen counter area near the sink in the Kitchen and casual dining space to the laundry sink area in the Laundry room and bathroom?"
+    },
+    "node_66|node_59": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:05:47.623Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_60": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:05:53.304Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_63": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:06:24.029Z",
+      "question": "Can [Agent] move from the top of the stairs landing in the Second floor stair landing and hallway to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_68|node_67": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:08:05.798Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:08:10.079Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:08:15.980Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_61|node_59": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:09:33.075Z",
+      "question": "Can [Agent] move from the patterned bed area in the Bedroom with bright patterned sheets and cyan rug to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:10:54.179Z",
+      "question": "Can [Agent] move from the bay window seat in the Living room next to entrance to the kitchen island area in the Kitchen and casual dining space?"
+    }
+  },
+  "SWEEPER": {
+    "node_74|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:09.714Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_74|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:12.495Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:14.765Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_71|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:19.336Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_70|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:23.597Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:28.668Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_73|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:59:41.524Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_67|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:59:54.146Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_70|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:00:03.338Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_72|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:00:08.589Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_62|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:18.214Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_59|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:19.644Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_74|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T08:03:58.012Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:59.352Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_72|node_73": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:31.408Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the dresser with mirror area in the First floor Bedroom with cyan sheets?"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:50.272Z",
+      "question": "Can [Agent] move from the kitchen counter area near the sink in the Kitchen and casual dining space to the laundry sink area in the Laundry room and bathroom?"
+    },
+    "node_66|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:55.264Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:56.454Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:25.919Z",
+      "question": "Can [Agent] move from the top of the stairs landing in the Second floor stair landing and hallway to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:08:19.931Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:08:23.171Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:08:53.847Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_61|node_59": {
+      "traversable": false,
+      "note": "floor height diff",
+      "timestamp": "2025-11-05T08:10:13.812Z",
+      "question": "Can [Agent] move from the patterned bed area in the Bedroom with bright patterned sheets and cyan rug to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:10:56.530Z",
+      "question": "Can [Agent] move from the bay window seat in the Living room next to entrance to the kitchen island area in the Kitchen and casual dining space?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_74|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:31.498Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_74|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:34.239Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:35.809Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_71|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:39.850Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_70|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:42.901Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:56:49.962Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the casual dining table area in the Kitchen and casual dining space?"
+    },
+    "node_73|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:00:15.370Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_67|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:00:19.491Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_70|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:00:26.812Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_72|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:00:53.567Z",
+      "question": "Can [Agent] move from the cyan bed area in the First floor Bedroom with cyan sheets to the sofa area in the Living room next to entrance?"
+    },
+    "node_62|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:21.355Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_59|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:03:22.575Z",
+      "question": "Can [Agent] move from the purple bed area in the Master bedroom with purple sheets to the vanity sink area in the Second floor shared bathroom?"
+    },
+    "node_74|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:00.532Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:01.472Z",
+      "question": "Can [Agent] move from the area near the piano in the Family room with piano to the purple bed area in the Master bedroom with purple sheets?"
+    },
+    "node_72|node_73": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:32.028Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the dresser with mirror area in the First floor Bedroom with cyan sheets?"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:04:55.793Z",
+      "question": "Can [Agent] move from the kitchen counter area near the sink in the Kitchen and casual dining space to the laundry sink area in the Laundry room and bathroom?"
+    },
+    "node_66|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:05:58.724Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:00.019Z",
+      "question": "Can [Agent] move from the center of the empty room in the Second floor empty room to the white bed area in the Bedroom with white sheets and dark rug?"
+    },
+    "node_59|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:06:27.700Z",
+      "question": "Can [Agent] move from the top of the stairs landing in the Second floor stair landing and hallway to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:09:05.909Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:09:09.800Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_67|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:09:12.340Z",
+      "question": "Can [Agent] move from the toilet area of the Laundry room and bathroom to the dining table area in the Formal dining space?"
+    },
+    "node_61|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:10:16.222Z",
+      "question": "Can [Agent] move from the patterned bed area in the Bedroom with bright patterned sheets and cyan rug to the light blue bed area in the Bedroom with light blue sheets?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:11:00.171Z",
+      "question": "Can [Agent] move from the bay window seat in the Living room next to entrance to the kitchen island area in the Kitchen and casual dining space?"
+    }
+  }
+}

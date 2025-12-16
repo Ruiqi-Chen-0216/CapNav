@@ -1,0 +1,698 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T21:57:24.240Z"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T21:57:24.240Z"
+    },
+    "node_126|node_129": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T21:57:24.240Z"
+    },
+    "node_126|node_120": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T21:57:24.240Z"
+    },
+    "node_120|node_128": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T21:57:24.240Z"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:03:48.481Z",
+      "question": "Can [Agent] move from the dining table area in the main living space to the bed with orange and yellow sheets in the first floor bedroom with bright sheets?"
+    },
+    "node_128|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:04:35.187Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_120|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:04:37.520Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:04:40.080Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:08:16.261Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_124|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:22.069Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_117|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:26.456Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_129|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:11:13.722Z",
+      "question": "Can [Agent] move from the area near the elevator door in the main living space to the toilet area in the first floor bathroom?"
+    },
+    "node_121|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:13:00.212Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_120|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:13:02.745Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_122|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:16.903Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_120|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:20.703Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_128|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:29.063Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:21.950Z",
+      "question": "Can [Agent] move from the dresser between the beds in the first floor bedroom with twin beds to the sink with the white basin in the first floor bathroom?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:57.136Z",
+      "question": "Can [Agent] move from the white armchair in the master bedroom bed space to the drawers and shelves in the master bedroom closet?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:33.288Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the bed closest to the door in the first floor bedroom with twin beds?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:47.557Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    },
+    "node_129|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:53.126Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T21:57:43.504Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T21:57:49.812Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_129": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T21:58:06.145Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_120": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:01:34.926Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_120|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:01:38.405Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:03:53.402Z",
+      "question": "Can [Agent] move from the dining table area in the main living space to the bed with orange and yellow sheets in the first floor bedroom with bright sheets?"
+    },
+    "node_128|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:08:22.355Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_120|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:08:28.100Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:08:35.460Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:08:47.392Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_124|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:31.309Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_117|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:39.336Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_129|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:11:16.815Z",
+      "question": "Can [Agent] move from the area near the elevator door in the main living space to the toilet area in the first floor bathroom?"
+    },
+    "node_121|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:13:06.291Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_120|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:13:08.918Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_122|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:33.716Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_120|node_126": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:14:36.701Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_128|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:16:47.633Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:27.231Z",
+      "question": "Can [Agent] move from the dresser between the beds in the first floor bedroom with twin beds to the sink with the white basin in the first floor bathroom?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:04.215Z",
+      "question": "Can [Agent] move from the white armchair in the master bedroom bed space to the drawers and shelves in the master bedroom closet?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:35.968Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the bed closest to the door in the first floor bedroom with twin beds?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:56.006Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    },
+    "node_129|node_126": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:18:58.177Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    }
+  },
+  "ROBOT": {
+    "node_126|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:01:41.925Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:01:45.338Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_129": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:02:40.844Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_120": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:02:44.098Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_120|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:02:46.191Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_129|node_130": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:04:22.709Z",
+      "question": "Can [Agent] move from the dining table area in the main living space to the bed with orange and yellow sheets in the first floor bedroom with bright sheets?"
+    },
+    "node_128|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:08:52.593Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_120|node_117": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:09:24.457Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_117|node_118": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:09:31.925Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:09:46.950Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_124|node_117": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:10:46.043Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_117|node_119": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:10:53.429Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_129|node_132": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:11:20.987Z",
+      "question": "Can [Agent] move from the area near the elevator door in the main living space to the toilet area in the first floor bathroom?"
+    },
+    "node_121|node_120": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:13:11.813Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_120|node_122": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:13:18.771Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_122|node_120": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:16:53.045Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_120|node_126": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:16:57.499Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_128|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:03.471Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_131|node_129": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:17:46.991Z",
+      "question": "Can [Agent] move from the dresser between the beds in the first floor bedroom with twin beds to the sink with the white basin in the first floor bathroom?"
+    },
+    "node_124|node_125": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:18:23.720Z",
+      "question": "Can [Agent] move from the white armchair in the master bedroom bed space to the drawers and shelves in the master bedroom closet?"
+    },
+    "node_129|node_131": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:18:38.182Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the bed closest to the door in the first floor bedroom with twin beds?"
+    },
+    "node_126|node_127": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T22:19:19.869Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    },
+    "node_129|node_126": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:19:56.576Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    }
+  },
+  "SWEEPER": {
+    "node_126|node_128": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:02:56.883Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_128|node_129": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:03:03.604Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_129": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:03:07.643Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_120": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:03:10.672Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_120|node_128": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:03:17.549Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:04:27.920Z",
+      "question": "Can [Agent] move from the dining table area in the main living space to the bed with orange and yellow sheets in the first floor bedroom with bright sheets?"
+    },
+    "node_128|node_120": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:09:51.379Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_120|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:09:54.298Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:09:55.430Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_129|node_128": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:09:58.950Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_124|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:54.589Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_117|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:55.508Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_129|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:11:23.908Z",
+      "question": "Can [Agent] move from the area near the elevator door in the main living space to the toilet area in the first floor bathroom?"
+    },
+    "node_121|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:12.023Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_120|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:12.730Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_122|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:06.378Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_120|node_126": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:17:08.591Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_128|node_126": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:17:13.819Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:52.151Z",
+      "question": "Can [Agent] move from the dresser between the beds in the first floor bedroom with twin beds to the sink with the white basin in the first floor bathroom?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:26.105Z",
+      "question": "Can [Agent] move from the white armchair in the master bedroom bed space to the drawers and shelves in the master bedroom closet?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:40.406Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the bed closest to the door in the first floor bedroom with twin beds?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:20:01.749Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    },
+    "node_129|node_126": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T22:20:04.148Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_126|node_128": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:03:30.416Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_128|node_129": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:03:32.752Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:03:34.615Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_126|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:03:37.842Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_120|node_128": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:03:39.762Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the white L-shaped sofa area in the first floor living room?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:04:29.800Z",
+      "question": "Can [Agent] move from the dining table area in the main living space to the bed with orange and yellow sheets in the first floor bedroom with bright sheets?"
+    },
+    "node_128|node_120": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:10:03.271Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_120|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:05.776Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:07.524Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_129|node_128": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:10:10.590Z",
+      "question": "Can [Agent] move from the kitchen island area in the main living space to the dual boat-shaped sinks in the master bedroom bathroom?"
+    },
+    "node_124|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:56.855Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_117|node_119": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:10:57.722Z",
+      "question": "Can [Agent] move from the foot of the bed with the gray patterned cover in the master bedroom bed space to the dark wooden desk in the master bedroom home office?"
+    },
+    "node_129|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:12:50.293Z",
+      "question": "Can [Agent] move from the area near the elevator door in the main living space to the toilet area in the first floor bathroom?"
+    },
+    "node_121|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:13.664Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_120|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:14:14.157Z",
+      "question": "Can [Agent] move from the bathtub with the shower screen in the top floor shared bathroom to the white wardrobe in the top floor smaller bedroom?"
+    },
+    "node_122|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:16.338Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_120|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:17.618Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_128|node_126": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T22:17:20.444Z",
+      "question": "Can [Agent] move from the area by the window overlooking the garden in the top floor smaller bedroom to the kitchen counter with the sink in the first floor living room and kitchen?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:17:54.550Z",
+      "question": "Can [Agent] move from the dresser between the beds in the first floor bedroom with twin beds to the sink with the white basin in the first floor bathroom?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:26.640Z",
+      "question": "Can [Agent] move from the white armchair in the master bedroom bed space to the drawers and shelves in the master bedroom closet?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:18:42.286Z",
+      "question": "Can [Agent] move from the dark sectional sofa area in the main living space to the bed closest to the door in the first floor bedroom with twin beds?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:20:06.681Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    },
+    "node_129|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T22:20:09.869Z",
+      "question": "Can [Agent] move from the bookshelf in the top floor stair landing and hallway to the sink with the unique bowl shape in the second floor bathroom?"
+    }
+  }
+}

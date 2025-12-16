@@ -1,0 +1,192 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_66|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T04:27:22.347Z"
+    },
+    "node_66|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:39:06.160Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_69|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:39:06.820Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_67|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:29.188Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_66|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:32.605Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_69|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:45:19.803Z",
+      "question": "Can [Agent] move from the dining table in the Living room to the small crib in the Kid bedroom?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_66|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:38:54.168Z",
+      "question": "Can [Agent] move from the area near the fire extinguisher in the Foyer to the bed with the patterned quilt in the Bedroom next to foyer?"
+    },
+    "node_66|node_69": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:40:07.206Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_69|node_68": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:41:07.655Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_67|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:36.087Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_66|node_71": {
+      "traversable": false,
+      "note": "door too narrow; no space to turn in the bathroom",
+      "timestamp": "2025-11-05T04:42:37.437Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_69|node_70": {
+      "traversable": true,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:46:11.792Z",
+      "question": "Can [Agent] move from the dining table in the Living room to the small crib in the Kid bedroom?"
+    }
+  },
+  "ROBOT": {
+    "node_66|node_67": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:39:01.680Z",
+      "question": "Can [Agent] move from the area near the fire extinguisher in the Foyer to the bed with the patterned quilt in the Bedroom next to foyer?"
+    },
+    "node_66|node_69": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:41:12.443Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_69|node_68": {
+      "traversable": false,
+      "note": "door too narrow; furniture clutter the way",
+      "timestamp": "2025-11-05T04:41:21.387Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_67|node_66": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:42:39.515Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_66|node_71": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T04:42:43.904Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_69|node_70": {
+      "traversable": false,
+      "note": "door too narrow; furniture clutter the way",
+      "timestamp": "2025-11-05T04:47:45.678Z",
+      "question": "Can [Agent] move from the dining table in the Living room to the small crib in the Kid bedroom?"
+    }
+  },
+  "SWEEPER": {
+    "node_66|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:39:02.929Z",
+      "question": "Can [Agent] move from the area near the fire extinguisher in the Foyer to the bed with the patterned quilt in the Bedroom next to foyer?"
+    },
+    "node_66|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:23.496Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_69|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:24.263Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_67|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:42:45.571Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_66|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:42:45.992Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_69|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:47:48.220Z",
+      "question": "Can [Agent] move from the dining table in the Living room to the small crib in the Kid bedroom?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_66|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:39:03.680Z",
+      "question": "Can [Agent] move from the area near the fire extinguisher in the Foyer to the bed with the patterned quilt in the Bedroom next to foyer?"
+    },
+    "node_66|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:26.187Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_69|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:41:26.554Z",
+      "question": "Can [Agent] move from the area near the display cabinet in the Foyer to the vintage stove in the Kitchen?"
+    },
+    "node_67|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:44:17.924Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_66|node_71": {
+      "traversable": false,
+      "note": "no space to turn in bathroom",
+      "timestamp": "2025-11-05T04:45:16.653Z",
+      "question": "Can [Agent] move from the dresser area in the Bedroom next to foyer to the bathtub in the Bathroom?"
+    },
+    "node_69|node_70": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T04:47:51.563Z",
+      "question": "Can [Agent] move from the dining table in the Living room to the small crib in the Kid bedroom?"
+    }
+  }
+}

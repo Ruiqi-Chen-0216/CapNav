@@ -1,0 +1,146 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dark gray sofa on the rug in the Entrance space with sofa and dining table to the gray chairs and glass table in the Home office?",
+        "reason": "At 00:11-00:14, the dark gray sofa is visible in the main living area. At 00:46-00:47, the gray chairs and glass table are clearly seen in the home office. A clear walkable path exists through the side hallway (node_88) connecting these two areas.",
+        "nodes_involved": {
+            "start": "Entrance space with sofa and dining table",
+            "start_detail": "dark gray sofa on the rug",
+            "intermediate": [],
+            "end": "Home office",
+            "end_detail": "gray chairs and glass table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen island with the sink in the Kitchen to the laundry machines in the Laundry room?",
+        "reason": "The kitchen island with the sink is visible at 00:17-00:18. The laundry machines are shown at 00:59-01:01. The path involves passing through a door next to the kitchen (00:21-00:24) leading to a hallway (00:55-00:58) that connects to the laundry room.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "kitchen island with sink",
+            "intermediate": [],
+            "end": "Laundry room",
+            "end_detail": "laundry machines"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the white sofa in front of the fireplace in the Entrance space with sofa and dining table to the wine racks area in the Wine cellar?",
+        "reason": "The white sofa by the fireplace is visible at 00:34-00:35. The wine racks are seen at 01:16-01:18. A direct path connects these areas within the entrance space, as shown at 01:08-01:11.",
+        "nodes_involved": {
+            "start": "Entrance space with sofa and dining table",
+            "start_detail": "white sofa in front of the fireplace",
+            "intermediate": [],
+            "end": "Wine cellar",
+            "end_detail": "wine racks area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with white bedding and gray pillows in the Master bedroom to the large white bathtub by the window in the master suite bathroom?",
+        "reason": "The master bedroom bed is shown at 01:36-01:37. The large white bathtub by the window is visible at 01:33-01:34. These rooms are directly connected by an open doorway, as seen at 01:35.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "bed with white bedding and gray pillows",
+            "intermediate": [],
+            "end": "master suite bathroom",
+            "end_detail": "large white bathtub by the window"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area with the large red and silver painting on the Second floor stair landing to the sink area with shelves in the Master dressing room?",
+        "reason": "The large red and silver painting marking the second floor stair landing is visible at 01:24. The sink area with shelves in the master dressing room is shown at 01:47-01:49. The route involves entering the master suite foyer (node_72) and then the dressing room.",
+        "nodes_involved": {
+            "start": "Second floor stair landing",
+            "start_detail": "area with the large red and silver painting",
+            "intermediate": [],
+            "end": "Master dressing room",
+            "end_detail": "sink area with shelves"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the gray chaise lounges on the light tile in the Entrance space with sofa and dining table to the bed with white bedding in the Master bedroom?",
+        "reason": "The gray chaise lounges are visible at the beginning of the video (00:00-00:01). The master bedroom bed is shown at 01:36-01:37. A clear path exists by traversing the main living space and ascending the floating staircase (01:19-01:23) to the second floor.",
+        "nodes_involved": {
+            "start": "Entrance space with sofa and dining table",
+            "start_detail": "gray chaise lounges on the light tile",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "bed with white bedding"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with cyan pillows in the Bedroom with cyan pillow to the outdoor seating with striped pillows on the Smaller terrace?",
+        "reason": "The bed with cyan pillows is visible at 02:32-02:33. The outdoor seating with striped pillows on the terrace is shown at 02:41-02:43. A sliding glass door (02:39-02:40) directly connects the bedroom to the smaller terrace.",
+        "nodes_involved": {
+            "start": "Bedroom with cyan pillow",
+            "start_detail": "bed with cyan pillows",
+            "intermediate": [],
+            "end": "Smaller terrace",
+            "end_detail": "outdoor seating with striped pillows"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the wall with multiple framed pictures in the Home office to the bed with white bedding and gray pillows in the Master bedroom?",
+        "reason": "The wall with framed pictures in the home office is seen at 00:46-00:47. The master bedroom bed is visible at 01:36-01:37. This involves a multi-stage route: through a side hallway (00:36-00:45), the main entrance space, up the staircase (01:19-01:23), and through the master suite foyer (01:24-01:25).",
+        "nodes_involved": {
+            "start": "Home office",
+            "start_detail": "wall with multiple framed pictures",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "bed with white bedding and gray pillows"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the built-in ovens in the Kitchen to the bed with blue pillows on a white fluffy rug in the Bedroom with light gray rug?",
+        "reason": "The built-in ovens in the kitchen are visible at 00:19-00:20. The bed with blue pillows on a white fluffy rug is seen at 02:30-02:31. The route involves crossing the main entrance space, ascending the staircase (01:19-01:23), and then following a short hallway on the second floor.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "area near the built-in ovens",
+            "intermediate": [],
+            "end": "Bedroom with light gray rug",
+            "end_detail": "bed with blue pillows on a white fluffy rug"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the white wall with a thermostat in the Master suite foyer to the outdoor sofa with striped pillows on the Master terrace?",
+        "reason": "The white wall with a thermostat and light switches in the master suite foyer is visible at 01:24-01:25. The outdoor sofa with striped pillows on the master terrace is shown at 01:38-01:41. The path to the terrace is through the master bedroom, which is directly connected to the foyer (01:37-01:38).",
+        "nodes_involved": {
+            "start": "Master suite foyer",
+            "start_detail": "white wall with a thermostat",
+            "intermediate": [],
+            "end": "Master terrace",
+            "end_detail": "outdoor sofa with striped pillows"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sink area in the Laundry room to the gray chairs in the Home office?",
+        "reason": "The sink area in the laundry room is visible at 01:02-01:03. The gray chairs in the home office are shown at 00:46-00:47. A clear path exists by traversing the side hallway (node_88), which is visible at 00:40-00:45 leading from the laundry area towards the office.",
+        "nodes_involved": {
+            "start": "Laundry room",
+            "start_detail": "sink area",
+            "intermediate": [],
+            "end": "Home office",
+            "end_detail": "gray chairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with blue pillows and white fluffy rug in the Bedroom with light gray rug to the wall with wine racks in the Wine cellar?",
+        "reason": "The bed in the bedroom with a light gray rug is visible at 02:30-02:31. The wall with wine racks in the wine cellar is shown at 01:16-01:18. This route involves exiting the bedroom, descending the staircase from the second floor (02:52-02:53), and then navigating through the main entrance space to the wine cellar.",
+        "nodes_involved": {
+            "start": "Bedroom with light gray rug",
+            "start_detail": "bed with blue pillows and white fluffy rug",
+            "intermediate": [],
+            "end": "Wine cellar",
+            "end_detail": "wall with wine racks"
+        }
+    }
+]

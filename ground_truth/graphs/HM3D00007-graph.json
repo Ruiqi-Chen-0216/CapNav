@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "Parking space",
+      "description": "",
+      "position": {
+        "x": 6.265853642800746,
+        "y": -1.214031514579516,
+        "z": 0.14151333189673077
+      }
+    },
+    {
+      "id": "node_1",
+      "name": "Porch",
+      "description": "",
+      "position": {
+        "x": 0.9105252542560489,
+        "y": -1.064782097347227,
+        "z": -1.0392691773403364
+      }
+    },
+    {
+      "id": "node_2",
+      "name": "Yard",
+      "description": "",
+      "position": {
+        "x": -1.350756013859498,
+        "y": -1.165150119043475,
+        "z": -1.7532452086310089
+      }
+    },
+    {
+      "id": "node_3",
+      "name": "Foyer",
+      "description": "",
+      "position": {
+        "x": -2.4391137307209636,
+        "y": -1.0174265616309988,
+        "z": -0.011806566240601113
+      }
+    },
+    {
+      "id": "node_4",
+      "name": "First floor bedroom",
+      "description": "",
+      "position": {
+        "x": -9.093132577178167,
+        "y": -1.011727626753207,
+        "z": 1.1592232990518871
+      }
+    },
+    {
+      "id": "node_5",
+      "name": "First floor bathroom",
+      "description": "",
+      "position": {
+        "x": -6.649112590670596,
+        "y": -1.0410382224714911,
+        "z": 2.2357007156743407
+      }
+    },
+    {
+      "id": "node_6",
+      "name": "First floor living room",
+      "description": "",
+      "position": {
+        "x": -4.007053532176151,
+        "y": -1.0136688015406807,
+        "z": 2.1202537458725415
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Main living room",
+      "description": "",
+      "position": {
+        "x": -5.54710937999606,
+        "y": 1.662553559102322,
+        "z": 0.9484454513510387
+      }
+    },
+    {
+      "id": "node_8",
+      "name": "Kitchen",
+      "description": "",
+      "position": {
+        "x": -8.77381159573379,
+        "y": 1.6419231014495275,
+        "z": 2.5993985422771866
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": 1.1626855081290683,
+        "y": 1.6675410282993213,
+        "z": 1.3405739727693993
+      }
+    },
+    {
+      "id": "node_11",
+      "name": "Master bathroom",
+      "description": "",
+      "position": {
+        "x": -0.9782343253670716,
+        "y": 1.6530386285168899,
+        "z": 2.208862167101564
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "from": "node_8",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_1",
+      "from": "node_7",
+      "to": "node_11"
+    },
+    {
+      "id": "edge_2",
+      "from": "node_11",
+      "to": "node_10"
+    },
+    {
+      "id": "edge_3",
+      "from": "node_10",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_4",
+      "from": "node_7",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_5",
+      "from": "node_3",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_6",
+      "from": "node_3",
+      "to": "node_5"
+    },
+    {
+      "id": "edge_7",
+      "from": "node_3",
+      "to": "node_4"
+    },
+    {
+      "id": "edge_8",
+      "from": "node_3",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_9",
+      "from": "node_1",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_10",
+      "from": "node_1",
+      "to": "node_0"
+    }
+  ]
+}

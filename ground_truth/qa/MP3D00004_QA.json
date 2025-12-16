@@ -1,0 +1,134 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?",
+        "reason": "The video shows a clear pathway from the small chat room, past a coffee station, and through an archway directly into the kitchen from 00:15-00:19, showing the kitchen island at the end of the path.",
+        "nodes_involved": {
+            "start": "Small chat room with round table of 4",
+            "start_detail": "next to the round wooden table",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "at the large light-colored kitchen island"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?",
+        "reason": "The video shows a visible path from the kitchen area with the grill (00:43), past a brown sofa in the small social space (00:40), then through an archway leading to the main living room, with the fireplace visible at 00:25-00:22.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "by the stainless steel built-in grill",
+            "intermediate": [],
+            "end": "Main living room with formal dining table",
+            "end_detail": "near the large, ornate white fireplace"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from on the light brown and white animal rug in front of the stone fireplace in the Small social space with sofa and table and animal rug to the circular tiled pattern on the floor near the arched wooden doors in the First floor main hallway?",
+        "reason": "A path is visible from the social space (00:29-00:40), through the kitchen (00:41-00:46), and into the main hallway where the circular tiled pattern is seen at 01:17-01:19.",
+        "nodes_involved": {
+            "start": "Small social space with sofa and table and animal rug",
+            "start_detail": "on the light brown and white animal rug in front of the stone fireplace",
+            "intermediate": [],
+            "end": "First floor main hallway",
+            "end_detail": "at the circular tiled pattern on the floor near the arched wooden doors"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?",
+        "reason": "From the entrance foyer (02:20-02:22), the agent can proceed through the connecting space (02:29-02:35) and into the bedroom suite (02:40-02:41).",
+        "nodes_involved": {
+            "start": "Entrance foyer",
+            "start_detail": "at the center of the patterned round tile on the floor near the ornate wooden console table",
+            "intermediate": [],
+            "end": "Bedroom suite with red and dark rug",
+            "end_detail": "next to the large bed with the red patterned comforter"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?",
+        "reason": "The path is shown from the bedroom (03:03-03:04), through the connecting space (03:24-03:28), then the entrance foyer (03:28-03:34) and finally into the home office (02:24-02:27).",
+        "nodes_involved": {
+            "start": "Bedroom suite with pink sheets",
+            "start_detail": "by the bed with pink sheets",
+            "intermediate": [],
+            "end": "Home office next to entrance",
+            "end_detail": "at the long wooden desk with shelves in the office"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?",
+        "reason": "The video demonstrates a path from the dining area (01:44-01:45), through the entrance foyer (02:04-02:07), up the wooden staircase (03:30-03:41), across the second-floor landing (03:46-03:57), and into the master bedroom (03:57-03:58).",
+        "nodes_involved": {
+            "start": "Main living room with formal dining table",
+            "start_detail": "near the large formal dining table with patterned chairs",
+            "intermediate": [],
+            "end": "Top floor master bedroom",
+            "end_detail": "at the large bed with the patterned headboard and white comforter"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the white fireplace decorated with a sunburst mirror in the Top floor master bedroom to at the white oval tub surrounded by patterned tiles in the Master bedroom bathroom?",
+        "reason": "A direct and clearly visible path connects the master bedroom, past a short hallway with a painting (04:09-04:10), to the master bathroom with the tub (04:13-04:14).",
+        "nodes_involved": {
+            "start": "Top floor master bedroom",
+            "start_detail": "near the white fireplace decorated with a sunburst mirror",
+            "intermediate": [],
+            "end": "Master bedroom bathroom",
+            "end_detail": "at the white oval tub surrounded by patterned tiles"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?",
+        "reason": "From the landing (03:46-03:48), the path descends the stairs (03:48-03:50 showing the view down), then leads directly into the pool room, which is visible from the bottom of the stairs at 03:31, and directly shown inside from 01:54-01:55.",
+        "nodes_involved": {
+            "start": "Second floor stair landing and hallway",
+            "start_detail": "on the long, patterned red rug",
+            "intermediate": [],
+            "end": "Pool room",
+            "end_detail": "next to the red-felt pool table"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from near the door to the laundry room, opposite the bathroom entry in the First floor main hallway to at the small round wooden table with four chairs in the Small chat room with round table of 4?",
+        "reason": "The video shows the hallway entrance near the kitchen (01:26), and a path leading through the kitchen area (01:27-01:33) directly into the small chat room (01:34-01:36).",
+        "nodes_involved": {
+            "start": "First floor main hallway",
+            "start_detail": "near the door to the laundry room, opposite the bathroom entry",
+            "intermediate": [],
+            "end": "Small chat room with round table of 4",
+            "end_detail": "at the small round wooden table with four chairs"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from next to the ornate wooden bench below the arched window in the Entrance foyer to near the dark green sofa in the Small social space with sofa and table and animal rug?",
+        "reason": "The route is visible from the entrance foyer (02:07-02:11), through the main hallway (02:11-02:15) and kitchen (02:15-00:42), and then into the social space (00:39-00:40).",
+        "nodes_involved": {
+            "start": "Entrance foyer",
+            "start_detail": "next to the ornate wooden bench below the arched window",
+            "intermediate": [],
+            "end": "Small social space with sofa and table and animal rug",
+            "end_detail": "near the dark green sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?",
+        "reason": "The path from the bedroom (02:45-02:47) leads through the connecting hallway (02:54-02:57), then the entrance foyer (03:26-03:28), through the main hallway (01:22-01:25), and directly into the kitchen, where the stove area is visible (01:27-01:29).",
+        "nodes_involved": {
+            "start": "Bedroom suite with red and dark rug",
+            "start_detail": "at the small wooden desk with the telephone next to the bed",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "at the main kitchen counter with the gas stove"
+        }
+    }
+]

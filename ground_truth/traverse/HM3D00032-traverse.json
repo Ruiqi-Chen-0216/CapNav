@@ -1,0 +1,461 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_20|node_18": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T06:21:47.865Z"
+    },
+    "node_20|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:09.037Z",
+      "question": "Can [Agent] move from the main double entrance door in the Entrance foyer and hallway to the round wooden dining table in the Formal dining space?"
+    },
+    "node_24|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:28.317Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:29.464Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_21|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:15.208Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_20|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:26.434Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_21|node_17": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T06:42:26.086Z"
+    },
+    "node_17|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:28.738Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the master bedroom in the Second floor hallway and stair landing to the large bed with the upholstered headboard in the Master bedroom?"
+    },
+    "node_13|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:40.708Z",
+      "question": "Can [Agent] move from the large bed in the Master bedroom to the double vanity with two sinks in the Master bedroom bathroom?"
+    },
+    "node_17|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:34.254Z",
+      "question": "Can [Agent] move from the carpeted hallway looking towards the room entrance in the Second floor hallway and stair landing to next to the red and white tent in the Kid room with a tent?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:53.693Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the bedroom with blue walls in the Second floor hallway and stair landing to near the large stuffed giraffe in the Second floor smaller bedroom?"
+    },
+    "node_10|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:14.641Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_17|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:15.614Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:45.067Z",
+      "question": "Can [Agent] move from by the stainless steel refrigerator in the Kitchen and dining area to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:46:10.439Z",
+      "question": "Can [Agent] move from by the window in the blue-walled bedroom in the Second floor smaller bedroom to by the large bed with the upholstered headboard in the Master bedroom?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_20|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:01.716Z",
+      "question": "Can [Agent] move from the main double entrance door with stained glass panels in the Entrance foyer and hallway to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_20|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:15.183Z",
+      "question": "Can [Agent] move from the main double entrance door in the Entrance foyer and hallway to the round wooden dining table in the Formal dining space?"
+    },
+    "node_24|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:30.437Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:51.714Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_21|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:29.237Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_20|node_17": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:42:43.112Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_21|node_17": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:42:48.817Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_17|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:30.349Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the master bedroom in the Second floor hallway and stair landing to the large bed with the upholstered headboard in the Master bedroom?"
+    },
+    "node_13|node_14": {
+      "traversable": false,
+      "note": "bathroom dooe too narrow",
+      "timestamp": "2025-11-04T06:44:15.777Z",
+      "question": "Can [Agent] move from the large bed in the Master bedroom to the double vanity with two sinks in the Master bedroom bathroom?"
+    },
+    "node_17|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:42.320Z",
+      "question": "Can [Agent] move from the carpeted hallway looking towards the room entrance in the Second floor hallway and stair landing to next to the red and white tent in the Kid room with a tent?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:55.134Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the bedroom with blue walls in the Second floor hallway and stair landing to near the large stuffed giraffe in the Second floor smaller bedroom?"
+    },
+    "node_10|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:16.814Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_17|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:18.227Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:51.467Z",
+      "question": "Can [Agent] move from by the stainless steel refrigerator in the Kitchen and dining area to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:46:14.666Z",
+      "question": "Can [Agent] move from by the window in the blue-walled bedroom in the Second floor smaller bedroom to by the large bed with the upholstered headboard in the Master bedroom?"
+    }
+  },
+  "ROBOT": {
+    "node_20|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:03.477Z",
+      "question": "Can [Agent] move from the main double entrance door with stained glass panels in the Entrance foyer and hallway to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_20|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:16.717Z",
+      "question": "Can [Agent] move from the main double entrance door in the Entrance foyer and hallway to the round wooden dining table in the Formal dining space?"
+    },
+    "node_24|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:53.688Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:09.288Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_21|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:42:54.937Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_20|node_17": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:42:58.445Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_21|node_17": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:43:00.150Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_17|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:35.070Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the master bedroom in the Second floor hallway and stair landing to the large bed with the upholstered headboard in the Master bedroom?"
+    },
+    "node_13|node_14": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-04T06:44:26.295Z",
+      "question": "Can [Agent] move from the large bed in the Master bedroom to the double vanity with two sinks in the Master bedroom bathroom?"
+    },
+    "node_17|node_11": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T06:44:48.628Z",
+      "question": "Can [Agent] move from the carpeted hallway looking towards the room entrance in the Second floor hallway and stair landing to next to the red and white tent in the Kid room with a tent?"
+    },
+    "node_17|node_16": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T06:45:00.413Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the bedroom with blue walls in the Second floor hallway and stair landing to near the large stuffed giraffe in the Second floor smaller bedroom?"
+    },
+    "node_10|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:20.121Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_17|node_12": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-04T06:45:30.639Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:58.855Z",
+      "question": "Can [Agent] move from by the stainless steel refrigerator in the Kitchen and dining area to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_16|node_17": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T06:46:16.879Z",
+      "question": "Can [Agent] move from by the window in the blue-walled bedroom in the Second floor smaller bedroom to by the large bed with the upholstered headboard in the Master bedroom?"
+    }
+  },
+  "SWEEPER": {
+    "node_20|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:05.156Z",
+      "question": "Can [Agent] move from the main double entrance door with stained glass panels in the Entrance foyer and hallway to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_20|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:18.077Z",
+      "question": "Can [Agent] move from the main double entrance door in the Entrance foyer and hallway to the round wooden dining table in the Formal dining space?"
+    },
+    "node_24|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:10.581Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:11.117Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_21|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:06.511Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_20|node_17": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:43:09.124Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_21|node_17": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T06:43:12.056Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_17|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:35.844Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the master bedroom in the Second floor hallway and stair landing to the large bed with the upholstered headboard in the Master bedroom?"
+    },
+    "node_13|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:28.189Z",
+      "question": "Can [Agent] move from the large bed in the Master bedroom to the double vanity with two sinks in the Master bedroom bathroom?"
+    },
+    "node_17|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:50.201Z",
+      "question": "Can [Agent] move from the carpeted hallway looking towards the room entrance in the Second floor hallway and stair landing to next to the red and white tent in the Kid room with a tent?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:02.867Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the bedroom with blue walls in the Second floor hallway and stair landing to near the large stuffed giraffe in the Second floor smaller bedroom?"
+    },
+    "node_10|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:32.814Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_17|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:33.548Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:46:00.881Z",
+      "question": "Can [Agent] move from by the stainless steel refrigerator in the Kitchen and dining area to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:46:18.571Z",
+      "question": "Can [Agent] move from by the window in the blue-walled bedroom in the Second floor smaller bedroom to by the large bed with the upholstered headboard in the Master bedroom?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_20|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:06.437Z",
+      "question": "Can [Agent] move from the main double entrance door with stained glass panels in the Entrance foyer and hallway to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_20|node_24": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:22:18.931Z",
+      "question": "Can [Agent] move from the main double entrance door in the Entrance foyer and hallway to the round wooden dining table in the Formal dining space?"
+    },
+    "node_24|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:12.114Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_20|node_23": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:23:12.754Z",
+      "question": "Can [Agent] move from the large window overlooking the backyard in the Formal dining space to the kitchen island with a dark countertop in the Kitchen and dining area?"
+    },
+    "node_21|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:16.616Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_20|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:17.484Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_21|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:18.469Z",
+      "question": "Can [Agent] move from the seating area near the fireplace in the Living room to the top of the carpeted stairs in the Second floor hallway and stair landing?"
+    },
+    "node_17|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:43:36.750Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the master bedroom in the Second floor hallway and stair landing to the large bed with the upholstered headboard in the Master bedroom?"
+    },
+    "node_13|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:29.627Z",
+      "question": "Can [Agent] move from the large bed in the Master bedroom to the double vanity with two sinks in the Master bedroom bathroom?"
+    },
+    "node_17|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:44:51.281Z",
+      "question": "Can [Agent] move from the carpeted hallway looking towards the room entrance in the Second floor hallway and stair landing to next to the red and white tent in the Kid room with a tent?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:04.786Z",
+      "question": "Can [Agent] move from the carpeted hallway near the entrance to the bedroom with blue walls in the Second floor hallway and stair landing to near the large stuffed giraffe in the Second floor smaller bedroom?"
+    },
+    "node_10|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:39.565Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_17|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:45:40.013Z",
+      "question": "Can [Agent] move from near the light-colored sofa in the Second floor media room to the double vanity with the large mirror in the Second floor shared bathroom?"
+    },
+    "node_23|node_20": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:46:02.053Z",
+      "question": "Can [Agent] move from by the stainless steel refrigerator in the Kitchen and dining area to the dark wooden desk with a chair in the Home office?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T06:46:20.627Z",
+      "question": "Can [Agent] move from by the window in the blue-walled bedroom in the Second floor smaller bedroom to by the large bed with the upholstered headboard in the Master bedroom?"
+    }
+  }
+}

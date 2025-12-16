@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "Porch",
+      "description": "",
+      "position": {
+        "x": -0.38388744070880443,
+        "y": 0.2757017467199356,
+        "z": 5.11719091107056
+      }
+    },
+    {
+      "id": "node_1",
+      "name": "Living room",
+      "description": "plus dining and kitchen",
+      "position": {
+        "x": -2.255738029309028,
+        "y": 0.29087385075012867,
+        "z": -3.4663967601685775
+      }
+    },
+    {
+      "id": "node_2",
+      "name": "Guest bathroom",
+      "description": "",
+      "position": {
+        "x": -6.72700738232575,
+        "y": 0.2902866321324346,
+        "z": -2.5237413645870594
+      }
+    },
+    {
+      "id": "node_3",
+      "name": "Laundry room",
+      "description": "",
+      "position": {
+        "x": -6.993887980276057,
+        "y": 0.28836580215135504,
+        "z": -5.083194811232158
+      }
+    },
+    {
+      "id": "node_4",
+      "name": "Garage",
+      "description": "",
+      "position": {
+        "x": -10.426832720185587,
+        "y": -0.04105438801041378,
+        "z": -2.6809614831586583
+      }
+    },
+    {
+      "id": "node_5",
+      "name": "Bedroom",
+      "description": "with white sheets and rug",
+      "position": {
+        "x": -3.0825306468887237,
+        "y": 0.31000474087196767,
+        "z": 0.35026080384500347
+      }
+    },
+    {
+      "id": "node_6",
+      "name": "Bathroom inside bedroom",
+      "description": "",
+      "position": {
+        "x": -6.145115571962432,
+        "y": 0.28871361360696673,
+        "z": 2.6629339997529
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Second floor bedroom",
+      "description": "",
+      "position": {
+        "x": -12.878146879519928,
+        "y": 3.0356312214437544,
+        "z": -1.72991574176265
+      }
+    },
+    {
+      "id": "node_8",
+      "name": "Closet of the second floor bedroom",
+      "description": "",
+      "position": {
+        "x": -13.80008463220888,
+        "y": 3.4110078018589656,
+        "z": 0.3061980425192763
+      }
+    },
+    {
+      "id": "node_9",
+      "name": "Home office",
+      "description": "",
+      "position": {
+        "x": -11.145753433158479,
+        "y": 3.4056544595642437,
+        "z": 0.8720912446309037
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "Second floor bathroom",
+      "description": "",
+      "position": {
+        "x": -10.015028186723491,
+        "y": 3.4009999487117577,
+        "z": -2.9963081554551225
+      }
+    },
+    {
+      "id": "node_11",
+      "name": "Second floor hallway",
+      "description": "",
+      "position": {
+        "x": -9.060627168917001,
+        "y": 3.412001772491281,
+        "z": -1.6359210917662188
+      }
+    },
+    {
+      "id": "node_14",
+      "name": "Dressing room",
+      "description": "",
+      "position": {
+        "x": 2.233148280967793,
+        "y": 0.3046358260137751,
+        "z": 2.3906862107963507
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "from": "node_11",
+      "to": "node_10"
+    },
+    {
+      "id": "edge_1",
+      "from": "node_11",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_2",
+      "from": "node_7",
+      "to": "node_8"
+    },
+    {
+      "id": "edge_3",
+      "from": "node_11",
+      "to": "node_9"
+    },
+    {
+      "id": "edge_4",
+      "from": "node_11",
+      "to": "node_1"
+    },
+    {
+      "id": "edge_5",
+      "from": "node_1",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_6",
+      "from": "node_1",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_7",
+      "from": "node_1",
+      "to": "node_4"
+    },
+    {
+      "id": "edge_8",
+      "from": "node_1",
+      "to": "node_5"
+    },
+    {
+      "id": "edge_9",
+      "from": "node_5",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_10",
+      "from": "node_1",
+      "to": "node_0"
+    },
+    {
+      "id": "edge_11",
+      "from": "node_1",
+      "to": "node_14"
+    },
+    {
+      "id": "edge_12",
+      "from": "node_2",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_13",
+      "from": "node_3",
+      "to": "node_4"
+    },
+    {
+      "id": "edge_14",
+      "from": "node_4",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_15",
+      "from": "node_11",
+      "to": "node_5"
+    }
+  ]
+}

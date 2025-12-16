@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "id": "node_47",
+      "name": "Garage",
+      "description": "",
+      "position": {
+        "x": 8.71557999958398,
+        "y": -0.4297912890448046,
+        "z": -6.73043626801917
+      }
+    },
+    {
+      "id": "node_48",
+      "name": "Kitchen and dining space",
+      "description": "",
+      "position": {
+        "x": 8.318743861191171,
+        "y": 0.29526709877980045,
+        "z": -0.5144908730268931
+      }
+    },
+    {
+      "id": "node_49",
+      "name": "Living room with fireplace",
+      "description": "",
+      "position": {
+        "x": 3.113018566525071,
+        "y": 0.3155515734183993,
+        "z": 0.2372091011214339
+      }
+    },
+    {
+      "id": "node_50",
+      "name": "Home office",
+      "description": "",
+      "position": {
+        "x": -1.6724204887438892,
+        "y": 0.28994403340109115,
+        "z": 0.11434762236507101
+      }
+    },
+    {
+      "id": "node_53",
+      "name": "Smaller living room",
+      "description": "",
+      "position": {
+        "x": -1.64251655800709,
+        "y": 0.2956170193831806,
+        "z": -4.700657615528398
+      }
+    },
+    {
+      "id": "node_54",
+      "name": "Formal dining room",
+      "description": "",
+      "position": {
+        "x": 3.061517857685356,
+        "y": 0.29448441613713355,
+        "z": -5.432276857787853
+      }
+    },
+    {
+      "id": "node_56",
+      "name": "Guest bathroom",
+      "description": "",
+      "position": {
+        "x": -1.8261732155935175,
+        "y": -0.36587237744566253,
+        "z": -2.0139253037023894
+      }
+    },
+    {
+      "id": "node_57",
+      "name": "Basement bathroom",
+      "description": "",
+      "position": {
+        "x": 1.3203205006646879,
+        "y": -2.388374559165551,
+        "z": -0.07997729719151536
+      }
+    },
+    {
+      "id": "node_58",
+      "name": "Basement family room",
+      "description": "",
+      "position": {
+        "x": -0.8921856986533001,
+        "y": -2.3825649083717115,
+        "z": -0.46764749425077223
+      }
+    },
+    {
+      "id": "node_59",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": 9.400072111296868,
+        "y": 3.364388449510364,
+        "z": -3.727056483371629
+      }
+    },
+    {
+      "id": "node_60",
+      "name": "Master bedroom home office",
+      "description": "",
+      "position": {
+        "x": 8.948185615700195,
+        "y": 3.3654121533592436,
+        "z": -8.649038538739857
+      }
+    },
+    {
+      "id": "node_61",
+      "name": "Master bedroom bathroom and closet",
+      "description": "",
+      "position": {
+        "x": 9.197809355516393,
+        "y": 3.3422845053426213,
+        "z": -0.1705473776248086
+      }
+    },
+    {
+      "id": "node_62",
+      "name": "Top floor hallway",
+      "description": "",
+      "position": {
+        "x": 3.9924079834463218,
+        "y": 3.3475439854719644,
+        "z": -2.1884594851202026
+      }
+    },
+    {
+      "id": "node_63",
+      "name": "Study room",
+      "description": "",
+      "position": {
+        "x": -2.1970530438022746,
+        "y": 3.3496295240597425,
+        "z": 0.9779212190656801
+      }
+    },
+    {
+      "id": "node_64",
+      "name": "Bedroom with green pattern sheets",
+      "description": "",
+      "position": {
+        "x": -2.658220188562071,
+        "y": 3.3532036905085176,
+        "z": -4.248592873323352
+      }
+    },
+    {
+      "id": "node_65",
+      "name": "Top floor shared bathroom",
+      "description": "",
+      "position": {
+        "x": -2.155149610255183,
+        "y": 3.04532203902384,
+        "z": -1.4678402521738403
+      }
+    },
+    {
+      "id": "node_66",
+      "name": "Bedroom with white and blue sheets",
+      "description": "",
+      "position": {
+        "x": 4.378635910034462,
+        "y": 3.3497468882618895,
+        "z": -4.785410065148697
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_48",
+      "from": "node_47",
+      "to": "node_48"
+    },
+    {
+      "id": "edge_49",
+      "from": "node_48",
+      "to": "node_49"
+    },
+    {
+      "id": "edge_50",
+      "from": "node_49",
+      "to": "node_54"
+    },
+    {
+      "id": "edge_51",
+      "from": "node_54",
+      "to": "node_53"
+    },
+    {
+      "id": "edge_53",
+      "from": "node_49",
+      "to": "node_50"
+    },
+    {
+      "id": "edge_54",
+      "from": "node_53",
+      "to": "node_49"
+    },
+    {
+      "id": "edge_55",
+      "from": "node_56",
+      "to": "node_49"
+    },
+    {
+      "id": "edge_56",
+      "from": "node_58",
+      "to": "node_57"
+    },
+    {
+      "id": "edge_57",
+      "from": "node_58",
+      "to": "node_54"
+    },
+    {
+      "id": "edge_58",
+      "from": "node_61",
+      "to": "node_59"
+    },
+    {
+      "id": "edge_59",
+      "from": "node_59",
+      "to": "node_60"
+    },
+    {
+      "id": "edge_60",
+      "from": "node_54",
+      "to": "node_62"
+    },
+    {
+      "id": "edge_61",
+      "from": "node_62",
+      "to": "node_59"
+    },
+    {
+      "id": "edge_62",
+      "from": "node_62",
+      "to": "node_64"
+    },
+    {
+      "id": "edge_63",
+      "from": "node_62",
+      "to": "node_63"
+    },
+    {
+      "id": "edge_64",
+      "from": "node_62",
+      "to": "node_66"
+    },
+    {
+      "id": "edge_65",
+      "from": "node_62",
+      "to": "node_65"
+    }
+  ]
+}

@@ -1,0 +1,1019 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_67|node_69": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_69|node_68": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_71|node_69": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_71|node_64": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_63|node_69": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_63|node_65": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_65|node_69": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_69|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:39:21.973Z"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:34.634Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:39.166Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:39.859Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:40.939Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_68|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:43.686Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_64|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:24.003Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_69|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:29.601Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:34.002Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:38.828Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_56|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:58:06.736Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_59|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:58:10.163Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:31.695Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_57|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:58:14.215Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:19.789Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:24.735Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:34.869Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_69|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:14:09.042Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:14:13.830Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:04.892Z",
+      "question": "Can [Agent] move from the Kitchen to the Bedroom with white sheets?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:29.678Z",
+      "question": "Can [Agent] move from the Pink bedroom to the Second floor bathroom?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:43:19.609Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:43:24.022Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_68": {
+      "traversable": false,
+      "note": "door sill too high",
+      "timestamp": "2025-11-04T04:44:26.860Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:44:30.846Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:44:45.124Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:44:47.206Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:45:33.710Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:45:51.816Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:46:30.295Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:46:39.081Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_65|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:46:41.389Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_68": {
+      "traversable": false,
+      "note": "ground height difference creates a tiny step",
+      "timestamp": "2025-11-04T04:47:07.174Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:47:15.413Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_68|node_67": {
+      "traversable": false,
+      "note": "ground height difference creates a tiny step",
+      "timestamp": "2025-11-04T04:47:20.895Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:47.819Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:52.630Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:56.551Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:00.591Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_68|node_69": {
+      "traversable": false,
+      "note": "door sill too high",
+      "timestamp": "2025-11-04T04:51:04.752Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_64|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:44.883Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_69|node_66": {
+      "traversable": false,
+      "note": "not enough turning space at bathroom door",
+      "timestamp": "2025-11-04T04:53:47.679Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:53:50.787Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:53:55.906Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_56|node_59": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T04:59:50.893Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_59|node_61": {
+      "traversable": false,
+      "note": "not enough turning space in the hallway",
+      "timestamp": "2025-11-04T05:01:07.742Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_56|node_57": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:01:19.929Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_57|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:03:13.392Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:11:13.447Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_56": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:11:18.034Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:11:25.314Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_69|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T05:14:28.254Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:15:15.240Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:11.229Z",
+      "question": "Can [Agent] move from the Kitchen to the Bedroom with white sheets?"
+    },
+    "node_57|node_56": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:16:35.143Z",
+      "question": "Can [Agent] move from the Pink bedroom to the Second floor bathroom?"
+    }
+  },
+  "ROBOT": {
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:47:27.599Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:47:31.520Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_68": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:47:43.960Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:47:49.613Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:47:56.158Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:47:58.478Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_64": {
+      "traversable": false,
+      "note": "dooe too narrow",
+      "timestamp": "2025-11-04T04:48:05.598Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_64|node_63": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:48:25.358Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_69": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:48:29.770Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_65": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:48:32.838Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_65|node_69": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:48:36.370Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:48:40.224Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:48:42.663Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:48:44.077Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:08.846Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:16.577Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_63": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:51:18.340Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_65": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:51:19.751Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_68|node_69": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:51:22.312Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_64|node_71": {
+      "traversable": false,
+      "note": "dooe too narrow",
+      "timestamp": "2025-11-04T04:53:59.119Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_69|node_66": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-04T04:54:14.466Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_63|node_64": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:54:18.479Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_65|node_63": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:54:22.224Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_56|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:03:23.284Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_59|node_61": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T05:03:31.752Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:03:35.230Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_57|node_59": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T05:03:42.298Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_60|node_59": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T05:11:35.594Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:11:37.890Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_57": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T05:11:41.901Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_69|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T05:15:28.188Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_62": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T05:15:33.719Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_60": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T05:16:15.478Z",
+      "question": "Can [Agent] move from the Kitchen to the Bedroom with white sheets?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:42.798Z",
+      "question": "Can [Agent] move from the Pink bedroom to the Second floor bathroom?"
+    }
+  },
+  "SWEEPER": {
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:48:51.357Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:48:53.890Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_68": {
+      "traversable": false,
+      "note": "ground surface height difference",
+      "timestamp": "2025-11-04T04:49:05.370Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:09.116Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:13.662Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:15.344Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:18.809Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:20.462Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:21.995Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:24.141Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_65|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:25.994Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_68": {
+      "traversable": false,
+      "note": "ground surface height difference",
+      "timestamp": "2025-11-04T04:49:37.596Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:40.235Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_68|node_67": {
+      "traversable": false,
+      "note": "ground surface height difference",
+      "timestamp": "2025-11-04T04:49:43.328Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:26.379Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:32.937Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:37.377Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:51:40.710Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_68|node_69": {
+      "traversable": false,
+      "note": "ground surface height difference",
+      "timestamp": "2025-11-04T04:51:59.044Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_64|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:54:30.637Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_69|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:54:34.730Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:57:08.485Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:57:14.364Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_56|node_59": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:03:52.701Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_59|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:03:55.524Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_56|node_57": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:04:02.031Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_57|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:06.138Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:11:48.397Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_56": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:11:50.156Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:11:52.914Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_69|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T05:15:37.293Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:15:38.227Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:19.693Z",
+      "question": "Can [Agent] move from the Kitchen to the Bedroom with white sheets?"
+    },
+    "node_57|node_56": {
+      "traversable": false,
+      "note": "floor height difference",
+      "timestamp": "2025-11-04T05:16:46.969Z",
+      "question": "Can [Agent] move from the Pink bedroom to the Second floor bathroom?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_72|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:46.834Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:48.274Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:51.222Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:52.968Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_72|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:54.395Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:49:56.288Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:03.860Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:06.167Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:10.994Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_63|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:13.328Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_65|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:15.753Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_67|node_68": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:21.419Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_69|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:23.006Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_68|node_67": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:50:29.368Z",
+      "question": "Can [Agent] move from the Foyer to the Sunroom?"
+    },
+    "node_71|node_72": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:08.015Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:12.002Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:14.017Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_69|node_65": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:16.456Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_68|node_69": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:52:20.003Z",
+      "question": "Can [Agent] move from the Dining space to the Study room?"
+    },
+    "node_64|node_71": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:57:18.339Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_69|node_66": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:57:29.084Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:57:34.685Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:57:38.283Z",
+      "question": "Can [Agent] move from the Kitchen to the First fllor bathroom?"
+    },
+    "node_56|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:09.669Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_59|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:11.576Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:14.856Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_57|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:04:16.483Z",
+      "question": "Can [Agent] move from the Crib room to the Bedroom with blue bed skirt?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:14:00.311Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:14:03.043Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_59|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:14:06.674Z",
+      "question": "Can [Agent] move from the Bedroom with white sheets to the Pink bedroom?"
+    },
+    "node_69|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:15:40.465Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:15:41.611Z",
+      "question": "Can [Agent] move from the First floor hallway and stair landing to the Second floor bathroom?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:24.865Z",
+      "question": "Can [Agent] move from the Kitchen to the Bedroom with white sheets?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T05:16:51.889Z",
+      "question": "Can [Agent] move from the Pink bedroom to the Second floor bathroom?"
+    }
+  }
+}

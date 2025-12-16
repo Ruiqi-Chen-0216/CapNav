@@ -1,0 +1,726 @@
+{
+  "HUMAN": {
+    "node_1|node_14": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-02T20:43:36.647Z"
+    },
+    "node_1|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:25.784Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:59.122Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:48:03.442Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-02T20:53:52.885Z"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-02T20:53:52.885Z"
+    },
+    "node_2|node_4": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-02T20:53:52.885Z"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-02T20:53:52.885Z"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-02T20:53:52.885Z"
+    },
+    "node_4|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:42.377Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:44.846Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_5|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:59:40.736Z",
+      "question": "Can [Agent] move from the large white bed area of the Bedroom to the double vanity area of the Bathroom inside bedroom?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:03:26.896Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:03:30.197Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_1|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:03:34.288Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_5|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:03:38.361Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_9|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:54.443Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:08:07.899Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:17:18.053Z",
+      "question": "Can [Agent] move from the bed area of the Second floor bedroom to the interior of the Closet of the second floor bedroom?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:32:22.960Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:32:26.717Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_14|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:20.660Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:25.048Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:34:09.646Z",
+      "question": "Can [Agent] move from the toilet area of the Guest bathroom to the armchair area of the Home office?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_1|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:44:09.614Z",
+      "question": "Can [Agent] move from the dog bed area of the Living room to the vanity mirrors area of the Dressing room?"
+    },
+    "node_1|node_4": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:47:33.017Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:51:00.072Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_1|node_2": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:52:08.138Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_2|node_3": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:54:20.560Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_4": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:54:27.743Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_4": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:54:31.784Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:55:00.928Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_2": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:55:03.851Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_4|node_2": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:58:49.697Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_1": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:58:53.740Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_5|node_6": {
+      "traversable": false,
+      "note": "The fur rug is too thick to cross",
+      "timestamp": "2025-11-03T05:30:06.016Z",
+      "question": "Can [Agent] move from the large white bed area of the Bedroom to the double vanity area of the Bathroom inside bedroom?"
+    },
+    "node_1|node_11": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T21:03:47.499Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:04:08.323Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_1|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:04:16.315Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_5|node_11": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T21:04:20.007Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_9|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:12:34.114Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:12:59.720Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_7|node_8": {
+      "traversable": false,
+      "note": "The fur rug is too thick to cross",
+      "timestamp": "2025-11-03T05:31:57.837Z",
+      "question": "Can [Agent] move from the bed area of the Second floor bedroom to the interior of the Closet of the second floor bedroom?"
+    },
+    "node_4|node_3": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T05:32:32.850Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_2|node_1": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-03T05:32:38.677Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_14|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:29.261Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_5": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T05:33:34.729Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:34:30.767Z",
+      "question": "Can [Agent] move from the toilet area of the Guest bathroom to the armchair area of the Home office?"
+    }
+  },
+  "ROBOT": {
+    "node_1|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:14.286Z",
+      "question": "Can [Agent] move from the dog bed area of the Living room to the vanity mirrors area of the Dressing room?"
+    },
+    "node_1|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:45.202Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:52:14.178Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_1|node_2": {
+      "traversable": false,
+      "note": "Bathroom door too narrow",
+      "timestamp": "2025-11-02T20:55:14.012Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_3": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:55:24.474Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:55:52.350Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_4": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:56:03.858Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:57:47.321Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_2": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:57:50.688Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_4|node_2": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-02T20:59:07.692Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:59:12.561Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_5|node_6": {
+      "traversable": false,
+      "note": "bthroom oor too nrro",
+      "timestamp": "2025-11-02T21:01:02.270Z",
+      "question": "Can [Agent] move from the large white bed area of the Bedroom to the double vanity area of the Bathroom inside bedroom?"
+    },
+    "node_1|node_11": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T21:04:34.758Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_11|node_7": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-02T21:04:57.664Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_1|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:02.645Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_5|node_11": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T21:06:32.251Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_9|node_11": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-02T21:13:25.274Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_11|node_10": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-02T21:13:32.935Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:32:01.010Z",
+      "question": "Can [Agent] move from the bed area of the Second floor bedroom to the interior of the Closet of the second floor bedroom?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:32:44.995Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_2|node_1": {
+      "traversable": false,
+      "note": "Bathroom door too narrow",
+      "timestamp": "2025-11-03T05:32:51.009Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_14|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:41.222Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_5": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T05:33:44.394Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_9": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T05:34:35.953Z",
+      "question": "Can [Agent] move from the toilet area of the Guest bathroom to the armchair area of the Home office?"
+    }
+  },
+  "SWEEPER": {
+    "node_1|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:17.305Z",
+      "question": "Can [Agent] move from the dog bed area of the Living room to the vanity mirrors area of the Dressing room?"
+    },
+    "node_1|node_4": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:47:49.591Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:57:56.904Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:00.847Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_4": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:58:05.674Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_4": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:58:09.152Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:11.817Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:14.164Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:59:15.041Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_2": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:59:18.604Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_1": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T20:59:23.681Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_5|node_6": {
+      "traversable": false,
+      "note": "The white fur rug is too thick to cross",
+      "timestamp": "2025-11-03T05:29:48.550Z",
+      "question": "Can [Agent] move from the large white bed area of the Bedroom to the double vanity area of the Bathroom inside bedroom?"
+    },
+    "node_1|node_11": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T21:06:37.041Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:39.342Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_1|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:41.950Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_5|node_11": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-02T21:06:44.365Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_9|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:17:06.503Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:17:07.771Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_7|node_8": {
+      "traversable": false,
+      "note": "The fur rug is too thick to cross",
+      "timestamp": "2025-11-03T05:32:13.131Z",
+      "question": "Can [Agent] move from the bed area of the Second floor bedroom to the interior of the Closet of the second floor bedroom?"
+    },
+    "node_4|node_3": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T05:32:54.530Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:32:59.035Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_14|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:47.940Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_5": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-03T05:33:50.768Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:34:40.471Z",
+      "question": "Can [Agent] move from the toilet area of the Guest bathroom to the armchair area of the Home office?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_1|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:19.248Z",
+      "question": "Can [Agent] move from the dog bed area of the Living room to the vanity mirrors area of the Dressing room?"
+    },
+    "node_1|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:47:56.302Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:26.885Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:29.265Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:31.434Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_2|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:32.873Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:36.975Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:58:38.874Z",
+      "question": "Can [Agent] move from the large brown sofa area of the Living room to the main garage door area of the Garage?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:59:28.684Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:59:33.503Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_4|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T20:59:37.667Z",
+      "question": "Can [Agent] move from the washer and dryer area of the Laundry room to the pedestal sink area of the Guest bathroom?"
+    },
+    "node_5|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:03:13.852Z",
+      "question": "Can [Agent] move from the large white bed area of the Bedroom to the double vanity area of the Bathroom inside bedroom?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:47.962Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:49.412Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_1|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:50.732Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_5|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:06:52.067Z",
+      "question": "Can [Agent] move from the base of the stairs in the Living room to the bed with purple bedding area of the Second floor bedroom?"
+    },
+    "node_9|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:17:09.653Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-02T21:17:12.054Z",
+      "question": "Can [Agent] move from the computer desk area of the Home office to the vanity area of the Second floor bathroom?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:32:14.756Z",
+      "question": "Can [Agent] move from the bed area of the Second floor bedroom to the interior of the Closet of the second floor bedroom?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:03.661Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:33:14.741Z",
+      "question": "Can [Agent] move from the entrance area near the door in the Garage to the dining table area of the Living room?"
+    },
+    "node_14|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:34:02.073Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:34:06.260Z",
+      "question": "Can [Agent] move from the shoe rack area of the Dressing room to the large white bed area of the Bedroom?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T05:34:46.234Z",
+      "question": "Can [Agent] move from the toilet area of the Guest bathroom to the armchair area of the Home office?"
+    }
+  }
+}

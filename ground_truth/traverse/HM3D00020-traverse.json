@@ -1,0 +1,429 @@
+{
+  "HUMAN": {
+    "node_84|node_85": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-10-30T21:10:33.270Z"
+    },
+    "node_85|node_80": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-10-30T21:10:33.270Z"
+    },
+    "node_85|node_81": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-10-30T21:10:33.270Z"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-10-30T21:10:33.270Z"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:22.782Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:27.704Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_81|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:30.250Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_78|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:05.059Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_80|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:09.073Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:12.126Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_81|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:16.873Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:00.990Z",
+      "question": "Can [Agent] move from the area near the fireplace in the Living room to the area near the washing machine in the Kitchen?"
+    },
+    "node_79|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:11.432Z",
+      "question": "Can [Agent] move from the area near the window in the Bedroom with white and blue sheets to the area near the bathtub in the Top floor bathroom?"
+    },
+    "node_81|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:36.948Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the area near the wardrobe in the Bedroom with white sheets?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_84|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-10-30T21:14:10.062Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_80": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:21:10.375Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_81": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:22:04.798Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:22:14.092Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:36.382Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:41.396Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_81|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:55.049Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_78|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:33.152Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_80|node_85": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:25:40.125Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:49.538Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_81|node_85": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:25:55.698Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:03.856Z",
+      "question": "Can [Agent] move from the area near the fireplace in the Living room to the area near the washing machine in the Kitchen?"
+    },
+    "node_79|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:19.108Z",
+      "question": "Can [Agent] move from the area near the window in the Bedroom with white and blue sheets to the area near the bathtub in the Top floor bathroom?"
+    },
+    "node_81|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:41.681Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the area near the wardrobe in the Bedroom with white sheets?"
+    }
+  },
+  "_hallucinatedQuestions": [],
+  "ROBOT": {
+    "node_84|node_85": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:22:52.011Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_80": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:22:56.464Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_81": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:22:58.238Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_81|node_80": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:23:04.023Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:24:16.969Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_80|node_81": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:24:21.634Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_81|node_79": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:24:28.969Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_78|node_81": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:26:07.125Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_80|node_85": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:26:11.324Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_83": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:26:16.805Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_81|node_85": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:26:18.565Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_82": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:27:05.791Z",
+      "question": "Can [Agent] move from the area near the fireplace in the Living room to the area near the washing machine in the Kitchen?"
+    },
+    "node_79|node_81": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:27:24.802Z",
+      "question": "Can [Agent] move from the area near the window in the Bedroom with white and blue sheets to the area near the bathtub in the Top floor bathroom?"
+    },
+    "node_81|node_78": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T20:27:44.040Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the area near the wardrobe in the Bedroom with white sheets?"
+    }
+  },
+  "SWEEPER": {
+    "node_84|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:06.169Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_80": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:23:09.558Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_81": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:23:11.770Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:13.344Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:24:41.794Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:24:45.021Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_81|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:24:47.886Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_78|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:26:21.338Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_80|node_85": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:26:26.125Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:26:30.509Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_81|node_85": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T20:26:39.870Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:07.043Z",
+      "question": "Can [Agent] move from the area near the fireplace in the Living room to the area near the washing machine in the Kitchen?"
+    },
+    "node_79|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:27.335Z",
+      "question": "Can [Agent] move from the area near the window in the Bedroom with white and blue sheets to the area near the bathtub in the Top floor bathroom?"
+    },
+    "node_81|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:46.122Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the area near the wardrobe in the Bedroom with white sheets?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_84|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:15.529Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:16.409Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_85|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:18.956Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:23:21.062Z",
+      "question": "Can [Agent] move from the area near the red sofa in the Living room to the area near the toilet in the Top floor bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:24:53.113Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:24:58.914Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_81|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:25:01.220Z",
+      "question": "Can [Agent] move from the area near the red sink in the Kitchen to the area by the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_78|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:26:43.017Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_80|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:26:52.884Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:26:54.696Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_81|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:26:58.123Z",
+      "question": "Can [Agent] move from the area by the bed with white sheets in the Bedroom with white sheets to the area by the dining table in the Dining room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:08.097Z",
+      "question": "Can [Agent] move from the area near the fireplace in the Living room to the area near the washing machine in the Kitchen?"
+    },
+    "node_79|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:30.362Z",
+      "question": "Can [Agent] move from the area near the window in the Bedroom with white and blue sheets to the area near the bathtub in the Top floor bathroom?"
+    },
+    "node_81|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T20:27:47.841Z",
+      "question": "Can [Agent] move from the area near the front door in the Entrance foyer and hallway to the area near the wardrobe in the Bedroom with white sheets?"
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "nodes": [
+    {
+      "id": "node_1",
+      "name": "Garage",
+      "description": "",
+      "position": {
+        "x": 14.277594006096715,
+        "y": -2.6181103106365606,
+        "z": 2.777753005989495
+      }
+    },
+    {
+      "id": "node_2",
+      "name": "Wine cellar",
+      "description": "",
+      "position": {
+        "x": 4.941579648050453,
+        "y": -2.535921046593722,
+        "z": 2.3343373260507807
+      }
+    },
+    {
+      "id": "node_3",
+      "name": "Basement foyer",
+      "description": "",
+      "position": {
+        "x": 4.670321353264902,
+        "y": -2.5286284216029857,
+        "z": -0.3396131619359737
+      }
+    },
+    {
+      "id": "node_4",
+      "name": "Basement chatroom",
+      "description": "with small sofa and wooden coffee table",
+      "position": {
+        "x": 0.919737322025985,
+        "y": -2.496841391533837,
+        "z": 1.898873220755593
+      }
+    },
+    {
+      "id": "node_6",
+      "name": "Elevator",
+      "description": "",
+      "position": {
+        "x": 23.061109695580967,
+        "y": 0.2981636734871184,
+        "z": 3.25080150571387
+      }
+    },
+    {
+      "id": "node_7",
+      "name": "Home office",
+      "description": "",
+      "position": {
+        "x": 20.062371693326497,
+        "y": -0.20551666159166332,
+        "z": 2.5562356530274655
+      }
+    },
+    {
+      "id": "node_8",
+      "name": "Big room containing Living room and Dining room and part of Kitchen",
+      "description": "",
+      "position": {
+        "x": 3.2786401171364994,
+        "y": -0.1322327156727255,
+        "z": 1.1006671775781203
+      }
+    },
+    {
+      "id": "node_9",
+      "name": "Main chat room with two facing sofa",
+      "description": "",
+      "position": {
+        "x": 15.196975098369743,
+        "y": 0.305007432153568,
+        "z": 1.1332435113984172
+      }
+    },
+    {
+      "id": "node_10",
+      "name": "First floor hallway",
+      "description": "",
+      "position": {
+        "x": 18.127951934445058,
+        "y": 0.28620409243127937,
+        "z": -0.4987510767668599
+      }
+    },
+    {
+      "id": "node_11",
+      "name": "First floor foyer",
+      "description": "",
+      "position": {
+        "x": 24.423555126762555,
+        "y": 0.30093960079377985,
+        "z": 1.4243058347080206
+      }
+    },
+    {
+      "id": "node_13",
+      "name": "Kitchen corridor",
+      "description": "",
+      "position": {
+        "x": 11.290629801821343,
+        "y": -0.34364160678700345,
+        "z": 3.5655114661794345
+      }
+    },
+    {
+      "id": "node_14",
+      "name": "Top floor rest area",
+      "description": "with two chairs",
+      "position": {
+        "x": 20.60772479228269,
+        "y": 3.709127994284855,
+        "z": 1.9070937675823263
+      }
+    },
+    {
+      "id": "node_15",
+      "name": "Top floor hallway",
+      "description": "",
+      "position": {
+        "x": 15.111906033430488,
+        "y": 3.9114883200329444,
+        "z": -1.134865627033932
+      }
+    },
+    {
+      "id": "node_16",
+      "name": "Master bedroom",
+      "description": "",
+      "position": {
+        "x": 1.0516238945771121,
+        "y": 3.7032203766931273,
+        "z": 1.0064510966869484
+      }
+    },
+    {
+      "id": "node_17",
+      "name": "Bedroom with pink blanket",
+      "description": "",
+      "position": {
+        "x": 11.801078983786695,
+        "y": 3.697766962693474,
+        "z": 2.719054616661591
+      }
+    },
+    {
+      "id": "node_18",
+      "name": "Bedroom with golden blanket",
+      "description": "",
+      "position": {
+        "x": 18.01758869409826,
+        "y": 2.964832992075176,
+        "z": 2.721141094447422
+      }
+    },
+    {
+      "id": "node_19",
+      "name": "Bedroom with gray blanket",
+      "description": "",
+      "position": {
+        "x": 26.43457228395326,
+        "y": 3.7152301584762286,
+        "z": 1.4871256903087735
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_0",
+      "from": "node_1",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_1",
+      "from": "node_3",
+      "to": "node_2"
+    },
+    {
+      "id": "edge_2",
+      "from": "node_3",
+      "to": "node_4"
+    },
+    {
+      "id": "edge_3",
+      "from": "node_10",
+      "to": "node_3"
+    },
+    {
+      "id": "edge_4",
+      "from": "node_10",
+      "to": "node_7"
+    },
+    {
+      "id": "edge_5",
+      "from": "node_10",
+      "to": "node_9"
+    },
+    {
+      "id": "edge_6",
+      "from": "node_10",
+      "to": "node_8"
+    },
+    {
+      "id": "edge_7",
+      "from": "node_1",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_8",
+      "from": "node_11",
+      "to": "node_6"
+    },
+    {
+      "id": "edge_9",
+      "from": "node_11",
+      "to": "node_10"
+    },
+    {
+      "id": "edge_12",
+      "from": "node_9",
+      "to": "node_13"
+    },
+    {
+      "id": "edge_13",
+      "from": "node_13",
+      "to": "node_8"
+    },
+    {
+      "id": "edge_14",
+      "from": "node_6",
+      "to": "node_14"
+    },
+    {
+      "id": "edge_15",
+      "from": "node_11",
+      "to": "node_14"
+    },
+    {
+      "id": "edge_16",
+      "from": "node_14",
+      "to": "node_19"
+    },
+    {
+      "id": "edge_17",
+      "from": "node_14",
+      "to": "node_15"
+    },
+    {
+      "id": "edge_18",
+      "from": "node_15",
+      "to": "node_18"
+    },
+    {
+      "id": "edge_19",
+      "from": "node_15",
+      "to": "node_17"
+    },
+    {
+      "id": "edge_20",
+      "from": "node_15",
+      "to": "node_16"
+    },
+    {
+      "id": "edge_21",
+      "from": "node_7",
+      "to": "node_9"
+    }
+  ]
+}

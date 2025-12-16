@@ -1,0 +1,1060 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_0|node_14": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T06:48:54.027Z"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T06:48:54.027Z"
+    },
+    "node_0|node_15": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T06:48:54.027Z"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:05.491Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_17|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:07.271Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_15|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:20.213Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:23.854Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_12|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:55.039Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:59.870Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:54:02.661Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_18|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:40.625Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:43.846Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:49.257Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_16|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:41.036Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_12|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:43.016Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_16|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:45.797Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_9|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:05:36.407Z",
+      "question": "Can [Agent] move from the blue plaid armchair in the Second floor stair landing and rest space to the brown leather sofa in the Top floor stair landing and rest space?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:01.121Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_3|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:02.612Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_11|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:01.562Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_12|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:03.502Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:09.544Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_14|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:11.954Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:13.554Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_9|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:15.285Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:37.870Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:39.610Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:41.480Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:43.171Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_6|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:10.866Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:13.787Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_2|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:17.217Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_17|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:20.188Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:44.163Z",
+      "question": "Can [Agent] move from the area in front of the 'Frontier' suite in the Second floor hallway to the left hand side of stair landing to the bar counter in the First floor main hall space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:13:14.468Z",
+      "question": "Can [Agent] move from the entrance to the 'Safari' suite in the Second floor hallway to the left hand side of stair landing to the Top floor suite with stripe sheets and bathtub?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_0|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:49:02.429Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_14|node_15": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T06:50:47.247Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_0|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:51:49.648Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:54:21.474Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_17|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:54:32.106Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_15|node_9": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:58:42.004Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:58:47.135Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_12|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:58:51.026Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:58:55.436Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:59:00.567Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_18|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:56.308Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:59.329Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:03.419Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_16|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:53.468Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_12|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:03:49.598Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_16|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:03:54.669Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_9|node_2": {
+      "traversable": false,
+      "note": "cannot use stair",
+      "timestamp": "2025-11-05T07:05:48.880Z",
+      "question": "Can [Agent] move from the blue plaid armchair in the Second floor stair landing and rest space to the brown leather sofa in the Top floor stair landing and rest space?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:09.643Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_3|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:14.994Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_11|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:20.055Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_12|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:22.256Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_14": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T07:07:28.937Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_14|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:31.237Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:33.638Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_9|node_15": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:07:38.909Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:47.972Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:50.622Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:30.009Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:32.479Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_6|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:28.559Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:32.330Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_2|node_9": {
+      "traversable": false,
+      "note": "cannot use stair",
+      "timestamp": "2025-11-05T07:11:35.410Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_17|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:40.852Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:53.284Z",
+      "question": "Can [Agent] move from the area in front of the 'Frontier' suite in the Second floor hallway to the left hand side of stair landing to the bar counter in the First floor main hall space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:13:18.069Z",
+      "question": "Can [Agent] move from the entrance to the 'Safari' suite in the Second floor hallway to the left hand side of stair landing to the Top floor suite with stripe sheets and bathtub?"
+    }
+  },
+  "ROBOT": {
+    "node_0|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:51:54.678Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:52:38.316Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_0|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:52:48.698Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:59:35.933Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_17|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:03.498Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_15|node_9": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:00:15.271Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:19.421Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_12|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:23.652Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_16|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:25.742Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:29.963Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_18|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:13.011Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:14.821Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:17.802Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_16|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:03:59.380Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_12|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:04:38.767Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_16|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:04:42.968Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_9|node_2": {
+      "traversable": false,
+      "note": "cannot use stair",
+      "timestamp": "2025-11-05T07:05:54.261Z",
+      "question": "Can [Agent] move from the blue plaid armchair in the Second floor stair landing and rest space to the brown leather sofa in the Top floor stair landing and rest space?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:17.664Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_3|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:19.355Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_11|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:55.232Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_12|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:07:59.422Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:06.784Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_14|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:08.004Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:09.914Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_9|node_15": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:08:18.316Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:38.530Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:40.941Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:44.041Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:45.432Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_6|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:48.103Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:50.603Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_2|node_9": {
+      "traversable": false,
+      "note": "cannot use stair",
+      "timestamp": "2025-11-05T07:11:52.274Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_17|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:04.286Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:56.385Z",
+      "question": "Can [Agent] move from the area in front of the 'Frontier' suite in the Second floor hallway to the left hand side of stair landing to the bar counter in the First floor main hall space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:13:25.310Z",
+      "question": "Can [Agent] move from the entrance to the 'Safari' suite in the Second floor hallway to the left hand side of stair landing to the Top floor suite with stripe sheets and bathtub?"
+    }
+  },
+  "SWEEPER": {
+    "node_0|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:52:51.348Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_14|node_15": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T06:52:55.900Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_0|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:52:57.349Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:32.433Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_17|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:34.534Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_15|node_9": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:00:44.436Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:00:47.596Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_12|node_16": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:00:54.728Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_16|node_17": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:01:02.529Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_16": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:01:13.861Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_18|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:21.493Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:23.803Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_16": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:02:28.134Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_16|node_12": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:04:49.899Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_12|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:05:00.761Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_16|node_9": {
+      "traversable": true,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:05:02.651Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_9|node_2": {
+      "traversable": false,
+      "note": "cannot use stair",
+      "timestamp": "2025-11-05T07:05:56.351Z",
+      "question": "Can [Agent] move from the blue plaid armchair in the Second floor stair landing and rest space to the brown leather sofa in the Top floor stair landing and rest space?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:24.346Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_3|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:25.866Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_11|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:25.887Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_12|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:27.337Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_14": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T07:08:30.878Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_14|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:34.178Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:36.459Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_9|node_15": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T07:08:39.890Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:49.342Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:50.953Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:52.293Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:10:53.853Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_6|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:13.567Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:16.188Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_2|node_9": {
+      "traversable": false,
+      "note": "cannot use stair",
+      "timestamp": "2025-11-05T07:12:18.478Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_17|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:24.209Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:58.945Z",
+      "question": "Can [Agent] move from the area in front of the 'Frontier' suite in the Second floor hallway to the left hand side of stair landing to the bar counter in the First floor main hall space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:13:28.841Z",
+      "question": "Can [Agent] move from the entrance to the 'Safari' suite in the Second floor hallway to the left hand side of stair landing to the Top floor suite with stripe sheets and bathtub?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_0|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:52:59.720Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:00.870Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_0|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:53:01.940Z",
+      "question": "Can [Agent] move from the outdoor event seating area in the Yard to the area near the large stone fireplace in the First floor main hall space?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:16.121Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_17|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:17.901Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_15|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:20.842Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:01:22.832Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_12|node_16": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:01:30.754Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_16|node_17": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:01:32.855Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_9|node_16": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:01:34.705Z",
+      "question": "Can [Agent] move from the wooden bar counter in the First floor main hall space to the sink with the large mirror in the First floor woman bathroom?"
+    },
+    "node_18|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:30.734Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:02:32.715Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_17|node_16": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:02:37.175Z",
+      "question": "Can [Agent] move from inside the First floor men bathroom to the Elevator doors?"
+    },
+    "node_16|node_12": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:05:10.933Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_12|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:05:21.084Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_16|node_9": {
+      "traversable": false,
+      "note": "cannot use elevator",
+      "timestamp": "2025-11-05T07:05:28.626Z",
+      "question": "Can [Agent] move from the round dining tables in the First floor main hall space to the bed with the patchwork quilt in the Second floor bedroom with canopy bed?"
+    },
+    "node_9|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:05:59.261Z",
+      "question": "Can [Agent] move from the blue plaid armchair in the Second floor stair landing and rest space to the brown leather sofa in the Top floor stair landing and rest space?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:27.096Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_3|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:06:27.876Z",
+      "question": "Can [Agent] move from the wooden desk with chairs in the Top floor stair landing and rest space to the canopy bed next to the fireplace in the Top floor Suite with canopy bed?"
+    },
+    "node_11|node_12": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:47.551Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_12|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:08:50.581Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_15|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:25.498Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_14|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:28.578Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_9|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:09:29.618Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:00.894Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:02.305Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_5|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:03.825Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_8|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:11:05.485Z",
+      "question": "Can [Agent] move from the white round tables under the canopy in the Side dining space with three round tables to the table with green chairs in the Bedroom suite with table of four?"
+    },
+    "node_6|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:28.120Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_3|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:30.240Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_2|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:31.790Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_17|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:12:38.842Z",
+      "question": "Can [Agent] move from the bathtub in the Top floor Suite with canopy bed to the urinal in the First floor men bathroom?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:13:01.456Z",
+      "question": "Can [Agent] move from the area in front of the 'Frontier' suite in the Second floor hallway to the left hand side of stair landing to the bar counter in the First floor main hall space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:13:37.872Z",
+      "question": "Can [Agent] move from the entrance to the 'Safari' suite in the Second floor hallway to the left hand side of stair landing to the Top floor suite with stripe sheets and bathtub?"
+    },
+    "node_15|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T07:14:03.147Z",
+      "question": "Can [Agent] move from the fireplace with Christmas stockings in the Second floor bedroom with canopy bed to the main entrance steps in the Yard?"
+    }
+  }
+}

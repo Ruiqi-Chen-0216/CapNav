@@ -1,0 +1,912 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T06:24:48.896Z"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:12.102Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:14.062Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_130|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:25.395Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:27.565Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_131|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:36.628Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_130|node_135": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:44.149Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:47.279Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_135|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:47.050Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_130|node_136": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:49.601Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_136|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:34:46.181Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_130|node_133": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:01.304Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_133|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:56.623Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_130|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:58.614Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_132|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:00.664Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:03.865Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:10.906Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:13.186Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_125|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:15.657Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:18.717Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_127|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:36.552Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_127|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:43.923Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_126|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:43:46.794Z",
+      "question": "Can [Agent] move from the master bedroom dressing room to the master bedroom bathroom?"
+    },
+    "node_125|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:23.791Z",
+      "question": "Can [Agent] move from the master bedroom bathroom to the master bedroom?"
+    },
+    "node_137|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:41.514Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_132|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:43.744Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_130|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:52.726Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_124|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:04.008Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_123|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:24.022Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    },
+    "node_130|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:29.123Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:05.111Z",
+      "question": "Can [Agent] move from the entrance foyer to the home office?"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:34.496Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:36.907Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_130|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:28:22.918Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:28:29.515Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_131|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:54.521Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_130|node_135": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:57.161Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:59.081Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_135|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:52.041Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_130|node_136": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:33:57.943Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_136|node_130": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:35:05.564Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_130|node_133": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:08.255Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_133|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:00.124Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_130|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:01.454Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_132|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:21.858Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:41.541Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:44.872Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:37:48.322Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_125|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:38:04.265Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_126|node_127": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:38:22.849Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_127|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:41:32.081Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_127|node_126": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:41:37.232Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_126|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:43:49.895Z",
+      "question": "Can [Agent] move from the master bedroom dressing room to the master bedroom bathroom?"
+    },
+    "node_125|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:26.531Z",
+      "question": "Can [Agent] move from the master bedroom bathroom to the master bedroom?"
+    },
+    "node_137|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:15.160Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_132|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:17.820Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_130|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:29.162Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_124|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:46.945Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_123|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:33.724Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    },
+    "node_130|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:36.994Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    }
+  },
+  "ROBOT": {
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:07.061Z",
+      "question": "Can [Agent] move from the entrance foyer to the home office?"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:11.644Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:15.474Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_130|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:19.075Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:20.925Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_131|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:30:03.342Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_130|node_135": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:30:55.242Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:30:57.732Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_135|node_130": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:34:03.094Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_130|node_136": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:34:08.865Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_136|node_130": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:35:10.525Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_130|node_133": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:35:18.097Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_133|node_130": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:36:04.175Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_130|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:05.335Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_132|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:38:29.470Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_127": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:38:33.821Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_124": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:39:02.446Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:39:54.644Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_125|node_126": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:40:10.467Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_126|node_127": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:40:13.208Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_127|node_137": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:41:40.853Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_127|node_126": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:41:47.444Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_126|node_125": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:43:59.277Z",
+      "question": "Can [Agent] move from the master bedroom dressing room to the master bedroom bathroom?"
+    },
+    "node_125|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:31.202Z",
+      "question": "Can [Agent] move from the master bedroom bathroom to the master bedroom?"
+    },
+    "node_137|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:51.936Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_132|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:45:54.896Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_130|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:46:46.265Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_124|node_137": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:46:50.836Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_123|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:43.715Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    },
+    "node_130|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:46.626Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    }
+  },
+  "SWEEPER": {
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:08.451Z",
+      "question": "Can [Agent] move from the entrance foyer to the home office?"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:24.826Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:25.486Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_130|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:26.236Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:26.926Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_131|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:01.302Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_130|node_135": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:03.153Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:13.464Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_135|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:34:13.435Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_130|node_136": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:34:33.179Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_136|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:25.328Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_130|node_133": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:35.120Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_133|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:09.695Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_130|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:12.186Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_132|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:16.658Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:18.368Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:20.119Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:21.209Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_125|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:22.459Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:24.409Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_127|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:41:49.574Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_127|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:41:53.455Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_126|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:14.809Z",
+      "question": "Can [Agent] move from the master bedroom dressing room to the master bedroom bathroom?"
+    },
+    "node_125|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:33.773Z",
+      "question": "Can [Agent] move from the master bedroom bathroom to the master bedroom?"
+    },
+    "node_137|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:46:55.757Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_132|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:46:58.217Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_130|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:00.778Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_124|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:05.579Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_123|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:52.287Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    },
+    "node_130|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:55.207Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_129|node_128": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:27:09.762Z",
+      "question": "Can [Agent] move from the entrance foyer to the home office?"
+    },
+    "node_128|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:29.496Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:30.217Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_130|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:30.807Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_129|node_131": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:29:31.507Z",
+      "question": "Can [Agent] move from the home office to the formal dining space?"
+    },
+    "node_131|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:16.975Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_130|node_135": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:39.899Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_131|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:31:41.619Z",
+      "question": "Can [Agent] move from the formal dining space to the bedroom with pink sheets?"
+    },
+    "node_135|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:34:36.039Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_130|node_136": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:34:38.120Z",
+      "question": "Can [Agent] move from the bedroom with pink sheets to the guest bathroom?"
+    },
+    "node_136|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:38.040Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_130|node_133": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:35:40.061Z",
+      "question": "Can [Agent] move from the guest bathroom to the bedroom with orange theme?"
+    },
+    "node_133|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:55.103Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_130|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:36:56.394Z",
+      "question": "Can [Agent] move from the bedroom with orange theme to the kitchen and living space?"
+    },
+    "node_132|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:28.260Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:29.400Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_137|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:30.781Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_124|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:31.981Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_125|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:32.941Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_126|node_127": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:40:34.452Z",
+      "question": "Can [Agent] move from the kitchen and living space to the laundry room?"
+    },
+    "node_127|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:42:45.754Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_127|node_126": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:43:40.443Z",
+      "question": "Can [Agent] move from the laundry room to the master bedroom dressing room?"
+    },
+    "node_126|node_125": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:17.920Z",
+      "question": "Can [Agent] move from the master bedroom dressing room to the master bedroom bathroom?"
+    },
+    "node_125|node_124": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:44:36.363Z",
+      "question": "Can [Agent] move from the master bedroom bathroom to the master bedroom?"
+    },
+    "node_137|node_132": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:12.060Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_132|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:13.960Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_130|node_123": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:16.520Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_124|node_137": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:47:19.891Z",
+      "question": "Can [Agent] move from the master bedroom to the home theatre?"
+    },
+    "node_123|node_130": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:48:03.899Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    },
+    "node_130|node_129": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:48:24.602Z",
+      "question": "Can [Agent] move from the home theatre to the entrance foyer?"
+    }
+  }
+}

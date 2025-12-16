@@ -1,0 +1,96 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sofa area in the Living room to the toilet area in the Second floor shared bathroom?",
+        "reason": "The video shows a clear path from the sofa area (00:25) to the spiral staircase (00:28-00:29), which leads to the second floor hallway (00:30-00:34), and then to the open doorway of the Second floor shared bathroom (00:35-00:36) which contains a toilet.",
+        "nodes_involved": {
+            "start": "node_128 — Living room",
+            "start_detail": "sofa area",
+            "intermediate": [
+                "node_121 — Second floor stair landing and hallway"
+            ],
+            "end": "node_122 — Second floor shared bathroom",
+            "end_detail": "toilet area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the refrigerator area in the Kitchen and dining space to the bed with colorful sheets in Bedroom with colorful sheets?",
+        "reason": "The video shows the refrigerator in the Kitchen and dining space (00:06-00:07, 00:16-00:17), a spiral staircase nearby (00:20-00:22) leading to the second floor landing (00:30-00:34), and then a path to the Bedroom with colorful sheets (00:54-00:57) where a bed with colorful sheets is visible.",
+        "nodes_involved": {
+            "start": "node_126 — Kitchen and dining space",
+            "start_detail": "refrigerator area",
+            "intermediate": [
+                "node_121 — Second floor stair landing and hallway"
+            ],
+            "end": "node_124 — Bedroom with colorful sheets",
+            "end_detail": "bed with colorful sheets"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dining table area in the Kitchen and dining space to the stacked washer and dryer in the Laundry room?",
+        "reason": "The video clearly shows the dining table in the Kitchen and dining space (00:00-00:01, 00:21-00:23) and a doorway leading directly into the Laundry room (00:06) where the stacked washer and dryer are visible (00:08-00:11).",
+        "nodes_involved": {
+            "start": "node_126 — Kitchen and dining space",
+            "start_detail": "dining table area",
+            "intermediate": [],
+            "end": "node_127 — Laundry room",
+            "end_detail": "stacked washer and dryer"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed with gray sheets in Bedroom with gray sheets and rug to the open closet area in the Master bedroom?",
+        "reason": "The video shows the bed with gray sheets in Bedroom with gray sheets and rug (00:38-00:39), which opens onto the second-floor hallway (00:40-00:41) connecting to the Master bedroom (00:49-00:51) where an open closet with shelves is visible.",
+        "nodes_involved": {
+            "start": "node_123 — Bedroom with gray sheets and rug",
+            "start_detail": "bed with gray sheets",
+            "intermediate": [
+                "node_121 — Second floor stair landing and hallway"
+            ],
+            "end": "node_119 — Master bedroom",
+            "end_detail": "open closet area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the TV stand area in the Living room to the small gray rug in Bedroom with gray sheets and rug?",
+        "reason": "The video shows the TV stand in the Living room (00:27-00:28), the spiral staircase leading upstairs (00:28-00:29) to the Second floor stair landing and hallway (00:30-00:34), which provides access to Bedroom with gray sheets and rug (00:36-00:37) where a small gray rug is located.",
+        "nodes_involved": {
+            "start": "node_128 — Living room",
+            "start_detail": "TV stand area",
+            "intermediate": [
+                "node_121 — Second floor stair landing and hallway"
+            ],
+            "end": "node_123 — Bedroom with gray sheets and rug",
+            "end_detail": "small gray rug"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen counter with bar stools in the Kitchen and dining space to the mirror above the dresser in the Master bedroom?",
+        "reason": "The video shows the kitchen counter with bar stools (00:00-00:01, 00:04-00:05), the adjacent spiral staircase (00:20-00:21) leading to the Second floor stair landing and hallway (00:30-00:34), and then a path to the Master bedroom (00:49-00:50) where a mirror above a dresser is visible.",
+        "nodes_involved": {
+            "start": "node_126 — Kitchen and dining space",
+            "start_detail": "kitchen counter with bar stools",
+            "intermediate": [
+                "node_121 — Second floor stair landing and hallway"
+            ],
+            "end": "node_119 — Master bedroom",
+            "end_detail": "mirror above the dresser"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the wave painting in the Second floor stair landing and hallway to the tub/shower in the Second floor shared bathroom?",
+        "reason": "The video shows the wave painting in the Second floor stair landing and hallway (00:39-00:41) and a visible doorway (00:35-00:36, 00:41-00:42) leading directly to the Second floor shared bathroom where a tub/shower is present (00:43-00:45).",
+        "nodes_involved": {
+            "start": "node_121 — Second floor stair landing and hallway",
+            "start_detail": "area near the wave painting",
+            "intermediate": [],
+            "end": "node_122 — Second floor shared bathroom",
+            "end_detail": "tub/shower"
+        }
+    }
+]

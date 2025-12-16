@@ -1,0 +1,989 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_56|node_61": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_61|node_60": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_60|node_54": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_60|node_58": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_58|node_54": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_59|node_58": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_56|node_60": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_57|node_54": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_57|node_58": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_58|node_60": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_58|node_59": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T01:25:02.483Z"
+    },
+    "node_54|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:46:57.963Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:01.714Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:04.244Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:07.865Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_58|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:12.786Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:16.256Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:20.698Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:49:07.247Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:49:13.348Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:34.163Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_63|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:06:16.656Z",
+      "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?"
+    },
+    "node_61|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:41.554Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:51:10.889Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_53|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:51:20.171Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:55:07.165Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:02:01.290Z",
+      "question": "Can [Agent] move from near the white fireplace decorated with a sunburst mirror in the Top floor master bedroom to at the white oval tub surrounded by patterned tiles in the Master bedroom bathroom?"
+    },
+    "node_53|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:04:56.942Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:03.603Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:57.953Z",
+      "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_57|node_56": {
+      "traversable": false,
+      "note": "door sills",
+      "timestamp": "2025-11-05T01:27:41.233Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:28:35.123Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_61|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:46:50.735Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:46:57.807Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:48:30.373Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:48:42.785Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:48:51.337Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:48:57.068Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:49:02.549Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:49:25.074Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_58": {
+      "traversable": false,
+      "note": "side tea table blocks the way",
+      "timestamp": "2025-11-05T01:49:51.618Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:51:40.358Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:51:58.062Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:01.942Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_54|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:23.888Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:27.959Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:30.509Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:33.650Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_58|node_57": {
+      "traversable": false,
+      "note": "side tea table blocks the way",
+      "timestamp": "2025-11-05T02:47:38.521Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:43.852Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:49.663Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:49:16.188Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:49:18.969Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:49.366Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_63|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:50.456Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:51.576Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_53": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T02:55:23.589Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_53|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:55:31.169Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_56|node_57": {
+      "traversable": false,
+      "note": "door sills",
+      "timestamp": "2025-11-05T02:57:15.168Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:04:40.889Z",
+      "question": "Can [Agent] move from near the white fireplace decorated with a sunburst mirror in the Top floor master bedroom to at the white oval tub surrounded by patterned tiles in the Master bedroom bathroom?"
+    },
+    "node_53|node_61": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T03:05:08.534Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:11.664Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:06:26.178Z",
+      "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?"
+    }
+  },
+  "ROBOT": {
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:12.964Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:20.806Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_61|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:23.326Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:25.767Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:27.767Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:52:31.188Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:53:40.421Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:53:43.171Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:53:51.763Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T01:54:38.853Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_58": {
+      "traversable": false,
+      "note": "coffee table clutter the way",
+      "timestamp": "2025-11-05T02:42:11.791Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:42:17.263Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:42:19.723Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:42:25.084Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_54|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:52.183Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:54.764Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:57.375Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:47:59.424Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_58|node_57": {
+      "traversable": false,
+      "note": "coffee table clutter the way",
+      "timestamp": "2025-11-05T02:48:03.895Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:08.566Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:13.147Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:49:21.190Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:23.432Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:53.696Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_63|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:54.446Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:54.877Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_53": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T02:57:23.260Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_53|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:57:25.700Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:57:31.111Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_51|node_52": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T03:04:47.150Z",
+      "question": "Can [Agent] move from near the white fireplace decorated with a sunburst mirror in the Top floor master bedroom to at the white oval tub surrounded by patterned tiles in the Master bedroom bathroom?"
+    },
+    "node_53|node_61": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T03:05:16.005Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:18.225Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:06:30.269Z",
+      "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?"
+    }
+  },
+  "SWEEPER": {
+    "node_57|node_56": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T02:42:34.846Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:42:38.196Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_61|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:42:40.457Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:30.176Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:32.666Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:35.517Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:39.517Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:40.237Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:42.879Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:43:59.111Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:03.102Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:06.102Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:10.103Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:12.263Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_54|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:15.728Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:17.578Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:20.268Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:22.799Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_58|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:26.989Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:31.280Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:34.341Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:26.821Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:30.352Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:55.847Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_63|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:56.287Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:56.718Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_53": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T02:57:39.173Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_53|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:57:42.363Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_56|node_57": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T02:58:26.031Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:04:49.400Z",
+      "question": "Can [Agent] move from near the white fireplace decorated with a sunburst mirror in the Top floor master bedroom to at the white oval tub surrounded by patterned tiles in the Master bedroom bathroom?"
+    },
+    "node_53|node_61": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T03:05:27.687Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:30.588Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:06:34.330Z",
+      "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:16.284Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:18.274Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_61|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:19.715Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:20.785Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:21.975Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:23.475Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_60|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:25.386Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:27.646Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_56|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:30.317Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:44:33.257Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_57|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:46:45.901Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:46:48.272Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_58|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:46:51.172Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_59|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:46:52.612Z",
+      "question": "Can [Agent] move from next to the round wooden table in the Small chat room with round table of 4 to the large light-colored kitchen island in the Kitchen?"
+    },
+    "node_54|node_60": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:36.001Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:38.362Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:40.892Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_60|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:42.682Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_58|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:46.963Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:51.064Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_54|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:48:55.255Z",
+      "question": "Can [Agent] move from by the stainless steel built-in grill in the Kitchen to near the large, ornate white fireplace in the Main living room with formal dining table?"
+    },
+    "node_61|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:31.633Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_63|node_64": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:32.322Z",
+      "question": "Can [Agent] move from at the center of the patterned round tile on the floor near the ornate wooden console table in the Entrance foyer to next to the large bed with the red patterned comforter in the Bedroom suite with red and dark rug?"
+    },
+    "node_65|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:57.357Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_63|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:57.687Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_62": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:50:58.067Z",
+      "question": "Can [Agent] move from by the bed with pink sheets in the Bedroom suite with pink sheets to at the long wooden desk with shelves in the Home office next to entrance?"
+    },
+    "node_61|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:58:33.492Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_53|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:58:34.582Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T02:58:38.023Z",
+      "question": "Can [Agent] move from near the large formal dining table with patterned chairs in the Main living room with formal dining table to at the large bed with the patterned headboard and white comforter in the Top floor master bedroom?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:04:50.300Z",
+      "question": "Can [Agent] move from near the white fireplace decorated with a sunburst mirror in the Top floor master bedroom to at the white oval tub surrounded by patterned tiles in the Master bedroom bathroom?"
+    },
+    "node_53|node_61": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:38.089Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:05:41.550Z",
+      "question": "Can [Agent] move from on the long, patterned red rug in the Second floor stair landing and hallway to next to the red-felt pool table in the Pool room?"
+    },
+    "node_64|node_63": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T03:06:37.790Z",
+      "question": "Can [Agent] move from at the small wooden desk with the telephone next to the bed in the Bedroom suite with red and dark rug to at the main kitchen counter with the gas stove in the Kitchen?"
+    }
+  }
+}

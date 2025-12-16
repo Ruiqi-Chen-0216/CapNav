@@ -1,0 +1,466 @@
+{
+  "HUMAN": {
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-03T19:47:16.778Z"
+    },
+    "node_11|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:48:29.069Z",
+      "question": "Can [Agent] move from the area by the coat rack near the entrance in the Foyer next to the black leather sofa living room to the area in front of the black leather sofa in the Living room with black leather sofa?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:55:21.800Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_11|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:55:57.959Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_8|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:57:56.502Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:58:09.461Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_4": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-03T22:10:47.795Z"
+    },
+    "node_5|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:12:59.884Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_11|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:13:01.058Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_9|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:24:04.296Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:24:06.589Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:38.174Z",
+      "question": "Can [Agent] move from the area near the built-in oven in the Kitchen with checkered floor to the area by the small white refrigerator in the Storege room?"
+    },
+    "node_2|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:48.413Z",
+      "question": "Can [Agent] move from the area near the built-in oven in the Kitchen with checkered floor to the area by the small white refrigerator in the Storege room?"
+    },
+    "node_9|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:53.040Z",
+      "question": "Can [Agent] move from the area near the built-in oven in the Kitchen with checkered floor to the area by the small white refrigerator in the Storege room?"
+    },
+    "node_11|node_7": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T01:00:13.235Z"
+    },
+    "node_7|node_11": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T01:00:51.810Z"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T01:00:51.810Z"
+    },
+    "node_9|node_13": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T01:00:51.810Z"
+    },
+    "node_13|node_15": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T01:00:51.810Z"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:05:59.919Z",
+      "question": "Can [Agent] move from the area on the patterned bedspread in the Bedroom with big round patterned sheets to the area by the decorative armchair with leaf patterns in the Living room with white sofa?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:48:05.949Z",
+      "question": "Can [Agent] move from the area near the wooden cabinet by the entrance door in the Foyer next to the black leather sofa living room to the area by the white vanity desk with a mirror in the Bedroom with pink style?"
+    },
+    "node_11|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:54:50.349Z",
+      "question": "Can [Agent] move from the area by the coat rack near the entrance in the Foyer next to the black leather sofa living room to the area in front of the black leather sofa in the Living room with black leather sofa?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:56:08.426Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_11|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:57:34.861Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_8|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:58:29.634Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:59:13.259Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_4": {
+      "traversable": false,
+      "note": "Clutter prevent wheelchair turning after getting into room",
+      "timestamp": "2025-11-03T22:12:29.050Z",
+      "question": "Can [Agent] move from the area near the television set in the Living room with black leather sofa to the area by the wall-mounted bookshelves in the Dressing room?"
+    },
+    "node_5|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:13:48.323Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_11|node_6": {
+      "traversable": false,
+      "note": "bathroom space too narrow",
+      "timestamp": "2025-11-03T22:21:46.608Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_9|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:04:01.486Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:04:05.580Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_9|node_13": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T01:04:58.281Z",
+      "question": "Can [Agent] move from the base of the white staircase in the Living room with white sofa to the area at the top of the stairs, next to the window, in the Second floor stair landing space?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:05:35.773Z",
+      "question": "Can [Agent] move from the area near the black leather couch with striped cushions in the Living room with black leather sofa to the area near the large white sectional sofa in the Living room with white sofa?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:06:41.465Z",
+      "question": "Can [Agent] move from the area on the patterned bedspread in the Bedroom with big round patterned sheets to the area by the decorative armchair with leaf patterns in the Living room with white sofa?"
+    }
+  },
+  "ROBOT": {
+    "node_11|node_10": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T19:48:13.176Z",
+      "question": "Can [Agent] move from the area near the wooden cabinet by the entrance door in the Foyer next to the black leather sofa living room to the area by the white vanity desk with a mirror in the Bedroom with pink style?"
+    },
+    "node_11|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:55:14.986Z",
+      "question": "Can [Agent] move from the area by the coat rack near the entrance in the Foyer next to the black leather sofa living room to the area in front of the black leather sofa in the Living room with black leather sofa?"
+    },
+    "node_10|node_11": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T19:57:38.502Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_11|node_5": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T19:57:43.742Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_8|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:59:17.937Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_3": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-03T19:59:29.246Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_4": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T22:12:40.112Z",
+      "question": "Can [Agent] move from the area near the television set in the Living room with black leather sofa to the area by the wall-mounted bookshelves in the Dressing room?"
+    },
+    "node_5|node_11": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T22:21:51.020Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_11|node_6": {
+      "traversable": false,
+      "note": "bathroom door and inner space too narrow",
+      "timestamp": "2025-11-03T22:22:08.513Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_9|node_2": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T23:04:29.527Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_2|node_1": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-03T23:06:19.870Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_9|node_13": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T01:05:02.133Z",
+      "question": "Can [Agent] move from the base of the white staircase in the Living room with white sofa to the area at the top of the stairs, next to the window, in the Second floor stair landing space?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:05:43.451Z",
+      "question": "Can [Agent] move from the area near the black leather couch with striped cushions in the Living room with black leather sofa to the area near the large white sectional sofa in the Living room with white sofa?"
+    },
+    "node_3|node_11": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-04T01:06:46.531Z",
+      "question": "Can [Agent] move from the area on the patterned bedspread in the Bedroom with big round patterned sheets to the area by the decorative armchair with leaf patterns in the Living room with white sofa?"
+    }
+  },
+  "SWEEPER": {
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:48:25.789Z",
+      "question": "Can [Agent] move from the area near the wooden cabinet by the entrance door in the Foyer next to the black leather sofa living room to the area by the white vanity desk with a mirror in the Bedroom with pink style?"
+    },
+    "node_11|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:55:18.800Z",
+      "question": "Can [Agent] move from the area by the coat rack near the entrance in the Foyer next to the black leather sofa living room to the area in front of the black leather sofa in the Living room with black leather sofa?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:57:46.489Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_11|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:57:51.916Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_8|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:59:31.204Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:59:45.125Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:12:46.712Z",
+      "question": "Can [Agent] move from the area near the television set in the Living room with black leather sofa to the area by the wall-mounted bookshelves in the Dressing room?"
+    },
+    "node_5|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:22:10.194Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_11|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:22:11.380Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_9|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:34.001Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:35.321Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_9|node_13": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T01:05:04.855Z",
+      "question": "Can [Agent] move from the base of the white staircase in the Living room with white sofa to the area at the top of the stairs, next to the window, in the Second floor stair landing space?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:05:47.000Z",
+      "question": "Can [Agent] move from the area near the black leather couch with striped cushions in the Living room with black leather sofa to the area near the large white sectional sofa in the Living room with white sofa?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:06:51.531Z",
+      "question": "Can [Agent] move from the area on the patterned bedspread in the Bedroom with big round patterned sheets to the area by the decorative armchair with leaf patterns in the Living room with white sofa?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:48:27.336Z",
+      "question": "Can [Agent] move from the area near the wooden cabinet by the entrance door in the Foyer next to the black leather sofa living room to the area by the white vanity desk with a mirror in the Bedroom with pink style?"
+    },
+    "node_11|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:55:20.134Z",
+      "question": "Can [Agent] move from the area by the coat rack near the entrance in the Foyer next to the black leather sofa living room to the area in front of the black leather sofa in the Living room with black leather sofa?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:57:53.981Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_11|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:57:54.541Z",
+      "question": "Can [Agent] move from the area near the bed with colorful sheets in the Bedroom with pink style to the area near the white sink vanity in the Shower room with blue mosaic floor?"
+    },
+    "node_8|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:59:46.938Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T19:59:48.057Z",
+      "question": "Can [Agent] move from the area next to the white coffee table in the Living room with black leather sofa to the area near the bed with the large round patterned sheets in the Bedroom with big round patterned sheets?"
+    },
+    "node_11|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:12:48.924Z",
+      "question": "Can [Agent] move from the area near the television set in the Living room with black leather sofa to the area by the wall-mounted bookshelves in the Dressing room?"
+    },
+    "node_5|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:22:12.781Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_11|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T22:22:13.980Z",
+      "question": "Can [Agent] move from inside the shower stall in the Shower room with blue mosaic floor to the area next to the toilet paper dispenser in the Toilet?"
+    },
+    "node_9|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:36.454Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-03T23:07:37.120Z",
+      "question": "Can [Agent] move from the light wood floor in front of the white sofa in the Living room with white sofa to the area near the black sink on the counter in the Kitchen with checkered floor?"
+    },
+    "node_9|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:05:07.374Z",
+      "question": "Can [Agent] move from the base of the white staircase in the Living room with white sofa to the area at the top of the stairs, next to the window, in the Second floor stair landing space?"
+    },
+    "node_11|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:05:49.346Z",
+      "question": "Can [Agent] move from the area near the black leather couch with striped cushions in the Living room with black leather sofa to the area near the large white sectional sofa in the Living room with white sofa?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T01:06:54.463Z",
+      "question": "Can [Agent] move from the area on the patterned bedspread in the Bedroom with big round patterned sheets to the area by the decorative armchair with leaf patterns in the Living room with white sofa?"
+    }
+  },
+  "_hallucinatedQuestions": [
+    "Can [Agent] move from the area near the built-in oven in the Kitchen with checkered floor to the area by the small white refrigerator in the Storege room?",
+    "Can [Agent] move from the area near the television set in the Living room with black leather sofa to the area by the wall-mounted bookshelves in the Dressing room?",
+    "Can [Agent] move from the area near the brooms and cleaning supplies in the Storege room to the area by the bed with the black dress pattern in the Second floor bedroom with black and white sheets?"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "node_33",
+      "name": "Big shared office space",
+      "description": "At the end of hallway and with a pillar in the middle of room",
+      "position": {
+        "x": -3.3825191388374747,
+        "y": 0.4466609234457863,
+        "z": -1.4417846090021778
+      }
+    },
+    {
+      "id": "node_34",
+      "name": "Meeting space with cyan chairs",
+      "description": "",
+      "position": {
+        "x": 2.575300893332347,
+        "y": 0.29890879803719556,
+        "z": -3.222657695595665
+      }
+    },
+    {
+      "id": "node_35",
+      "name": "Main hallway",
+      "description": "",
+      "position": {
+        "x": 7.645056743536239,
+        "y": 0.2975585541507481,
+        "z": -1.9516361398516677
+      }
+    },
+    {
+      "id": "node_36",
+      "name": "Office of two with blue round table",
+      "description": "",
+      "position": {
+        "x": 7.734895729841495,
+        "y": 0.8770655558909979,
+        "z": -3.830712333893147
+      }
+    },
+    {
+      "id": "node_37",
+      "name": "Rest area",
+      "description": "",
+      "position": {
+        "x": 20.19339014142225,
+        "y": 0.302457133953321,
+        "z": -3.412488442558908
+      }
+    },
+    {
+      "id": "node_38",
+      "name": "Meeting room with white table green chairs",
+      "description": "",
+      "position": {
+        "x": 12.300438585012733,
+        "y": 1.0514411464729811,
+        "z": 0.9403948189806295
+      }
+    },
+    {
+      "id": "node_39",
+      "name": "Meeting room with wooden table white chairs",
+      "description": "",
+      "position": {
+        "x": 17.11214301473963,
+        "y": 1.088608999526467,
+        "z": 2.068187319975911
+      }
+    },
+    {
+      "id": "node_40",
+      "name": "Meeting room with wooden table black chairs",
+      "description": "",
+      "position": {
+        "x": 21.74683727579822,
+        "y": 1.0577534220060942,
+        "z": 1.6921411504912793
+      }
+    },
+    {
+      "id": "node_41",
+      "name": "Smaller shared office of five at end of hallway",
+      "description": "",
+      "position": {
+        "x": 46.61401227307517,
+        "y": 0.29483188956136813,
+        "z": -3.1562678426914372
+      }
+    },
+    {
+      "id": "node_42",
+      "name": "Shared office of 10",
+      "description": "",
+      "position": {
+        "x": 39.5121726427294,
+        "y": 0.2959113082799398,
+        "z": 0.4526330021557974
+      }
+    },
+    {
+      "id": "node_43",
+      "name": "Single office with black chair and no painting",
+      "description": "",
+      "position": {
+        "x": 37.555252121183926,
+        "y": 0.29759587370321866,
+        "z": -4.663047839305203
+      }
+    },
+    {
+      "id": "node_44",
+      "name": "Shared office of 5 in the middle of hallway",
+      "description": "",
+      "position": {
+        "x": 27.235518732523328,
+        "y": 0.307697552733962,
+        "z": 0.5989223726930879
+      }
+    },
+    {
+      "id": "node_45",
+      "name": "Single office with black chair and painting",
+      "description": "",
+      "position": {
+        "x": 28.691776964912425,
+        "y": 0.3045998458000369,
+        "z": -4.291312707570585
+      }
+    },
+    {
+      "id": "node_46",
+      "name": "Single office with white table and greenish gray chair",
+      "description": "",
+      "position": {
+        "x": 33.40727552476855,
+        "y": 0.3012983728395408,
+        "z": -4.586539995178583
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_35",
+      "from": "node_35",
+      "to": "node_34"
+    },
+    {
+      "id": "edge_36",
+      "from": "node_34",
+      "to": "node_33"
+    },
+    {
+      "id": "edge_37",
+      "from": "node_35",
+      "to": "node_36"
+    },
+    {
+      "id": "edge_38",
+      "from": "node_35",
+      "to": "node_38"
+    },
+    {
+      "id": "edge_39",
+      "from": "node_35",
+      "to": "node_37"
+    },
+    {
+      "id": "edge_40",
+      "from": "node_35",
+      "to": "node_39"
+    },
+    {
+      "id": "edge_41",
+      "from": "node_35",
+      "to": "node_40"
+    },
+    {
+      "id": "edge_42",
+      "from": "node_35",
+      "to": "node_44"
+    },
+    {
+      "id": "edge_43",
+      "from": "node_35",
+      "to": "node_45"
+    },
+    {
+      "id": "edge_44",
+      "from": "node_35",
+      "to": "node_46"
+    },
+    {
+      "id": "edge_45",
+      "from": "node_35",
+      "to": "node_43"
+    },
+    {
+      "id": "edge_46",
+      "from": "node_35",
+      "to": "node_41"
+    },
+    {
+      "id": "edge_47",
+      "from": "node_35",
+      "to": "node_42"
+    }
+  ]
+}

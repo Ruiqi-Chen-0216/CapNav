@@ -1,0 +1,611 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_111|node_112": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T06:03:18.499Z"
+    },
+    "node_112|node_117": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T06:03:18.499Z"
+    },
+    "node_112|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:05:44.815Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_112|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:05:46.965Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_113|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:05:49.376Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_117|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:09:17.654Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_120|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:09:23.455Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_113|node_115": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:09:30.406Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_115|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:13:54.205Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_113|node_114": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:13:56.426Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_114|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:05.138Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_113|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:08.369Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:12.709Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:15.110Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_121|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:17.210Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_120|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:21.421Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_118|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:17.617Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_121|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:22.848Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_118|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:28.429Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_119|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:55.145Z",
+      "question": "Can [Agent] move from the shelved area with books in the Storage room next to social space to the bathroom with sink and toilet in the Smaller bedroom suite?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_111|node_112": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T06:04:00.146Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_117": {
+      "traversable": false,
+      "note": "stairs",
+      "timestamp": "2025-11-05T06:04:14.338Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:06:46.546Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_112|node_113": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:07:11.381Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_113|node_120": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:07:17.282Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_117|node_112": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:09:42.729Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_120|node_113": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:09:58.731Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_113|node_115": {
+      "traversable": false,
+      "note": "chair clutter the way",
+      "timestamp": "2025-11-05T06:11:16.736Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_115|node_113": {
+      "traversable": false,
+      "note": "chair clutter the way",
+      "timestamp": "2025-11-05T06:14:01.146Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_113|node_114": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:14:08.157Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_114|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:15:25.552Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_113|node_112": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:15:33.603Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:18:03.281Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_121": {
+      "traversable": false,
+      "note": "too narrow",
+      "timestamp": "2025-11-05T06:18:37.910Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_121|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:18:59.941Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_120|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:19:07.683Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_118|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:31.149Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_121|node_122": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:21:36.131Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_118|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:43.441Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_119|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:23:45.074Z",
+      "question": "Can [Agent] move from the shelved area with books in the Storage room next to social space to the bathroom with sink and toilet in the Smaller bedroom suite?"
+    }
+  },
+  "ROBOT": {
+    "node_111|node_112": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:04:44.184Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:04:46.044Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_120": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:07:37.216Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_112|node_113": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:07:55.079Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_113|node_120": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:07:59.821Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_117|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:11:41.120Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_120|node_113": {
+      "traversable": false,
+      "note": "cannot go up/down stairs; door too narrow",
+      "timestamp": "2025-11-05T06:11:57.394Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_113|node_115": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:12:06.746Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_115|node_113": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:14:14.158Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_113|node_114": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:14:28.062Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_114|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:19:13.734Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_113|node_112": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:19:19.066Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:19:51.701Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_121": {
+      "traversable": false,
+      "note": "space too narow",
+      "timestamp": "2025-11-05T06:19:59.643Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_121|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:19.586Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_120|node_112": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T06:20:25.907Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_118|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:49.813Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_121|node_122": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:21:57.765Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_118|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:16.007Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_119|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:24:24.761Z",
+      "question": "Can [Agent] move from the shelved area with books in the Storage room next to social space to the bathroom with sink and toilet in the Smaller bedroom suite?"
+    }
+  },
+  "SWEEPER": {
+    "node_111|node_112": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T06:04:59.497Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_117": {
+      "traversable": false,
+      "note": "stairs",
+      "timestamp": "2025-11-05T06:05:24.001Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:08:12.902Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_112|node_113": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:08:14.993Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_113|node_120": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:08:18.673Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_117|node_112": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:12:15.167Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_120|node_113": {
+      "traversable": false,
+      "note": "cannot go up/down stairs; door too narrow",
+      "timestamp": "2025-11-05T06:12:40.702Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_113|node_115": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:12:53.884Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_115|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:14:31.072Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_113|node_114": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:14:33.142Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_114|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:29.898Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_113|node_112": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:20:32.108Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:35.589Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:37.989Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_121|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:39.740Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_120|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:43.000Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_118|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:18.848Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_121|node_122": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-05T06:22:25.150Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_118|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:28.402Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_119|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:24:29.762Z",
+      "question": "Can [Agent] move from the shelved area with books in the Storage room next to social space to the bathroom with sink and toilet in the Smaller bedroom suite?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_111|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:05:40.094Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:05:41.554Z",
+      "question": "Can [Agent] move from the area near the potted plants in the Entrance porch to the area near the grand piano in the Main social space?"
+    },
+    "node_112|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:08:23.985Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_112|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:08:25.534Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_113|node_120": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:08:26.984Z",
+      "question": "Can [Agent] move from the area near the curved wooden cabinet in the Foyer to the area with the grey sofa in the Private social space?"
+    },
+    "node_117|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:12:59.195Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_120|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:13:02.695Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_113|node_115": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:13:25.810Z",
+      "question": "Can [Agent] move from the dining table area in the Main social space to the bed with green comforter in the Smaller bedroom suite?"
+    },
+    "node_115|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:14:36.123Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_113|node_114": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:14:37.423Z",
+      "question": "Can [Agent] move from the desk area under the window in the Smaller bedroom suite to the dressing area with the chairs in the Master bedroom suite?"
+    },
+    "node_114|node_113": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:45.411Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_113|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:47.641Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:54.772Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_117|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:20:59.413Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_121|node_118": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:01.644Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_120|node_112": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:21:14.946Z",
+      "question": "Can [Agent] move from the bed area in the Master bedroom suite to the curved countertop area in the Kitchen?"
+    },
+    "node_118|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:35.032Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_121|node_122": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:46.063Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_118|node_121": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:22:49.774Z",
+      "question": "Can [Agent] move from the area near the stainless steel refrigerator in the Kitchen to the large curved desk in the Office?"
+    },
+    "node_119|node_117": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T06:24:32.933Z",
+      "question": "Can [Agent] move from the shelved area with books in the Storage room next to social space to the bathroom with sink and toilet in the Smaller bedroom suite?"
+    }
+  }
+}

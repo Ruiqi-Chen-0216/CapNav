@@ -1,0 +1,938 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_80|node_79": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T03:33:48.614Z"
+    },
+    "node_79|node_74": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T03:33:48.614Z"
+    },
+    "node_82|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:49:57.064Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_79|node_76": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:00.624Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_89": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:02.756Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_89|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:03.824Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:04.570Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:05.382Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:05.888Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_84|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:06.409Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:53.698Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_89|node_86": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:02:02.194Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:02:08.098Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_81|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:02:09.952Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_89": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:02:13.473Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_84|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:02:14.632Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_79|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:29.357Z",
+      "question": "Can [Agent] move from the dining table in the Dining room to the armchair by the window in the Top floor sofa room?"
+    },
+    "node_83|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:12:41.884Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_79|node_77": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:12:47.138Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_80|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:16:10.182Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_89|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:16:14.023Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:19:36.483Z"
+    },
+    "node_85|node_80": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:19:36.483Z"
+    },
+    "node_80|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:04.652Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:05.892Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_84|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:34.905Z",
+      "question": "Can [Agent] move from the TV cabinet area in the main floor Media room to the large windows in the Sun room?"
+    },
+    "node_74|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:54.464Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_79|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:55.998Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_75|node_74": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T04:34:57.382Z"
+    },
+    "node_74|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:37.244Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_89|node_88": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:37:19.776Z",
+      "question": "Can [Agent] move from the chalkboard wall in the basement Media room to the light-colored refrigerator in the Basement storage space?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_80|node_79": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:48:06.399Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_79|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:48:25.066Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_82|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:15.131Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_79|node_76": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:50:33.236Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_89": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:50:38.399Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_89|node_80": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:50:49.199Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:51:31.473Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:53:20.446Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_84": {
+      "traversable": false,
+      "note": "Space between dark and bright blue sofa is not enough for wheelchair to pass",
+      "timestamp": "2025-11-04T03:54:20.605Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_84|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:54:25.658Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:02:20.579Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_89|node_86": {
+      "traversable": false,
+      "note": "no space to turn at the stair landing",
+      "timestamp": "2025-11-04T04:03:13.151Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:03:25.936Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_81|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:03:29.229Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_89": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:03:37.125Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_84|node_82": {
+      "traversable": false,
+      "note": "Space between dark and bright blue sofa is not enough for wheelchair to pass",
+      "timestamp": "2025-11-04T04:04:08.482Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_79|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:42.650Z",
+      "question": "Can [Agent] move from the dining table in the Dining room to the armchair by the window in the Top floor sofa room?"
+    },
+    "node_83|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:14:01.795Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_79|node_77": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:14:32.565Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:20:05.868Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_85|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:20:12.708Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:13.371Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:14.479Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:22:27.609Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_89|node_82": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:28:42.343Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_84|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:37.425Z",
+      "question": "Can [Agent] move from the TV cabinet area in the main floor Media room to the large windows in the Sun room?"
+    },
+    "node_74|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:34:21.396Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_79|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:34:48.169Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_75|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:35:09.966Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_74|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:40.510Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_89|node_88": {
+      "traversable": false,
+      "note": "stair landing to narrow for wheelchair to turn",
+      "timestamp": "2025-11-04T04:37:39.549Z",
+      "question": "Can [Agent] move from the chalkboard wall in the basement Media room to the light-colored refrigerator in the Basement storage space?"
+    }
+  },
+  "ROBOT": {
+    "node_80|node_79": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:49:04.359Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_79|node_74": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T03:49:31.144Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_82|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:54:28.016Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_79|node_76": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T03:55:02.282Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_89": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:55:15.646Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_89|node_80": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:55:21.548Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_81": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T03:55:29.615Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_81|node_80": {
+      "traversable": false,
+      "note": "Pathway too narrow due to the chairs in the stair-side hallway",
+      "timestamp": "2025-11-04T03:56:05.908Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_84": {
+      "traversable": false,
+      "note": "space between sofas is too narrow for robot to pass",
+      "timestamp": "2025-11-04T03:58:38.398Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_84|node_80": {
+      "traversable": false,
+      "note": "space between sofas too narrow",
+      "timestamp": "2025-11-04T03:58:54.265Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_82": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:05:02.147Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_89|node_86": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:05:21.427Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_81": {
+      "traversable": false,
+      "note": "Pathway too narrow due to the chairs in the stair-side hallway",
+      "timestamp": "2025-11-04T04:05:31.440Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_81|node_82": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:05:33.378Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_89": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:05:34.576Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_84|node_82": {
+      "traversable": false,
+      "note": "space between sofas is too narrow for robot to pass",
+      "timestamp": "2025-11-04T04:05:35.826Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_79|node_78": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:09:56.461Z",
+      "question": "Can [Agent] move from the dining table in the Dining room to the armchair by the window in the Top floor sofa room?"
+    },
+    "node_83|node_84": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:15:23.973Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_79|node_77": {
+      "traversable": false,
+      "note": "bathroom door too narrow",
+      "timestamp": "2025-11-04T04:15:40.358Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:20:22.374Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_85|node_80": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:20:27.415Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_85": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:21:19.239Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_85|node_82": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:21:19.892Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_84": {
+      "traversable": false,
+      "note": "space between sofas too narrow",
+      "timestamp": "2025-11-04T04:28:45.942Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_89|node_82": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:28:57.634Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_84|node_83": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:33:48.917Z",
+      "question": "Can [Agent] move from the TV cabinet area in the main floor Media room to the large windows in the Sun room?"
+    },
+    "node_79|node_75": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:35:38.874Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_75|node_74": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:35:58.220Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_74|node_79": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:36:44.617Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_74|node_75": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T04:36:46.831Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_89|node_88": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:38:24.147Z",
+      "question": "Can [Agent] move from the chalkboard wall in the basement Media room to the light-colored refrigerator in the Basement storage space?"
+    }
+  },
+  "SWEEPER": {
+    "node_80|node_79": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T03:49:34.838Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_79|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:49:36.969Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_82|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:58:56.810Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_79|node_76": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:59:06.729Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_89": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:00:16.809Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_89|node_80": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:00:19.995Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:00:46.607Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:00:49.247Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:00:51.047Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_84|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:00:52.940Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:06:15.175Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_89|node_86": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:06:23.229Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:06:28.199Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_81|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:12:23.739Z",
+      "question": "Can [Agent] move from the dining table in the Dining room to the armchair by the window in the Top floor sofa room?"
+    },
+    "node_80|node_89": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:06:33.011Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_84|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:06:59.797Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_79|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:12:18.630Z",
+      "question": "Can [Agent] move from the dining table in the Dining room to the armchair by the window in the Top floor sofa room?"
+    },
+    "node_83|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:15:47.957Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_79|node_77": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:15:51.170Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:20:31.266Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_85|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:20:32.880Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:23.292Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:24.051Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:29:02.222Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_89|node_82": {
+      "traversable": false,
+      "note": "Cannot go up/down stairs",
+      "timestamp": "2025-11-04T04:29:06.476Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_84|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:51.172Z",
+      "question": "Can [Agent] move from the TV cabinet area in the main floor Media room to the large windows in the Sun room?"
+    },
+    "node_79|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:02.965Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_75|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:04.433Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_74|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:48.857Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_74|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:52.138Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_89|node_88": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:38:37.481Z",
+      "question": "Can [Agent] move from the chalkboard wall in the basement Media room to the light-colored refrigerator in the Basement storage space?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_80|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:49:49.745Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_79|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T03:49:51.280Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_82|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:00:54.581Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_79|node_76": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:00:59.341Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_89": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:03.447Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_89|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:10.406Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:13.179Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_81|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:14.739Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_82|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:44.476Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_84|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:01:48.285Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:10.610Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_89|node_86": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:14.013Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_81": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:17.718Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_81|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:19.066Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_89": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:22.251Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_84|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:07:25.437Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_79|node_78": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:12:29.456Z",
+      "question": "Can [Agent] move from the dining table in the Dining room to the armchair by the window in the Top floor sofa room?"
+    },
+    "node_83|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:15:55.678Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_79|node_77": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:16:00.024Z",
+      "question": "Can [Agent] move from the floral sofa in the Sun room to in front of the sink in the Top floor shared bathroom?"
+    },
+    "node_82|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:20:58.972Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_85|node_80": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:00.107Z",
+      "question": "Can [Agent] move from the kitchen island area in the Kitchen to the printer on a stand in the Print room?"
+    },
+    "node_80|node_85": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:27.545Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_85|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:21:28.052Z",
+      "question": "Can [Agent] move from the sofas in the main floor Media room to inside the wooden Sauna room?"
+    },
+    "node_80|node_84": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:28.425Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_89|node_82": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:32.998Z",
+      "question": "Can [Agent] move from the area near the large hutch in the Dining room to the refrigerator area in the Kitchen?"
+    },
+    "node_84|node_83": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:33:52.437Z",
+      "question": "Can [Agent] move from the TV cabinet area in the main floor Media room to the large windows in the Sun room?"
+    },
+    "node_79|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:06.792Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_75|node_74": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:07.900Z",
+      "question": "Can [Agent] move from the area near the main entrance door in the Foyer and hallway to the area near the bed in the Master bedroom?"
+    },
+    "node_74|node_79": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:54.404Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_74|node_75": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:36:56.056Z",
+      "question": "Can [Agent] move from the area near the bed in the Master bedroom to in front of the vanity in the Master bedroom bathroom?"
+    },
+    "node_89|node_88": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T04:38:43.745Z",
+      "question": "Can [Agent] move from the chalkboard wall in the basement Media room to the light-colored refrigerator in the Basement storage space?"
+    }
+  }
+}

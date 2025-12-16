@@ -1,0 +1,640 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_33|node_34": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T19:00:15.350Z"
+    },
+    "node_34|node_35": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T19:00:15.350Z"
+    },
+    "node_35|node_37": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T19:00:15.350Z"
+    },
+    "node_37|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:51.809Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_38": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:55.941Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:12:59.959Z",
+      "question": "Can [Agent] move from the hallway near the tall abstract sculpture in the Main hallway to the dark desk with a laptop and black chair in the Single office with black chair and no painting?"
+    },
+    "node_42|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:14:42.291Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_35|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:01.396Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_38|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:49.967Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_35|node_40": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:52.860Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:20.752Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_35|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:31.339Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_44|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:19:06.442Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:19:42.975Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_39|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:40.078Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_35|node_41": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:52.453Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_45|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:32.117Z",
+      "question": "Can [Agent] move from the small round table with two chairs in the Single office with black chair and painting to the vending machine area in the Rest area?"
+    },
+    "node_35|node_42": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:23:52.062Z",
+      "question": "Can [Agent] move from the desk area with multiple computer desks and white shelves in the Big shared office space to the area near the white storage cabinets in the Shared office of 10?"
+    },
+    "node_35|node_39": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:39.875Z",
+      "question": "Can [Agent] move from the hallway near the large printer/copier in the Main hallway to the area near the large screen on the wall in the Meeting room with wooden table white chairs?"
+    },
+    "node_46|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:01.473Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    },
+    "node_35|node_45": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:10.126Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_33|node_34": {
+      "traversable": false,
+      "note": "cannot go down a small stair",
+      "timestamp": "2025-11-04T19:04:16.184Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_34|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:20.237Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_35|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:23.370Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_37|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:59.835Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_38": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:01.222Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:13:11.637Z",
+      "question": "Can [Agent] move from the hallway near the tall abstract sculpture in the Main hallway to the dark desk with a laptop and black chair in the Single office with black chair and no painting?"
+    },
+    "node_42|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:15.249Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_35|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:16.783Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_38|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:55.620Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_35|node_40": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:56.607Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:32.580Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_35|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:17:41.297Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_44|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:19:47.161Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_34|node_33": {
+      "traversable": false,
+      "note": "cannot go up/down a small stair",
+      "timestamp": "2025-11-04T19:19:57.521Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_39|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:54.865Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_35|node_41": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:59.451Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_45|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:35.183Z",
+      "question": "Can [Agent] move from the small round table with two chairs in the Single office with black chair and painting to the vending machine area in the Rest area?"
+    },
+    "node_35|node_42": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:23:59.129Z",
+      "question": "Can [Agent] move from the desk area with multiple computer desks and white shelves in the Big shared office space to the area near the white storage cabinets in the Shared office of 10?"
+    },
+    "node_35|node_39": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:45.953Z",
+      "question": "Can [Agent] move from the hallway near the large printer/copier in the Main hallway to the area near the large screen on the wall in the Meeting room with wooden table white chairs?"
+    },
+    "node_46|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:11.727Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    },
+    "node_35|node_45": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:12.646Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    }
+  },
+  "ROBOT": {
+    "node_33|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:26.356Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_34|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:27.797Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_35|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:30.850Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_37|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:06.196Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_38": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:44.846Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_43": {
+      "traversable": false,
+      "note": "offfice door too narrow",
+      "timestamp": "2025-11-04T19:14:24.250Z",
+      "question": "Can [Agent] move from the hallway near the tall abstract sculpture in the Main hallway to the dark desk with a laptop and black chair in the Single office with black chair and no painting?"
+    },
+    "node_42|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:34.821Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_35|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:39.074Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_38|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:57.779Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_35|node_40": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:09.540Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:17:53.659Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_35|node_46": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-04T19:18:07.163Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_44|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:20:03.362Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:20:11.654Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_39|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:08.490Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_35|node_41": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-04T19:22:16.825Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_45|node_35": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-04T19:22:43.250Z",
+      "question": "Can [Agent] move from the small round table with two chairs in the Single office with black chair and painting to the vending machine area in the Rest area?"
+    },
+    "node_35|node_42": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:01.928Z",
+      "question": "Can [Agent] move from the desk area with multiple computer desks and white shelves in the Big shared office space to the area near the white storage cabinets in the Shared office of 10?"
+    },
+    "node_35|node_39": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:46.821Z",
+      "question": "Can [Agent] move from the hallway near the large printer/copier in the Main hallway to the area near the large screen on the wall in the Meeting room with wooden table white chairs?"
+    },
+    "node_46|node_35": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-04T19:25:14.459Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    },
+    "node_35|node_45": {
+      "traversable": false,
+      "note": "office door too narrow",
+      "timestamp": "2025-11-04T19:25:16.592Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    }
+  },
+  "SWEEPER": {
+    "node_33|node_34": {
+      "traversable": false,
+      "note": "there is a small stair",
+      "timestamp": "2025-11-04T19:04:42.663Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_34|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:44.744Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_35|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:45.598Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_37|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:47.634Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_38": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:50.421Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:14:25.276Z",
+      "question": "Can [Agent] move from the hallway near the tall abstract sculpture in the Main hallway to the dark desk with a laptop and black chair in the Single office with black chair and no painting?"
+    },
+    "node_42|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:41.795Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_35|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:42.461Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_38|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:12.553Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_35|node_40": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:13.393Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:18:13.324Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_35|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:18:14.483Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_44|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:26.678Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_34|node_33": {
+      "traversable": false,
+      "note": "there is a small stair",
+      "timestamp": "2025-11-04T19:21:30.825Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_39|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:19.810Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_35|node_41": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:21.545Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_45|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:45.596Z",
+      "question": "Can [Agent] move from the small round table with two chairs in the Single office with black chair and painting to the vending machine area in the Rest area?"
+    },
+    "node_35|node_42": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:03.315Z",
+      "question": "Can [Agent] move from the desk area with multiple computer desks and white shelves in the Big shared office space to the area near the white storage cabinets in the Shared office of 10?"
+    },
+    "node_35|node_39": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:49.953Z",
+      "question": "Can [Agent] move from the hallway near the large printer/copier in the Main hallway to the area near the large screen on the wall in the Meeting room with wooden table white chairs?"
+    },
+    "node_46|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:18.286Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    },
+    "node_35|node_45": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:19.194Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_33|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:46.649Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_34|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:47.436Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_35|node_37": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:04:48.169Z",
+      "question": "Can [Agent] move from the desk area with multiple monitors, near white shelves in the Big shared office space to the grey sectional sofa with colorful pillows in the Rest area?"
+    },
+    "node_37|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:53.300Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_38": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:05:54.714Z",
+      "question": "Can [Agent] move from the area by the vending machine in the Rest area to the long white meeting table with green chairs in the Meeting room with white table green chairs?"
+    },
+    "node_35|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:14:36.236Z",
+      "question": "Can [Agent] move from the hallway near the tall abstract sculpture in the Main hallway to the dark desk with a laptop and black chair in the Single office with black chair and no painting?"
+    },
+    "node_42|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:43.527Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_35|node_34": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:15:43.820Z",
+      "question": "Can [Agent] move from the desk area with multiple Apple monitors in the Shared office of 10 to the glass table with cyan chairs in the Meeting space with cyan chairs?"
+    },
+    "node_38|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:14.527Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_35|node_40": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:16:14.980Z",
+      "question": "Can [Agent] move from the area by the large plant and green chalkboard in the Meeting room with white table green chairs to the wooden table with black chairs and bonsai tree in the Meeting room with wooden table black chairs?"
+    },
+    "node_36|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:18:15.803Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_35|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:18:16.804Z",
+      "question": "Can [Agent] move from the round blue table with blue chairs in the Office of two with blue round table to the white table with greenish-gray chairs in the Single office with white table and greenish gray chair?"
+    },
+    "node_44|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:34.919Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_34|node_33": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:21:37.280Z",
+      "question": "Can [Agent] move from the cluster of computer workstations in the Shared office of 5 in the middle of hallway to the desk with multiple monitors near the 'gate' sign in the Big shared office space?"
+    },
+    "node_39|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:22.783Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_35|node_41": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:23.744Z",
+      "question": "Can [Agent] move from the long wooden meeting table with white chairs in the Meeting room with wooden table white chairs to the workstations near the dark door in the Smaller shared office of five at end of hallway?"
+    },
+    "node_45|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:22:46.916Z",
+      "question": "Can [Agent] move from the small round table with two chairs in the Single office with black chair and painting to the vending machine area in the Rest area?"
+    },
+    "node_35|node_42": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:04.381Z",
+      "question": "Can [Agent] move from the desk area with multiple computer desks and white shelves in the Big shared office space to the area near the white storage cabinets in the Shared office of 10?"
+    },
+    "node_35|node_39": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:24:51.566Z",
+      "question": "Can [Agent] move from the hallway near the large printer/copier in the Main hallway to the area near the large screen on the wall in the Meeting room with wooden table white chairs?"
+    },
+    "node_46|node_35": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:57.233Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    },
+    "node_35|node_45": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T19:25:58.431Z",
+      "question": "Can [Agent] move from the area near the dark painting in the Single office with white table and greenish gray chair to the black desk with a laptop in the Single office with black chair and painting?"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the beige sofa in the living room with TV to the stove area in the kitchen?",
+        "reason": "At 01:12-01:13, the beige sofa is visible in the living room. The path leads through the hallway and the room with sewing machine to the kitchen, where the stove is visible at 00:29-00:30. Both locations are on walkable surfaces.",
+        "nodes_involved": {
+            "start": "Living room with TV",
+            "start_detail": "area near the beige sofa",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "stove area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the computer desk in the bedroom with desk and chair to the sink area in the bathroom?",
+        "reason": "The computer desk is visible at 00:59-01:00. The path requires exiting the bedroom, navigating the hallway, and entering the bathroom where the sink is visible at 00:44-00:46. Both are walkable areas.",
+        "nodes_involved": {
+            "start": "Bedroom with desk and chair",
+            "start_detail": "computer desk",
+            "intermediate": [],
+            "end": "bathroom",
+            "end_detail": "sink area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the white couch in the entrance foyer and hallway to the big bed in the bedroom with big bed?",
+        "reason": "The white couch is clearly visible at 00:00-00:02. The path involves moving down the hallway and entering the bedroom with the big bed, visible at 00:51-00:52. Both are accessible and walkable points.",
+        "nodes_involved": {
+            "start": "Entrance foyer and hallway",
+            "start_detail": "area near the white couch and exercise machine",
+            "intermediate": [],
+            "end": "Bedroom with big bed",
+            "end_detail": "big bed"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area by the large sewing machine in the room with sewing machine to the outdoor patio entrance in the family room leading to yard?",
+        "reason": "The large sewing machine is visible at 00:11-00:12. The route passes through the kitchen (00:15-00:27) to the outdoor patio entrance visible at 00:25-00:26. All points are walkable.",
+        "nodes_involved": {
+            "start": "Room with sewing machine",
+            "start_detail": "area by the large sewing machine by the window",
+            "intermediate": [],
+            "end": "Family room leading to yard",
+            "end_detail": "outdoor patio entrance"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the foot of the single bed in the bedroom next to entrance to the TV screen area in the living room with TV?",
+        "reason": "The single bed is visible at 01:24-01:25. The path requires exiting the bedroom, traversing the hallway, and entering the living room to reach the TV screen, visible at 01:08-01:09. Both are walkable locations.",
+        "nodes_involved": {
+            "start": "Bedroom next to entrance",
+            "start_detail": "foot of the single bed",
+            "intermediate": [],
+            "end": "Living room with TV",
+            "end_detail": "TV screen area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the toilet area in the bathroom to the single bed with teddy bears in the bedroom with desk and chair?",
+        "reason": "The toilet is visible in the bathroom at 00:44-00:45. The route involves exiting the bathroom, navigating the hallway, and entering the bedroom where the single bed with teddy bears is seen at 01:01-01:02. All paths are walkable.",
+        "nodes_involved": {
+            "start": "bathroom",
+            "start_detail": "toilet area",
+            "intermediate": [],
+            "end": "Bedroom with desk and chair",
+            "end_detail": "single bed with teddy bears"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dining table with butterfly tablecloth in the kitchen to the wooden wardrobe in the bedroom with big bed?",
+        "reason": "The dining table is in the kitchen, visible at 00:24-00:25. The route requires exiting the kitchen through the room with sewing machine, then navigating the hallway to the bedroom with big bed, where the wooden wardrobe is visible at 00:53-00:54. All areas are walkable.",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "dining table with butterfly tablecloth",
+            "intermediate": [],
+            "end": "Bedroom with big bed",
+            "end_detail": "wooden wardrobe"
+        }
+    }
+]

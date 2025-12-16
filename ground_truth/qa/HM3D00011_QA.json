@@ -1,0 +1,146 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?",
+        "reason": "At 00:00-00:06, the sofa is visible in the living room area of node_8. At 00:30-00:33, the desk is visible in the home office (node_7). A clear opening connects these two areas.",
+        "nodes_involved": {
+            "start": "node_8",
+            "start_detail": "sofa area",
+            "intermediate": [],
+            "end": "node_7",
+            "end_detail": "desk area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?",
+        "reason": "At 00:05-00:06, the dining table is visible in node_8. At 00:38-00:45, the camera moves down the stairs from the first floor, and the two armchairs in the basement chatroom (node_4) are visible at 00:46.",
+        "nodes_involved": {
+            "start": "node_8",
+            "start_detail": "dining table area",
+            "intermediate": [],
+            "end": "node_4",
+            "end_detail": "two armchair area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the kitchen island area in node_8 to the open space near the garage door in node_1?",
+        "reason": "At 00:07-00:08, the kitchen island with stools is visible in node_8. The path continues down to the basement via stairs (00:38-00:45), through the basement foyer (node_3) and wine cellar (node_2) (00:49-00:51), and into the garage (node_1) where the large open space and garage door are visible at 00:54-00:58.",
+        "nodes_involved": {
+            "start": "node_8",
+            "start_detail": "kitchen island area",
+            "intermediate": [],
+            "end": "node_1",
+            "end_detail": "open space near the garage door"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?",
+        "reason": "At 00:26-00:27, the sofa area in the main chat room (node_9) is shown. The path involves going through the first floor hallway (node_10), up the stairs (01:30-01:34), along the top floor hallway (node_15) (01:35, 01:58) and into the master bedroom (node_16) where the bed is visible at 02:29-02:30.",
+        "nodes_involved": {
+            "start": "node_9",
+            "start_detail": "sofa area",
+            "intermediate": [],
+            "end": "node_16",
+            "end_detail": "bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?",
+        "reason": "At 01:19-01:20, the desk in the home office (node_7) is visible. The route leads out of the office (01:22), up the stairs (01:30-01:34), along the top floor hallway (node_15) (01:35), and into the bedroom with the gray blanket (node_19) where the bed is visible at 01:41-01:42.",
+        "nodes_involved": {
+            "start": "node_7",
+            "start_detail": "desk area",
+            "intermediate": [],
+            "end": "node_19",
+            "end_detail": "bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?",
+        "reason": "At 00:47-00:48, the coffee table in the basement chatroom (node_4) is visible. The route involves going through the basement foyer (node_3) (01:06-01:07), up the basement stairs (01:08-01:11), through the first floor hallway (node_10) (01:12-01:14), up the second set of stairs (01:30-01:34), and into the top floor rest area (node_14) where the armchairs are visible at 01:37.",
+        "nodes_involved": {
+            "start": "node_4",
+            "start_detail": "coffee table area",
+            "intermediate": [],
+            "end": "node_14",
+            "end_detail": "armchair area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?",
+        "reason": "At 00:50-00:51, the wine bottles are visible in the wine cellar (node_2). The route involves exiting the wine cellar (00:49), through the basement foyer (node_3) (01:06-01:07), up the basement stairs (01:08-01:11), through the first floor hallway (node_10) (01:12-01:14), up the second set of stairs (01:30-01:34), along the top floor hallway (node_15) (01:58), and into the bedroom with the golden blanket (node_18) where the bed is visible at 01:59-02:00.",
+        "nodes_involved": {
+            "start": "node_2",
+            "start_detail": "wine bottle area",
+            "intermediate": [],
+            "end": "node_18",
+            "end_detail": "bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?",
+        "reason": "At 01:28-01:29, the main entrance door in the first floor foyer (node_11) is visible. The route proceeds up the main stairs (01:30-01:34), along the top floor hallway (node_15) (02:10-02:11), and into the bedroom with the pink blanket (node_17) where the bed is visible at 02:14-02:15.",
+        "nodes_involved": {
+            "start": "node_11",
+            "start_detail": "area near the main entrance door",
+            "intermediate": [],
+            "end": "node_17",
+            "end_detail": "bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the area near the console table in node_10 to the area near the framed pictures in node_15?",
+        "reason": "At 00:37-00:38, the console table is visible in the first floor hallway (node_10). The path to the top floor involves ascending the main staircase (seen from 01:30-01:34), which leads directly to the top floor hallway (node_15) where the framed pictures are visible on the wall at 01:35.",
+        "nodes_involved": {
+            "start": "node_10",
+            "start_detail": "area near the console table",
+            "intermediate": [],
+            "end": "node_15",
+            "end_detail": "area near the framed pictures"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the sink area in node_13 to the elevator door in node_6?",
+        "reason": "At 00:14, the sink is visible in the kitchen corridor (node_13). The path leads out of the corridor (00:15-00:20), through the main kitchen area (part of node_8) (00:07-00:08), into the first floor hallway area (node_10) (00:09-00:11), and towards the elevator door (node_6) which is visible at 01:26, 02:48.",
+        "nodes_involved": {
+            "start": "node_13",
+            "start_detail": "sink area",
+            "intermediate": [],
+            "end": "node_6",
+            "end_detail": "elevator door"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed area in node_16 to the bed area in node_17?",
+        "reason": "At 02:29-02:30, the bed in the master bedroom (node_16) is visible. A walkable path exists through the top floor hallway (node_15) (02:37-02:39) to the bedroom with the pink blanket (node_17) where the bed is visible at 02:14-02:15.",
+        "nodes_involved": {
+            "start": "node_16",
+            "start_detail": "bed area",
+            "intermediate": [],
+            "end": "node_17",
+            "end_detail": "bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the bed area in node_19 to the bed area in node_18?",
+        "reason": "At 01:41-01:42, the bed in the bedroom with the gray blanket (node_19) is visible. A walkable path exists through the top floor hallway (node_15) (02:09-02:11) to the bedroom with the golden blanket (node_18) where the bed is visible at 01:59-02:00.",
+        "nodes_involved": {
+            "start": "node_19",
+            "start_detail": "bed area",
+            "intermediate": [],
+            "end": "node_18",
+            "end_detail": "bed area"
+        }
+    }
+]

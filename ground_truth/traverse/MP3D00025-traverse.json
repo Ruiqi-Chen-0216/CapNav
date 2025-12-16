@@ -1,0 +1,744 @@
+{
+  "_hallucinatedQuestions": [
+    "Can [Agent] move from the chair in the Hallway to the bedroom with brown bed skirt to the bed with the colorful quilt in the Bedroom with brown bed skirt?"
+  ],
+  "HUMAN": {
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T23:01:26.738Z"
+    },
+    "node_11|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:32.234Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_1|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:34.294Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:36.665Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:39.645Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_17|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:41.356Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:34:51.333Z",
+      "question": "Can [Agent] move from the chair in the Hallway to the bedroom with brown bed skirt to the bed with the colorful quilt in the Bedroom with brown bed skirt?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T23:35:27.817Z"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T23:35:27.817Z"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:40:28.729Z",
+      "question": "Can [Agent] move from the bed with the white and red throw in the Master bedroom with magenta bed skirt to the walk-in closet in the Master bedroom dressing room?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:08.196Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:11.266Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:13.726Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:15.557Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_13|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:17.057Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:18.347Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_17|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:19.777Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:46.282Z",
+      "question": "Can [Agent] move from the red rug in the Living space of the master suite to the large bookshelf wall in the Family living room with red sofa and dark red rug?"
+    },
+    "node_5|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:41.521Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:43.081Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:46.892Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_13|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:17.927Z",
+      "question": "Can [Agent] move from the console table in the Hallway to the bedroom with brown bed skirt to the toilet in the Kid bathroom?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:21.878Z",
+      "question": "Can [Agent] move from the master suite living room, near the meditation area with floor cushions, to the master bathroom's sink area?"
+    },
+    "node_15|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:43.802Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    },
+    "node_13|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:48.152Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:09.820Z",
+      "question": "Can [Agent] move from the console table near the entrance door in the Entrance foyer to the zebra painting on the wall in the main hallway?"
+    },
+    "node_11|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:09:20.064Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_1|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:09:25.695Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_7": {
+      "traversable": false,
+      "note": "entrance to bedroom is cluttered by furniture",
+      "timestamp": "2025-11-05T23:10:25.356Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_17": {
+      "traversable": false,
+      "note": "wheelchair cannot get onto tatami",
+      "timestamp": "2025-11-05T23:10:39.128Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_17|node_7": {
+      "traversable": false,
+      "note": "wheelchair cannot get onto tatami",
+      "timestamp": "2025-11-05T23:10:47.859Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_2|node_5": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:35:03.185Z",
+      "question": "Can [Agent] move from the chair in the Hallway to the bedroom with brown bed skirt to the bed with the colorful quilt in the Bedroom with brown bed skirt?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:39:44.171Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:39:52.633Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:41:57.294Z",
+      "question": "Can [Agent] move from the bed with the white and red throw in the Master bedroom with magenta bed skirt to the walk-in closet in the Master bedroom dressing room?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:45:53.945Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_0": {
+      "traversable": false,
+      "note": "entrance to bedroom is cluttered by furniture",
+      "timestamp": "2025-11-05T23:45:57.104Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:46:00.834Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:46:05.395Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_13|node_15": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:46:35.311Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_17": {
+      "traversable": false,
+      "note": "wheelchair cannot get onto tatami",
+      "timestamp": "2025-11-05T23:46:41.011Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_17|node_0": {
+      "traversable": false,
+      "note": "wheelchair cannot get onto tatami",
+      "timestamp": "2025-11-05T23:46:41.881Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:50.153Z",
+      "question": "Can [Agent] move from the red rug in the Living space of the master suite to the large bookshelf wall in the Family living room with red sofa and dark red rug?"
+    },
+    "node_5|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:51.123Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:52.873Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:55.163Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_13|node_14": {
+      "traversable": false,
+      "note": "door too narrow; no place to turn in side bathroom and in hallway",
+      "timestamp": "2025-11-05T23:51:59.295Z",
+      "question": "Can [Agent] move from the console table in the Hallway to the bedroom with brown bed skirt to the toilet in the Kid bathroom?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:27.479Z",
+      "question": "Can [Agent] move from the master suite living room, near the meditation area with floor cushions, to the master bathroom's sink area?"
+    },
+    "node_15|node_13": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:52:51.763Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    },
+    "node_13|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:53.093Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    }
+  },
+  "ROBOT": {
+    "node_1|node_2": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:04:25.304Z",
+      "question": "Can [Agent] move from the console table near the entrance door in the Entrance foyer to the zebra painting on the wall in the main hallway?"
+    },
+    "node_11|node_1": {
+      "traversable": true,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:11:02.582Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_1|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:04.342Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_7": {
+      "traversable": false,
+      "note": "door too narrow; entrance cluttered by furniture",
+      "timestamp": "2025-11-05T23:11:16.765Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:31.738Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_17|node_7": {
+      "traversable": false,
+      "note": "door too narrow; entrance to bedroom cluttered",
+      "timestamp": "2025-11-05T23:11:41.539Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:39:59.584Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:40:04.145Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_9": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:42:00.875Z",
+      "question": "Can [Agent] move from the bed with the white and red throw in the Master bedroom with magenta bed skirt to the walk-in closet in the Master bedroom dressing room?"
+    },
+    "node_10|node_7": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:46:46.422Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_0": {
+      "traversable": false,
+      "note": "door too narrow; entrance cluttered by furniture",
+      "timestamp": "2025-11-05T23:46:50.703Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:46:52.343Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:46:53.653Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_13|node_15": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:46:55.504Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_17": {
+      "traversable": false,
+      "note": "door too narrow; entrance to bedroom cluttered",
+      "timestamp": "2025-11-05T23:47:02.255Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_17|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:47:04.015Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:52.583Z",
+      "question": "Can [Agent] move from the red rug in the Living space of the master suite to the large bookshelf wall in the Family living room with red sofa and dark red rug?"
+    },
+    "node_5|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:49:57.984Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_2|node_1": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:49:59.334Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:02.455Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_13|node_14": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:52:09.787Z",
+      "question": "Can [Agent] move from the console table in the Hallway to the bedroom with brown bed skirt to the toilet in the Kid bathroom?"
+    },
+    "node_7|node_10": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:52:29.769Z",
+      "question": "Can [Agent] move from the master suite living room, near the meditation area with floor cushions, to the master bathroom's sink area?"
+    },
+    "node_15|node_13": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T23:52:55.574Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    },
+    "node_13|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:57.154Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    }
+  },
+  "SWEEPER": {
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:28.503Z",
+      "question": "Can [Agent] move from the console table near the entrance door in the Entrance foyer to the zebra painting on the wall in the main hallway?"
+    },
+    "node_11|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:44.759Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_1|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:47.840Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:53.681Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:57.631Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_17|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:58.612Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:40:08.195Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:40:13.286Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:04.445Z",
+      "question": "Can [Agent] move from the bed with the white and red throw in the Master bedroom with magenta bed skirt to the walk-in closet in the Master bedroom dressing room?"
+    },
+    "node_10|node_7": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T23:47:53.214Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:47:55.494Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:47:57.904Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:47:59.644Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_13|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:01.244Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:17.417Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_17|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:18.957Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:08.196Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_5|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:05.205Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:06.315Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:09.316Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_13|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:13.437Z",
+      "question": "Can [Agent] move from the console table in the Hallway to the bedroom with brown bed skirt to the toilet in the Kid bathroom?"
+    },
+    "node_15|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:59.674Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    },
+    "node_13|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:53:01.145Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    },
+    "node_7|node_10": {
+      "traversable": false,
+      "note": "door sill",
+      "timestamp": "2025-11-05T23:53:26.449Z",
+      "question": "Can [Agent] move from the master suite living room, near the meditation area with floor cushions, to the master bathroom's sink area?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_1|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:04:29.594Z",
+      "question": "Can [Agent] move from the console table near the entrance door in the Entrance foyer to the zebra painting on the wall in the main hallway?"
+    },
+    "node_11|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:11:59.602Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_1|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:12:00.702Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:12:07.463Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_0|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:12:09.093Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_17|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:12:10.164Z",
+      "question": "Can [Agent] move from the red sofa in the Family living room with red sofa and dark red rug to the bed with the white and red throw in the Master bedroom with magenta bed skirt?"
+    },
+    "node_3|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:40:18.457Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:40:22.508Z",
+      "question": "Can [Agent] move from the kitchen counter with the sink in the Kitchen and dining space to the desk area in the Master bedroom office space?"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:42:05.535Z",
+      "question": "Can [Agent] move from the bed with the white and red throw in the Master bedroom with magenta bed skirt to the walk-in closet in the Master bedroom dressing room?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:22.508Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:25.198Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_0|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:26.329Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:28.079Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_13|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:29.639Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_7|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:31.299Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_17|node_0": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:32.200Z",
+      "question": "Can [Agent] move from the bathtub in the Master bedroom bathroom to the washing machine in the Kid laundry room?"
+    },
+    "node_1|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:48:57.204Z",
+      "question": "Can [Agent] move from the red rug in the Living space of the master suite to the large bookshelf wall in the Family living room with red sofa and dark red rug?"
+    },
+    "node_5|node_2": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:11.036Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_2|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:12.206Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_11|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:50:14.117Z",
+      "question": "Can [Agent] move from the bed with the colorful quilt in the Bedroom with brown bed skirt to the dining table in the Kitchen and dining space?"
+    },
+    "node_13|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:15.627Z",
+      "question": "Can [Agent] move from the console table in the Hallway to the bedroom with brown bed skirt to the toilet in the Kid bathroom?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:52:36.270Z",
+      "question": "Can [Agent] move from the master suite living room, near the meditation area with floor cushions, to the master bathroom's sink area?"
+    },
+    "node_15|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:53:04.935Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    },
+    "node_13|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T23:53:07.266Z",
+      "question": "Can [Agent] move from the area next to the washing machine in the Kid laundry room to the zebra painting on the wall in the Hallway to the bedroom with brown bed skirt?"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the main entrance door area in the Living room to the four-poster bed area in the Bedroom?",
+        "reason": "The video shows a clear walking path from the main entrance door (0:00-0:02, 0:11-0:12) through the living and dining area (0:09-0:10, 0:56-0:57) and then a hallway (0:57-0:59, 1:04-1:06) directly into the bedroom where the bed is located (1:11-1:12).",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "main entrance door area",
+            "intermediate": [],
+            "end": "Bedroom",
+            "end_detail": "four-poster bed area"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the electric stove area in the Kitchen to the bathtub by the window in the Master Bathroom?",
+        "reason": "A path is visible from the kitchen stove (0:29-0:30) through the dining area of the living room (0:24-0:25, 0:32-0:33), then along the hallway (0:57-0:59) into the bedroom (1:11-1:12) and subsequently into the master bathroom where the bathtub is located (1:12-1:14).",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "electric stove area",
+            "intermediate": [],
+            "end": "Master Bathroom",
+            "end_detail": "bathtub by the window"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the red reclining chairs area in the Media room to the glass shower enclosure in the Guest bathroom?",
+        "reason": "The video shows a clear route from the media room's red reclining chairs (0:42-0:43) exiting into the main living space (0:44-0:46), then proceeding down the hallway (0:57-0:58) to the guest bathroom which contains the glass shower enclosure (0:59-1:00).",
+        "nodes_involved": {
+            "start": "Media room",
+            "start_detail": "red reclining chairs area",
+            "intermediate": [],
+            "end": "Guest bathroom",
+            "end_detail": "glass shower enclosure"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the computer desk with office chair area in the Living room to the sliding glass door to the Balcony in the Living room?",
+        "reason": "The path is visible from the computer desk (0:51-0:52, 0:48-0:49) across the open-plan living room (0:19-0:22) to the large sliding glass door that leads to the balcony (0:06-0:07, 0:16-0:18).",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "computer desk with office chair area",
+            "intermediate": [],
+            "end": "Balcony",
+            "end_detail": "sliding glass door in the Living room"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the four-poster bed area in the Bedroom to the vanity sink in the Guest bathroom?",
+        "reason": "The video demonstrates a continuous route from the bedroom where the four-poster bed is visible (1:22-1:23) into the hallway (1:25-1:27) and then directly into the guest bathroom, revealing the vanity sink (1:00-1:02).",
+        "nodes_involved": {
+            "start": "Bedroom",
+            "start_detail": "four-poster bed area",
+            "intermediate": [],
+            "end": "Guest bathroom",
+            "end_detail": "vanity sink"
+        }
+    }
+]

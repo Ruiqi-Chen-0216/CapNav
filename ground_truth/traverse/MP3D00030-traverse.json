@@ -1,0 +1,1131 @@
+{
+  "_hallucinatedQuestions": [
+    "Can [Agent] move from the living space, near the fireplace with the painting above it, to the basement stair landing, at the top of the stairs going down?"
+  ],
+  "HUMAN": {
+    "node_52|node_51": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_51|node_55": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_55|node_43": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_50|node_55": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_51|node_43": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_52|node_50": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_55|node_51": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_52|node_55": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_55|node_50": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_52|node_43": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-06T05:17:48.859Z"
+    },
+    "node_43|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:49:15.320Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_43|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:49:21.333Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_55|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:06.280Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_50|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:13.814Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:25.186Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_43|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:33.813Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_47|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:55.467Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_49": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:58.481Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_49|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:59.920Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_55|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:57:05.907Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_45|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:01:46.430Z",
+      "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?"
+    },
+    "node_44|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:01:53.177Z",
+      "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?"
+    },
+    "node_55|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:02:30.242Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_56|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:02:39.922Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_53|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:37.320Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:09:43.907Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_49|node_44": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:09:48.720Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_44|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:55.240Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:57.400Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:48.441Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:51.027Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_44|node_47": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:48.572Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, near the large double sink on the island, to the master bedroom, near the distressed wooden armoire next to the window?"
+    },
+    "node_59|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:29.010Z",
+      "question": "Can [Agent] move from the basement stair landing, at the start of the stairs going down, to the home office, near the two brown leather reclining chairs?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:51.969Z",
+      "question": "Can [Agent] move from the main hallway, by the large light-colored decorative vase on a stand, to the smaller bedroom suite with grid dark red sheets, at the single vanity sink in its private bathroom?"
+    },
+    "node_46|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:18:06.195Z",
+      "question": "Can [Agent] move from the master dressing room, at the central wooden island, to the formal dining space, near the large chandelier hanging above the table?"
+    },
+    "node_55|node_59": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:18:36.808Z",
+      "question": "Can [Agent] move from the living space, near the fireplace with the painting above it, to the basement stair landing, at the top of the stairs going down?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_52|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:26:20.669Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:26:26.376Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:41:27.271Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:41:38.150Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:41:43.537Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:42:08.856Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:42:21.349Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:42:29.188Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:42:33.255Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:42:42.668Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:42:50.814Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:43:02.441Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_43|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:49:29.840Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_43|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:49:35.399Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_55|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:38.813Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_50|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:43.026Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:48.266Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_43|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:54.252Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_47|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:57:10.600Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_49": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:57:21.387Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_49|node_55": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T05:58:29.771Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_55|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:58:37.544Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:58:44.530Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_45|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:01:57.177Z",
+      "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?"
+    },
+    "node_55|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:08:38.042Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_56|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:07.788Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_53|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:59.800Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:10:02.119Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_49|node_44": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:10:08.080Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_44|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:10:11.466Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:10:15.212Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:55.987Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:57.920Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_44|node_47": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:55.731Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, near the large double sink on the island, to the master bedroom, near the distressed wooden armoire next to the window?"
+    },
+    "node_59|node_55": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-06T06:17:37.637Z",
+      "question": "Can [Agent] move from the basement stair landing, at the start of the stairs going down, to the home office, near the two brown leather reclining chairs?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:55.103Z",
+      "question": "Can [Agent] move from the main hallway, by the large light-colored decorative vase on a stand, to the smaller bedroom suite with grid dark red sheets, at the single vanity sink in its private bathroom?"
+    },
+    "node_46|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:18:10.689Z",
+      "question": "Can [Agent] move from the master dressing room, at the central wooden island, to the formal dining space, near the large chandelier hanging above the table?"
+    },
+    "node_55|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-06T06:18:40.901Z",
+      "question": "Can [Agent] move from the living space, near the fireplace with the painting above it, to the basement stair landing, at the top of the stairs going down?"
+    }
+  },
+  "ROBOT": {
+    "node_52|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:43:53.812Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:43:57.692Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_43": {
+      "traversable": false,
+      "note": "doors too narrow",
+      "timestamp": "2025-11-06T05:44:05.425Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:44:08.091Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:44:12.331Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_43": {
+      "traversable": false,
+      "note": "doors too narrow",
+      "timestamp": "2025-11-06T05:46:17.394Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:46:28.353Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:46:32.540Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:46:35.819Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:46:39.406Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:46:47.286Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:46:54.018Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_43|node_55": {
+      "traversable": false,
+      "note": "doors too narrow",
+      "timestamp": "2025-11-06T05:49:50.905Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_43|node_51": {
+      "traversable": false,
+      "note": "doors too narrow",
+      "timestamp": "2025-11-06T05:50:10.105Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_55|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:55:57.759Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_50|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:01.026Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:06.466Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_43|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:10.987Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_47|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:59:28.115Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T05:59:34.996Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_49|node_55": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T05:59:39.435Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_55|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:59:54.461Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:00.047Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_45|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:02:01.016Z",
+      "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?"
+    },
+    "node_55|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:12.695Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_56|node_58": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-06T06:09:18.628Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_53|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:10:17.586Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:10:19.439Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_49|node_44": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:10:20.559Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_44|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:11.749Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:16.388Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_57|node_56": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-06T06:16:09.760Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:12.813Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_44|node_47": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:00.611Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, near the large double sink on the island, to the master bedroom, near the distressed wooden armoire next to the window?"
+    },
+    "node_59|node_55": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-06T06:17:41.023Z",
+      "question": "Can [Agent] move from the basement stair landing, at the start of the stairs going down, to the home office, near the two brown leather reclining chairs?"
+    },
+    "node_56|node_57": {
+      "traversable": false,
+      "note": "bedroom door too narrow",
+      "timestamp": "2025-11-06T06:17:57.023Z",
+      "question": "Can [Agent] move from the main hallway, by the large light-colored decorative vase on a stand, to the smaller bedroom suite with grid dark red sheets, at the single vanity sink in its private bathroom?"
+    },
+    "node_46|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:18:20.608Z",
+      "question": "Can [Agent] move from the master dressing room, at the central wooden island, to the formal dining space, near the large chandelier hanging above the table?"
+    },
+    "node_55|node_59": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-06T06:18:43.554Z",
+      "question": "Can [Agent] move from the living space, near the fireplace with the painting above it, to the basement stair landing, at the top of the stairs going down?"
+    }
+  },
+  "SWEEPER": {
+    "node_52|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:06.125Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:22.151Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:39.950Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:42.777Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:49.137Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:50.070Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:51.856Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:55.056Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:47:56.390Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:00.616Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:03.256Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:05.656Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_43|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:54:19.162Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_43|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:54:25.509Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_55|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:14.174Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_50|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:19.228Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:30.815Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_43|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:37.188Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_47|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:03.274Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:00:09.808Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_49|node_55": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:00:14.474Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_55|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:22.047Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:26.647Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_45|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:02:06.310Z",
+      "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?"
+    },
+    "node_55|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:23.201Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_56|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:24.961Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_53|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:22.481Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:15:24.481Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_49|node_44": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:15:25.561Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_44|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:27.961Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:31.335Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:25.733Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:37.372Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_44|node_47": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:12.478Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, near the large double sink on the island, to the master bedroom, near the distressed wooden armoire next to the window?"
+    },
+    "node_59|node_55": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-06T06:17:44.863Z",
+      "question": "Can [Agent] move from the basement stair landing, at the start of the stairs going down, to the home office, near the two brown leather reclining chairs?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:58.783Z",
+      "question": "Can [Agent] move from the main hallway, by the large light-colored decorative vase on a stand, to the smaller bedroom suite with grid dark red sheets, at the single vanity sink in its private bathroom?"
+    },
+    "node_46|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:18:26.275Z",
+      "question": "Can [Agent] move from the master dressing room, at the central wooden island, to the formal dining space, near the large chandelier hanging above the table?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_52|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:10.802Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:12.149Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:15.789Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:17.202Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:18.509Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_51|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:19.669Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:20.749Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:22.029Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:23.682Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:27.002Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_55|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:48:30.468Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_52|node_43": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:49:08.240Z",
+      "question": "Can [Agent] move from the living space, by the fireplace with a painting above it, to the home gym, near the treadmill?"
+    },
+    "node_43|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:54:53.121Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_43|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:54:58.587Z",
+      "question": "Can [Agent] move from the living space, on the large L-shaped sofa with pink pillows, to the formal dining space, at the long wooden dining table?"
+    },
+    "node_55|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:39.854Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_50|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:41.641Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_51|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:50.308Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_43|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T05:56:52.361Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, at the kitchen island with bar stools, to the home office, at the large ornate wooden desk?"
+    },
+    "node_47|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:29.113Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:00:33.033Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_49|node_55": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:00:36.367Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_55|node_52": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:43.673Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_44|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:00:47.166Z",
+      "question": "Can [Agent] move from the master bedroom, by the bed with white and light blue bedding, to the home gym, near the large grey exercise machine in the center?"
+    },
+    "node_45|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:02:19.229Z",
+      "question": "Can [Agent] move from the master bathroom, near the freestanding white tub, to the kitchen and casual dining space, next to the stainless steel refrigerator?"
+    },
+    "node_55|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:29.894Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_56|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:09:31.494Z",
+      "question": "Can [Agent] move from the formal dining space, in front of the large mirror above the console table, to the smaller bedroom suite with striped sheets, at the bed with brown striped sheets?"
+    },
+    "node_53|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:35.001Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_49": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:15:36.921Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_49|node_44": {
+      "traversable": false,
+      "note": "invalid node",
+      "timestamp": "2025-11-06T06:15:38.134Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_44|node_46": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:44.148Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_55|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:15:45.880Z",
+      "question": "Can [Agent] move from the home office, by the tall wooden bookshelf filled with books, to the master dressing room, near the hanging clothes on the racks?"
+    },
+    "node_57|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:42.025Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_56|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:16:43.692Z",
+      "question": "Can [Agent] move from the smaller bedroom suite with grid dark red sheets, next to the bed with dark red sheets, to the living space, near the two wooden giraffe statues?"
+    },
+    "node_44|node_47": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:21.197Z",
+      "question": "Can [Agent] move from the kitchen and casual dining space, near the large double sink on the island, to the master bedroom, near the distressed wooden armoire next to the window?"
+    },
+    "node_59|node_55": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:47.743Z",
+      "question": "Can [Agent] move from the basement stair landing, at the start of the stairs going down, to the home office, near the two brown leather reclining chairs?"
+    },
+    "node_56|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:17:59.929Z",
+      "question": "Can [Agent] move from the main hallway, by the large light-colored decorative vase on a stand, to the smaller bedroom suite with grid dark red sheets, at the single vanity sink in its private bathroom?"
+    },
+    "node_46|node_44": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-06T06:18:29.421Z",
+      "question": "Can [Agent] move from the master dressing room, at the central wooden island, to the formal dining space, near the large chandelier hanging above the table?"
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_50|node_53": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T08:11:36.039Z"
+    },
+    "node_53|node_57": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-05T08:11:36.039Z"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:13:52.194Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_53|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:14:02.497Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_56|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:53.713Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_53|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:56.135Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_57|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:50.022Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_53|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:51.992Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:53.543Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_54|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:32.240Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    },
+    "node_53|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:35.490Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_50|node_53": {
+      "traversable": false,
+      "note": "clutter in the hallway",
+      "timestamp": "2025-11-05T08:11:58.761Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_53|node_57": {
+      "traversable": false,
+      "note": "hallway too narrow for turning",
+      "timestamp": "2025-11-05T08:13:07.316Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:14:40.623Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_53|node_58": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:15:53.408Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_56|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:59.213Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_53|node_54": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:17:29.953Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_57|node_53": {
+      "traversable": false,
+      "note": "hallway too narrow for turning",
+      "timestamp": "2025-11-05T08:18:00.075Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_53|node_50": {
+      "traversable": false,
+      "note": "clutter in the hallway",
+      "timestamp": "2025-11-05T08:18:03.735Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:05.766Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_54|node_53": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:18:37.142Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    },
+    "node_53|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:41.081Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    }
+  },
+  "ROBOT": {
+    "node_50|node_53": {
+      "traversable": false,
+      "note": "hallway cluttered",
+      "timestamp": "2025-11-05T08:13:26.400Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_53|node_57": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:13:32.641Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_51|node_50": {
+      "traversable": false,
+      "note": "furniture clutter the way",
+      "timestamp": "2025-11-05T08:16:07.057Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_53|node_58": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:16:16.457Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_56|node_53": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:17:40.672Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_53|node_54": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:17:42.293Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_57|node_53": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:18:10.156Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_53|node_50": {
+      "traversable": false,
+      "note": "hallway cluttered",
+      "timestamp": "2025-11-05T08:18:12.307Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_50|node_51": {
+      "traversable": false,
+      "note": "furniture clutter the way",
+      "timestamp": "2025-11-05T08:18:14.266Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_54|node_53": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:18:44.573Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    },
+    "node_53|node_56": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-05T08:18:45.794Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    }
+  },
+  "SWEEPER": {
+    "node_50|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:13:40.432Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_53|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:13:41.642Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:19.417Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_53|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:42.002Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_56|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:43.812Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_53|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:44.821Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_57|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:15.917Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_53|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:16.828Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:17.609Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_54|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:48.223Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    },
+    "node_53|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:50.013Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_50|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:13:42.782Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_53|node_57": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:13:49.163Z",
+      "question": "Can [Agent] move from the main entrance door in the Entrance and living space and dining space to the bed with white and blue sheets in the Bedroom with white and blue sheets?"
+    },
+    "node_51|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:43.472Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_53|node_58": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:16:46.371Z",
+      "question": "Can [Agent] move from the kitchen sink area in the Kitchen to the toilet with the snowman shower curtain in the Bathroom?"
+    },
+    "node_56|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:45.913Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_53|node_54": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:17:47.494Z",
+      "question": "Can [Agent] move from the bed with pink sheets in the Bedroom with pink sheets to the main computer desk in the Home office?"
+    },
+    "node_57|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:25.610Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_53|node_50": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:27.839Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_50|node_51": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:29.099Z",
+      "question": "Can [Agent] move from the computer desk in the Bedroom with white and blue sheets to the refrigerator in the Kitchen?"
+    },
+    "node_54|node_53": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:52.515Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    },
+    "node_53|node_56": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-05T08:18:54.254Z",
+      "question": "Can [Agent] move from the large white copier in the Home office to the Christmas tree in the Bedroom with pink sheets?"
+    }
+  }
+}

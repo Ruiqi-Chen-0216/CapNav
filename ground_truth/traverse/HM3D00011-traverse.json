@@ -1,0 +1,1026 @@
+{
+  "_hallucinatedQuestions": [],
+  "HUMAN": {
+    "node_8|node_10": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:21:18.338Z"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:21:18.338Z"
+    },
+    "node_8|node_13": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:21:18.338Z"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:21:18.338Z"
+    },
+    "node_9|node_10": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:21:18.338Z"
+    },
+    "node_10|node_9": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:24:45.263Z"
+    },
+    "node_9|node_7": {
+      "traversable": true,
+      "note": "Auto-approved: able-bodied human",
+      "timestamp": "2025-11-04T17:24:45.263Z"
+    },
+    "node_10|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:14.202Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:17.350Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:21.962Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:23.642Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_6|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:25.775Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:32.441Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:54.067Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_14|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:55.427Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:28:00.133Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:00:59.040Z",
+      "question": "Can [Agent] move from the kitchen island area in node_8 to the open space near the garage door in node_1?"
+    },
+    "node_1|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:18.973Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:22.386Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:29.479Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_15|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:31.306Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:34.545Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_9|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:40.452Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_13|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:44.158Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:07:21.826Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:07:26.892Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:23.222Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_3|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:28.795Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:13:55.850Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:14:02.264Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:21.394Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:25.552Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_16|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:16.792Z",
+      "question": "Can [Agent] move from the bed area in node_16 to the bed area in node_17?"
+    },
+    "node_19|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:39.203Z",
+      "question": "Can [Agent] move from the bed area in node_19 to the bed area in node_18?"
+    }
+  },
+  "WHEELCHAIR": {
+    "node_8|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:22:21.241Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:22:37.548Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_8|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:23:23.349Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_13|node_9": {
+      "traversable": false,
+      "note": "sofa block the way",
+      "timestamp": "2025-11-04T17:23:37.866Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:23:42.104Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:24:50.836Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_7": {
+      "traversable": false,
+      "note": "sofa block the way",
+      "timestamp": "2025-11-04T17:25:17.009Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_3": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T17:28:13.668Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:28:36.374Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:28:59.560Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:29:01.279Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_6|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:29:06.465Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:29:13.558Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_14": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:11:05.416Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_14|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:30:01.689Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:30:11.488Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:05.253Z",
+      "question": "Can [Agent] move from the kitchen island area in node_8 to the open space near the garage door in node_1?"
+    },
+    "node_1|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:54.091Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:56.118Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:02:57.597Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_15|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:03:01.688Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:03:06.662Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_9|node_13": {
+      "traversable": false,
+      "note": "sofa block the way",
+      "timestamp": "2025-11-04T18:03:46.781Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_13|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:03:50.754Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:07:36.624Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_7|node_9": {
+      "traversable": false,
+      "note": "sofa block the way",
+      "timestamp": "2025-11-04T18:07:43.811Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:39.488Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_3|node_10": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:08:43.329Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:14:28.396Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:14:42.061Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:30.539Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:34.099Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_16|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:24.350Z",
+      "question": "Can [Agent] move from the bed area in node_16 to the bed area in node_17?"
+    },
+    "node_19|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:43.497Z",
+      "question": "Can [Agent] move from the bed area in node_19 to the bed area in node_18?"
+    }
+  },
+  "ROBOT": {
+    "node_8|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:25:25.981Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:25:30.327Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:25:33.727Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_7": {
+      "traversable": false,
+      "note": "sofa block thw way",
+      "timestamp": "2025-11-04T17:25:41.741Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_8|node_13": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T17:25:50.820Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_13|node_9": {
+      "traversable": false,
+      "note": "door too narrow; sofa block the way",
+      "timestamp": "2025-11-04T17:26:02.366Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:04.698Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_3": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:12:26.199Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_3|node_4": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T17:30:43.568Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_10|node_11": {
+      "traversable": false,
+      "note": "hallway next to the stairs too narrow",
+      "timestamp": "2025-11-04T17:31:31.366Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:31:53.684Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_6|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:31:55.790Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_1|node_3": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T17:32:11.018Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_14": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:10:47.058Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_14|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:32:27.029Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:32:32.936Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_1": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:01:08.053Z",
+      "question": "Can [Agent] move from the kitchen island area in node_8 to the open space near the garage door in node_1?"
+    },
+    "node_1|node_6": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:03:58.032Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:04:01.993Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:04:07.819Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_15|node_16": {
+      "traversable": false,
+      "note": "master bedroom door too narrow",
+      "timestamp": "2025-11-04T18:05:02.217Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:09.244Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_9|node_13": {
+      "traversable": false,
+      "note": "door too narrow; sofa block the way",
+      "timestamp": "2025-11-04T18:05:16.697Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_13|node_8": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:05:18.657Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_19": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:07:54.411Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_7|node_9": {
+      "traversable": false,
+      "note": "sofa block thw way",
+      "timestamp": "2025-11-04T18:08:05.130Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_4|node_3": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:09:06.809Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_3|node_10": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:09:53.712Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_2|node_3": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:14:53.222Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_18": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:15:05.594Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_17": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:15:40.820Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_11|node_10": {
+      "traversable": false,
+      "note": "hallway next to the stairs too narrow",
+      "timestamp": "2025-11-04T18:15:45.912Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_16|node_15": {
+      "traversable": false,
+      "note": "master bedroom door too narrow",
+      "timestamp": "2025-11-04T18:16:27.817Z",
+      "question": "Can [Agent] move from the bed area in node_16 to the bed area in node_17?"
+    },
+    "node_19|node_14": {
+      "traversable": false,
+      "note": "door too narrow",
+      "timestamp": "2025-11-04T18:16:45.696Z",
+      "question": "Can [Agent] move from the bed area in node_19 to the bed area in node_18?"
+    }
+  },
+  "SWEEPER": {
+    "node_8|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:08.620Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:14.045Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:19.831Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:21.738Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_8|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:23.992Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:28.378Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:35.310Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_3": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:11:29.361Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:32:44.082Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:32:46.749Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_6": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T17:32:58.068Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_6|node_1": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T17:33:05.016Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:33:07.788Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_14": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:10:33.458Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_14|node_6": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T17:33:22.761Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:33:27.253Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:10.613Z",
+      "question": "Can [Agent] move from the kitchen island area in node_8 to the open space near the garage door in node_1?"
+    },
+    "node_1|node_6": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:05:25.856Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_11": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:05:27.551Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:31.282Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_15|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:34.150Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_14": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:05:39.508Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_9|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:45.575Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_13|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:49.081Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:09.183Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:11.970Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:10:05.392Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_3|node_10": {
+      "traversable": false,
+      "note": "cannot go up/down stairs",
+      "timestamp": "2025-11-04T18:10:20.937Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:10.753Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:13.753Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:52.498Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:54.831Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_19|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:48.896Z",
+      "question": "Can [Agent] move from the bed area in node_19 to the bed area in node_18?"
+    },
+    "node_16|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:17:10.748Z",
+      "question": "Can [Agent] move from the bed area in node_16 to the bed area in node_17?"
+    }
+  },
+  "QUADRUPEDAL": {
+    "node_8|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:39.177Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:40.631Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:41.803Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_7": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:45.910Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_8|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:26:53.283Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_13|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:06.070Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_9|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:27:07.523Z",
+      "question": "Can [Agent] move from the sofa area in node_8 to the desk area in node_7?"
+    },
+    "node_10|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:33:32.840Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_4": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:36:33.713Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_10|node_11": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T17:36:37.967Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_6": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:00:22.935Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_6|node_1": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:00:31.188Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_1|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:00:32.654Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_11|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:00:38.123Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_14|node_6": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:00:45.868Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_7|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:00:50.573Z",
+      "question": "Can [Agent] move from the dining table area in node_8 to the two armchair area in node_4?"
+    },
+    "node_3|node_1": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:01:13.813Z",
+      "question": "Can [Agent] move from the kitchen island area in node_8 to the open space near the garage door in node_1?"
+    },
+    "node_1|node_6": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:05:53.749Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_11": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:05:54.962Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:57.935Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_15|node_16": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:05:59.561Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_6|node_14": {
+      "traversable": false,
+      "note": "cannot operate elevator",
+      "timestamp": "2025-11-04T18:06:02.134Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_9|node_13": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:07:11.958Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_13|node_8": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:07:13.439Z",
+      "question": "Can [Agent] move from the sofa area in node_9 to the bed area in node_16?"
+    },
+    "node_14|node_19": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:14.490Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_7|node_9": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:08:17.116Z",
+      "question": "Can [Agent] move from the desk area in node_7 to the bed area in node_19?"
+    },
+    "node_4|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:13:46.183Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_3|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:13:52.677Z",
+      "question": "Can [Agent] move from the coffee table area in node_4 to the armchair area in node_14?"
+    },
+    "node_2|node_3": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:15.939Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_18": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:18.220Z",
+      "question": "Can [Agent] move from the wine bottle area in node_2 to the bed area in node_18?"
+    },
+    "node_15|node_17": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:15:59.965Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_11|node_10": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:01.885Z",
+      "question": "Can [Agent] move from the area near the main entrance door in node_11 to the bed area in node_17?"
+    },
+    "node_16|node_15": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:31.096Z",
+      "question": "Can [Agent] move from the bed area in node_16 to the bed area in node_17?"
+    },
+    "node_19|node_14": {
+      "traversable": true,
+      "note": "",
+      "timestamp": "2025-11-04T18:16:50.709Z",
+      "question": "Can [Agent] move from the bed area in node_19 to the bed area in node_18?"
+    }
+  }
+}

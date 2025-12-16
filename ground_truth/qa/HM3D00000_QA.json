@@ -1,0 +1,98 @@
+[
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the entrance area of the Lobby near the shoe rack to the Kitchen area near the stove?",
+        "reason": "The video shows a clear path from the main entrance (00:00-00:04) through the Lobby to the kitchen entrance (00:07-00:10), and the stove is visible within the Kitchen (00:28-00:29).",
+        "nodes_involved": {
+            "start": "Lobby",
+            "start_detail": "entrance area near the shoe rack",
+            "intermediate": [],
+            "end": "Kitchen",
+            "end_detail": "area near the stove"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the console table area in the Lobby to the Living room area near the purple sofa?",
+        "reason": "A walkable path is shown from the Lobby, past the console table with a mirror (02:02-02:06), directly into the Living room where the purple sofa is visible (00:13-00:16).",
+        "nodes_involved": {
+            "start": "Lobby",
+            "start_detail": "console table area",
+            "intermediate": [],
+            "end": "Living room",
+            "end_detail": "area near the purple sofa"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Living room area near the fireplace to the Master bedroom area near the wooden wardrobe?",
+        "reason": "The video displays the Living room with the fireplace (00:15-00:17), a staircase leading to the second floor (00:54-00:56), and the Master bedroom with a wooden wardrobe (01:31-01:33) connected via the hallway.",
+        "nodes_involved": {
+            "start": "Living room",
+            "start_detail": "area near the fireplace",
+            "intermediate": [],
+            "end": "Master bedroom",
+            "end_detail": "area near the wooden wardrobe"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Kitchen area by the sink under the window to the Second floor shared bathroom area near the sink and toilet?",
+        "reason": "A route is available from the Kitchen sink (00:27-00:28), through the ground floor, up the stairs (00:54-00:56), and into the Second floor shared bathroom where the sink and toilet are visible (00:59-01:02).",
+        "nodes_involved": {
+            "start": "Kitchen",
+            "start_detail": "area by the sink under the window",
+            "intermediate": [],
+            "end": "Second floor shared bathroom",
+            "end_detail": "area near the sink and toilet"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Master bedroom area at the foot of the bed to the Crib room area near the white crib?",
+        "reason": "Both rooms are on the second floor. The Master bedroom's bed is seen (01:28-01:29) and the hallway provides access to the Crib room where the white crib is located (01:03-01:05), showing a clear path.",
+        "nodes_involved": {
+            "start": "Master bedroom",
+            "start_detail": "area at the foot of the bed",
+            "intermediate": [],
+            "end": "Crib room",
+            "end_detail": "area near the white crib"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Dining room area at the dining table to the Guest Bedroom 1 area by the desk with the computer?",
+        "reason": "The Dining room table is visible (00:21-00:22). A route exists from this area, downstairs, up the stairs (00:54-00:56), and into Guest Bedroom 1, where a desk with a computer is clearly shown (01:13-01:14).",
+        "nodes_involved": {
+            "start": "Dining room",
+            "start_detail": "area at the dining table",
+            "intermediate": [],
+            "end": "Guest Bedroom 1",
+            "end_detail": "area by the desk with the computer"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Second floor shared bathroom area by the bathtub to the Guest Bedroom 2 area near the white bed with heart wallpaper?",
+        "reason": "Both rooms are on the second floor. The shared bathroom's bathtub is visible (01:00-01:01), and a clear path leads through the hallway (01:56-01:57) to Guest Bedroom 2, where the white bed with heart wallpaper is seen (01:46-01:47).",
+        "nodes_involved": {
+            "start": "Second floor shared bathroom",
+            "start_detail": "area by the bathtub",
+            "intermediate": [],
+            "end": "Guest Bedroom 2",
+            "end_detail": "area near the white bed with heart wallpaper"
+        }
+    },
+    {
+        "scene_type": "home",
+        "question": "Can [Agent] move from the Master Bedroom Bathroom area by the shower to the Guest Bedroom 1 area near the shoe rack?",
+        "reason": "Both rooms are located on the second floor. The Master Bedroom Bathroom has a visible shower (01:39-01:40), and a path leads through the second-floor hallway (01:43-01:44) to Guest Bedroom 1, where a large shoe rack is present (01:14-01:15).",
+        "nodes_involved": {
+            "start": "Master Bedroom Bathroom",
+            "start_detail": "area by the shower",
+            "intermediate": [],
+            "end": "Guest Bedroom 1",
+            "end_detail": "area near the shoe rack"
+        }
+    }
+]
