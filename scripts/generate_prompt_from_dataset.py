@@ -8,7 +8,7 @@ from datasets import load_dataset
 # ============================================================
 
 # Root directory of the repository is assumed as the working directory
-DATASET_PATH = "dataset_local/capnav_v0_no_answer.parquet"
+DATASET_PATH = "dataset/capnav_v0_no_answer.parquet"
 AGENT_PROFILE_PATH = "agent_profile.json"
 
 # Select one row to inspect

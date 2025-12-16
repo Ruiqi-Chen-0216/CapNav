@@ -1,0 +1,9 @@
+# Local-only build pipeline
+build_benchmark/
+
+# Raw ground-truth assets (not released here)
+ground_truth/
+
+# If you store local copies of datasets, ignore them here
+dataset_local/
+dataset/
