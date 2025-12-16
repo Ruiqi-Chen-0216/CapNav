@@ -1,0 +1,106 @@
+You are an expert visual reasoning agent for indoor navigation tasks. 
+You will receive:
+1. A video showing the indoor environment.
+2. A single navigation question asking whether an agent can move from one area (node) to another.
+3. The agent's physical and capability profile.
+4. The list of all nodes in this environment, with their textual descriptions (e.g., room type, furniture, width of passages).
+
+Your goal is to determine whether the agent can successfully reach the destination area from the starting area,
+based on both the video and the textual descriptions. You must reason step by step about spatial constraints,
+obstacles, connectivity, and the agent’s mobility limitations.
+
+---
+
+### Inputs
+**Question:**  
+Can [Agent] move from the Kitchen and dining space area near the kitchen island to the Top floor master suite area with the large bed and purple cover?
+
+**Agent profile:**  
+Agent name: HUMAN  
+Body shape: cylinder  
+Height (m): 1.7  
+Width (m): 0.6  
+Depth (m): None  
+Max vertical cross height (m): 0.3  
+Can go up or down stairs: True  
+Can operate elevator: True  
+Can open the door: True  
+Description: An able-bodied young adult capable of walking, crouching, and stepping over small obstacles up to 0.3 m high.
+
+**Scene graph nodes:**  
+node_0 — Top floor master suite
+node_1 — Sauna room
+node_2 — Porch
+node_3 — Entrance foyer and hallway
+node_4 — Kitchen and dining space
+node_5 — Livning room
+node_6 — Home library
+node_7 — Terrace
+node_9 — Home gym
+node_10 — Bedroom with orange cabinet
+node_11 — Bedroom with magenta sheets
+node_12 — Bedroom with brown sheets and white rug
+node_13 — Bedroom with white sheets
+node_14 — Bedroom with brown sheets and colorful rug
+node_15 — Basement bathroom with tub
+node_16 — Basement stair landing and hallway
+node_17 — Basement bathroom with shower and no toilet
+node_18 — Basement bathroom with only a toilet
+
+**Video:** (You can observe the video for spatial layout and obstacles.)
+
+---
+
+### Task
+Your goal is to determine whether the agent can **navigate** from the start area to the goal area.  
+Focus exclusively on **movement feasibility**, considering physical dimensions, obstacle heights, and connection constraints.
+You must **not stop after a single failed route attempt**. If one possible route is blocked (e.g., by stairs or narrow spaces),
+you must **actively consider all other possible paths** between the start and goal nodes in the scene graph.
+
+Follow these principles:
+1. Explore **all possible routes** through the scene graph before deciding the task is impossible. That means, try **multiple alternative routes** using all visible connections in the scene graph until you are confident that **no feasible route** exists.
+2. Account for the agent’s capabilities (e.g., door opening, elevator operation, stair traversal) when evaluating possible paths.
+3. When multiple feasible paths exist, select the **most direct and realistic one** given the agent's capabilities.
+4. If no route works, specify which **edge or physical barrier** prevents traversal and explain why.
+4. If a feasible route exists, specify the **sequence of nodes** representing the navigable path.
+
+Important: If you initially find the route impossible, **re-examine the scene graph** and attempt at least two distinct alternative paths before concluding "no".
+Your reasoning should reflect persistent exploration: do not assume failure after one obstacle; explore until all logical alternatives are ruled out.
+You do not need to consider unrelated interactions (e.g., turning on lights, using computers, or touching furniture).
+
+---
+
+Please decide for each given question whether the agent can complete the navigation task.  
+If yes, provide a **feasible path** through the relevant nodes.  
+If no, specify the **edge (two connected nodes)** that blocks traversal and give a concise **reason** (e.g., too narrow passage, stairs, or closed door).  
+Your reasoning should always consider the agent’s physical capabilities mentioned in the Agent profile(e.g., wheelchair cannot climb stairs, sweeper robot cannot open doors).
+
+Return your answer in the required structured JSON format below.
+
+
+---
+
+### Output format (JSON only)
+
+Example output for a list of questions:
+[
+    {
+        "question": "Can [Agent] move from the Porch area with the gray outdoor chairs to the Livning room area with the green sectional sofa?",
+        "agent": "HUMAN",
+        "result": {
+            "answer": "yes",
+            "path": ["node_12", "node_14", "node_15"]
+        }
+    },
+    {
+        "question": "Can [Agent] move from the Kitchen and dining space area near the kitchen island to the Top floor master suite area with the large bed and purple cover?",
+        "agent": "HUMAN",
+        "result": {
+            "answer": "no",
+            "path": ["node_12", "node_14", "node_15"],
+            "reason": "Too narrow passage between the sofa and wall"
+        }
+    }
+]
+
+Return only the JSON array, no explanation, commentary, or markdown formatting.

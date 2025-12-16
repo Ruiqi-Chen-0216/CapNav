@@ -1,0 +1,113 @@
+You are an expert visual reasoning agent for indoor navigation tasks. 
+You will receive:
+1. A video showing the indoor environment.
+2. A single navigation question asking whether an agent can move from one area (node) to another.
+3. The agent's physical and capability profile.
+4. The list of all nodes in this environment, with their textual descriptions (e.g., room type, furniture, width of passages).
+
+Your goal is to determine whether the agent can successfully reach the destination area from the starting area,
+based on both the video and the textual descriptions. You must reason step by step about spatial constraints,
+obstacles, connectivity, and the agent’s mobility limitations.
+
+---
+
+### Inputs
+**Question:**  
+Can [Agent] move from the entrance floor bedroom with big bed and light gray rug to the main kitchen and dining space?
+
+**Agent profile:**  
+Agent name: QUADRUPEDAL  
+Body shape: box  
+Height (m): 0.7  
+Width (m): 0.5  
+Depth (m): 1.1  
+Max vertical cross height (m): 0.3  
+Can go up or down stairs: True  
+Can operate elevator: False  
+Can open the door: False  
+Description: Boston Dynamics Atlas quadrupedal robot approximately the size of a dog, capable of moderate obstacle crossing up to 0.3 m.
+
+**Scene graph nodes:**  
+node_18 — Top floor stair landing and rest place
+node_19 — Master suite foyer
+node_20 — Master bedroom
+node_21 — Master bedroom terrace
+node_22 — Master bedroom dressing room
+node_23 — Master bedroom bathroom
+node_24 — Top floor bedroom with black sheets
+node_25 — Top floor bedroom with gray sheets
+node_26 — Way to the entrance
+node_27 — Entrance porch
+node_28 — Entrance foyer and hallway
+node_29 — Home office next to entrance
+node_30 — Entrance floor terrace
+node_31 — Sun room next to first floor terrace
+node_32 — Main Kitchen and dining space
+node_33 — Smaller kitchen
+node_34 — Entrance floor bedroom with big bed and light gray rug
+node_35 — Living space next to entrance
+node_36 — Entrance floor bedroom with small bed and dark rug
+node_37 — Basement porch space
+node_38 — Basement storage space with clutter
+node_39 — Garage
+node_40 — Basement home gym
+node_41 — Basement chat room
+node_42 — Basement stair landing
+
+**Video:** (You can observe the video for spatial layout and obstacles.)
+
+---
+
+### Task
+Your goal is to determine whether the agent can **navigate** from the start area to the goal area.  
+Focus exclusively on **movement feasibility**, considering physical dimensions, obstacle heights, and connection constraints.
+You must **not stop after a single failed route attempt**. If one possible route is blocked (e.g., by stairs or narrow spaces),
+you must **actively consider all other possible paths** between the start and goal nodes in the scene graph.
+
+Follow these principles:
+1. Explore **all possible routes** through the scene graph before deciding the task is impossible. That means, try **multiple alternative routes** using all visible connections in the scene graph until you are confident that **no feasible route** exists.
+2. Account for the agent’s capabilities (e.g., door opening, elevator operation, stair traversal) when evaluating possible paths.
+3. When multiple feasible paths exist, select the **most direct and realistic one** given the agent's capabilities.
+4. If no route works, specify which **edge or physical barrier** prevents traversal and explain why.
+4. If a feasible route exists, specify the **sequence of nodes** representing the navigable path.
+
+Important: If you initially find the route impossible, **re-examine the scene graph** and attempt at least two distinct alternative paths before concluding "no".
+Your reasoning should reflect persistent exploration: do not assume failure after one obstacle; explore until all logical alternatives are ruled out.
+You do not need to consider unrelated interactions (e.g., turning on lights, using computers, or touching furniture).
+
+---
+
+Please decide for each given question whether the agent can complete the navigation task.  
+If yes, provide a **feasible path** through the relevant nodes.  
+If no, specify the **edge (two connected nodes)** that blocks traversal and give a concise **reason** (e.g., too narrow passage, stairs, or closed door).  
+Your reasoning should always consider the agent’s physical capabilities mentioned in the Agent profile(e.g., wheelchair cannot climb stairs, sweeper robot cannot open doors).
+
+Return your answer in the required structured JSON format below.
+
+
+---
+
+### Output format (JSON only)
+
+Example output for a list of questions:
+[
+    {
+        "question": "Can [Agent] move from the entrance porch to the home office next to entrance?",
+        "agent": "QUADRUPEDAL",
+        "result": {
+            "answer": "yes",
+            "path": ["node_12", "node_14", "node_15"]
+        }
+    },
+    {
+        "question": "Can [Agent] move from the entrance floor bedroom with big bed and light gray rug to the main kitchen and dining space?",
+        "agent": "QUADRUPEDAL",
+        "result": {
+            "answer": "no",
+            "path": ["node_12", "node_14", "node_15"],
+            "reason": "Too narrow passage between the sofa and wall"
+        }
+    }
+]
+
+Return only the JSON array, no explanation, commentary, or markdown formatting.

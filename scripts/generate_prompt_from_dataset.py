@@ -1,4 +1,4 @@
-import json
+import os
 from typing import Dict, List, Any, Optional
 
 from datasets import load_dataset
@@ -7,13 +7,23 @@ from datasets import load_dataset
 # Path configuration (ALL RELATIVE PATHS FOR OPEN-SOURCE USE)
 # ============================================================
 
-# Root directory of the repository is assumed as the working directory
 DATASET_PATH = "dataset/capnav_v0_no_answer.parquet"
-AGENT_PROFILE_PATH = "agent_profile.json"
+AGENT_PROFILES_PATH = "dataset/agent_profiles.parquet"
 
-# Select one row to inspect
-ROW_INDEX = 0            # Use row index
-TARGET_QID = None        # Or set a specific question_id string, e.g. "00001234"
+# Output directory for generated prompt files
+OUTPUT_DIR = "generated_prompts"
+
+# Default behavior: export ALL prompts
+EXPORT_ALL = True
+
+# Optional overrides (only used when EXPORT_ALL = False)
+ROW_INDEX = 0
+START_INDEX = 0
+N_EXPORT: Optional[int] = None
+TARGET_QID: Optional[str] = None
+
+# Whether to group outputs by scene_id subfolders
+GROUP_BY_SCENE = True
 
 # ============================================================
 # Prompt template (kept aligned with the previous version)
@@ -117,62 +127,31 @@ EXAMPLE_ENTRIES = """    {{
 # Helper functions
 # ============================================================
 
-def load_agent_profiles(path: str) -> Dict[str, Dict[str, Any]]:
-    """
-    Load agent profiles and index them by agent_name.
-    """
-    with open(path, "r", encoding="utf-8") as f:
-        agents = json.load(f)
+def ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
 
-    return {
-        agent["agent_name"]: agent
-        for agent in agents
-        if isinstance(agent, dict) and "agent_name" in agent
-    }
+def load_agent_profiles_parquet(path: str) -> Dict[str, Dict[str, Any]]:
+    agent_ds = load_dataset("parquet", data_files=path)["train"]
+    return {r["agent_name"]: dict(r) for r in agent_ds if r.get("agent_name")}
 
 def format_scene_nodes(scene_nodes: List[Dict[str, str]]) -> str:
-    """
-    Convert scene graph nodes to a readable text list.
-    """
-    return "\n".join(
-        f'{node["node_id"]} — {node["name"]}'
-        for node in scene_nodes
-    )
+    return "\n".join(f'{n["node_id"]} — {n["name"]}' for n in scene_nodes)
 
-def pick_example_question_same_scene(
-    dataset,
-    scene_id: str,
-    fallback_question: str
-) -> str:
-    """
-    Select an example question from the same scene for in-context illustration.
-    """
+def pick_example_question_same_scene(dataset, scene_id: str, fallback_question: str) -> str:
     subset = dataset.filter(lambda x: x["scene_id"] == scene_id)
     if len(subset) == 0:
         return fallback_question
     return subset[0]["question"]
 
-def build_prompt_from_row(
-    row: Dict[str, Any],
-    dataset,
-    agent_profiles: Dict[str, Dict[str, Any]]
-) -> str:
-    """
-    Build a full prompt string from a single dataset row.
-    """
+def build_prompt_from_row(row: Dict[str, Any], dataset, agent_profiles: Dict[str, Dict[str, Any]]) -> str:
     agent_name = row["agent_name"]
     agent = agent_profiles.get(agent_name)
-
     if agent is None:
-        raise KeyError(f"Agent '{agent_name}' not found in agent_profile.json")
+        raise KeyError(f"Agent '{agent_name}' not found in agent_profiles.parquet")
 
     node_list_text = format_scene_nodes(row["scene_nodes"])
 
-    example_q1 = pick_example_question_same_scene(
-        dataset,
-        row["scene_id"],
-        fallback_question=row["question"]
-    )
+    example_q1 = pick_example_question_same_scene(dataset, row["scene_id"], fallback_question=row["question"])
     example_q2 = row["question"]
 
     example_outputs = EXAMPLE_ENTRIES.format(
@@ -197,28 +176,65 @@ def build_prompt_from_row(
         example_outputs=example_outputs
     )
 
+def safe_filename(s: str) -> str:
+    keep = []
+    for ch in str(s):
+        if ch.isalnum() or ch in ("-", "_"):
+            keep.append(ch)
+        else:
+            keep.append("_")
+    return "".join(keep)
+
+def prompt_output_path(base_dir: str, row: Dict[str, Any]) -> str:
+    qid = safe_filename(row["question_id"])
+    agent = safe_filename(row["agent_name"])
+    scene = safe_filename(row["scene_id"])
+
+    filename = f"{qid}__{agent}.txt"
+
+    out_dir = os.path.join(base_dir, scene) if GROUP_BY_SCENE else base_dir
+    ensure_dir(out_dir)
+    return os.path.join(out_dir, filename)
+
+def iter_rows(dataset):
+    if EXPORT_ALL:
+        for i in range(len(dataset)):
+            yield dataset[i]
+        return
+
+    if TARGET_QID is not None:
+        subset = dataset.filter(lambda x: x["question_id"] == TARGET_QID)
+        for i in range(len(subset)):
+            yield subset[i]
+        return
+
+    if N_EXPORT is not None:
+        end = min(len(dataset), START_INDEX + N_EXPORT)
+        for i in range(START_INDEX, end):
+            yield dataset[i]
+        return
+
+    yield dataset[ROW_INDEX]
+
 # ============================================================
 # Main entry
 # ============================================================
 
 def main():
-    dataset = load_dataset(
-        "parquet",
-        data_files=DATASET_PATH
-    )["train"]
+    dataset = load_dataset("parquet", data_files=DATASET_PATH)["train"]
+    agent_profiles = load_agent_profiles_parquet(AGENT_PROFILES_PATH)
 
-    agent_profiles = load_agent_profiles(AGENT_PROFILE_PATH)
+    ensure_dir(OUTPUT_DIR)
 
-    if TARGET_QID is not None:
-        subset = dataset.filter(lambda x: x["question_id"] == TARGET_QID)
-        if len(subset) == 0:
-            raise ValueError(f"question_id '{TARGET_QID}' not found")
-        row = subset[0]
-    else:
-        row = dataset[ROW_INDEX]
+    written = 0
+    for row in iter_rows(dataset):
+        prompt = build_prompt_from_row(row, dataset, agent_profiles)
+        out_path = prompt_output_path(OUTPUT_DIR, row)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(prompt)
+        written += 1
 
-    prompt = build_prompt_from_row(row, dataset, agent_profiles)
-    print(prompt)
+    print(f"[DONE] wrote_prompts={written} to '{OUTPUT_DIR}'")
 
 if __name__ == "__main__":
     main()

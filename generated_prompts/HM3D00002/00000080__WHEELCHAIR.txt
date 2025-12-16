@@ -1,0 +1,99 @@
+You are an expert visual reasoning agent for indoor navigation tasks. 
+You will receive:
+1. A video showing the indoor environment.
+2. A single navigation question asking whether an agent can move from one area (node) to another.
+3. The agent's physical and capability profile.
+4. The list of all nodes in this environment, with their textual descriptions (e.g., room type, furniture, width of passages).
+
+Your goal is to determine whether the agent can successfully reach the destination area from the starting area,
+based on both the video and the textual descriptions. You must reason step by step about spatial constraints,
+obstacles, connectivity, and the agent’s mobility limitations.
+
+---
+
+### Inputs
+**Question:**  
+Can [Agent] move from the sink area in the Master Bathroom to the stove area in the Kitchen?
+
+**Agent profile:**  
+Agent name: WHEELCHAIR  
+Body shape: box  
+Height (m): 1.2  
+Width (m): 0.7  
+Depth (m): 1.0  
+Max vertical cross height (m): 0.013  
+Can go up or down stairs: False  
+Can operate elevator: True  
+Can open the door: True  
+Description: A manual wheelchair user with limited vertical climbing ability
+
+**Scene graph nodes:**  
+node_0 — Porch
+node_1 — Yard
+node_2 — Kitchen
+node_3 — Living Room
+node_4 — Guest Bathroom
+node_5 — Master Bathroom
+node_6 — Second floor hallway
+node_7 — Study room
+node_8 — Master bedroom
+node_9 — Children Bedroom
+node_10 — Balcony
+
+**Video:** (You can observe the video for spatial layout and obstacles.)
+
+---
+
+### Task
+Your goal is to determine whether the agent can **navigate** from the start area to the goal area.  
+Focus exclusively on **movement feasibility**, considering physical dimensions, obstacle heights, and connection constraints.
+You must **not stop after a single failed route attempt**. If one possible route is blocked (e.g., by stairs or narrow spaces),
+you must **actively consider all other possible paths** between the start and goal nodes in the scene graph.
+
+Follow these principles:
+1. Explore **all possible routes** through the scene graph before deciding the task is impossible. That means, try **multiple alternative routes** using all visible connections in the scene graph until you are confident that **no feasible route** exists.
+2. Account for the agent’s capabilities (e.g., door opening, elevator operation, stair traversal) when evaluating possible paths.
+3. When multiple feasible paths exist, select the **most direct and realistic one** given the agent's capabilities.
+4. If no route works, specify which **edge or physical barrier** prevents traversal and explain why.
+4. If a feasible route exists, specify the **sequence of nodes** representing the navigable path.
+
+Important: If you initially find the route impossible, **re-examine the scene graph** and attempt at least two distinct alternative paths before concluding "no".
+Your reasoning should reflect persistent exploration: do not assume failure after one obstacle; explore until all logical alternatives are ruled out.
+You do not need to consider unrelated interactions (e.g., turning on lights, using computers, or touching furniture).
+
+---
+
+Please decide for each given question whether the agent can complete the navigation task.  
+If yes, provide a **feasible path** through the relevant nodes.  
+If no, specify the **edge (two connected nodes)** that blocks traversal and give a concise **reason** (e.g., too narrow passage, stairs, or closed door).  
+Your reasoning should always consider the agent’s physical capabilities mentioned in the Agent profile(e.g., wheelchair cannot climb stairs, sweeper robot cannot open doors).
+
+Return your answer in the required structured JSON format below.
+
+
+---
+
+### Output format (JSON only)
+
+Example output for a list of questions:
+[
+    {
+        "question": "Can [Agent] move from the wooden table area in the Yard to the refrigerator area in the Kitchen?",
+        "agent": "WHEELCHAIR",
+        "result": {
+            "answer": "yes",
+            "path": ["node_12", "node_14", "node_15"]
+        }
+    },
+    {
+        "question": "Can [Agent] move from the sink area in the Master Bathroom to the stove area in the Kitchen?",
+        "agent": "WHEELCHAIR",
+        "result": {
+            "answer": "no",
+            "path": ["node_12", "node_14", "node_15"],
+            "reason": "Too narrow passage between the sofa and wall"
+        }
+    }
+]
+
+Return only the JSON array, no explanation, commentary, or markdown formatting.
