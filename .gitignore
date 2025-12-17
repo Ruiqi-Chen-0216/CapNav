@@ -9,3 +9,4 @@ dataset_local/
 dataset/
 configs/api_keys.yaml
 configs/gemini-research-key.json
+scripts/download_model_hyak.sh
