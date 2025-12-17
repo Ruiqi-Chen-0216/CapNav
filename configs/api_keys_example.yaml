@@ -1,0 +1,27 @@
+openai:
+  api_key: "sk-..."
+  base_url: "https://api.openai.com/v1"
+
+qwen:
+  api_key: "ak-..."
+  base_url: "https://dashscope.aliyuncs.com/api/v1"
+
+internvl:
+  api_key: "your_internvl_key"
+  base_url: "https://internvl-api.modelscope.cn/v1"
+
+kimi:
+  api_key: "your_kimi_key"
+  base_url: "https://kimi.moonshot.cn/v1"
+
+seed:
+  api_key: "your_seed_key"
+  base_url: "https://api.seed.ai/v1"
+
+keye:
+  api_key: "your_keye_key"
+  base_url: "https://api.keye.cn/v1"
+
+glm:
+  api_key: "your_glm_key"
+  base_url: "https://open.bigmodel.cn/api/paas/v4"
