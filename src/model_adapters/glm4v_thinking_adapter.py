@@ -3,7 +3,7 @@ import re
 import json
 import time
 import subprocess
-from typing import List, Tuple, Dict, Any, Optional
+from typing import List, Tuple, Dict, Any
 
 import torch
 from transformers import AutoProcessor, Glm4vForConditionalGeneration
@@ -50,7 +50,6 @@ def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CAC
 
     os.makedirs(cache_dir, exist_ok=True)
 
-    # 1) Prefer portable shell downloader on Unix-like systems
     script = os.path.join("scripts", "download_model.sh")
     is_windows = (os.name == "nt")
 
@@ -60,7 +59,6 @@ def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CAC
         if os.path.isdir(local_dir):
             return local_dir
 
-    # 2) Windows (or no bash): use huggingface_hub snapshot_download
     try:
         from huggingface_hub import snapshot_download
         print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {local_dir} (via huggingface_hub)")
@@ -75,14 +73,12 @@ def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CAC
     except Exception as e:
         print(f"[WARN] snapshot_download failed: {type(e).__name__}: {e}")
 
-    # 3) Fallback: let transformers download to HF cache (requires internet)
     print("[FALLBACK] Using HF model id directly (transformers cache).")
     return hf_model_id
 
 
-
 def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
-    scenes = []
+    scenes: List[str] = []
     for f in os.listdir(graph_dir):
         if f.endswith("-graph.json"):
             scenes.append(f.split("-graph.json")[0])
@@ -92,6 +88,11 @@ def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
 
 def load_prompts(prompt_root: str, scene: str) -> List[Tuple[str, str]]:
     scene_dir = os.path.join(prompt_root, scene)
+    if not os.path.isdir(scene_dir):
+        raise FileNotFoundError(
+            f"Prompt folder not found for scene '{scene}': {scene_dir}"
+        )
+
     files = sorted([f for f in os.listdir(scene_dir) if f.endswith(".txt")])
     out: List[Tuple[str, str]] = []
     for fname in files:
@@ -115,14 +116,20 @@ def init_model(model_path: str, base_fps: int, total_frames: int, num_frames: in
     )
     processor = AutoProcessor.from_pretrained(model_path, use_fast=True)
 
-    # Uniform sampling by adjusting fps: fps * (total_frames/num_frames)
-    fps = float(base_fps) if num_frames >= total_frames else float(base_fps) * (float(total_frames) / float(num_frames))
+    fps = (
+        float(base_fps)
+        if num_frames >= total_frames
+        else float(base_fps) * (float(total_frames) / float(num_frames))
+    )
 
     if hasattr(processor, "video_processor"):
         processor.video_processor.fps = fps
         processor.video_processor.num_frames = num_frames
 
-    print(f"[VIDEO] base_fps={base_fps} total_frames={total_frames} num_frames={num_frames} -> effective_fps={fps:.2f}")
+    print(
+        f"[VIDEO] base_fps={base_fps} total_frames={total_frames} "
+        f"num_frames={num_frames} -> effective_fps={fps:.2f}"
+    )
     return model, processor, fps
 
 
@@ -154,17 +161,18 @@ def run_one(model, processor, video_path: str, prompt_text: str, fps: float, max
         )
 
     trimmed = [out[len(inp):] for inp, out in zip(inputs.input_ids, output_ids)]
-    raw_text = processor.batch_decode(trimmed, skip_special_tokens=False, clean_up_tokenization_spaces=False)[0].strip()
+    raw_text = processor.batch_decode(
+        trimmed,
+        skip_special_tokens=False,
+        clean_up_tokenization_spaces=False
+    )[0].strip()
 
-    # Strip <think>...</think>
     if "<think>" in raw_text:
         raw_text = re.sub(r"<think>.*?</think>", "", raw_text, flags=re.DOTALL).strip()
 
-    # Extract <answer>...</answer>
     m = re.search(r"<answer>(.*?)</answer>", raw_text, flags=re.DOTALL)
     answer_block = m.group(1).strip() if m else raw_text
 
-    # Extract JSON array if possible
     js = answer_block
     a = answer_block.find("[")
     b = answer_block.rfind("]")
@@ -174,29 +182,38 @@ def run_one(model, processor, video_path: str, prompt_text: str, fps: float, max
     return {"raw_text": raw_text, "json_str": js}
 
 
-def run_glm4v_thinking(user_model: str, num_frames: int) -> None:
+def run_glm4v_thinking(user_model: str, num_frames: int, thinking: str = "on") -> None:
     """
-    Public entry point:
-      user_model: "GLM-4.1V-9B-Thinking" or "zai-org/GLM-4.1V-9B-Thinking"
-      num_frames: 16 / 32 / 64
+    GLM-4.1V-9B-Thinking runner.
+
+    thinking:
+      - "on": supported (default)
+      - "off": NOT supported, will raise an error
     """
+    thinking_norm = thinking.lower().strip()
+    if thinking_norm not in ("on", "off"):
+        raise ValueError("--thinking must be one of {on, off}.")
+
+    if thinking_norm == "off":
+        raise ValueError(
+            "GLM-4.1V-9B-Thinking does not support thinking=off "
+            "(no-think mode is unavailable for this model)."
+        )
+
     hf_model_id = normalize_hf_model_id(user_model)
     model_name = model_basename(hf_model_id)
 
-    # Repo-relative defaults
     prompt_root = DEFAULT_PROMPT_ROOT
     graph_dir = DEFAULT_GRAPH_DIR
     video_root = DEFAULT_VIDEO_ROOT
     result_root = DEFAULT_RESULT_ROOT
     cache_dir = DEFAULT_MODEL_CACHE_DIR
 
-    # Basic settings (keep internal, do not expose in CLI)
     base_fps = 1
     total_frames = 64
     max_new_tokens = 8192
     delay = 0.0
 
-    # Validate required folders (fail fast with clear messages)
     for p in [prompt_root, graph_dir, video_root]:
         if not os.path.exists(p):
             raise FileNotFoundError(f"Required path missing: {p}")
@@ -204,7 +221,12 @@ def run_glm4v_thinking(user_model: str, num_frames: int) -> None:
     model_path = ensure_model_downloaded(hf_model_id, cache_dir=cache_dir)
     print(f"[MODEL] using: {model_path}")
 
-    model, processor, fps = init_model(model_path, base_fps=base_fps, total_frames=total_frames, num_frames=num_frames)
+    model, processor, fps = init_model(
+        model_path,
+        base_fps=base_fps,
+        total_frames=total_frames,
+        num_frames=num_frames
+    )
 
     scenes = detect_scenes_from_graphs(graph_dir)
     print(f"[SCENES] detected {len(scenes)} scenes")
@@ -224,13 +246,22 @@ def run_glm4v_thinking(user_model: str, num_frames: int) -> None:
                 continue
 
             t0 = time.time()
-            out = run_one(model, processor, video_path, prompt_text, fps=fps, max_new_tokens=max_new_tokens)
+            out = run_one(
+                model,
+                processor,
+                video_path,
+                prompt_text,
+                fps=fps,
+                max_new_tokens=max_new_tokens
+            )
 
             entry: Dict[str, Any] = {
                 "scene": scene,
                 "prompt_file": fname,
                 "model": model_name,
+                "hf_model_id": hf_model_id,
                 "num_frames": num_frames,
+                "thinking": thinking_norm,
                 "time_sec": round(time.time() - t0, 2),
                 "raw_text": out["raw_text"],
             }
