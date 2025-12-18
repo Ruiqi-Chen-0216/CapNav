@@ -333,8 +333,7 @@ def init_internvl(model_path: str, thinking: str):
     if thinking_norm == "on":
         model.system_message = R1_SYSTEM_PROMPT
     elif thinking_norm == "off":
-        if hasattr(model, "system_message"):
-            delattr(model, "system_message")
+        pass
     else:
         raise ValueError("--thinking must be one of {on, off}.")
     return model, tokenizer, generation_config
