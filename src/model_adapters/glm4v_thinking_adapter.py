@@ -36,25 +36,49 @@ def model_basename(model_id: str) -> str:
 
 def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CACHE_DIR) -> str:
     """
-    Ensure model exists under models/<MODEL_NAME>. If not, auto-download via scripts/download_model.sh.
-    Returns a local directory path if available; otherwise returns hf_model_id (transformers cache fallback).
+    Ensure model exists under models/<MODEL_NAME>.
+    - If exists, return local dir.
+    - Else try:
+        * Linux/macOS: bash scripts/download_model.sh <hf_id> <cache_dir>
+        * Windows: python snapshot_download to <cache_dir>/<MODEL_NAME>
+    - If all fail, return hf_model_id to let transformers use HF cache.
     """
     name = model_basename(hf_model_id)
     local_dir = os.path.join(cache_dir, name)
     if os.path.isdir(local_dir):
         return local_dir
 
+    os.makedirs(cache_dir, exist_ok=True)
+
+    # 1) Prefer portable shell downloader on Unix-like systems
     script = os.path.join("scripts", "download_model.sh")
-    if os.path.exists(script):
-        os.makedirs(cache_dir, exist_ok=True)
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {cache_dir}")
+    is_windows = (os.name == "nt")
+
+    if os.path.exists(script) and (not is_windows):
+        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {cache_dir} (via bash)")
         subprocess.check_call(["bash", script, hf_model_id, cache_dir])
         if os.path.isdir(local_dir):
             return local_dir
 
-    # Fallback: let transformers download to HF cache (requires internet)
-    print("[FALLBACK] download_model.sh not found; using HF model id directly (transformers cache).")
+    # 2) Windows (or no bash): use huggingface_hub snapshot_download
+    try:
+        from huggingface_hub import snapshot_download
+        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {local_dir} (via huggingface_hub)")
+        snapshot_download(
+            repo_id=hf_model_id,
+            local_dir=local_dir,
+            local_dir_use_symlinks=False,
+            resume_download=True,
+        )
+        if os.path.isdir(local_dir):
+            return local_dir
+    except Exception as e:
+        print(f"[WARN] snapshot_download failed: {type(e).__name__}: {e}")
+
+    # 3) Fallback: let transformers download to HF cache (requires internet)
+    print("[FALLBACK] Using HF model id directly (transformers cache).")
     return hf_model_id
+
 
 
 def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
