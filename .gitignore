@@ -11,3 +11,4 @@ models_code/
 configs/api_keys.yaml
 configs/gemini-research-key.json
 scripts/download_model_hyak.sh
+setup_srcenv.sh

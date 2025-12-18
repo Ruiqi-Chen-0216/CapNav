@@ -333,10 +333,10 @@ def init_internvl(model_path: str, thinking: str):
     if thinking_norm == "on":
         model.system_message = R1_SYSTEM_PROMPT
     elif thinking_norm == "off":
-        model.system_message = ""
+        if hasattr(model, "system_message"):
+            delattr(model, "system_message")
     else:
         raise ValueError("--thinking must be one of {on, off}.")
-
     return model, tokenizer, generation_config
 
 
@@ -379,7 +379,7 @@ def run_internvl3_5(user_model: str, num_frames: int, thinking: str) -> None:
         print(f"\n[SCENE] {scene} | prompts={len(prompts)}")
 
         # Load sampled frames ONCE per scene
-        pixel_values, num_patches_list = load_video_frames(video_path, num_segments=num_frames, max_num_tiles=12)
+        pixel_values, num_patches_list = load_video_frames(video_path, num_segments=num_frames, max_num_tiles=1)
 
         # Avoid device mismatch
         first_device = next(model.parameters()).device
