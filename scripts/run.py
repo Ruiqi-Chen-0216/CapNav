@@ -8,6 +8,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from src.model_adapters.glm4v_thinking_adapter import run_glm4v_thinking
 from src.model_adapters.internvl3_5_adapter import run_internvl3_5
+from src.model_adapters.mimo_vl_adapter import run_mimo_vl
 
 
 # ----------------------------
@@ -20,30 +21,43 @@ ALLOWED_MODELS_EXACT = {
     "zai-org/GLM-4.1V-9B-Thinking",
 }
 
-# InternVL3_5: strict pattern allowlist (still strict, but scalable)
+# InternVL3_5: strict prefix pattern allowlist (scalable, not size-locked)
 # Accept:
 #   - InternVL3_5-8B
 #   - OpenGVLab/InternVL3_5-14B
 #   - OpenGVLab/InternVL3_5-241B-A28B
-# ... as long as it starts with InternVL3_5- (with optional "OpenGVLab/")
-# and uses only safe characters.
 INTERNVL3_5_PATTERN = re.compile(r"^(?:OpenGVLab/)?InternVL3_5-[A-Za-z0-9._-]+$")
+
+# MiMo-VL: strict prefix pattern allowlist (scalable, not size-locked)
+# Accept:
+#   - MiMo-VL-7B-RL-2508
+#   - XiaomiMiMo/MiMo-VL-7B-SFT
+#   - XiaomiMiMo/MiMo-VL-7B-RL-GGUF
+MIMO_VL_PATTERN = re.compile(r"^(?:XiaomiMiMo/)?MiMo-VL-[A-Za-z0-9._-]+$")
 
 
 def canonicalize_model(model: str) -> str:
     """
     Convert allowed aliases to canonical identifiers for routing.
-    IMPORTANT: No fuzzy matching. Input must already be exactly allowed
-    (for exact allowlist) OR match a strict allowlist pattern.
+    IMPORTANT:
+      - No fuzzy matching.
+      - Input must either be in exact allowlist OR match strict patterns.
     """
+    # GLM: map org-prefixed alias to canonical short name for adapter routing
     if model == "zai-org/GLM-4.1V-9B-Thinking":
         return "GLM-4.1V-9B-Thinking"
 
-    # For InternVL3_5, allow missing org; canonicalize to OpenGVLab/<...>
+    # InternVL3_5: allow missing org; canonicalize to OpenGVLab/<...>
     if INTERNVL3_5_PATTERN.match(model):
         if model.startswith("OpenGVLab/"):
             return model
         return f"OpenGVLab/{model}"
+
+    # MiMo-VL: allow missing org; canonicalize to XiaomiMiMo/<...>
+    if MIMO_VL_PATTERN.match(model):
+        if model.startswith("XiaomiMiMo/"):
+            return model
+        return f"XiaomiMiMo/{model}"
 
     return model
 
@@ -56,9 +70,13 @@ def _is_internvl3_5(model: str) -> bool:
     return INTERNVL3_5_PATTERN.match(model) is not None
 
 
+def _is_mimo_vl(model: str) -> bool:
+    return MIMO_VL_PATTERN.match(model) is not None
+
+
 def route_and_run(model: str, num_frames: int, thinking: str) -> None:
-    # 1) Strict validation: either exact allowlist OR strict regex pattern
-    if (model not in ALLOWED_MODELS_EXACT) and (not _is_internvl3_5(model)):
+    # 1) Strict validation: either exact allowlist OR strict regex patterns
+    if (model not in ALLOWED_MODELS_EXACT) and (not _is_internvl3_5(model)) and (not _is_mimo_vl(model)):
         allowed_glm = "\n  - ".join(sorted(ALLOWED_MODELS_EXACT))
         raise ValueError(
             "Unsupported --model value.\n"
@@ -68,12 +86,16 @@ def route_and_run(model: str, num_frames: int, thinking: str) -> None:
             "Allowed InternVL3_5 format (regex strict):\n"
             "  - InternVL3_5-<CHECKPOINT>\n"
             "  - OpenGVLab/InternVL3_5-<CHECKPOINT>\n"
+            '    where <CHECKPOINT> matches [A-Za-z0-9._-]+ (no spaces)\n\n'
+            "Allowed MiMo-VL format (regex strict):\n"
+            "  - MiMo-VL-<CHECKPOINT>\n"
+            "  - XiaomiMiMo/MiMo-VL-<CHECKPOINT>\n"
             '    where <CHECKPOINT> matches [A-Za-z0-9._-]+ (no spaces)\n'
         )
 
     canonical = canonicalize_model(model)
 
-    # 2) 100% strict routing
+    # 2) Strict routing (deterministic)
     if canonical == "GLM-4.1V-9B-Thinking":
         # GLM has no "thinking off" mode in your design
         if thinking != "on":
@@ -85,8 +107,11 @@ def route_and_run(model: str, num_frames: int, thinking: str) -> None:
         return
 
     if canonical.startswith("OpenGVLab/InternVL3_5-"):
-        # InternVL3_5 supports both on/off (your adapter will implement it)
         run_internvl3_5(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        return
+
+    if canonical.startswith("XiaomiMiMo/MiMo-VL-"):
+        run_mimo_vl(user_model=canonical, num_frames=num_frames, thinking=thinking)
         return
 
     # Defensive: should never happen if allowlist + routing are correct
@@ -103,8 +128,11 @@ def main() -> None:
         "--model",
         type=str,
         required=True,
-        help="Strict. Either one of the allowed GLM ids, or InternVL3_5 checkpoint id "
-             '(InternVL3_5-... or OpenGVLab/InternVL3_5-...).',
+        help=(
+            "Strict. Either one of the allowed GLM ids, or an InternVL3_5 / MiMo-VL checkpoint id.\n"
+            "InternVL3_5: InternVL3_5-... or OpenGVLab/InternVL3_5-...\n"
+            "MiMo-VL:      MiMo-VL-...      or XiaomiMiMo/MiMo-VL-..."
+        ),
     )
     parser.add_argument(
         "--num_frames",
