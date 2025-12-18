@@ -7,6 +7,7 @@ ground_truth/
 # If you store local copies of datasets, ignore them here
 dataset_local/
 dataset/
+models_code/
 configs/api_keys.yaml
 configs/gemini-research-key.json
 scripts/download_model_hyak.sh
