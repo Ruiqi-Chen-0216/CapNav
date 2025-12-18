@@ -5,7 +5,6 @@ build_benchmark/
 ground_truth/
 
 # If you store local copies of datasets, ignore them here
-dataset_local/
 dataset/
 models_code/
 configs/api_keys.yaml

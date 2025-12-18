@@ -419,9 +419,15 @@ def run_internvl3_5(user_model: str, num_frames: int, thinking: str) -> None:
                 entry["raw_text"] = raw_text
                 entry["time_sec"] = round(time.time() - t0, 2)
 
-                # If thinking=on, strip <think>...</think>; if off, no-op
-                text = strip_think_block_if_present(raw_text)
+                # Strict equivalence:
+                # - thinking=on: strip <think>...</think>
+                # - thinking=off: do NOT strip
+                text = raw_text
+                if thinking.lower().strip() == "on":
+                    text = strip_think_block_if_present(text)
+
                 json_candidate = extract_json_candidate(text)
+
 
                 try:
                     entry["result"] = json.loads(json_candidate)
