@@ -92,7 +92,7 @@ conda activate CapNav
 ### 1. Data Preparation
 
 Before running any evaluation, you need to prepare the CapNav dataset
-and generate capability-conditioned prompts (we already did that in this repo).
+and generate capability-conditioned prompts.
 
 #### Download Dataset
 
@@ -105,7 +105,7 @@ huggingface-cli download --resume-download \
   --local-dir data/CapNav \
   --repo-type dataset
 ```
-Video data should be downloaded separately from Google Drive https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing.
+Video data should be downloaded separately from [Google Drive](https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing).
 
 #### Prompt Generation
 
