@@ -128,6 +128,7 @@ and fair comparison across models.
 
 All open-source models are evaluated using the same CapNav prompts,
 agent profiles, and scene information.
+
 ---
 
 #### Running Evaluation
