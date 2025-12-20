@@ -263,6 +263,29 @@ After preparing the environment and CapNav prompts, run:
 python scripts/run_spatial_mllm.py
 ```
 
+### 4. Evaluation on Proprietary Vision–Language Models
+
+We evaluate proprietary vision–language models as part of our experimental analysis.
+However, due to licensing restrictions and API access requirements, we do **not**
+provide evaluation code for proprietary models in this repository.
+
+Users who wish to evaluate CapNav on proprietary models should refer to the
+official documentation provided by each model vendor and implement evaluation
+pipelines accordingly.
+
+Representative proprietary models evaluated in the paper include:
+- Gemini
+- GPT-series models
+- Seed models
+
+Please consult the corresponding official API documentation for:
+- Model access and authentication
+- Input formatting and request limits
+- Pricing, usage policies, and rate limits
+
+This repository provides the CapNav dataset, prompts, and evaluation protocol
+required to reproduce the benchmark, but does not include proprietary API
+wrappers or execution scripts.
 
 
 ## 🚀Todo List
