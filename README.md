@@ -28,3 +28,17 @@
 </div>
 <strong>Capability-Conditioned Navigation (CapNav):</strong> We introduce Capability-Conditioned Navigation (<em><strong>CapNav</strong></em>), a benchmark designed to evaluate how well vision–language models (VLMs) can navigate complex indoor environments given an agent’s specific physical and operational capabilities. As illustrated, CapNav takes as input (1) a tour video of an indoor space, (2) nodes of its navigation graph, (3) an agent’s mobility profile, and (4) a navigation task, and evaluates model outputs along multiple dimensions, including task feasibility, path validity, route traversability, and reasoning validity.
 </div>
+
+## 🌟 Overview
+
+![Pipeline Visualization](assets/teaser.png)
+
+</div>
+
+The CapNav benchmark evaluates whether VLMs can correctly ground differences in agent mobility capabilities when generating navigation plans. This example demonstrates a navigation task that has different feasibility and path for different agents.
+
+## 🎉 Performance
+
+![Results Visualization](assets/performance.png)
+
+
