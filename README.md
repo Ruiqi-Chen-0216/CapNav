@@ -56,15 +56,13 @@ The CapNav benchmark dataset is **not included** in this repository.
 
 All dataset contents are hosted externally:
 
-- **Hugging Face**  
+- [**Hugging Face**](https://huggingface.co/datasets/RichardC0216/CapNav)  
   Structured benchmark data (navigation questions, agent profiles, scene metadata)  
-  https://huggingface.co/datasets/RichardC0216/CapNav
 
-- **Google Drive**  
+- [**Google Drive**](https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing)  
   Touring videos of indoor environments  
   (including raw videos and a processed 64-frame @ 1 FPS version for open-source models)
 
-Links to the Google Drive folders are provided in the Hugging Face dataset card.
 > Note:  
 > This repository contains evaluation code and utilities only.  
 > Please download the dataset from the links above before running any experiments.
