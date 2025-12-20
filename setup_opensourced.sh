@@ -1,70 +1,50 @@
-#source setup_srcenv.sh 
+#!/usr/bin/env bash
+set -e
 
-echo "Setting up general"
+echo "Setting up CapNav open-source environment"
 
-
-cd /scr
-
-
-CONDA_DIR=/scr/anaconda3_ruiqi
-if [ ! -f "Anaconda3-2024.10-1-Linux-x86_64.sh" ]; then
-   wget https://repo.anaconda.com/archive/Anaconda3-2025.06-0-Linux-x86_64.sh
-fi
-if [ ! -d "$CONDA_DIR" ]; then
-   bash Anaconda3-2025.06-0-Linux-x86_64.sh -b -p ${CONDA_DIR}
-   export PATH=${CONDA_DIR}/bin:${PATH}
+# ----------------------------
+# 1. Check conda availability
+# ----------------------------
+if ! command -v conda &> /dev/null; then
+    echo "Error: conda is not installed."
+    echo "Please install Miniconda or Anaconda before proceeding."
+    exit 1
 fi
 
+# ----------------------------
+# 2. Create and activate env
+# ----------------------------
+ENV_NAME=CapNav
 
-# Initialize conda
-$CONDA_DIR/bin/conda init
-source ~/.bashrc
-
-
-echo "Creating CapNav environment"
-
-
-conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
-conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
-if [ ! -d "$CONDA_DIR/envs/CapNav" ]; then
-   conda create -n CapNav python=3.10 -y
-   conda activate CapNav
+if conda env list | grep -q "^${ENV_NAME}\s"; then
+    echo "Conda environment '${ENV_NAME}' already exists."
 else
-   conda activate CapNav
+    echo "Creating conda environment '${ENV_NAME}'"
+    conda create -n ${ENV_NAME} python=3.10 -y
 fi
 
+# Activate environment (non-interactive safe)
+source "$(conda info --base)/etc/profile.d/conda.sh"
+conda activate ${ENV_NAME}
 
+# ----------------------------
+# 3. Install dependencies
+# ----------------------------
+echo "Installing Python dependencies"
+
+pip install --upgrade pip
+
+pip install torch torchvision torchaudio
 pip install transformers
-#pip install -U transformers==4.45.2
-
-#when use KeyeVL
-#pip install transformers==4.47.1 -U
-
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
 pip install einops timm
 pip install decord
 pip install accelerate
 pip install av
 pip install tiktoken
-#pip install --upgrade keye-vl-utils==1.5.2 -i https://pypi.org/simple
 
-
-
-
-
-mkdir /scr/ruiqi
-mkdir /scr/ruiqi/hf_hub_cache
-mkdir /scr/ruiqi/hf_home
-mkdir /scr/ruiqi/hf_datasets
-mkdir /scr/ruiqi/hf_cache
-
-
-export TRANSFORMERS_CACHE=/scr/ruiqi/hf_cache
-export HF_HOME=/gscratch/makelab/ruiqi/hf_home
-export HF_DATASETS_CACHE=/scr/ruiqi/hf_datasets
-export HF_HUB_CACHE=/scr/ruiqi/hf_hub_cache
-
-
-
-echo "Setup done"
+# ----------------------------
+# 4. Done
+# ----------------------------
+echo "CapNav environment setup complete."
+echo "Please ensure your CUDA / GPU configuration matches your local system."
