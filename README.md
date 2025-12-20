@@ -13,7 +13,7 @@
     <br>
     <sup>*</sup>Equal Contribution.
     <br>
-    <sup>1</sup>University of Washington
+    <sup>1</sup>University of Washington,
     <sup>2</sup>University of California, Santa Cruz
 </p>
 
@@ -49,6 +49,26 @@ Overview of CapNav's data construction: Starting from a 3D indoor scan, we manua
 ## 🎉 Performance
 
 ![Results Visualization](assets/performance.png)
+
+## 📦 Dataset
+
+The CapNav benchmark dataset is **not included** in this repository.
+
+All dataset contents are hosted externally:
+
+- **Hugging Face**  
+  Structured benchmark data (navigation questions, agent profiles, scene metadata)  
+  https://huggingface.co/datasets/RichardC0216/CapNav
+
+- **Google Drive**  
+  Touring videos of indoor environments  
+  (including raw videos and a processed 64-frame @ 1 FPS version for open-source models)
+
+Links to the Google Drive folders are provided in the Hugging Face dataset card.
+> Note:  
+> This repository contains evaluation code and utilities only.  
+> Please download the dataset from the links above before running any experiments.
+
 
 ## ⚙️ Setup
 
