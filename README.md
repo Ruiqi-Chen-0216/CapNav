@@ -56,15 +56,13 @@ The CapNav benchmark dataset is **not included** in this repository.
 
 All dataset contents are hosted externally:
 
-- **Hugging Face**  
+- [**Hugging Face**](https://huggingface.co/datasets/RichardC0216/CapNav)  
   Structured benchmark data (navigation questions, agent profiles, scene metadata)  
-  https://huggingface.co/datasets/RichardC0216/CapNav
 
-- **Google Drive**  
+- [**Google Drive**](https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing)  
   Touring videos of indoor environments  
   (including raw videos and a processed 64-frame @ 1 FPS version for open-source models)
 
-Links to the Google Drive folders are provided in the Hugging Face dataset card.
 > Note:  
 > This repository contains evaluation code and utilities only.  
 > Please download the dataset from the links above before running any experiments.
@@ -85,6 +83,120 @@ cd CapNav
 ```bash
 conda create -n CapNav python=3.10 -y
 conda activate CapNav
+```
+
+## 🧪 Evaluation
+
+### 1. Data Preparation
+
+Before running any evaluation, you need to prepare the CapNav dataset
+and generate capability-conditioned prompts.
+
+#### Download Dataset
+
+The CapNav dataset is hosted on Hugging Face and Google Drive.
+Please follow the instructions below to download the structured data.
+
+```bash
+huggingface-cli download --resume-download \
+  RichardC0216/CapNav \
+  --local-dir data/CapNav \
+  --repo-type dataset
+```
+Video data should be downloaded separately from [Google Drive](https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing).
+
+#### Prompt Generation
+
+CapNav evaluates models using capability-conditioned navigation prompts.
+We provide scripts to generate prompts by combining:
+
+- Navigation questions
+- Agent profiles
+- Scene graph nodes
+
+To generate prompts:
+
+```bash
+python scripts/generate_prompts.py 
+```
+
+### 2. Evaluation on Open-source Vision–Language Models
+
+We evaluate open-source VLMs using preprocessed videos
+(64 frames @ 1 FPS) to ensure consistent input length.
+
+
+### 3. Evaluation on Peer Spatial Reasoning Models
+
+In addition to vision–language models, CapNav is evaluated on **peer spatial reasoning models**
+that explicitly model temporal or spatial reasoning over videos.
+
+These models are evaluated using the same CapNav prompts, agent profiles, and scene information.
+
+Currently evaluated peer models include:
+- Spatial-MLLM
+- Video-R1
+
+---
+
+#### Spatial-MLLM
+
+We evaluate Spatial-MLLM using its official implementation:
+
+https://github.com/diankun-wu/Spatial-MLLM
+
+All model architectures, checkpoints, and inference logic follow the original repository.
+This project does **not** modify the model code.
+
+##### Environment Setup
+
+To simplify deployment, we provide a reference environment setup script:
+
+```bash
+source setup_spatialMLLM.sh
+```
+
+This script prepares a compatible runtime environment and is provided for convenience only.
+Users may need to adjust environment parameters (e.g., CUDA version, GPU architecture)
+based on their local setup.
+
+For model-specific configuration and checkpoints, please refer to the original repository [Spatial-MLLM](https://github.com/diankun-wu/Spatial-MLLM).
+
+Running Evaluation
+
+After preparing the environment and CapNav prompts, run:
+```bash
+python scripts/run_spatial_mllm.py
+```
+
+#### Video-R1
+
+We evaluate Video-R1 using its official implementation:
+
+https://github.com/tulerfeng/Video-R1
+
+All model architectures, checkpoints, and inference logic follow the original repository.
+This project does **not** modify the model code.
+
+##### Environment Setup
+
+To simplify deployment, we provide a reference environment setup script:
+
+```bash
+source setup_videoR1.sh
+```
+
+This script prepares a compatible runtime environment and is provided for convenience only.
+Users may need to adjust environment parameters (e.g., CUDA version, GPU architecture)
+based on their local setup.
+
+For model-specific configuration and checkpoints, please refer to the original repository [Video-R1](https://github.com/tulerfeng/Video-R1).
+
+Running Evaluation
+
+After preparing the environment and CapNav prompts, run:
+```bash
+python scripts/run_spatial_mllm.py
 ```
 
 
