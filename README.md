@@ -129,7 +129,6 @@ and fair comparison across models.
 All open-source models are evaluated using the same CapNav prompts,
 agent profiles, and scene information.
 
----
 
 #### Running Evaluation
 
@@ -142,19 +141,16 @@ python scripts/run.py --model <MODEL_NAME> --num_frames <NUM_FRAMES> --thinking 
 **Arguments:**
 
 - `--model`  
-  Name of the open-source vision–language model to evaluate.  
+  Name of the open-source vision–language model to evaluate.
 - `--num_frames`  
-Number of video frames used as model input.  
-Typical values include `16`, `32`, or `64`, depending on the model’s input capacity
-and available GPU memory.
-
+  Number of video frames used as model input.  
+  Typical values include `16`, `32`, or `64`, depending on the model’s input capacity
+  and available GPU memory.
 - `--thinking`  
-Whether to enable model-specific reasoning or chain-of-thought behavior.  
-Options:
-- `on`
-- `off`
-
----
+  Whether to enable internal reasoning mechanisms, if supported by the model.
+  Options:
+  - `on`
+  - `off`
 
 **Example:**
 
@@ -172,8 +168,8 @@ src/model_adapters/<MODEL_NAME>_adapter.py
 Model adapters are responsible for configuring model-specific inputs
 and handling weight initialization.
 
-By default, model weights are **automatically downloaded from Hugging Face**
-based on the specified `--model` name when the model is first used.
+By default, pretrained model weights and associated model files are
+automatically downloaded from Hugging Face based on the specified `--model` name when the model is first used.
 
 > **Note:**  
 > If you prefer to manually download and deploy model weights locally,
