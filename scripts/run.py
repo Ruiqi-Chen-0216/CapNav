@@ -10,6 +10,7 @@ from src.model_adapters.glm4v_thinking_adapter import run_glm4v_thinking
 from src.model_adapters.internvl3_5_adapter import run_internvl3_5
 from src.model_adapters.mimo_vl_adapter import run_mimo_vl
 from src.model_adapters.qwen3_vl_adapter import run_qwen3_vl
+from src.model_adapters.spatial_mllm_adapter import run_spatial_mllm
 
 
 # ----------------------------
@@ -26,16 +27,18 @@ ALLOWED_MODELS_EXACT = {
 INTERNVL3_5_PATTERN = re.compile(r"^(?:OpenGVLab/)?InternVL3_5-[A-Za-z0-9._-]+$")
 
 # MiMo-VL: strict prefix + safe chars, scalable across sizes/variants
-# Accept examples:
-#   - MiMo-VL-7B-RL-2508
-#   - XiaomiMiMo/MiMo-VL-7B-SFT
 MIMOVL_PATTERN = re.compile(r"^(?:XiaomiMiMo/)?MiMo-VL-[A-Za-z0-9._-]+$")
 
 # Qwen3-VL: strict prefix + safe chars, scalable across sizes/variants
-# Accept examples:
-#   - Qwen3-VL-30B-A3B-Thinking-FP8
-#   - Qwen/Qwen3-VL-235B-A22B-Instruct
 QWEN3_VL_PATTERN = re.compile(r"^(?:Qwen/)?Qwen3-VL-[A-Za-z0-9._-]+$")
+
+# Spatial-MLLM: EXPLICIT allowlist (because you only support a known checkpoint for now)
+# NOTE: This avoids "HF hangs" due to typos and keeps README copy-paste simple.
+ALLOWED_SPATIAL_MLLM_EXACT = {
+    "Diankun/Spatial-MLLM-subset-sft",
+    # If you later support more, add them here.
+    # "Diankun/Spatial-MLLM-xxx",
+}
 
 
 # ----------------------------
@@ -70,6 +73,7 @@ def canonicalize_model(model: str) -> str:
             return model
         return f"Qwen/{model}"
 
+    # Spatial-MLLM: keep as-is (exact allowlist already enforces correctness)
     return model
 
 
@@ -93,6 +97,10 @@ def _is_qwen3_vl(model: str) -> bool:
     return QWEN3_VL_PATTERN.match(model) is not None
 
 
+def _is_spatial_mllm(model: str) -> bool:
+    return model in ALLOWED_SPATIAL_MLLM_EXACT
+
+
 # ----------------------------
 # Qwen3-VL thinking mode validation
 # ----------------------------
@@ -100,12 +108,9 @@ def _is_qwen3_vl(model: str) -> bool:
 def _qwen3_vl_checkpoint_mode(canonical_model: str) -> str:
     """
     Determine whether the Qwen3-VL checkpoint is Thinking or Instruct.
-    IMPORTANT: This is model-name-based because Qwen3-VL splits checkpoints.
     Returns: "thinking" or "instruct"
     """
     name = canonical_model.split("/", 1)[-1]  # remove org
-    # Must be strict: require token presence in the name.
-    # Not necessarily at the end, e.g., Thinking-FP8.
     if "Thinking" in name:
         return "thinking"
     if "Instruct" in name:
@@ -140,13 +145,34 @@ def _enforce_qwen3_vl_thinking(canonical_model: str, thinking: str) -> None:
 
 
 # ----------------------------
+# Spatial-MLLM thinking validation
+# ----------------------------
+
+def _enforce_spatial_mllm_thinking(model: str, thinking: str) -> None:
+    # Your design: Spatial-MLLM adapter defaults to thinking behavior and does not implement off.
+    if thinking.lower().strip() != "on":
+        raise ValueError(
+            "Invalid --thinking for Spatial-MLLM.\n"
+            f"Model: {model}\n"
+            "Spatial-MLLM is currently only supported in thinking mode. Please use: --thinking on"
+        )
+
+
+# ----------------------------
 # Routing
 # ----------------------------
 
 def route_and_run(model: str, num_frames: int, thinking: str) -> None:
-    # 1) Strict validation: either exact allowlist OR strict regex pattern
-    if (model not in ALLOWED_MODELS_EXACT) and (not _is_internvl3_5(model)) and (not _is_mimo_vl(model)) and (not _is_qwen3_vl(model)):
+    # 1) Strict validation
+    if (
+        (model not in ALLOWED_MODELS_EXACT)
+        and (not _is_internvl3_5(model))
+        and (not _is_mimo_vl(model))
+        and (not _is_qwen3_vl(model))
+        and (not _is_spatial_mllm(model))
+    ):
         allowed_glm = "\n  - ".join(sorted(ALLOWED_MODELS_EXACT))
+        allowed_spatial = "\n  - ".join(sorted(ALLOWED_SPATIAL_MLLM_EXACT))
         raise ValueError(
             "Unsupported --model value.\n"
             f"Received: {model}\n\n"
@@ -164,14 +190,15 @@ def route_and_run(model: str, num_frames: int, thinking: str) -> None:
             "  - Qwen3-VL-<CHECKPOINT>\n"
             "  - Qwen/Qwen3-VL-<CHECKPOINT>\n"
             '    where <CHECKPOINT> matches [A-Za-z0-9._-]+ (no spaces)\n'
-            "    and the checkpoint name must include 'Thinking' or 'Instruct'.\n"
+            "    and the checkpoint name must include 'Thinking' or 'Instruct'.\n\n"
+            "Allowed Spatial-MLLM values (exact match):\n"
+            f"  - {allowed_spatial}\n"
         )
 
     canonical = canonicalize_model(model)
 
-    # 2) 100% strict routing
+    # 2) Routing
     if canonical == "GLM-4.1V-9B-Thinking":
-        # GLM: no thinking-off in your design
         if thinking != "on":
             raise ValueError(
                 'Invalid --thinking for GLM-4.1V-9B-Thinking.\n'
@@ -189,12 +216,15 @@ def route_and_run(model: str, num_frames: int, thinking: str) -> None:
         return
 
     if canonical.startswith("Qwen/Qwen3-VL-"):
-        # Qwen3-VL: checkpoint determines whether thinking is allowed
         _enforce_qwen3_vl_thinking(canonical, thinking)
         run_qwen3_vl(user_model=canonical, num_frames=num_frames, thinking=thinking)
         return
 
-    # Defensive: should never happen if allowlist + routing are correct
+    if canonical in ALLOWED_SPATIAL_MLLM_EXACT:
+        _enforce_spatial_mllm_thinking(canonical, thinking)
+        run_spatial_mllm(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        return
+
     raise RuntimeError(f"Internal routing error for model: {model} (canonical={canonical})")
 
 
@@ -207,7 +237,6 @@ def main() -> None:
         description="CapNav runner (open-source models, strict argument enforcement)."
     )
 
-    # All required: users MUST provide them explicitly (no defaults)
     parser.add_argument(
         "--model",
         type=str,
@@ -217,6 +246,7 @@ def main() -> None:
             "  - InternVL3_5-...  (or OpenGVLab/InternVL3_5-...)\n"
             "  - MiMo-VL-...      (or XiaomiMiMo/MiMo-VL-...)\n"
             "  - Qwen3-VL-...     (or Qwen/Qwen3-VL-...; must contain Thinking or Instruct)\n"
+            "  - Spatial-MLLM     (exact allowlist; see error message)\n"
         ),
     )
     parser.add_argument(
