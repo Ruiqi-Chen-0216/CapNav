@@ -85,6 +85,27 @@ conda create -n CapNav python=3.10 -y
 conda activate CapNav
 ```
 
+2. **Install dependencies**
+```bash
+pip install torch torchvision torchaudio
+pip install transformers
+pip install einops timm
+pip install decord
+pip install accelerate
+pip install av
+pip install tiktoken
+```
+> **Optional:**  
+> For convenience, you may use the provided setup script to install dependencies:
+> 
+> ```bash
+> bash setup_opensource.sh
+> ```
+> 
+> The script performs the same steps as above and does not modify system-level
+> configurations or cache locations.
+
+
 ## 🧪 Evaluation
 
 ### 1. Data Preparation
