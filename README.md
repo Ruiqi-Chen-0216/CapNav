@@ -122,8 +122,64 @@ python scripts/generate_prompts.py
 
 ### 2. Evaluation on Open-source Vision–Language Models
 
-We evaluate open-source VLMs using preprocessed videos
-(64 frames @ 1 FPS) to ensure consistent input length.
+We evaluate open-source vision–language models (VLMs) using **preprocessed videos**
+sampled to **64 frames at 1 FPS** by default, in order to ensure consistent input length
+and fair comparison across models.
+
+All open-source models are evaluated using the same CapNav prompts,
+agent profiles, and scene information.
+
+---
+
+#### Running Evaluation
+
+Evaluation is performed via a unified entry script:
+
+```bash
+python scripts/run.py --model <MODEL_NAME> --num_frames <NUM_FRAMES> --thinking <on|off>
+```
+
+**Arguments:**
+
+- `--model`  
+  Name of the open-source vision–language model to evaluate.  
+- `--num_frames`  
+Number of video frames used as model input.  
+Typical values include `16`, `32`, or `64`, depending on the model’s input capacity
+and available GPU memory.
+
+- `--thinking`  
+Whether to enable model-specific reasoning or chain-of-thought behavior.  
+Options:
+- `on`
+- `off`
+
+---
+
+**Example:**
+
+```bash
+python scripts/run.py --model InternVL3_5-8B --num_frames 32 --thinking on
+```
+**Model Loading**
+
+Each open-source vision–language model is associated with a corresponding
+adapter located at:
+```bash
+src/model_adapters/<MODEL_NAME>_adapter.py
+```
+
+Model adapters are responsible for configuring model-specific inputs
+and handling weight initialization.
+
+By default, model weights are **automatically downloaded from Hugging Face**
+based on the specified `--model` name when the model is first used.
+
+> **Note:**  
+> If you prefer to manually download and deploy model weights locally,
+> please comment out or modify the `ensure_model_downloaded` function
+> in the corresponding model adapter to disable automatic downloading.
+
 
 
 ### 3. Evaluation on Peer Spatial Reasoning Models
