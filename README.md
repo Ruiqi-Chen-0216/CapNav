@@ -148,9 +148,7 @@ python scripts/run.py --model <MODEL_NAME> --num_frames <NUM_FRAMES> --thinking 
   and available GPU memory.
 - `--thinking`  
   Whether to enable internal reasoning mechanisms, if supported by the model.
-  Options:
-  - `on`
-  - `off`
+  Options: `on` or `off`.
 
 **Example:**
 
