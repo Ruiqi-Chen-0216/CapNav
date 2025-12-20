@@ -43,11 +43,28 @@ The CapNav benchmark evaluates whether VLMs can correctly ground differences in 
 ![Pipeline Visualization](assets/annotation.png)
 
 </div>
-<strong>Overview of CapNav's data construction:</strong> Starting from a 3D indoor scan, we manually record a touring video and a navigation graph. We then use Gemini to generate natural language navigation tasks. Finally, per-task and per-agent traversability are annotated by manually controlling agents in the annotation interface.
-</div>
+Overview of CapNav's data construction: Starting from a 3D indoor scan, we manually record a touring video and a navigation graph. We then use Gemini to generate natural language navigation tasks. Finally, per-task and per-agent traversability are annotated by manually controlling agents in the annotation interface.
+
 
 ## 🎉 Performance
 
 ![Results Visualization](assets/performance.png)
+
+## ⚙️ Setup
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/Ruiqi-Chen-0216/CapNav
+cd CapNav
+```
+
+### 2. Environment Setup
+
+1. **Create conda environment:**
+
+```bash
+conda create -n CapNav python=3.10 -y
+conda activate CapNav
+```
 
 
