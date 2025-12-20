@@ -230,7 +230,7 @@ Running Evaluation
 
 After preparing the environment and CapNav prompts, run:
 ```bash
-python scripts/run_spatial_mllm.py
+python scripts/run.py --model Diankun/Spatial-MLLM-subset-sft --num_frames 16 --thinking on
 ```
 
 #### Video-R1
