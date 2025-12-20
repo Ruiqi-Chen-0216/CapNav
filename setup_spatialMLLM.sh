@@ -1,128 +1,149 @@
+#!/usr/bin/env bash
 # =====================================================
 # Spatial-MLLM Environment Bootstrap (Cluster-Safe + Version-Locked)
 # Author: Ruiqi
+#
+# NOTE:
+# - This is a *reference* setup script for a specific Linux + CUDA 12.4 environment.
+# - Versions are strictly pinned for reproducibility. If your system differs, it may fail by design.
+# - You should refer to the official Spatial-MLLM repository for canonical instructions.
 # =====================================================
-#source setup_spatialMLLM.sh
 
-echo "🚀 Setting up Spatial-MLLM environment in /scr"
+set -euo pipefail
+trap 'echo "❌ Failed at line $LINENO"; exit 1' ERR
+
+echo "🚀 Setting up Spatial-MLLM environment (reference, version-locked)"
+
+# -----------------------------------------------------
+# Hard prerequisites (fail fast)
+# -----------------------------------------------------
+if [[ "$(uname -s)" != "Linux" ]]; then
+  echo "❌ This reference script is Linux-only."
+  exit 1
+fi
+if ! command -v nvidia-smi >/dev/null 2>&1; then
+  echo "❌ nvidia-smi not found. CUDA GPU environment required."
+  exit 1
+fi
+nvidia-smi >/dev/null 2>&1 || { echo "❌ nvidia-smi failed; driver/GPU not ready."; exit 1; }
+
+# -----------------------------------------------------
+# Base paths (override-friendly; defaults keep your cluster choices)
+# -----------------------------------------------------
+SCR_ROOT="${SCR_ROOT:-/scr}"
+CONDA_DIR="${CONDA_DIR:-/scr/anaconda3_ruiqi}"
+INSTALLER="${INSTALLER:-Anaconda3-2025.06-0-Linux-x86_64.sh}"
+REPO_DIR="${REPO_DIR:-/scr/Spatial-MLLM}"
+
+PIP_CACHE_DIR="${PIP_CACHE_DIR:-/scr/pip_cache}"
+TMPDIR="${TMPDIR:-/scr/tmp}"
+
+# HF caches (defaults keep your cluster choices; override in README if needed)
+export TRANSFORMERS_CACHE="${TRANSFORMERS_CACHE:-/scr/ruiqi/hf_cache}"
+export HF_HOME="${HF_HOME:-/gscratch/makelab/ruiqi/hf_home}"
+export HF_DATASETS_CACHE="${HF_DATASETS_CACHE:-/scr/ruiqi/hf_datasets}"
+export HF_HUB_CACHE="${HF_HUB_CACHE:-/scr/ruiqi/hf_hub_cache}"
+
+mkdir -p "$PIP_CACHE_DIR" "$TMPDIR" "$TRANSFORMERS_CACHE" "$HF_HOME" "$HF_DATASETS_CACHE" "$HF_HUB_CACHE"
+
+echo "✅ PIP_CACHE_DIR → $PIP_CACHE_DIR"
+echo "✅ TMPDIR       → $TMPDIR"
+echo "✅ HF_HOME      → $HF_HOME"
+echo "✅ HF caches    → $TRANSFORMERS_CACHE"
 
 # -----------------------------------------------------
 # Step 1. Move to /scr and prepare base paths
 # -----------------------------------------------------
-cd /scr
+cd "$SCR_ROOT"
 
 # -----------------------------------------------------
 # Step 2. Install Anaconda if needed
 # -----------------------------------------------------
-CONDA_DIR=/scr/anaconda3_ruiqi
-INSTALLER=Anaconda3-2025.06-0-Linux-x86_64.sh
-
 if [ ! -f "$INSTALLER" ]; then
-    echo "⬇️ Downloading Anaconda installer..."
-    wget https://repo.anaconda.com/archive/$INSTALLER
+  echo "⬇️ Downloading Anaconda installer..."
+  wget "https://repo.anaconda.com/archive/${INSTALLER}"
 fi
 
 if [ ! -d "$CONDA_DIR" ]; then
-    echo "📦 Installing Anaconda to $CONDA_DIR..."
-    bash $INSTALLER -b -p ${CONDA_DIR}
+  echo "📦 Installing Anaconda to $CONDA_DIR..."
+  bash "$INSTALLER" -b -p "${CONDA_DIR}"
 fi
 
 # -----------------------------------------------------
-# Step 3. Initialize conda
+# Step 3. Initialize conda (non-invasive; DO NOT conda init)
 # -----------------------------------------------------
-export PATH=${CONDA_DIR}/bin:${PATH}
-$CONDA_DIR/bin/conda init
-source ~/.bashrc
+export PATH="${CONDA_DIR}/bin:${PATH}"
+# shellcheck disable=SC1091
+source "${CONDA_DIR}/etc/profile.d/conda.sh"
 
 # -----------------------------------------------------
 # Step 4. Create / Activate environment
 # -----------------------------------------------------
 if ! conda info --envs | grep -q "spatial-mllm"; then
-    echo "🧩 Creating conda environment: spatial-mllm"
-    conda create -n spatial-mllm python=3.10 -y
+  echo "🧩 Creating conda environment: spatial-mllm"
+  conda create -n spatial-mllm python=3.10 -y
 fi
 conda activate spatial-mllm
 
 # -----------------------------------------------------
-# Step 5. Redirect all pip caches/temp dirs to /scr
+# Step 5. Redirect pip caches/temp dirs
 # -----------------------------------------------------
-export PIP_CACHE_DIR=/scr/pip_cache
-export TMPDIR=/scr/tmp
-mkdir -p $PIP_CACHE_DIR $TMPDIR
-
-echo "✅ pip cache → $PIP_CACHE_DIR"
-echo "✅ tmp build  → $TMPDIR"
+export PIP_CACHE_DIR="$PIP_CACHE_DIR"
+export TMPDIR="$TMPDIR"
 
 # -----------------------------------------------------
-# Step 6. Hugging Face cache setup
+# Step 6. Clone Spatial-MLLM repo
 # -----------------------------------------------------
-mkdir -p /scr/ruiqi/{hf_cache,hf_datasets,hf_hub_cache}
-mkdir -p /gscratch/makelab/ruiqi/hf_home
-
-export TRANSFORMERS_CACHE=/scr/ruiqi/hf_cache
-export HF_HOME=/gscratch/makelab/ruiqi/hf_home
-export HF_DATASETS_CACHE=/scr/ruiqi/hf_datasets
-export HF_HUB_CACHE=/scr/ruiqi/hf_hub_cache
-
-echo "✅ HF_HOME     → $HF_HOME"
-echo "✅ HF_CACHE    → $TRANSFORMERS_CACHE"
-
-# -----------------------------------------------------
-# Step 7. Clone Spatial-MLLM repo
-# -----------------------------------------------------
-cd /scr
-if [ ! -d "/scr/Spatial-MLLM" ]; then
-    echo "📂 Cloning Spatial-MLLM repository..."
-    git clone https://github.com/diankun-wu/Spatial-MLLM
+cd "$SCR_ROOT"
+if [ ! -d "$REPO_DIR" ]; then
+  echo "📂 Cloning Spatial-MLLM repository..."
+  git clone https://github.com/diankun-wu/Spatial-MLLM "$REPO_DIR"
 fi
-cd /scr/Spatial-MLLM
+cd "$REPO_DIR"
 
 # -----------------------------------------------------
-# Step 8. Install dependencies (version locked)
+# Step 7. Install dependencies (version locked)
 # -----------------------------------------------------
-echo "📦 Installing core dependencies..."
-
+echo "📦 Installing core dependencies (version-locked)..."
 pip install --upgrade pip setuptools wheel
 
-# --- Torch + CUDA ---
-# Adjust CUDA version as needed for your cluster
-TMPDIR=/scr/tmp PIP_CACHE_DIR=/scr/pip_cache pip install torch==2.6.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+# Torch + CUDA (STRICT: cu124)
+TMPDIR="$TMPDIR" PIP_CACHE_DIR="$PIP_CACHE_DIR" \
+  pip install torch==2.6.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
-# --- Core packages ---
-TMPDIR=/scr/tmp PIP_CACHE_DIR=/scr/pip_cache pip install \
-    transformers==4.51.3 \
-    accelerate==1.5.2 \
-    qwen_vl_utils \
-    decord \
-    ray \
-    Levenshtein \
-    tyro \
-    einops \
-    timm \
-    av
+# Core packages (STRICT versions where you pinned them)
+TMPDIR="$TMPDIR" PIP_CACHE_DIR="$PIP_CACHE_DIR" pip install \
+  transformers==4.51.3 \
+  accelerate==1.5.2 \
+  qwen_vl_utils \
+  decord \
+  ray \
+  Levenshtein \
+  tyro \
+  einops \
+  timm \
+  av
 
-# --- Optional flash-attn optimization ---
-TMPDIR=/scr/tmp PIP_CACHE_DIR=/scr/pip_cache pip install flash-attn --no-build-isolation
+# flash-attn (NOTE: if you want strict reproducibility, pin a version here)
+TMPDIR="$TMPDIR" PIP_CACHE_DIR="$PIP_CACHE_DIR" pip install flash-attn --no-build-isolation
 
 # -----------------------------------------------------
-# Step 9. Post-install sanity check
+# Step 8. Sanity check
 # -----------------------------------------------------
 echo ""
 echo "🔍 Verifying key packages..."
 python - <<'EOF'
 import torch, transformers, accelerate, decord, Levenshtein, tyro, einops, timm, av
 print("✅ torch:", torch.__version__)
+print("✅ torch cuda:", torch.version.cuda)
 print("✅ transformers:", transformers.__version__)
 print("✅ accelerate:", accelerate.__version__)
 print("✅ einops:", einops.__version__)
 print("✅ timm:", timm.__version__)
 EOF
 
-# -----------------------------------------------------
-# Step 10. Summary
-# -----------------------------------------------------
 echo ""
-echo "✅ Spatial-MLLM environment setup complete!"
+echo "✅ Spatial-MLLM environment setup complete! (reference)"
 echo "---------------------------------------------"
 echo "Conda env: spatial-mllm"
 echo "Python: $(python --version)"
@@ -130,4 +151,5 @@ echo "PIP cache: $PIP_CACHE_DIR"
 echo "TMPDIR: $TMPDIR"
 echo "HF_HOME: $HF_HOME"
 echo "Torch CUDA: $(python -c 'import torch; print(torch.version.cuda)')"
+echo "Repo: $REPO_DIR"
 echo "---------------------------------------------"
