@@ -21,16 +21,16 @@ $CONDA_DIR/bin/conda init
 source ~/.bashrc
 
 
-echo "Creating general environment"
+echo "Creating CapNav environment"
 
 
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
-if [ ! -d "$CONDA_DIR/envs/general" ]; then
-   conda create -n general python=3.10 -y
-   conda activate general
+if [ ! -d "$CONDA_DIR/envs/CapNav" ]; then
+   conda create -n CapNav python=3.10 -y
+   conda activate CapNav
 else
-   conda activate general 
+   conda activate CapNav
 fi
 
 
