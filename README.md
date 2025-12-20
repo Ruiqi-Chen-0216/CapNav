@@ -264,3 +264,27 @@ python scripts/run_spatial_mllm.py
 ```
 
 
+
+## 🚀Todo List
+
+- [ ] Release the full Annotation Interface code for scene annotations.
+- [ ] Release the evaluation code on CapNav metrics from the results.
+- [ ] Release the CapNav QA creation scripts.
+
+
+## 📚  Citation
+
+If you find it useful for your research and applications, please cite our paper using this BibTeX:
+```bibtex
+@article{su2025capnav,
+    title={CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation},
+    author={Su, Xia  and Chen, Ruiqi and Liu, Benlin and Ma, Jingwei and Di, Zonglin and Krishna, Ranjay and Froehlich, Jon},
+    journal={arXiv preprint arXiv:xxxxxx},
+    year={2025}
+}
+```
+
+## Acknowledgements
+
+Thanks to these great repositories: [Spatial-MLLM](https://github.com/diankun-wu/Spatial-MLLM), [Video-R1](https://github.com/tulerfeng/Video-R1), [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL), and many other inspiring works in the community.
+
