@@ -254,13 +254,17 @@ This script prepares a compatible runtime environment and is provided for conven
 Users may need to adjust environment parameters (e.g., CUDA version, GPU architecture)
 based on their local setup.
 
+>**Note**
+>Qwen2.5-VL has been frequently updated in the Transformers library, which may cause version-related bugs or inconsistencies.
+>The Video-R1 code is compatible with the following version, please download at [here](https://drive.google.com/file/d/1Kc81WZitEhUZYWXpL6y2GXuSXufLSYcF/view?usp=sharing）
+
 For model-specific configuration and checkpoints, please refer to the original repository [Video-R1](https://github.com/tulerfeng/Video-R1).
 
 Running Evaluation
 
 After preparing the environment and CapNav prompts, run:
 ```bash
-python scripts/run_spatial_mllm.py
+python scripts/run.py --model Video-R1/Video-R1-7B --num_frames 16 --thinking on
 ```
 
 ### 4. Evaluation on Proprietary Vision–Language Models
