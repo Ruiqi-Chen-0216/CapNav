@@ -128,7 +128,7 @@ and fair comparison across models.
 
 All open-source models are evaluated using the same CapNav prompts,
 agent profiles, and scene information.
-
+---
 
 #### Running Evaluation
 
@@ -155,18 +155,13 @@ python scripts/run.py --model <MODEL_NAME> --num_frames <NUM_FRAMES> --thinking 
 ```bash
 python scripts/run.py --model InternVL3_5-8B --num_frames 32 --thinking on
 ```
-**Model Loading**
+#### Model Loading
 
 Each open-source vision–language model is associated with a corresponding
 adapter located at:
 ```bash
 src/model_adapters/<MODEL_NAME>_adapter.py
 ```
-
-Model adapters are responsible for:
-- Mapping CapNav prompts to model-specific input formats
-- Configuring inference-time behavior
-- Initializing pretrained model weights
 
 We provide adapters **only for the open-source VLMs evaluated in the paper**.
 These adapters are intended to serve as **reference implementations**.
