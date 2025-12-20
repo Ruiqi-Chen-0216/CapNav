@@ -5,8 +5,7 @@ import re
 import sys
 import json
 import time
-import subprocess
-from typing import List, Tuple, Dict, Any, Optional
+from typing import List, Tuple, Dict, Any
 
 import torch
 
@@ -17,63 +16,11 @@ import torch
 
 DEFAULT_PROMPT_ROOT = "generated_prompts"
 DEFAULT_GRAPH_DIR = "ground_truth/graphs"
-DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"   
+DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"   # IMPORTANT: fixed for all open-source models
 DEFAULT_RESULT_ROOT = "results"
-DEFAULT_MODEL_CACHE_DIR = "models"
 
-# Spatial-MLLM repo location (for importing its src/)
+# Spatial-MLLM repo location (code repo, NOT weights)
 DEFAULT_SPATIAL_MLLM_ROOT = os.environ.get("SPATIAL_MLLM_ROOT", "/scr/Spatial-MLLM")
-
-
-# ============================================================
-# Download helpers (same style as InternVL)
-# ============================================================
-
-def model_basename(model_id: str) -> str:
-    return os.path.basename(model_id.rstrip("/"))
-
-
-def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CACHE_DIR) -> str:
-    """
-    Ensure model exists under models/<MODEL_NAME>.
-    - If exists, return local dir.
-    - Else try:
-        * Linux/macOS: bash scripts/download_model.sh <hf_id> <cache_dir>
-        * Windows: huggingface_hub.snapshot_download -> <cache_dir>/<MODEL_NAME>
-    - If all fail, return hf_model_id (transformers will use HF cache).
-    """
-    name = model_basename(hf_model_id)
-    local_dir = os.path.join(cache_dir, name)
-    if os.path.isdir(local_dir):
-        return local_dir
-
-    os.makedirs(cache_dir, exist_ok=True)
-
-    script = os.path.join("scripts", "download_model.sh")
-    is_windows = (os.name == "nt")
-
-    if os.path.exists(script) and (not is_windows):
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {cache_dir} (via bash)")
-        subprocess.check_call(["bash", script, hf_model_id, cache_dir])
-        if os.path.isdir(local_dir):
-            return local_dir
-
-    try:
-        from huggingface_hub import snapshot_download
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {local_dir} (via huggingface_hub)")
-        snapshot_download(
-            repo_id=hf_model_id,
-            local_dir=local_dir,
-            local_dir_use_symlinks=False,
-            resume_download=True,
-        )
-        if os.path.isdir(local_dir):
-            return local_dir
-    except Exception as e:
-        print(f"[WARN] snapshot_download failed: {type(e).__name__}: {e}")
-
-    print("[FALLBACK] Using HF model id directly (transformers cache).")
-    return hf_model_id
 
 
 # ============================================================
@@ -116,99 +63,19 @@ def get_video_path(video_root: str, scene: str) -> str:
 
 def _ensure_spatial_mllm_src_on_path(spatial_mllm_root: str = DEFAULT_SPATIAL_MLLM_ROOT) -> None:
     """
-    Spatial-MLLM's code expects imports from its own `src/`.
-    We add <SPATIAL_MLLM_ROOT>/src to sys.path if present.
+    Spatial-MLLM's code lives under <repo>/src.
+    Users are expected to have cloned the repo via setup_spatialMLLM.sh.
     """
     src_dir = os.path.join(spatial_mllm_root, "src")
-    if os.path.isdir(src_dir) and (src_dir not in sys.path):
+    if not os.path.isdir(src_dir):
+        raise FileNotFoundError(
+            "Spatial-MLLM repo not found.\n"
+            f"Expected: {src_dir}\n"
+            "Please run the reference setup script first, or set SPATIAL_MLLM_ROOT."
+        )
+    if src_dir not in sys.path:
         sys.path.insert(0, src_dir)
         print(f"[PATH] Added Spatial-MLLM src to sys.path: {src_dir}")
-
-
-# ============================================================
-# Model init + single prompt runner (ported from your script)
-# ============================================================
-
-def init_spatial_mllm(model_path: str, device: str = "cuda"):
-    """
-    NOTE: Spatial-MLLM uses its own model classes under Spatial-MLLM/src.
-    """
-    _ensure_spatial_mllm_src_on_path()
-
-    from models import Qwen2_5_VL_VGGTForConditionalGeneration, Qwen2_5_VLProcessor  # type: ignore
-    from qwen_vl_utils import process_vision_info  # type: ignore
-
-    print(f"[MODEL] Loading Spatial-MLLM from: {model_path}")
-    model = Qwen2_5_VL_VGGTForConditionalGeneration.from_pretrained(
-        model_path,
-        torch_dtype=torch.float16,
-        attn_implementation="eager",
-    ).to(device)
-    processor = Qwen2_5_VLProcessor.from_pretrained(model_path)
-    return model, processor, process_vision_info
-
-
-def run_single_prompt(
-    model,
-    processor,
-    process_vision_info_fn,
-    video_path: str,
-    text: str,
-    num_frames: int,
-    device: str = "cuda",
-) -> Tuple[str, float]:
-    """
-    Spatial-MLLM inference.
-    IMPORTANT:
-      - video path is passed as-is
-      - num_frames is mapped to message field "nframes"
-    """
-    messages = [
-        {
-            "role": "user",
-            "content": [
-                {"type": "video", "video": video_path, "nframes": int(num_frames)},
-                {"type": "text", "text": text},
-            ],
-        }
-    ]
-
-    text_input = processor.apply_chat_template(
-        messages, tokenize=False, add_generation_prompt=True
-    )
-    _, video_inputs = process_vision_info_fn(messages)
-
-    inputs = processor(
-        text=[text_input],
-        videos=video_inputs,
-        padding=True,
-        return_tensors="pt",
-    )
-    inputs.update({"videos_input": torch.stack(video_inputs) / 255.0})
-    inputs = inputs.to(device)
-
-    torch.cuda.empty_cache()
-    t0 = time.time()
-    with torch.inference_mode(), torch.autocast(device_type="cuda", dtype=torch.float16):
-        generated_ids = model.generate(
-            **inputs,
-            max_new_tokens=8196,        
-            do_sample=True,
-            temperature=0.1,
-            top_p=0.001,
-            use_cache=True,
-        )
-    elapsed = time.time() - t0
-
-    generated_ids_trimmed = [
-        out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
-    ]
-    output_texts = processor.batch_decode(
-        generated_ids_trimmed,
-        skip_special_tokens=True,
-        clean_up_tokenization_spaces=False,
-    )
-    return (output_texts[0], elapsed)
 
 
 # ============================================================
@@ -216,12 +83,6 @@ def run_single_prompt(
 # ============================================================
 
 def parse_spatial_mllm_output(raw_text: str) -> Dict[str, Any]:
-    """
-    STRICT equivalence to your script:
-      - require <json>...</json> block
-      - regex-extract answer/reason/path
-      - else fallback
-    """
     fallback = {"answer": "failed to answer the question", "path": []}
 
     match = re.search(r"<json>([\s\S]*?)</json>", raw_text or "")
@@ -253,45 +114,109 @@ def parse_spatial_mllm_output(raw_text: str) -> Dict[str, Any]:
 
 
 # ============================================================
-# Public entry point (adapter API)
+# Model init + single prompt runner (ported from your script)
+# ============================================================
+
+def init_spatial_mllm(user_model: str, device: str = "cuda"):
+    """
+    user_model can be:
+      - HF id (e.g., Diankun/Spatial-MLLM-subset-sft)
+      - local dir path
+    Adapter does NOT download anything. It assumes user has environment ready.
+    """
+    _ensure_spatial_mllm_src_on_path()
+
+    from models import Qwen2_5_VL_VGGTForConditionalGeneration, Qwen2_5_VLProcessor  # type: ignore
+    from qwen_vl_utils import process_vision_info  # type: ignore
+
+    print(f"[MODEL] Loading Spatial-MLLM from: {user_model}")
+    model = Qwen2_5_VL_VGGTForConditionalGeneration.from_pretrained(
+        user_model,
+        torch_dtype=torch.float16,
+        attn_implementation="eager",
+    ).to(device)
+    processor = Qwen2_5_VLProcessor.from_pretrained(user_model)
+    return model, processor, process_vision_info
+
+
+def run_single_prompt(
+    model,
+    processor,
+    process_vision_info_fn,
+    video_path: str,
+    text: str,
+    num_frames: int,
+    device: str = "cuda",
+) -> str:
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "video", "video": video_path, "nframes": int(num_frames)},
+                {"type": "text", "text": text},
+            ],
+        }
+    ]
+
+    text_input = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    _, video_inputs = process_vision_info_fn(messages)
+
+    inputs = processor(text=[text_input], videos=video_inputs, padding=True, return_tensors="pt")
+    inputs.update({"videos_input": torch.stack(video_inputs) / 255.0})
+    inputs = inputs.to(device)
+
+    torch.cuda.empty_cache()
+    with torch.inference_mode(), torch.autocast(device_type="cuda", dtype=torch.float16):
+        generated_ids = model.generate(
+            **inputs,
+            max_new_tokens=8196,
+            do_sample=True,
+            temperature=0.1,
+            top_p=0.001,
+            use_cache=True,
+        )
+
+    generated_ids_trimmed = [
+        out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+    ]
+    output_texts = processor.batch_decode(
+        generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )
+    return (output_texts[0] or "").strip()
+
+
+# ============================================================
+# Public entry point
 # ============================================================
 
 def run_spatial_mllm(user_model: str, num_frames: int) -> None:
     """
-    Public entry point for run.py routing.
-    Inputs:
+    Adapter API:
       - user_model: HF id or local dir
-      - num_frames: 16 / 32 / 64 (controls nframes for Spatial-MLLM)
-    NOTE:
-      - thinking is implicitly ON for Spatial-MLLM; not exposed.
+      - num_frames: 16/32/64 (controls Spatial-MLLM message nframes)
+    thinking is implicitly ON; no CLI toggle here.
     """
-    if num_frames not in (16, 32, 64):
-        raise ValueError("--num_frames must be one of {16, 32, 64}.")
-
     prompt_root = DEFAULT_PROMPT_ROOT
     graph_dir = DEFAULT_GRAPH_DIR
     video_root = DEFAULT_VIDEO_ROOT
     result_root = DEFAULT_RESULT_ROOT
-    cache_dir = DEFAULT_MODEL_CACHE_DIR
 
     for p in [prompt_root, graph_dir, video_root]:
         if not os.path.exists(p):
             raise FileNotFoundError(f"Required path missing: {p}")
 
-    # Download model if needed (same behavior as InternVL)
-    model_path = ensure_model_downloaded(user_model, cache_dir=cache_dir)
-    model_name = model_basename(user_model)
+    if not torch.cuda.is_available():
+        raise RuntimeError("Spatial-MLLM adapter requires a CUDA-capable GPU environment.")
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    if device != "cuda":
-        raise RuntimeError("Spatial-MLLM adapter requires CUDA in your current setup.")
+    device = "cuda"
 
-    model, processor, process_vision_info_fn = init_spatial_mllm(model_path, device=device)
+    model, processor, process_vision_info_fn = init_spatial_mllm(user_model, device=device)
+
     scenes = detect_scenes_from_graphs(graph_dir)
     print(f"[SCENES] detected {len(scenes)} scenes")
 
-    # Output tag: keep stable + explicit
-    model_tag = f"{model_name}_{num_frames}frames_thinking_on"
+    model_tag = f"spatial_mllm_{num_frames}frames_thinking_on"
+    base_out = os.path.join(result_root, "spatial_mllm", model_tag)
 
     for scene in scenes:
         prompts = load_prompts(prompt_root, scene)
@@ -300,7 +225,7 @@ def run_spatial_mllm(user_model: str, num_frames: int) -> None:
 
         video_path = get_video_path(video_root, scene)
 
-        out_dir = os.path.join(result_root, "spatial_mllm", model_tag, scene)
+        out_dir = os.path.join(base_out, scene)
         os.makedirs(out_dir, exist_ok=True)
         print(f"\n[SCENE] {scene} | prompts={len(prompts)} | out={out_dir}")
 
@@ -319,14 +244,13 @@ def run_spatial_mllm(user_model: str, num_frames: int) -> None:
             entry: Dict[str, Any] = {
                 "scene": scene,
                 "prompt_file": fname,
-                "model": model_name,
                 "user_model": user_model,
                 "num_frames": num_frames,
                 "thinking": "on",
             }
 
             try:
-                raw_text, elapsed = run_single_prompt(
+                raw_text = run_single_prompt(
                     model=model,
                     processor=processor,
                     process_vision_info_fn=process_vision_info_fn,
@@ -336,16 +260,14 @@ def run_spatial_mllm(user_model: str, num_frames: int) -> None:
                     device=device,
                 )
                 entry["raw_text"] = raw_text
-                entry["time_sec"] = round(time.time() - t0, 2)
-                entry["elapsed_sec_model"] = round(elapsed, 2)
-
                 entry["result"] = parse_spatial_mllm_output(raw_text)
+                entry["time_sec"] = round(time.time() - t0, 2)
 
             except Exception as e:
-                entry["time_sec"] = round(time.time() - t0, 2)
-                entry["error"] = repr(e)
                 entry["raw_text"] = ""
                 entry["result"] = {"answer": "failed to answer the question", "path": []}
+                entry["error"] = repr(e)
+                entry["time_sec"] = round(time.time() - t0, 2)
                 torch.cuda.empty_cache()
 
             with open(out_file, "w", encoding="utf-8") as f:
