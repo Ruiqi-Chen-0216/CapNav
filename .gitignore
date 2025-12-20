@@ -7,6 +7,8 @@ ground_truth/
 # If you store local copies of datasets, ignore them here
 dataset/
 models_code/
+videos_64frames_1fps/
+videos_raw/
 configs/api_keys.yaml
 configs/gemini-research-key.json
 scripts/download_model_hyak.sh
