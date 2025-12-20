@@ -165,15 +165,33 @@ adapter located at:
 src/model_adapters/<MODEL_NAME>_adapter.py
 ```
 
-Model adapters are responsible for configuring model-specific inputs
-and handling weight initialization.
+Model adapters are responsible for:
+- Mapping CapNav prompts to model-specific input formats
+- Configuring inference-time behavior
+- Initializing pretrained model weights
+
+We provide adapters **only for the open-source VLMs evaluated in the paper**.
+These adapters are intended to serve as **reference implementations**.
+Users who wish to evaluate CapNav on additional open-source models
+can extend the benchmark by implementing new adapters following the
+existing examples.
 
 By default, pretrained model weights and associated model files are
-automatically downloaded from Hugging Face based on the specified `--model` name when the model is first used.
+automatically downloaded from Hugging Face based on the specified `--model`
+name when the model is first used.
+
+This behavior is handled by the `ensure_model_downloaded` function
+defined in each model adapter, which internally invokes:
+
+```bash
+scripts/download_model.sh
+```
+
+to manage model downloads.
 
 > **Note:**  
-> If you prefer to manually download and deploy model weights locally,
-> please comment out or modify the `ensure_model_downloaded` function
+> If you prefer to manually download and deploy model checkpoints locally,
+> please comment out or modify the `ensure_model_downloaded` call
 > in the corresponding model adapter to disable automatic downloading.
 
 
