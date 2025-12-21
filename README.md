@@ -157,13 +157,34 @@ agent profiles, and scene information.
 Evaluation is performed via a unified entry script:
 
 ```bash
-python scripts/run.py --model <MODEL_NAME> --num_frames <NUM_FRAMES> --thinking <on|off>
+python scripts/run.py [ARGS]
+```
+CapNav supports two evaluation modes, depending on how model weights
+are provided.
+
+---
+
+#### Mode A (Default): Hugging Face Models (Auto Download)
+
+This is the **recommended and default mode**.
+
+If `--model` is a valid Hugging Face repository id (or an allowed short name),
+model weights will be:
+
+- automatically downloaded on first use via `transformers.from_pretrained`
+- cached in the Hugging Face cache directory
+
+```bash
+python scripts/run.py \
+  --model InternVL3_5-8B \
+  --num_frames 32 \
+  --thinking on
 ```
 
 **Arguments:**
 
 - `--model`  
-  Name of the open-source vision–language model to evaluate.
+  Hugging Face model id (strictly validated; see error message if invalid).
 - `--num_frames`  
   Number of video frames used as model input.  
   Typical values include `16`, `32`, or `64`, depending on the model’s input capacity
@@ -171,43 +192,72 @@ python scripts/run.py --model <MODEL_NAME> --num_frames <NUM_FRAMES> --thinking 
 - `--thinking`  
   Whether to enable internal reasoning mechanisms, if supported by the model.
   Options: `on` or `off`.
+ 
+> The exact set of supported models and valid `--thinking` modes
+> is enforced by `scripts/run.py` to avoid silent misconfiguration.
 
-**Example:**
+
+
+#### Mode B (Advanced): Local Checkpoints (No Download)
+
+If you have already downloaded model checkpoints locally
+(e.g., shared filesystem or offline environment),
+you can bypass Hugging Face downloads by providing a local path.
+
+In this case, you must also specify `--backend` to explicitly select the corresponding adapter.
 
 ```bash
-python scripts/run.py --model InternVL3_5-8B --num_frames 32 --thinking on
+python scripts/run.py \
+  --model InternVL3_5-8B \
+  --model_path /path/to/local/InternVL3_5-8B \
+  --backend internvl \
+  --num_frames 32 \
+  --thinking on
 ```
-#### Model Loading
+
+**Additional arguments:**
+
+- `--model_path`  
+  Path to a local checkpoint directory.
+- `--backend`  
+  Adapter name (`internvl`, `mimo`, `qwen3`, `glm`, `spatial_mllm`, `videor1`) 
+
+When `--model_path` is provided: 
+- No Hugging Face download is triggered
+- All weights are loaded strictly from disk
+- `--backend` is mandatory
+
+
+#### Model Adapters
 
 Each open-source vision–language model is associated with a corresponding
 adapter located at:
 ```bash
 src/model_adapters/<MODEL_NAME>_adapter.py
 ```
-
 We provide adapters **only for the open-source VLMs evaluated in the paper**.
 These adapters are intended to serve as **reference implementations**.
-Users who wish to evaluate CapNav on additional open-source models
-can extend the benchmark by implementing new adapters following the
-existing examples.
+Users who wish to evaluate CapNav on additional open-source models can extend the
+benchmark by implementing new adapters following the existing examples.
 
-By default, pretrained model weights and associated model files are
-automatically downloaded from Hugging Face based on the specified `--model`
-name when the model is first used.
+## Model Weights: Hugging Face Cache vs. Local Checkpoints
 
-This behavior is handled by the `ensure_model_downloaded` function
-defined in each model adapter, which internally invokes:
+By default, model weights are loaded via Hugging Face / Transformers
+(`from_pretrained`). If `--model` is a Hugging Face repo id, weights will be
+downloaded on first use and stored in the **Hugging Face cache**.
 
-```bash
-scripts/download_model.sh
-```
+We recommend managing cache locations via a repo-root `.env` file (optional) or
+direct environment variables:
 
-to manage model downloads.
+- `HF_HOME` / `HF_HUB_CACHE` / `TRANSFORMERS_CACHE`: cache directories
+- `HF_TOKEN`: for gated or restricted models
 
-> **Note:**  
-> If you prefer to manually download and deploy model checkpoints locally,
-> please comment out or modify the `ensure_model_downloaded` call
-> in the corresponding model adapter to disable automatic downloading.
+If you prefer to deploy checkpoints locally (e.g., shared filesystem / offline),
+you can pass a local checkpoint directory via `--model_path`. In this case, the
+code will load from disk and **will not trigger any downloads**.
+
+(Optional offline mode)
+- `HF_HUB_OFFLINE=1` and `TRANSFORMERS_OFFLINE=1`
 
 
 
