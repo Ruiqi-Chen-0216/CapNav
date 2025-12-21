@@ -240,7 +240,7 @@ These adapters are intended to serve as **reference implementations**.
 Users who wish to evaluate CapNav on additional open-source models can extend the
 benchmark by implementing new adapters following the existing examples.
 
-## Model Weights: Hugging Face Cache vs. Local Checkpoints
+#### Model Weights: Hugging Face Cache vs. Local Checkpoints
 
 By default, model weights are loaded via Hugging Face / Transformers
 (`from_pretrained`). If `--model` is a Hugging Face repo id, weights will be
