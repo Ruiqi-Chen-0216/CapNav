@@ -2,7 +2,6 @@ import os
 import re
 import json
 import time
-import subprocess
 from typing import List, Tuple, Dict, Any
 
 import torch
@@ -10,14 +9,13 @@ from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 
 
 # ============================================================
-# Repo-relative defaults (open-source friendly)
+# Paths (read from env; fallback to repo-relative defaults)
 # ============================================================
 
-DEFAULT_PROMPT_ROOT = "generated_prompts"
-DEFAULT_GRAPH_DIR = "ground_truth/graphs"
-DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"   # IMPORTANT: fixed for all open-source models
-DEFAULT_RESULT_ROOT = "results"
-DEFAULT_MODEL_CACHE_DIR = "models"
+PROMPT_ROOT = os.environ.get("CAPNAV_PROMPT_ROOT", "generated_prompts")
+GRAPH_DIR   = os.environ.get("CAPNAV_GRAPH_DIR", "ground_truth/graphs")
+VIDEO_ROOT  = os.environ.get("CAPNAV_VIDEO_ROOT", "videos_64frames_1fps")  
+RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
 
 DEFAULT_ORG = "XiaomiMiMo"
 
@@ -34,7 +32,42 @@ DEFAULT_DELAY = 0.0
 
 
 # ============================================================
-# Download helpers (bash on Unix, snapshot_download on Windows)
+# HF cache awareness (user-managed; we do NOT set or override)
+# ============================================================
+
+def _print_hf_cache_env_if_debug() -> None:
+    """
+    Debug/visibility only. Does not change behavior.
+    Users control HF cache via HF_HOME / HF_HUB_CACHE / TRANSFORMERS_CACHE, etc.
+    Enable by setting CAPNAV_DEBUG_ENV=1.
+    """
+    if os.environ.get("CAPNAV_DEBUG_ENV") != "1":
+        return
+
+    keys = [
+        "HF_HOME",
+        "HF_HUB_CACHE",
+        "TRANSFORMERS_CACHE",
+        "HUGGINGFACE_HUB_CACHE",
+        "HF_ENDPOINT",
+        "HF_TOKEN",
+    ]
+    print("[CapNav] HF cache / hub env (user-managed):")
+    found_any = False
+    for k in keys:
+        v = os.environ.get(k)
+        if v:
+            if k == "HF_TOKEN":
+                print(f"  {k}=<set>")
+            else:
+                print(f"  {k}={v}")
+            found_any = True
+    if not found_any:
+        print("  (none set) -> will use Hugging Face default cache location")
+
+
+# ============================================================
+# Model id helpers
 # ============================================================
 
 def model_basename(model_id: str) -> str:
@@ -50,52 +83,6 @@ def normalize_hf_model_id(user_model: str) -> str:
     if "/" in user_model:
         return user_model
     return f"{DEFAULT_ORG}/{user_model}"
-
-
-def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CACHE_DIR) -> str:
-    """
-    Ensure model exists under models/<MODEL_NAME>.
-    - If exists, return local dir.
-    - Else try:
-        * Linux/macOS: bash scripts/download_model.sh <hf_id> <cache_dir>
-        * Windows: huggingface_hub.snapshot_download -> <cache_dir>/<MODEL_NAME>
-    - If all fail, return hf_model_id (transformers will use HF cache).
-    """
-    name = model_basename(hf_model_id)
-    local_dir = os.path.join(cache_dir, name)
-    if os.path.isdir(local_dir):
-        return local_dir
-
-    os.makedirs(cache_dir, exist_ok=True)
-
-    script = os.path.join("scripts", "download_model.sh")
-    is_windows = (os.name == "nt")
-
-    # 1) Prefer portable shell downloader on Unix-like systems
-    if os.path.exists(script) and (not is_windows):
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {cache_dir} (via bash)")
-        subprocess.check_call(["bash", script, hf_model_id, cache_dir])
-        if os.path.isdir(local_dir):
-            return local_dir
-
-    # 2) Windows (or no bash): use huggingface_hub snapshot_download
-    try:
-        from huggingface_hub import snapshot_download
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {local_dir} (via huggingface_hub)")
-        snapshot_download(
-            repo_id=hf_model_id,
-            local_dir=local_dir,
-            local_dir_use_symlinks=False,
-            resume_download=True,
-        )
-        if os.path.isdir(local_dir):
-            return local_dir
-    except Exception as e:
-        print(f"[WARN] snapshot_download failed: {type(e).__name__}: {e}")
-
-    # 3) Fallback: let transformers download to HF cache (requires internet)
-    print("[FALLBACK] Using HF model id directly (transformers cache).")
-    return hf_model_id
 
 
 # ============================================================
@@ -168,7 +155,6 @@ def extract_json_candidate(text: str) -> str:
     if a != -1 and b != -1 and b > a:
         return t[a:b + 1].strip()
 
-    # fallback
     return t.strip()
 
 
@@ -187,17 +173,24 @@ def log_failure(fail_path: str, prompt_name: str, error_message: str, elapsed: f
 # MiMo init + single run
 # ============================================================
 
-def init_mimo(model_path: str):
+def init_mimo(hf_model_id: str):
     """
     MiMo-VL uses Qwen2.5-VL architecture in transformers.
+
+    IMPORTANT:
+    - Passing a HF model id will auto-download weights if missing.
+    - Cache location is fully user-managed via HF_HOME / HF_HUB_CACHE / etc.
     """
+    _print_hf_cache_env_if_debug()
+    print(f"[MODEL] loading from HF: {hf_model_id} (auto-download; cache is user-managed)")
+
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
-        model_path,
+        hf_model_id,
         dtype="auto",
         device_map="auto",
         attn_implementation="sdpa",
     )
-    processor = AutoProcessor.from_pretrained(model_path)
+    processor = AutoProcessor.from_pretrained(hf_model_id)
     return model, processor
 
 
@@ -226,10 +219,9 @@ def maybe_append_no_think(prompt_text: str, thinking: str) -> str:
         if not p.endswith(NO_THINK_SUFFIX):
             p = p + " " + NO_THINK_SUFFIX
         return p
-    elif thinking_norm == "on":
+    if thinking_norm == "on":
         return (prompt_text or "").strip()
-    else:
-        raise ValueError("--thinking must be one of {on, off}.")
+    raise ValueError("--thinking must be one of {on, off}.")
 
 
 def run_single_prompt(
@@ -291,21 +283,19 @@ def run_mimo_vl(user_model: str, num_frames: int, thinking: str) -> None:
     hf_model_id = normalize_hf_model_id(user_model)
     model_name = model_basename(hf_model_id)
 
-    prompt_root = DEFAULT_PROMPT_ROOT
-    graph_dir = DEFAULT_GRAPH_DIR
-    video_root = DEFAULT_VIDEO_ROOT
-    result_root = DEFAULT_RESULT_ROOT
-    cache_dir = DEFAULT_MODEL_CACHE_DIR
+    # CapNav paths (env-configurable)
+    prompt_root = PROMPT_ROOT
+    graph_dir   = GRAPH_DIR
+    video_root  = VIDEO_ROOT
+    result_root = RESULT_ROOT
 
     # Required paths
     for p in [prompt_root, graph_dir, video_root]:
         if not os.path.exists(p):
             raise FileNotFoundError(f"Required path missing: {p}")
 
-    model_path = ensure_model_downloaded(hf_model_id, cache_dir=cache_dir)
-    print(f"[MODEL] using: {model_path}")
-
-    model, processor = init_mimo(model_path)
+    # init model (HF auto-download; user-managed cache)
+    model, processor = init_mimo(hf_model_id)
 
     fps = num_frames_to_fps(num_frames)
     print(f"[VIDEO] total_frames={TOTAL_FRAMES} base_fps={BASE_FPS} num_frames={num_frames} -> fps={fps}")

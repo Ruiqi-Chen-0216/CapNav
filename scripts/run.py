@@ -3,16 +3,35 @@ import re
 import sys
 from pathlib import Path
 
+# ----------------------------
+# Repo root (since this file is scripts/run.py)
+# ----------------------------
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
+# ----------------------------
+# Load .env early (repo-root/.env)
+# ----------------------------
+def _load_dotenv_if_present(repo_root: Path) -> None:
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        # dotenv optional; if not installed, skip silently
+        return
+
+    dotenv_path = repo_root / ".env"
+    if dotenv_path.exists():
+        load_dotenv(dotenv_path=dotenv_path, override=False)
+
+_load_dotenv_if_present(REPO_ROOT)
+
+# now import the rest (including adaptors)
 from src.model_adapters.glm4v_thinking_adapter import run_glm4v_thinking
 from src.model_adapters.internvl3_5_adapter import run_internvl3_5
 from src.model_adapters.mimo_vl_adapter import run_mimo_vl
 from src.model_adapters.qwen3_vl_adapter import run_qwen3_vl
 from src.model_adapters.spatial_mllm_adapter import run_spatial_mllm
 from src.model_adapters.videor1_adapter import run_videor1
-
 
 # ----------------------------
 # Strict allowlist / patterns

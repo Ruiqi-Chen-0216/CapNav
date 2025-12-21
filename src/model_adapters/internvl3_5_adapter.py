@@ -1,7 +1,6 @@
 import os
 import json
 import time
-import subprocess
 from typing import List, Tuple, Dict, Any
 
 import torch
@@ -14,14 +13,13 @@ from transformers import AutoModel, AutoTokenizer
 
 
 # ============================================================
-# Repo-relative defaults (open-source friendly)
+# Paths (read from env; fallback to repo-relative defaults)
 # ============================================================
 
-DEFAULT_PROMPT_ROOT = "generated_prompts"
-DEFAULT_GRAPH_DIR = "ground_truth/graphs"
-DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"   # IMPORTANT: fixed for all open-source models
-DEFAULT_RESULT_ROOT = "results"
-DEFAULT_MODEL_CACHE_DIR = "models"
+PROMPT_ROOT = os.environ.get("CAPNAV_PROMPT_ROOT", "generated_prompts")
+GRAPH_DIR   = os.environ.get("CAPNAV_GRAPH_DIR", "ground_truth/graphs")
+VIDEO_ROOT  = os.environ.get("CAPNAV_VIDEO_ROOT", "videos_64frames_1fps")  
+RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
 
 DEFAULT_ORG = "OpenGVLab"
 
@@ -37,7 +35,42 @@ Ensure that the thinking process is thorough but remains focused on the query. T
 
 
 # ============================================================
-# Download helpers (bash on Unix, snapshot_download on Windows)
+# HF cache awareness (user-managed; we do NOT set or override)
+# ============================================================
+
+def _print_hf_cache_env_if_debug() -> None:
+    """
+    Debug/visibility only. Does not change behavior.
+    Users control HF cache via HF_HOME / HF_HUB_CACHE / TRANSFORMERS_CACHE, etc.
+    Enable by setting CAPNAV_DEBUG_ENV=1.
+    """
+    if os.environ.get("CAPNAV_DEBUG_ENV") != "1":
+        return
+
+    keys = [
+        "HF_HOME",
+        "HF_HUB_CACHE",
+        "TRANSFORMERS_CACHE",
+        "HUGGINGFACE_HUB_CACHE",
+        "HF_ENDPOINT",
+        "HF_TOKEN",
+    ]
+    print("[CapNav] HF cache / hub env (user-managed):")
+    found_any = False
+    for k in keys:
+        v = os.environ.get(k)
+        if v:
+            if k == "HF_TOKEN":
+                print(f"  {k}=<set>")
+            else:
+                print(f"  {k}={v}")
+            found_any = True
+    if not found_any:
+        print("  (none set) -> will use Hugging Face default cache location")
+
+
+# ============================================================
+# Model id helpers (keep your semantics)
 # ============================================================
 
 def model_basename(model_id: str) -> str:
@@ -53,49 +86,6 @@ def normalize_hf_model_id(user_model: str) -> str:
     if "/" in user_model:
         return user_model
     return f"{DEFAULT_ORG}/{user_model}"
-
-
-def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CACHE_DIR) -> str:
-    """
-    Ensure model exists under models/<MODEL_NAME>.
-    - If exists, return local dir.
-    - Else try:
-        * Linux/macOS: bash scripts/download_model.sh <hf_id> <cache_dir>
-        * Windows: huggingface_hub.snapshot_download -> <cache_dir>/<MODEL_NAME>
-    - If all fail, return hf_model_id (transformers will use HF cache).
-    """
-    name = model_basename(hf_model_id)
-    local_dir = os.path.join(cache_dir, name)
-    if os.path.isdir(local_dir):
-        return local_dir
-
-    os.makedirs(cache_dir, exist_ok=True)
-
-    script = os.path.join("scripts", "download_model.sh")
-    is_windows = (os.name == "nt")
-
-    if os.path.exists(script) and (not is_windows):
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {cache_dir} (via bash)")
-        subprocess.check_call(["bash", script, hf_model_id, cache_dir])
-        if os.path.isdir(local_dir):
-            return local_dir
-
-    try:
-        from huggingface_hub import snapshot_download
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {local_dir} (via huggingface_hub)")
-        snapshot_download(
-            repo_id=hf_model_id,
-            local_dir=local_dir,
-            local_dir_use_symlinks=False,
-            resume_download=True,
-        )
-        if os.path.isdir(local_dir):
-            return local_dir
-    except Exception as e:
-        print(f"[WARN] snapshot_download failed: {type(e).__name__}: {e}")
-
-    print("[FALLBACK] Using HF model id directly (transformers cache).")
-    return hf_model_id
 
 
 # ============================================================
@@ -304,9 +294,17 @@ def log_failure(fail_path: str, prompt_name: str, error_message: str, elapsed: f
 # InternVL init + runner
 # ============================================================
 
-def init_internvl(model_path: str, thinking: str):
+def init_internvl(hf_model_id: str, thinking: str):
+    """
+    IMPORTANT:
+    - Passing a HF model id will auto-download weights if missing.
+    - Cache location is fully user-managed via HF_HOME / HF_HUB_CACHE / etc.
+    """
+    _print_hf_cache_env_if_debug()
+    print(f"[MODEL] loading from HF: {hf_model_id} (auto-download; cache is user-managed)")
+
     model = AutoModel.from_pretrained(
-        model_path,
+        hf_model_id,
         torch_dtype=torch.bfloat16,
         load_in_8bit=False,
         low_cpu_mem_usage=True,
@@ -316,7 +314,7 @@ def init_internvl(model_path: str, thinking: str):
     ).eval()
 
     tokenizer = AutoTokenizer.from_pretrained(
-        model_path,
+        hf_model_id,
         trust_remote_code=True,
         use_fast=False,
     )
@@ -349,20 +347,16 @@ def run_internvl3_5(user_model: str, num_frames: int, thinking: str) -> None:
     hf_model_id = normalize_hf_model_id(user_model)
     model_name = model_basename(hf_model_id)
 
-    prompt_root = DEFAULT_PROMPT_ROOT
-    graph_dir = DEFAULT_GRAPH_DIR
-    video_root = DEFAULT_VIDEO_ROOT
-    result_root = DEFAULT_RESULT_ROOT
-    cache_dir = DEFAULT_MODEL_CACHE_DIR
+    prompt_root = PROMPT_ROOT
+    graph_dir   = GRAPH_DIR
+    video_root  = VIDEO_ROOT
+    result_root = RESULT_ROOT
 
     for p in [prompt_root, graph_dir, video_root]:
         if not os.path.exists(p):
             raise FileNotFoundError(f"Required path missing: {p}")
 
-    model_path = ensure_model_downloaded(hf_model_id, cache_dir=cache_dir)
-    print(f"[MODEL] using: {model_path}")
-
-    model, tokenizer, generation_config = init_internvl(model_path, thinking=thinking)
+    model, tokenizer, generation_config = init_internvl(hf_model_id, thinking=thinking)
 
     scenes = detect_scenes_from_graphs(graph_dir)
     print(f"[SCENES] detected {len(scenes)} scenes")
@@ -426,7 +420,6 @@ def run_internvl3_5(user_model: str, num_frames: int, thinking: str) -> None:
                     text = strip_think_block_if_present(text)
 
                 json_candidate = extract_json_candidate(text)
-
 
                 try:
                     entry["result"] = json.loads(json_candidate)

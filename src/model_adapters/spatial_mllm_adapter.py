@@ -11,16 +11,46 @@ import torch
 
 
 # ============================================================
-# Repo-relative defaults (open-source friendly)
+# Paths (read from env; fallback to repo-relative defaults)
 # ============================================================
 
-DEFAULT_PROMPT_ROOT = "generated_prompts"
-DEFAULT_GRAPH_DIR = "ground_truth/graphs"
-DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"   # IMPORTANT: fixed for all open-source models
-DEFAULT_RESULT_ROOT = "results"
+PROMPT_ROOT = os.environ.get("CAPNAV_PROMPT_ROOT", "generated_prompts")
+GRAPH_DIR   = os.environ.get("CAPNAV_GRAPH_DIR", "ground_truth/graphs")
+VIDEO_ROOT  = os.environ.get("CAPNAV_VIDEO_ROOT", "videos_64frames_1fps")  # fixed for open-source videos
+RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
 
 # Spatial-MLLM repo location (code repo, NOT weights)
-DEFAULT_SPATIAL_MLLM_ROOT = os.environ.get("SPATIAL_MLLM_ROOT", "/scr/Spatial-MLLM")
+# Users should set SPATIAL_MLLM_ROOT in .env if they want to use this adapter.
+SPATIAL_MLLM_ROOT = os.environ.get("SPATIAL_MLLM_ROOT", "")
+
+
+# ============================================================
+# Optional debug: print HF cache env (user-managed; do NOT set)
+# ============================================================
+
+def _print_hf_cache_env_if_debug() -> None:
+    if os.environ.get("CAPNAV_DEBUG_ENV") != "1":
+        return
+    keys = [
+        "HF_HOME",
+        "HF_HUB_CACHE",
+        "HUGGINGFACE_HUB_CACHE",
+        "TRANSFORMERS_CACHE",
+        "HF_ENDPOINT",
+        "HF_TOKEN",
+    ]
+    print("[CapNav] HF cache / hub env (user-managed):")
+    found_any = False
+    for k in keys:
+        v = os.environ.get(k)
+        if v:
+            if k == "HF_TOKEN":
+                print(f"  {k}=<set>")
+            else:
+                print(f"  {k}={v}")
+            found_any = True
+    if not found_any:
+        print("  (none set) -> will use Hugging Face default cache location")
 
 
 # ============================================================
@@ -61,21 +91,32 @@ def get_video_path(video_root: str, scene: str) -> str:
 # Spatial-MLLM import bootstrap
 # ============================================================
 
-def _ensure_spatial_mllm_src_on_path(spatial_mllm_root: str = DEFAULT_SPATIAL_MLLM_ROOT) -> None:
+def _ensure_spatial_mllm_src_on_path(spatial_mllm_root: str) -> str:
     """
-    Spatial-MLLM's code lives under <repo>/src.
-    Users are expected to have cloned the repo via setup_spatialMLLM.sh.
+    Spatial-MLLM's code lives under <Spatial-MLLM repo>/src.
+    Users are expected to clone it and set SPATIAL_MLLM_ROOT accordingly.
     """
+    if not spatial_mllm_root:
+        raise FileNotFoundError(
+            "SPATIAL_MLLM_ROOT is not set.\n"
+            "To use this adapter, please clone Spatial-MLLM and set SPATIAL_MLLM_ROOT in your .env.\n"
+            "Example:\n"
+            "  SPATIAL_MLLM_ROOT=/absolute/path/to/Spatial-MLLM"
+        )
+
     src_dir = os.path.join(spatial_mllm_root, "src")
     if not os.path.isdir(src_dir):
         raise FileNotFoundError(
             "Spatial-MLLM repo not found.\n"
             f"Expected: {src_dir}\n"
-            "Please run the reference setup script first, or set SPATIAL_MLLM_ROOT."
+            "Please verify SPATIAL_MLLM_ROOT points to a cloned Spatial-MLLM repo."
         )
+
     if src_dir not in sys.path:
         sys.path.insert(0, src_dir)
         print(f"[PATH] Added Spatial-MLLM src to sys.path: {src_dir}")
+
+    return src_dir
 
 
 # ============================================================
@@ -122,19 +163,23 @@ def init_spatial_mllm(user_model: str, device: str = "cuda"):
     user_model can be:
       - HF id (e.g., Diankun/Spatial-MLLM-subset-sft)
       - local dir path
-    Adapter does NOT download anything. It assumes user has environment ready.
+    We allow auto-download via from_pretrained; cache path is user-managed via HF env vars.
     """
-    _ensure_spatial_mllm_src_on_path()
+    _ensure_spatial_mllm_src_on_path(SPATIAL_MLLM_ROOT)
 
+    # These imports rely on Spatial-MLLM's repo code under <root>/src
     from models import Qwen2_5_VL_VGGTForConditionalGeneration, Qwen2_5_VLProcessor  # type: ignore
     from qwen_vl_utils import process_vision_info  # type: ignore
 
-    print(f"[MODEL] Loading Spatial-MLLM from: {user_model}")
+    _print_hf_cache_env_if_debug()
+    print(f"[MODEL] Loading Spatial-MLLM from: {user_model} (auto-download if HF id; cache is user-managed)")
+
     model = Qwen2_5_VL_VGGTForConditionalGeneration.from_pretrained(
         user_model,
         torch_dtype=torch.float16,
         attn_implementation="eager",
     ).to(device)
+
     processor = Qwen2_5_VLProcessor.from_pretrained(user_model)
     return model, processor, process_vision_info
 
@@ -189,17 +234,24 @@ def run_single_prompt(
 # Public entry point
 # ============================================================
 
-def run_spatial_mllm(user_model: str, num_frames: int) -> None:
+def run_spatial_mllm(user_model: str, num_frames: int, thinking: str = "on") -> None:
     """
-    Adapter API:
+    Adapter API (matches scripts/run.py routing signature):
       - user_model: HF id or local dir
       - num_frames: 16/32/64 (controls Spatial-MLLM message nframes)
-    thinking is implicitly ON; no CLI toggle here.
+      - thinking: must be "on" (Spatial-MLLM only supported in thinking mode here)
     """
-    prompt_root = DEFAULT_PROMPT_ROOT
-    graph_dir = DEFAULT_GRAPH_DIR
-    video_root = DEFAULT_VIDEO_ROOT
-    result_root = DEFAULT_RESULT_ROOT
+    thinking_norm = (thinking or "").lower().strip()
+    if thinking_norm != "on":
+        raise ValueError(
+            "Invalid --thinking for Spatial-MLLM.\n"
+            "Spatial-MLLM is currently only supported in thinking mode. Please use: --thinking on"
+        )
+
+    prompt_root = PROMPT_ROOT
+    graph_dir   = GRAPH_DIR
+    video_root  = VIDEO_ROOT
+    result_root = RESULT_ROOT
 
     for p in [prompt_root, graph_dir, video_root]:
         if not os.path.exists(p):

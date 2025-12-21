@@ -11,13 +11,14 @@ from qwen_vl_utils import process_vision_info
 
 
 # ============================================================
-# Repo-relative defaults (open-source friendly)
+# Paths (read from env; fallback to repo-relative defaults)
 # ============================================================
 
-DEFAULT_PROMPT_ROOT = "generated_prompts"
-DEFAULT_GRAPH_DIR = "ground_truth/graphs"
-DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"
-DEFAULT_RESULT_ROOT = "results"
+PROMPT_ROOT = os.environ.get("CAPNAV_PROMPT_ROOT", "generated_prompts")
+GRAPH_DIR   = os.environ.get("CAPNAV_GRAPH_DIR", "ground_truth/graphs")
+VIDEO_ROOT  = os.environ.get("CAPNAV_VIDEO_ROOT", "videos_64frames_1fps")
+RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
+
 
 
 # ============================================================
@@ -194,10 +195,10 @@ def run_videor1(user_model: str, num_frames: int, thinking: str) -> None:
             "Please use: --thinking on"
         )
 
-    prompt_root = DEFAULT_PROMPT_ROOT
-    graph_dir = DEFAULT_GRAPH_DIR
-    video_root = DEFAULT_VIDEO_ROOT
-    result_root = DEFAULT_RESULT_ROOT
+    prompt_root = PROMPT_ROOT
+    graph_dir   = GRAPH_DIR
+    video_root  = VIDEO_ROOT
+    result_root = RESULT_ROOT
 
     for p in [prompt_root, graph_dir, video_root]:
         if not os.path.exists(p):

@@ -2,7 +2,6 @@ import os
 import re
 import json
 import time
-import subprocess
 from typing import List, Tuple, Dict, Any
 
 import torch
@@ -11,13 +10,57 @@ from transformers import AutoProcessor, Glm4vForConditionalGeneration
 
 DEFAULT_ORG = "zai-org"
 
-# Default repo-relative paths (open-source friendly)
-DEFAULT_PROMPT_ROOT = "generated_prompts"
-DEFAULT_GRAPH_DIR = "ground_truth/graphs"
-DEFAULT_VIDEO_ROOT = "videos_64frames_1fps"
-DEFAULT_RESULT_ROOT = "results"
-DEFAULT_MODEL_CACHE_DIR = "models"
+# ============================================================
+# Paths (read from env; fallback to repo-relative defaults)
+# ============================================================
 
+PROMPT_ROOT = os.environ.get("CAPNAV_PROMPT_ROOT", "generated_prompts")
+GRAPH_DIR   = os.environ.get("CAPNAV_GRAPH_DIR", "ground_truth/graphs")
+VIDEO_ROOT  = os.environ.get("CAPNAV_VIDEO_ROOT", "videos_64frames_1fps")
+RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
+
+
+# ============================================================
+# HF cache awareness (user-managed; we do NOT set or override)
+# ============================================================
+
+def _print_hf_cache_env_if_debug() -> None:
+    """
+    Debug only. Users control HF cache via:
+      - HF_HOME
+      - HF_HUB_CACHE / HUGGINGFACE_HUB_CACHE
+      - TRANSFORMERS_CACHE
+      - HF_ENDPOINT, HF_TOKEN, etc.
+    Enable by setting CAPNAV_DEBUG_ENV=1 in .env.
+    """
+    if os.environ.get("CAPNAV_DEBUG_ENV") != "1":
+        return
+
+    keys = [
+        "HF_HOME",
+        "HF_HUB_CACHE",
+        "HUGGINGFACE_HUB_CACHE",
+        "TRANSFORMERS_CACHE",
+        "HF_ENDPOINT",
+        "HF_TOKEN",
+    ]
+    print("[CapNav] HF cache / hub env (user-managed):")
+    found_any = False
+    for k in keys:
+        v = os.environ.get(k)
+        if v:
+            if k == "HF_TOKEN":
+                print(f"  {k}=<set>")
+            else:
+                print(f"  {k}={v}")
+            found_any = True
+    if not found_any:
+        print("  (none set) -> will use Hugging Face default cache location")
+
+
+# ============================================================
+# Model id helpers
+# ============================================================
 
 def normalize_hf_model_id(user_model: str) -> str:
     """
@@ -34,48 +77,9 @@ def model_basename(model_id: str) -> str:
     return os.path.basename(model_id.rstrip("/"))
 
 
-def ensure_model_downloaded(hf_model_id: str, cache_dir: str = DEFAULT_MODEL_CACHE_DIR) -> str:
-    """
-    Ensure model exists under models/<MODEL_NAME>.
-    - If exists, return local dir.
-    - Else try:
-        * Linux/macOS: bash scripts/download_model.sh <hf_id> <cache_dir>
-        * Windows: python snapshot_download to <cache_dir>/<MODEL_NAME>
-    - If all fail, return hf_model_id to let transformers use HF cache.
-    """
-    name = model_basename(hf_model_id)
-    local_dir = os.path.join(cache_dir, name)
-    if os.path.isdir(local_dir):
-        return local_dir
-
-    os.makedirs(cache_dir, exist_ok=True)
-
-    script = os.path.join("scripts", "download_model.sh")
-    is_windows = (os.name == "nt")
-
-    if os.path.exists(script) and (not is_windows):
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {cache_dir} (via bash)")
-        subprocess.check_call(["bash", script, hf_model_id, cache_dir])
-        if os.path.isdir(local_dir):
-            return local_dir
-
-    try:
-        from huggingface_hub import snapshot_download
-        print(f"[AUTO-DOWNLOAD] {hf_model_id} -> {local_dir} (via huggingface_hub)")
-        snapshot_download(
-            repo_id=hf_model_id,
-            local_dir=local_dir,
-            local_dir_use_symlinks=False,
-            resume_download=True,
-        )
-        if os.path.isdir(local_dir):
-            return local_dir
-    except Exception as e:
-        print(f"[WARN] snapshot_download failed: {type(e).__name__}: {e}")
-
-    print("[FALLBACK] Using HF model id directly (transformers cache).")
-    return hf_model_id
-
+# ============================================================
+# Scene/prompt/video helpers
+# ============================================================
 
 def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
     scenes: List[str] = []
@@ -108,14 +112,27 @@ def get_video_path(video_root: str, scene: str) -> str:
     return v
 
 
-def init_model(model_path: str, base_fps: int, total_frames: int, num_frames: int):
+# ============================================================
+# Model init
+# ============================================================
+
+def init_model(hf_model_id: str, base_fps: int, total_frames: int, num_frames: int):
+    """
+    IMPORTANT:
+    - Passing a HF model id will auto-download weights if missing.
+    - Cache location is fully user-managed via HF_HOME / HF_HUB_CACHE / etc.
+    """
+    _print_hf_cache_env_if_debug()
+    print(f"[MODEL] loading from HF: {hf_model_id} (auto-download; cache is user-managed)")
+
     model = Glm4vForConditionalGeneration.from_pretrained(
-        model_path,
+        hf_model_id,
         torch_dtype=torch.bfloat16,
         device_map="auto",
     )
-    processor = AutoProcessor.from_pretrained(model_path, use_fast=True)
+    processor = AutoProcessor.from_pretrained(hf_model_id, use_fast=True)
 
+    # Keep your original fps logic as-is
     fps = (
         float(base_fps)
         if num_frames >= total_frames
@@ -132,6 +149,10 @@ def init_model(model_path: str, base_fps: int, total_frames: int, num_frames: in
     )
     return model, processor, fps
 
+
+# ============================================================
+# Single run
+# ============================================================
 
 def run_one(model, processor, video_path: str, prompt_text: str, fps: float, max_new_tokens: int) -> Dict[str, Any]:
     conversation = [{
@@ -182,6 +203,10 @@ def run_one(model, processor, video_path: str, prompt_text: str, fps: float, max
     return {"raw_text": raw_text, "json_str": js}
 
 
+# ============================================================
+# Public entry point
+# ============================================================
+
 def run_glm4v_thinking(user_model: str, num_frames: int, thinking: str = "on") -> None:
     """
     GLM-4.1V-9B-Thinking runner.
@@ -203,11 +228,10 @@ def run_glm4v_thinking(user_model: str, num_frames: int, thinking: str = "on") -
     hf_model_id = normalize_hf_model_id(user_model)
     model_name = model_basename(hf_model_id)
 
-    prompt_root = DEFAULT_PROMPT_ROOT
-    graph_dir = DEFAULT_GRAPH_DIR
-    video_root = DEFAULT_VIDEO_ROOT
-    result_root = DEFAULT_RESULT_ROOT
-    cache_dir = DEFAULT_MODEL_CACHE_DIR
+    prompt_root = PROMPT_ROOT
+    graph_dir   = GRAPH_DIR
+    video_root  = VIDEO_ROOT
+    result_root = RESULT_ROOT
 
     base_fps = 1
     total_frames = 64
@@ -218,11 +242,8 @@ def run_glm4v_thinking(user_model: str, num_frames: int, thinking: str = "on") -
         if not os.path.exists(p):
             raise FileNotFoundError(f"Required path missing: {p}")
 
-    model_path = ensure_model_downloaded(hf_model_id, cache_dir=cache_dir)
-    print(f"[MODEL] using: {model_path}")
-
     model, processor, fps = init_model(
-        model_path,
+        hf_model_id,
         base_fps=base_fps,
         total_frames=total_frames,
         num_frames=num_frames
