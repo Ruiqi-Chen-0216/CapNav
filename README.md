@@ -115,14 +115,15 @@ and generate capability-conditioned prompts.
 
 #### Download Dataset
 
-The CapNav dataset is hosted on Hugging Face and Google Drive.
-Please follow the instructions below to download the structured data.
+The CapNav dataset is hosted on Hugging Face.
+The following command downloads a complete snapshot of the dataset repository,
+including the benchmark parquet files, agent profiles, and full ground-truth annotations.
 
 ```bash
-huggingface-cli download --resume-download \
-  RichardC0216/CapNav \
+hf download RichardC0216/CapNav \
+  --repo-type dataset \
   --local-dir data/CapNav \
-  --repo-type dataset
+  --resume-download
 ```
 Video data should be downloaded separately from [Google Drive](https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing).
 
