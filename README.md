@@ -319,7 +319,7 @@ This project does **not** modify the model code.
 To simplify deployment, we provide a reference environment setup script:
 
 ```bash
-source setup_videoR1.sh
+source setup_videor1.sh
 ```
 
 This script prepares a compatible runtime environment and is provided for convenience only.
