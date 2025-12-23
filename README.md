@@ -99,7 +99,7 @@ pip install tiktoken
 > For convenience, you may use the provided setup script to install dependencies:
 > 
 > ```bash
-> bash setup_opensource.sh
+> bash setup_opensourced.sh
 > ```
 > 
 > The script performs the same steps as above and does not modify system-level
