@@ -372,7 +372,6 @@ wrappers or execution scripts.
 
 - [ ] Release the full Annotation Interface code for scene annotations.
 - [ ] Release the evaluation code on CapNav metrics from the results.
-- [ ] Release the CapNav QA creation scripts.
 
 
 ## 📚  Citation
