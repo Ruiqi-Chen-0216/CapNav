@@ -2,10 +2,14 @@ import os
 import re
 import json
 import time
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Optional  # CHANGED: add Optional
 
 import torch
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
+
+# CHANGED: centralized scene selection helper (shared across adapters)
+from src.utils.scene_select import resolve_scenes
+
 
 # ============================================================
 # Paths (read from env; fallback to repo-relative defaults)
@@ -82,13 +86,7 @@ def normalize_hf_model_id(user_model: str) -> str:
     return f"{DEFAULT_ORG}/{user_model}"
 
 
-def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
-    scenes: List[str] = []
-    for f in os.listdir(graph_dir):
-        if f.endswith("-graph.json"):
-            scenes.append(f.split("-graph.json")[0])
-    scenes.sort()
-    return scenes
+# CHANGED: removed local detect_scenes_from_graphs(); use resolve_scenes() from utils
 
 
 def load_prompts(prompt_root: str, scene: str) -> List[Tuple[str, str]]:
@@ -278,7 +276,12 @@ def run_one(
 # Public entry point
 # ============================================================
 
-def run_qwen3_vl(user_model: str, num_frames: int, thinking: str) -> None:
+def run_qwen3_vl(
+    user_model: str,
+    num_frames: int,
+    thinking: str,
+    scenes_allowlist: Optional[List[str]] = None,  # CHANGED: new optional allowlist
+) -> None:
     """
     Public entry point:
       user_model: "Qwen/Qwen3-VL-30B-A3B-Thinking-FP8" OR "Qwen3-VL-30B-A3B-Thinking-FP8"
@@ -330,8 +333,14 @@ def run_qwen3_vl(user_model: str, num_frames: int, thinking: str) -> None:
     )
 
     max_new_tokens = 8196
-    scenes = detect_scenes_from_graphs(graph_dir)
-    print(f"[SCENES] detected {len(scenes)} scenes from {graph_dir}")
+
+    # CHANGED: use centralized resolver; supports allowlist and strict checking
+    scenes = resolve_scenes(
+        graph_dir,
+        scenes_allowlist=scenes_allowlist,
+        strict=True,
+    )
+    print(f"[SCENES] running {len(scenes)} scenes from {graph_dir}" + (" (allowlisted)" if scenes_allowlist else ""))
 
     for scene in scenes:
         prompts = load_prompts(prompt_root, scene)
