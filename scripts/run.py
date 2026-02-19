@@ -17,7 +17,7 @@ import argparse
 import re
 import sys
 from pathlib import Path
-from typing import Optional
+from typing import Optional, List  # MOD: add List
 
 # ----------------------------
 # Repo root (since this file is scripts/run.py)
@@ -226,7 +226,13 @@ def _validate_local_checkpoint(model_path: str) -> str:
     return str(p.resolve())
 
 
-def _route_local(backend: str, model_path: str, num_frames: int, thinking: str) -> None:
+def _route_local(
+    backend: str,
+    model_path: str,
+    num_frames: int,
+    thinking: str,
+    scenes_allowlist: Optional[List[str]] = None,  # MOD
+) -> None:
     """
     Local checkpoint routing: requires explicit --backend to avoid fuzzy inference.
     - No downloads should be triggered if the underlying adapters call from_pretrained(local_path).
@@ -246,30 +252,60 @@ def _route_local(backend: str, model_path: str, num_frames: int, thinking: str) 
                 'Invalid --thinking for GLM-4.1V-9B-Thinking.\n'
                 'This model has no "off" mode. Please use: --thinking on'
             )
-        run_glm4v_thinking(user_model=model_path, num_frames=num_frames, thinking=thinking)
+        run_glm4v_thinking(
+            user_model=model_path,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if backend_norm == "internvl":
-        run_internvl3_5(user_model=model_path, num_frames=num_frames, thinking=thinking)
+        run_internvl3_5(
+            user_model=model_path,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if backend_norm == "mimo":
-        run_mimo_vl(user_model=model_path, num_frames=num_frames, thinking=thinking)
+        run_mimo_vl(
+            user_model=model_path,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if backend_norm == "qwen3":
         # Adapter may enforce Thinking/Instruct via checkpoint naming or internal config.
-        run_qwen3_vl(user_model=model_path, num_frames=num_frames, thinking=thinking)
+        run_qwen3_vl(
+            user_model=model_path,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if backend_norm == "spatial_mllm":
         _enforce_spatial_mllm_thinking(model_path, thinking)
-        run_spatial_mllm(user_model=model_path, num_frames=num_frames, thinking=thinking)
+        run_spatial_mllm(
+            user_model=model_path,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if backend_norm == "videor1":
         _enforce_videor1_thinking(model_path, thinking)
-        run_videor1(user_model=model_path, num_frames=num_frames, thinking=thinking)
+        run_videor1(
+            user_model=model_path,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     raise RuntimeError(f"Internal local routing error: backend={backend_norm}")
@@ -278,7 +314,12 @@ def _route_local(backend: str, model_path: str, num_frames: int, thinking: str) 
 # ----------------------------
 # Routing (HF ids)
 # ----------------------------
-def _route_hf(model: str, num_frames: int, thinking: str) -> None:
+def _route_hf(
+    model: str,
+    num_frames: int,
+    thinking: str,
+    scenes_allowlist: Optional[List[str]] = None,  # MOD
+) -> None:
     # 1) Strict validation (HF ids only)
     if (
         (model not in ALLOWED_MODELS_EXACT)
@@ -324,30 +365,60 @@ def _route_hf(model: str, num_frames: int, thinking: str) -> None:
                 'Invalid --thinking for GLM-4.1V-9B-Thinking.\n'
                 'This model has no "off" mode. Please use: --thinking on'
             )
-        run_glm4v_thinking(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        run_glm4v_thinking(
+            user_model=canonical,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if canonical.startswith("OpenGVLab/InternVL3_5-"):
-        run_internvl3_5(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        run_internvl3_5(
+            user_model=canonical,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if canonical.startswith("XiaomiMiMo/MiMo-VL-"):
-        run_mimo_vl(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        run_mimo_vl(
+            user_model=canonical,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if canonical.startswith("Qwen/Qwen3-VL-"):
         _enforce_qwen3_vl_thinking_hf(canonical, thinking)
-        run_qwen3_vl(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        run_qwen3_vl(
+            user_model=canonical,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if canonical in ALLOWED_SPATIAL_MLLM_EXACT:
         _enforce_spatial_mllm_thinking(canonical, thinking)
-        run_spatial_mllm(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        run_spatial_mllm(
+            user_model=canonical,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if canonical in ALLOWED_VIDEOR1_EXACT:
         _enforce_videor1_thinking(canonical, thinking)
-        run_videor1(user_model=canonical, num_frames=num_frames, thinking=thinking)
+        run_videor1(
+            user_model=canonical,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     raise RuntimeError(f"Internal routing error for model: {model} (canonical={canonical})")
@@ -359,21 +430,37 @@ def route_and_run(
     thinking: str,
     model_path: Optional[str] = None,
     backend: Optional[str] = None,
+    scenes_allowlist: Optional[List[str]] = None,  # MOD
 ) -> None:
     """
     Scheme 1:
       - Default: route by HF --model (strict allowlists/patterns)
       - Optional: --model_path + --backend for local checkpoints (no downloads)
+
+    scenes_allowlist:
+      - None: run all scenes (default behavior)
+      - List[str]: run only these scenes (used by run_sample.py)
     """
     if model_path:
         local = _validate_local_checkpoint(model_path)
-        _route_local(backend=backend or "", model_path=local, num_frames=num_frames, thinking=thinking)
+        _route_local(
+            backend=backend or "",
+            model_path=local,
+            num_frames=num_frames,
+            thinking=thinking,
+            scenes_allowlist=scenes_allowlist,  # MOD
+        )
         return
 
     if not model:
         raise ValueError("When not using --model_path, you must provide --model (Hugging Face id).")
 
-    _route_hf(model=model, num_frames=num_frames, thinking=thinking)
+    _route_hf(
+        model=model,
+        num_frames=num_frames,
+        thinking=thinking,
+        scenes_allowlist=scenes_allowlist,  # MOD
+    )
 
 
 # ----------------------------
@@ -453,6 +540,7 @@ def main() -> None:
         thinking=args.thinking,
         model_path=args.model_path,
         backend=args.backend,
+        scenes_allowlist=None,  # MOD: default behavior unchanged (run all scenes)
     )
 
 
