@@ -2,12 +2,15 @@ import os
 import re
 import json
 import time
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Optional  # CHANGED: add Optional
 
 import torch
 from vllm import LLM, SamplingParams
 from transformers import AutoProcessor, AutoTokenizer
 from qwen_vl_utils import process_vision_info
+
+# CHANGED: centralized scene selection helper (shared across adapters)
+from src.utils.scene_select import resolve_scenes
 
 
 # ============================================================
@@ -25,13 +28,7 @@ RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
 # IO helpers
 # ============================================================
 
-def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
-    scenes: List[str] = []
-    for f in os.listdir(graph_dir):
-        if f.endswith("-graph.json"):
-            scenes.append(f.split("-graph.json")[0])
-    scenes.sort()
-    return scenes
+# CHANGED: removed local detect_scenes_from_graphs(); use resolve_scenes() from utils
 
 
 def load_prompts(prompt_root: str, scene: str) -> List[Tuple[str, str]]:
@@ -179,7 +176,12 @@ def init_videor1_llm(model_name: str):
 # Public entry point
 # ============================================================
 
-def run_videor1(user_model: str, num_frames: int, thinking: str) -> None:
+def run_videor1(
+    user_model: str,
+    num_frames: int,
+    thinking: str,
+    scenes_allowlist: Optional[List[str]] = None,  # CHANGED: new optional allowlist
+) -> None:
     """
     Public entry point for scripts/run.py
 
@@ -207,8 +209,13 @@ def run_videor1(user_model: str, num_frames: int, thinking: str) -> None:
     # init model
     llm, processor, sampling_params = init_videor1_llm(user_model)
 
-    scenes = detect_scenes_from_graphs(graph_dir)
-    print(f"[Video-R1] detected {len(scenes)} scenes from {graph_dir}")
+    # CHANGED: use centralized resolver; supports allowlist and strict checking
+    scenes = resolve_scenes(
+        graph_dir,
+        scenes_allowlist=scenes_allowlist,
+        strict=True,
+    )
+    print(f"[Video-R1] running {len(scenes)} scenes from {graph_dir}" + (" (allowlisted)" if scenes_allowlist else ""))
 
     model_name = user_model.split("/", 1)[-1]
     model_tag = f"{model_name}_{num_frames}frames_{thinking_norm}"
