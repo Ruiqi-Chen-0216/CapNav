@@ -18,8 +18,9 @@ CAPNAV_SAMPLE_200 = DataSample(
     name="sample_200",
     scenes=[
         # TODO: replace with your curated scenes
-        "HM3D00000",
-        "HM3D00002",
-        "HM3D00040",
+        "HM3D00010",
+        "HM3D00014",
+        "HM3D00027",
+        "MP3D00030",
     ],
 )
