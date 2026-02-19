@@ -2,10 +2,13 @@ import os
 import re
 import json
 import time
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Optional  # CHANGED: add Optional
 
 import torch
 from transformers import AutoProcessor, Glm4vForConditionalGeneration
+
+# CHANGED: centralized scene selection helper (shared across adapters)
+from src.utils.scene_select import resolve_scenes
 
 
 DEFAULT_ORG = "zai-org"
@@ -81,14 +84,7 @@ def model_basename(model_id: str) -> str:
 # Scene/prompt/video helpers
 # ============================================================
 
-def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
-    scenes: List[str] = []
-    for f in os.listdir(graph_dir):
-        if f.endswith("-graph.json"):
-            scenes.append(f.split("-graph.json")[0])
-    scenes.sort()
-    return scenes
-
+# CHANGED: removed local detect_scenes_from_graphs(); use resolve_scenes() from utils
 
 def load_prompts(prompt_root: str, scene: str) -> List[Tuple[str, str]]:
     scene_dir = os.path.join(prompt_root, scene)
@@ -207,7 +203,12 @@ def run_one(model, processor, video_path: str, prompt_text: str, fps: float, max
 # Public entry point
 # ============================================================
 
-def run_glm4v_thinking(user_model: str, num_frames: int, thinking: str = "on") -> None:
+def run_glm4v_thinking(
+    user_model: str,
+    num_frames: int,
+    thinking: str = "on",
+    scenes_allowlist: Optional[List[str]] = None,  # CHANGED: new optional allowlist
+) -> None:
     """
     GLM-4.1V-9B-Thinking runner.
 
@@ -249,8 +250,13 @@ def run_glm4v_thinking(user_model: str, num_frames: int, thinking: str = "on") -
         num_frames=num_frames
     )
 
-    scenes = detect_scenes_from_graphs(graph_dir)
-    print(f"[SCENES] detected {len(scenes)} scenes")
+    # CHANGED: use centralized resolver; supports allowlist and strict checking
+    scenes = resolve_scenes(
+        graph_dir,
+        scenes_allowlist=scenes_allowlist,
+        strict=True,
+    )
+    print(f"[SCENES] running {len(scenes)} scenes" + (" (allowlisted)" if scenes_allowlist else ""))
 
     for scene in scenes:
         prompts = load_prompts(prompt_root, scene)
