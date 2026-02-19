@@ -2,10 +2,13 @@ import os
 import re
 import json
 import time
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Optional  # CHANGED: add Optional
 
 import torch
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
+
+# CHANGED: centralized scene selection helper (shared across adapters)
+from src.utils.scene_select import resolve_scenes
 
 
 # ============================================================
@@ -89,14 +92,7 @@ def normalize_hf_model_id(user_model: str) -> str:
 # Scene/prompt/video helpers
 # ============================================================
 
-def detect_scenes_from_graphs(graph_dir: str) -> List[str]:
-    scenes: List[str] = []
-    for f in os.listdir(graph_dir):
-        if f.endswith("-graph.json"):
-            scenes.append(f.split("-graph.json")[0])
-    scenes.sort()
-    return scenes
-
+# CHANGED: removed local detect_scenes_from_graphs(); use resolve_scenes() from utils
 
 def load_prompts(prompt_root: str, scene: str) -> List[Tuple[str, str]]:
     scene_dir = os.path.join(prompt_root, scene)
@@ -273,7 +269,12 @@ def run_single_prompt(
 # Public entry point (adapter API)
 # ============================================================
 
-def run_mimo_vl(user_model: str, num_frames: int, thinking: str) -> None:
+def run_mimo_vl(
+    user_model: str,
+    num_frames: int,
+    thinking: str,
+    scenes_allowlist: Optional[List[str]] = None,  # CHANGED: new optional allowlist
+) -> None:
     """
     Public entry point:
       user_model: "MiMo-VL-7B-RL-2508" or "XiaomiMiMo/MiMo-VL-7B-RL-2508"
@@ -300,8 +301,13 @@ def run_mimo_vl(user_model: str, num_frames: int, thinking: str) -> None:
     fps = num_frames_to_fps(num_frames)
     print(f"[VIDEO] total_frames={TOTAL_FRAMES} base_fps={BASE_FPS} num_frames={num_frames} -> fps={fps}")
 
-    scenes = detect_scenes_from_graphs(graph_dir)
-    print(f"[SCENES] detected {len(scenes)} scenes")
+    # CHANGED: use centralized resolver; supports allowlist and strict checking
+    scenes = resolve_scenes(
+        graph_dir,
+        scenes_allowlist=scenes_allowlist,
+        strict=True,
+    )
+    print(f"[SCENES] running {len(scenes)} scenes" + (" (allowlisted)" if scenes_allowlist else ""))
 
     thinking_tag = thinking.lower().strip()
     if thinking_tag not in ("on", "off"):
