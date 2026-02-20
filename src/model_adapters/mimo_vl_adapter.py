@@ -16,7 +16,7 @@ from src.utils.scene_select import resolve_scenes
 # ============================================================
 
 PROMPT_ROOT = os.environ.get("CAPNAV_PROMPT_ROOT", "generated_prompts")
-GRAPH_DIR   = os.environ.get("CAPNAV_GRAPH_DIR", "ground_truth/graphs")
+GRAPH_DIR = os.environ.get("CAPNAV_GRAPH_DIR", "dataset/ground_truth/graphs")
 VIDEO_ROOT  = os.environ.get("CAPNAV_VIDEO_ROOT", "videos_64frames_1fps")  
 RESULT_ROOT = os.environ.get("CAPNAV_RESULT_ROOT", "results")
 
