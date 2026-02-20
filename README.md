@@ -370,7 +370,6 @@ wrappers or execution scripts.
 
 ## 🚀Todo List
 
-- [ ] Release the full Annotation Interface code for scene annotations.
 - [ ] Release the evaluation code on CapNav metrics from the results.
 
 
