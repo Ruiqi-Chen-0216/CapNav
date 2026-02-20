@@ -165,6 +165,28 @@ are provided.
 
 ---
 
+#### Quick Sample Run (≈200 Questions)
+
+For quick sanity checks, debugging, or low-resource environments,
+we provide a lightweight evaluation script:
+
+```bash
+python scripts/run_sample.py [ARGS]
+```
+
+This script evaluates a curated subset of scenes
+(~200 capability-conditioned prompts) instead of the full benchmark.
+
+Example:
+```bash
+python scripts/run_sample.py \
+  --model InternVL3_5-8B \
+  --num_frames 32 \
+  --thinking on
+```
+
+---
+
 #### Mode A (Default): Hugging Face Models (Auto Download)
 
 This is the **recommended and default mode**.
