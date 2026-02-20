@@ -389,6 +389,19 @@ This repository provides the CapNav dataset, prompts, and evaluation protocol
 required to reproduce the benchmark, but does not include proprietary API
 wrappers or execution scripts.
 
+## 🛠 Annotation & Benchmark Construction
+
+CapNav was constructed using a multi-stage annotation pipeline,
+including navigation graph labeling and per-agent traversability annotation.
+
+We release the full annotation toolkit for reproducibility
+and future benchmark extensions.
+
+If you are interested in understanding or reproducing the
+benchmark construction process, please refer to [annotator/README.md](annotator/README.md) for details.
+
+
+
 
 ## 🚀Todo List
 
