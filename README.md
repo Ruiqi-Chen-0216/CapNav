@@ -307,11 +307,11 @@ This will generate:
 - `results/scored_summary.json`  
   → Aggregate metrics and final CapNav score
 
----
 
-> **Reasoning Validity (RV) Requires OpenAI API Key**
-> RV follows the paper’s *LLM-as-judge* protocol and requires an OpenAI API key.
+> **Note (RV requires an OpenAI API key).**  
+> RV follows the paper’s *LLM-as-judge* protocol and requires an OpenAI API key.  
 > Before running `score.py`, set:
+>
 > ```bash
 > export OPENAI_API_KEY="YOUR_API_KEY"
 > ```
