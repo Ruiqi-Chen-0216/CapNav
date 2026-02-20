@@ -309,15 +309,12 @@ This will generate:
 
 ---
 
-**Reasoning Validity (RV) Requires OpenAI API Key**
-
-RV follows the paper’s *LLM-as-judge* protocol and requires an OpenAI API key.
-
-Before running `score.py`, set:
-
-```bash
-export OPENAI_API_KEY="YOUR_API_KEY"
-```
+> **Reasoning Validity (RV) Requires OpenAI API Key**
+> RV follows the paper’s *LLM-as-judge* protocol and requires an OpenAI API key.
+> Before running `score.py`, set:
+> ```bash
+> export OPENAI_API_KEY="YOUR_API_KEY"
+> ```
 
 ### 3. Evaluation on Peer Spatial Reasoning Models
 
