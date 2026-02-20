@@ -283,6 +283,41 @@ code will load from disk and **will not trigger any downloads**.
 - `HF_HUB_OFFLINE=1` and `TRANSFORMERS_OFFLINE=1`
 
 
+---
+#### Compute CapNav Metrics (Paper Scores)
+
+After `run.py` finishes, CapNav saves per-prompt predictions under:
+
+```
+results/<model_setting>/<scene>/*.json
+```
+
+To reproduce the paper metrics (**F1**, **Path Validity (PV)**,  
+**Route Traversability Accuracy (RTA)**, and **Reasoning Validity (RV)**), run:
+
+```bash
+python scripts/capnav_score.py
+```
+
+This will generate:
+
+- `results/scored_per_record.jsonl`  
+  → Per-question evaluation details (all metric components)
+
+- `results/scored_summary.json`  
+  → Aggregate metrics and final CapNav score
+
+---
+
+**Reasoning Validity (RV) Requires OpenAI API Key**
+
+RV follows the paper’s *LLM-as-judge* protocol and requires an OpenAI API key.
+
+Before running `score.py`, set:
+
+```bash
+export OPENAI_API_KEY="YOUR_API_KEY"
+```
 
 ### 3. Evaluation on Peer Spatial Reasoning Models
 
