@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "question": "Can the agent move from the main door area in the entrance to the sofa area in the living room?",
+      "nodes_involved": {
+        "start": "entrance",
+        "start_detail": "main door area",
+        "intermediate": [],
+        "end": "living room",
+        "end_detail": "sofa area"
+      }
+    },
+    {
+      "question": "Can the agent navigate from the bed area in the bedroom to the kitchen island in the kitchen via the hallway?",
+      "nodes_involved": {
+        "start": "bedroom",
+        "start_detail": "bed area",
+        "intermediate": ["hallway"],
+        "end": "kitchen",
+        "end_detail": "kitchen island"
+      }
+    },
+    {
+      "question": "Can the agent go from the sink area in the bathroom to the railing area on the balcony through the living room?",
+      "nodes_involved": {
+        "start": "bathroom",
+        "start_detail": "sink area",
+        "intermediate": ["living room"],
+        "end": "balcony",
+        "end_detail": "railing area"
+      }
+    }
+  ]
+}

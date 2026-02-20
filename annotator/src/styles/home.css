@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: #cccccc;
+    text-align: center;
+}
+
+.folder-section {
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.folder-section h2 {
+    margin-bottom: 15px;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.folder-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.folder-button:hover {
+    background-color: #45a049;
+}
+
+.folder-path {
+    margin-top: 15px;
+    color: #888888;
+    font-style: italic;
+    text-align: center;
+}
+
+.error-message {
+    color: #ff6b6b;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tasks-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+.task-card {
+    background-color: #2d2d2d;
+    padding: 25px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.task-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+.task-card.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.task-card.disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.task-card h3 {
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.task-card p {
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.4;
+}

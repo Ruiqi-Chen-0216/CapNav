@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #2d2d2d;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #4CAF50;
+    flex-shrink: 0;
+    height: 60px;
+}
+
+.back-button {
+    background-color: #555555;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #666666;
+}
+
+.header h1 {
+    font-size: 20px;
+    color: #4CAF50;
+    flex-grow: 1;
+}
+
+.model-info {
+    color: #888888;
+    font-size: 14px;
+}
+
+.main-container {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+}
+
+.left-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    position: relative;
+}
+
+.controls-bar {
+    background-color: #2d2d2d;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #444444;
+}
+
+.control-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.control-button:hover {
+    background-color: #45a049;
+}
+
+.export-button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s;
+}
+
+.export-button:hover {
+    background-color: #1976D2;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.slider-container label {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+#sliceHeightSlider {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+#sliceHeightValue {
+    font-size: 14px;
+    color: #4CAF50;
+    min-width: 50px;
+}
+
+#renderCanvas {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    touch-action: none;
+}
+
+.help-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(45, 45, 45, 0.9);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #cccccc;
+    pointer-events: none;
+}
+
+.right-panel {
+    width: 350px;
+    background-color: #2d2d2d;
+    border-left: 2px solid #4CAF50;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.right-panel h2 {
+    padding: 20px;
+    color: #4CAF50;
+    font-size: 20px;
+    border-bottom: 1px solid #444444;
+}
+
+.graph-stats {
+    padding: 15px 20px;
+    display: flex;
+    gap: 30px;
+    background-color: #252525;
+    border-bottom: 1px solid #444444;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.stat-label {
+    font-size: 12px;
+    color: #888888;
+    text-transform: uppercase;
+}
+
+.stat-value {
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.graph-list {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.graph-list h3 {
+    color: #4CAF50;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.graph-list h3:first-child {
+    margin-top: 0;
+}
+
+.items-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.node-item, .edge-item {
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border-left: 3px solid #4CAF50;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.node-item:hover, .edge-item:hover {
+    background-color: #252525;
+}
+
+.node-item.selected {
+    background-color: #3a5a3c;
+    border-left-color: #81C784;
+}
+
+.node-item-name {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 3px;
+}
+
+.node-item-id {
+    font-size: 11px;
+    color: #888888;
+}
+
+.node-item-desc {
+    font-size: 12px;
+    color: #cccccc;
+    margin-top: 5px;
+}
+
+.edge-item {
+    border-left-color: #2196F3;
+    font-size: 13px;
+}
+
+.edge-item-text {
+    color: #cccccc;
+}
+
+.auto-save-indicator {
+    padding: 15px 20px;
+    background-color: #252525;
+    border-top: 1px solid #444444;
+    font-size: 12px;
+    color: #888888;
+}
+
+#saveStatus.saving {
+    color: #FFC107;
+}
+
+#saveStatus.saved {
+    color: #4CAF50;
+}
+
+/* Popup Styles */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    padding: 25px;
+    width: 400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content h3 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #cccccc;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.popup-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.popup-button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.popup-button:not(.secondary) {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.popup-button:not(.secondary):hover {
+    background-color: #45a049;
+}
+
+.popup-button.secondary {
+    background-color: #f44336;
+    color: white;
+}
+
+.popup-button.secondary:hover {
+    background-color: #d32f2f;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555555;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666666;
+}
