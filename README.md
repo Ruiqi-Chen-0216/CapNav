@@ -160,8 +160,6 @@ Evaluation is performed via a unified entry script:
 ```bash
 python scripts/run.py [ARGS]
 ```
-CapNav supports two evaluation modes, depending on how model weights
-are provided.
 
 ---
 
@@ -186,6 +184,8 @@ python scripts/run_sample.py \
 ```
 
 ---
+CapNav supports two evaluation modes, depending on how model weights
+are provided.
 
 #### Mode A (Default): Hugging Face Models (Auto Download)
 
