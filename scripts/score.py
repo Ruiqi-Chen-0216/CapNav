@@ -27,7 +27,7 @@ OUT_PER_RECORD = RESULT_ROOT / "scored_per_record.jsonl"
 OUT_SUMMARY = RESULT_ROOT / "scored_summary.json"
 
 # RV LLM model
-RV_LLM_MODEL = os.environ.get("CAPNAV_RV_MODEL", "gpt-4o-mini").strip() or "gpt-4o-mini"
+RV_LLM_MODEL = os.environ.get("CAPNAV_RV_MODEL", "gpt-5.2").strip() or "gpt-5.2"
 
 _SCENE_CACHE: Dict[str, Tuple[Dict, Dict]] = {}
 
