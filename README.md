@@ -403,11 +403,6 @@ benchmark construction process, please refer to [annotator/README.md](annotator/
 
 
 
-## 🚀Todo List
-
-- [ ] Release the evaluation code on CapNav metrics from the results.
-
-
 ## 📚  Citation
 
 If you find it useful for your research and applications, please cite our paper using this BibTeX:
