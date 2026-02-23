@@ -439,11 +439,11 @@ benchmark construction process, please refer to [annotator/README.md](annotator/
 
 If you find it useful for your research and applications, please cite our paper using this BibTeX:
 ```bibtex
-@article{su2025capnav,
-    title={CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation},
-    author={Su, Xia  and Chen, Ruiqi and Liu, Benlin and Ma, Jingwei and Di, Zonglin and Krishna, Ranjay and Froehlich, Jon},
-    journal={arXiv preprint arXiv:xxxxxx},
-    year={2025}
+@article{su2026capnav,
+  title={CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation},
+  author={Su, Xia and Chen, Ruiqi and Liu, Benlin and Ma, Jingwei and Di, Zonglin and Krishna, Ranjay and Froehlich, Jon},
+  journal={arXiv preprint arXiv:2602.18424},
+  year={2026}
 }
 ```
 
