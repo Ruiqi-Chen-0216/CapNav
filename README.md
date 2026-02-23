@@ -72,7 +72,7 @@ All dataset contents are hosted externally:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/Ruiqi-Chen-0216/CapNav
+git clone https://github.com/makeabilitylab/CapNav
 cd CapNav
 ```
 
