@@ -1,0 +1,17 @@
+# Local-only build pipeline
+build_benchmark/
+
+# Raw ground-truth assets (not released here)
+ground_truth/
+
+# If you store local copies of datasets, ignore them here
+dataset/
+generated_prompts/
+models_code/
+videos_64frames_1fps/
+videos_raw/
+configs/api_keys.yaml
+configs/gemini-research-key.json
+scripts/download_model_hyak.sh
+scripts/download_model.sh
+setup_srcenv.sh
