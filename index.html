@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation">
+  <meta name="keywords" content="CapNav, VLM, Navigation, Benchmark, Indoor Navigation, Accessibility">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CapNav: Capability-conditioned Indoor Navigation Benchmark</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://xiasu.github.io/">Xia Su</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://ruiqi-chen-0216.github.io/">Ruiqi Chen</a><sup>1*</sup>,</span>
+            <span class="author-block">
+              <a href="https://liubl1217.github.io/">Benlin Liu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://jingweim.github.io/">Jingwei Ma</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=5lFDxsMAAAAJ&hl=en">Zonglin Di</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://ranjaykrishna.com/index.html">Ranjay Krishna</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://jonfroehlich.github.io/">Jon E. Froehlich</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>*</sup>Equal Contribution &nbsp;&nbsp;</span>
+            <span class="author-block"><sup>1</sup>University of Washington &nbsp;&nbsp;</span>
+            <span class="author-block"><sup>2</sup>University of California, Santa Cruz</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- arXiv Link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2602.18424"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- GitHub Link -->
+              <span class="link-block">
+                <a href="https://github.com/makeabilitylab/CapNav"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- HuggingFace Dataset Link -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/RichardC0216/CapNav"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="far fa-images"></i>
+                  </span>
+                  <span>Dataset</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser Image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="./static/images/teaser-capnav.png" alt="CapNav Teaser" style="width:100%; border-radius:8px;">
+      <h2 class="subtitle has-text-centered" style="margin-top:1.5rem;">
+        <strong>CapNav</strong> takes as input a tour video of an indoor space, nodes of its navigation graph,
+        an agent's mobility profile, and a navigation task — evaluating VLMs along four dimensions:
+        task feasibility, path validity, route traversability, and reasoning validity.
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- Abstract -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce <strong>Capability-Conditioned Navigation (CapNav)</strong>, a benchmark
+            designed to evaluate how well vision–language models (VLMs) can navigate complex indoor
+            environments given an agent's specific physical and operational capabilities.
+          </p>
+          <p>
+            Unlike prior navigation benchmarks that assume uniform agent capabilities, CapNav
+            explicitly conditions navigation tasks on diverse agent mobility profiles—capturing
+            real-world constraints such as wheelchair accessibility, step avoidance, and narrow
+            passage traversal. Given (1) a tour video of an indoor space, (2) nodes of its
+            navigation graph, (3) an agent's mobility profile, and (4) a navigation task, CapNav
+            evaluates model outputs along multiple dimensions: <em>task feasibility</em>,
+            <em>path validity</em>, <em>route traversability</em>, and <em>reasoning validity</em>.
+          </p>
+          <p>
+            We evaluate a wide range of state-of-the-art VLMs and specialized spatial reasoning
+            models, revealing significant gaps in their ability to ground agent-specific constraints
+            during navigation planning. CapNav provides a rigorous framework for driving future
+            progress in accessibility-aware and capability-aware embodied AI.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Overview / Pipeline -->
+<section class="section" style="background-color:#f9f9f9;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            The CapNav benchmark evaluates whether VLMs can correctly ground differences in agent
+            mobility capabilities when generating navigation plans. The figure below demonstrates
+            a navigation task that has different feasibility and paths for different agents.
+          </p>
+        </div>
+        <img src="./static/images/teaser.png" alt="Pipeline Overview" style="width:100%; border-radius:8px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Benchmark Construction -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Benchmark Construction</h2>
+        <div class="content has-text-justified">
+          <p>
+            Starting from a 3D indoor scan, we manually record a touring video and a navigation
+            graph. We then use Gemini to generate natural language navigation tasks. Finally,
+            per-task and per-agent traversability are annotated by manually controlling agents
+            in the annotation interface.
+          </p>
+        </div>
+        <img src="./static/images/annotation.png" alt="Annotation Pipeline" style="width:100%; border-radius:8px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Performance Results -->
+<section class="section" style="background-color:#f9f9f9;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            We benchmark a comprehensive suite of VLMs and spatial reasoning models on CapNav.
+            Results reveal significant challenges in capability-conditioned navigation for all
+            current models, with substantial room for improvement across all four evaluation dimensions.
+          </p>
+        </div>
+        <img src="./static/images/performance.png" alt="Performance Results" style="width:100%; border-radius:8px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Dataset -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="content has-text-justified">
+          <p>The CapNav dataset is hosted externally across two platforms:</p>
+          <ul>
+            <li>
+              <a href="https://huggingface.co/datasets/RichardC0216/CapNav"><strong>Hugging Face</strong></a>
+              — Structured benchmark data including navigation questions, agent profiles, and full ground-truth annotations.
+            </li>
+            <li>
+              <a href="https://drive.google.com/drive/folders/1NUAE02OPMaf3GnMfXHnuZNktk8cotD4u?usp=sharing"><strong>Google Drive</strong></a>
+              — Touring videos of indoor environments, including raw videos and a processed 64-frame @ 1 FPS version for open-source models.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- BibTeX -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{su2026capnav,
+  title={CapNav: Benchmarking Vision Language Models on Capability-conditioned Indoor Navigation},
+  author={Su, Xia and Chen, Ruiqi and Liu, Benlin and Ma, Jingwei and Di, Zonglin and Krishna, Ranjay and Froehlich, Jon},
+  journal={arXiv preprint arXiv:2602.18424},
+  year={2026}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            This website is built upon the <a href="https://nerfies.github.io">Nerfies</a> project page template,
+            licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
